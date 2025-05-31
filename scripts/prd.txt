@@ -1,4 +1,6 @@
-<context>
+# 📜 Product Requirements Document (PRD)
+
+---
 
 ## 🔍 Overview
 
@@ -34,7 +36,7 @@ This system enables immigration law firms or legal admins to extract, analyze, a
 
 ### 3. **Form Schema Versioning**
 
-* Store each form’s field schema by version (e.g., `i-485_v2024`)
+* Store each form's field schema by version (e.g., `i-485_v2024`)
 * Track field layout, mappings, and updated fields between versions
 
 ### 4. **Client Profile & Data Store**
@@ -158,7 +160,7 @@ This system enables immigration law firms or legal admins to extract, analyze, a
 
 ### ✅ Phase 2: Auto-Form Filler
 
-* Given a client’s data and a form schema, fill a new PDF
+* Given a client's data and a form schema, fill a new PDF
 * Handle multiple entries (e.g., siblings) via repeat groups
 * Support download of filled PDF
 
@@ -213,5 +215,3 @@ This system enables immigration law firms or legal admins to extract, analyze, a
 * NLP field label matching
 * Field-level permissions
 * Per-client schema overrides (if needed for large orgs)
-
-</prd>
