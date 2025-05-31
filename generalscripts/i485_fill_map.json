@@ -1,0 +1,990 @@
+[
+  {
+    "pdf_internal_id": "Pt1Line1a_FamilyName[0]",
+    "pdf_field_label_original": "NOTE TO ALL APPLICANTS:  If you do not completely fill out this application or fail to submit required documents listed in the Instructions, U.S. Citizenship and Immigration Services (U S C I S) may deny your application. Part 1. Information About You (Person applying for lawful permanent residence). Your Current Legal Name (do not provide a nickname). 1. A. Enter Family Name (Last Name).",
+    "source_i485_label": "1.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line1b_GivenName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Your Current Legal Name (do not provide a nickname). 1. B. Enter Given Name (First Name).",
+    "source_i485_label": "1.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line1c_MiddleName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Your Current Legal Name (do not provide a nickname). 1. C. Enter Middle Name.",
+    "source_i485_label": "1.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line2a_FamilyName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Names You Have Used Since Birth (if applicable). NOTE: Provide all other names you have ever used, including your family name at birth, other legal names, nicknames, aliases, and assumed names.  If you need extra space to complete this section, use the space provided in Part 14. Additional Information. 2. A. Enter Family Name (Last Name).",
+    "source_i485_label": "2.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line2b_GivenName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Names You Have Used Since Birth (if applicable). 2. B. Enter Given Name (First Name).",
+    "source_i485_label": "2.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line2c_MiddleName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Names You Have Used Since Birth (if applicable). 2. C. Enter Middle Name.",
+    "source_i485_label": "2.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line3a_FamilyName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Names You Have Used Since Birth (if applicable). 3. A. Enter Family Name (Last Name).",
+    "source_i485_label": "3.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line3b_GivenName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Names You Have Used Since Birth (if applicable). 3. B. Enter Given Name (First Name).",
+    "source_i485_label": "3.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line3c_MiddleName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Names You Have Used Since Birth (if applicable). 3. C. Enter Middle Name.",
+    "source_i485_label": "3.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line5_DateofBirth[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Information About You. 5. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year. NOTE:  In addition to providing your actual date of birth, include any other dates of birth you have used in connection with any legal names or non-legal names in the space provided in Part 14. Additional Information.",
+    "source_i485_label": "5",
+    "source_i485_field_original": "Date of Birth (mm/dd/yyyy)",
+    "jira_source_fields": [
+      {
+        "name": "Date of Birth (mm/dd/yyyy)",
+        "id": "customfield_10182"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line6_Gender[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Information About You. 6. Sex. Select Female.",
+    "source_i485_label": "6",
+    "source_i485_field_original": "Sex",
+    "jira_source_fields": [
+      {
+        "name": "Sex",
+        "id": "customfield_10187"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line6_Gender[1]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Information About You. 6. Sex. Select Male.",
+    "source_i485_label": "6",
+    "source_i485_field_original": "Sex",
+    "jira_source_fields": [
+      {
+        "name": "Sex",
+        "id": "customfield_10187"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line4a_FamilyName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Names You Have Used Since Birth (if applicable). 4. A. Enter Family Name (Last Name).",
+    "source_i485_label": "4.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line4b_GivenName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Names You Have Used Since Birth (if applicable). 4. B. Enter Given Name (First Name).",
+    "source_i485_label": "4.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line4c_MiddleName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Names You Have Used Since Birth (if applicable). 4. C. Enter Middle Name.",
+    "source_i485_label": "4.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line6_CityOrTown[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Information About You. 7. Enter City or Town of Birth.",
+    "source_i485_label": "7",
+    "source_i485_field_original": "City or Town of Birth",
+    "jira_source_fields": [
+      {
+        "name": "City or Town of Birth",
+        "id": "customfield_10189"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line8_CountryofBirth[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Information About You. 8. Enter Country of Birth.",
+    "source_i485_label": "8",
+    "source_i485_field_original": "Country of Birth",
+    "jira_source_fields": [
+      {
+        "name": "Country of Birth",
+        "id": "customfield_10190"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line9_CountryofCitizenship[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Other Information About You. 9. Enter Country of Citizenship or Nationality.",
+    "source_i485_label": "9",
+    "source_i485_field_original": "Country of Citizenship or Nationality",
+    "jira_source_fields": [
+      {
+        "name": "Country of Citizenship or Nationality",
+        "id": "customfield_10191"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line24_Date[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. 24. Enter Date of Last Arrival. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "source_i485_label": "24",
+    "source_i485_field_original": "Date of Last Arrival (mm/dd/yyyy)",
+    "jira_source_fields": [
+      {
+        "name": "Date of Last Arrival (mm/dd/yyyy)",
+        "id": "customfield_10242"
+      },
+      {
+        "name": "Date of Last Arrival (mm/dd/yyyy)",
+        "id": "customfield_10500"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line25d_CB[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. When I last arrived in the United States, I. 25. D. Select Other.",
+    "source_i485_label": "25.d.",
+    "source_i485_field_original": "Other:",
+    "jira_source_fields": [
+      {
+        "name": "Other:",
+        "id": "customfield_10310"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt2Line25d_other[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. When I last arrived in the United States, I. 25. D. Enter Other.",
+    "source_i485_label": "25.d.",
+    "source_i485_field_original": "Other:",
+    "jira_source_fields": [
+      {
+        "name": "Other:",
+        "id": "customfield_10310"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line28a_FamilyName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. Provide your name exactly as it appears on your Form I - 94, if any. 28. A. Enter Family Name (Last Name).",
+    "source_i485_label": "28.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line28b_GivenName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. Provide your name exactly as it appears on your Form I - 94, if any. 28. B. Enter Given Name (First Name).",
+    "source_i485_label": "28.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line28c_MiddleName[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. Provide your name exactly as it appears on your Form I - 94, if any. 28. C. Enter Middle Name.",
+    "source_i485_label": "28.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line27_Status[0]",
+    "pdf_field_label_original": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. 27. What is your current immigration status (if it has changed since your arrival)?",
+    "source_i485_label": "27",
+    "source_i485_field_original": "What is your current immigration status (if it has changed since your arrival)?",
+    "jira_source_fields": [
+      {
+        "name": "What is your current immigration status?",
+        "id": "customfield_10382"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt2Line5a_FamilyName[0]",
+    "pdf_field_label_original": "Part 2. Application Type or Filing Category. Information About Your Immigrant Category. If you are a derivative applicant (the spouse or unmarried child under 21 years of age of a principal applicant), provide the following information for the principal applicant. Principal Applicant's Name. 5. A. Enter Family Name (Last Name).",
+    "source_i485_label": "5.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt2Line5b_GivenName[0]",
+    "pdf_field_label_original": "Part 2. Application Type or Filing Category. Information About Your Immigrant Category. Principal Applicant's Name. 5. B. Enter Given Name (First Name).",
+    "source_i485_label": "5.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt2Line5c_MiddleName[0]",
+    "pdf_field_label_original": "Part 2. Application Type or Filing Category. Information About Your Immigrant Category. Principal Applicant's Name. 5. C. Enter Middle Name.",
+    "source_i485_label": "5.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt3Line1_YN[0]",
+    "pdf_field_label_original": "Part 3. Additional Information About You. 1. Have you ever applied for an immigrant visa to obtain permanent resident status at a U.S. Embassy or U.S. Consulate abroad? Select No.",
+    "source_i485_label": "1",
+    "source_i485_field_original": "Have you ever applied for an immigrant visa to obtain permanent resident status at a U.S. Embassy or U.S. Consulate abroad?",
+    "jira_source_fields": [
+      {
+        "name": "Have you ever applied for an immigrant visa to obtain permanent resident status at a U.S. Embassy or U.S. Consulate abroad?",
+        "id": "customfield_10589"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt3Line1_YN[1]",
+    "pdf_field_label_original": "Part 3. Additional Information About You. 1. Have you ever applied for an immigrant visa to obtain permanent resident status at a U.S. Embassy or U.S. Consulate abroad? Select Yes. If you answered \"Yes\" to Item Number 1., complete Item Numbers 2. A. through 4. below.  If you need extra space to complete this section, use the space provided in Part 14. Additional Information.",
+    "source_i485_label": "1",
+    "source_i485_field_original": "Have you ever applied for an immigrant visa to obtain permanent resident status at a U.S. Embassy or U.S. Consulate abroad?",
+    "jira_source_fields": [
+      {
+        "name": "Have you ever applied for an immigrant visa to obtain permanent resident status at a U.S. Embassy or U.S. Consulate abroad?",
+        "id": "customfield_10589"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line1a_FamilyName[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent One. Parent One's Legal Name. 1. A. Enter Family Name (Last Name).",
+    "source_i485_label": "1.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line1b_GivenName[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent One. Parent One's Legal Name. 1. B. Enter Given Name (First Name).",
+    "source_i485_label": "1.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line1c_MiddleName[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent One. Parent One's Legal Name. 1. C. Enter Middle Name.",
+    "source_i485_label": "1.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line2a_FamilyName[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent One. Parent One's Name at Birth (if different than above). 2. A. Enter Family Name (Last Name).",
+    "source_i485_label": "2.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line2b_GivenName[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent One. Parent One's Name at Birth (if different than above). 2. B. Enter Given Name (First Name).",
+    "source_i485_label": "2.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line2c_MiddleName[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent One. Parent One's Name at Birth (if different than above). 2. C. Enter Middle Name.",
+    "source_i485_label": "2.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line3_DateofBirth[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent One. 3. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "source_i485_label": "3",
+    "source_i485_field_original": "Date of Birth (mm/dd/yyyy)",
+    "jira_source_fields": [
+      {
+        "name": "Date of Birth (mm/dd/yyyy)",
+        "id": "customfield_10182"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line4_Gender[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent One. 4. Sex. Select Female.",
+    "source_i485_label": "4",
+    "source_i485_field_original": "Sex",
+    "jira_source_fields": [
+      {
+        "name": "Sex",
+        "id": "customfield_10187"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line4_Gender[1]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent One. 4. Sex. Select Male.",
+    "source_i485_label": "4",
+    "source_i485_field_original": "Sex",
+    "jira_source_fields": [
+      {
+        "name": "Sex",
+        "id": "customfield_10187"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line5_CityTown[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent One. 5. Enter City or Town of Birth.",
+    "source_i485_label": "5",
+    "source_i485_field_original": "City or Town of Birth",
+    "jira_source_fields": [
+      {
+        "name": "City or Town of Birth",
+        "id": "customfield_10189"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line6_Country[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent One. 6. Enter Country of Birth.",
+    "source_i485_label": "6",
+    "source_i485_field_original": "Country of Birth",
+    "jira_source_fields": [
+      {
+        "name": "Country of Birth",
+        "id": "customfield_10190"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line9a_FamilyName[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent Two. Parent Two's Legal Name. 9. A. Enter Family Name (Last Name).",
+    "source_i485_label": "9.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line9b_GivenName[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent Two. Parent Two's Legal Name. 9. B. Enter Given Name (First Name).",
+    "source_i485_label": "9.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line9c_MiddleName[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent Two. Parent Two's Legal Name. 9. C. Enter Middle Name.",
+    "source_i485_label": "9.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line11_DateofBirth[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent Two. 11. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "source_i485_label": "4",
+    "source_i485_field_original": "Date of Birth (mm/dd/yyyy)",
+    "jira_source_fields": [
+      {
+        "name": "Date of Birth (mm/dd/yyyy)",
+        "id": "customfield_10182"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line13_CityTown[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent Two. 13. Enter City or Town of Birth.",
+    "source_i485_label": "13",
+    "source_i485_field_original": "City or Town of Birth",
+    "jira_source_fields": [
+      {
+        "name": "City or Town of Birth",
+        "id": "customfield_10189"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line10a_FamilyName[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent Two. Parent Two's Name at Birth (if different than above). 10. A. Enter Family Name (Last Name).",
+    "source_i485_label": "10.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line10b_GivenName[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent Two. Parent Two's Name at Birth (if different than above). 10. B. Enter Given Name (First Name).",
+    "source_i485_label": "10.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line10c_MiddleName[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent Two. Parent Two's Name at Birth (if different than above). 10. C. Enter Middle Name.",
+    "source_i485_label": "10.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line14_Country[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent Two. 14. Enter Country of Birth.",
+    "source_i485_label": "14",
+    "source_i485_field_original": "Country of Birth",
+    "jira_source_fields": [
+      {
+        "name": "Country of Birth",
+        "id": "customfield_10190"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line12_Gender[0]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent Two. 12. Sex. Select Female.",
+    "source_i485_label": "4",
+    "source_i485_field_original": "Sex",
+    "jira_source_fields": [
+      {
+        "name": "Sex",
+        "id": "customfield_10187"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt4Line12_Gender[1]",
+    "pdf_field_label_original": "Part 4. Information About Your Parents. Information About Your Parent Two. 12. Sex. Select Male.",
+    "source_i485_label": "4",
+    "source_i485_field_original": "Sex",
+    "jira_source_fields": [
+      {
+        "name": "Sex",
+        "id": "customfield_10187"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt5Line4a_FamilyName[0]",
+    "pdf_field_label_original": "Part 5. Information About Your Marital History. Information About Your Current Marriage (including if you are legally separated). If you are currently married, provide the following information about your current spouse. Current Spouse's Legal Name. 4. A. Enter Family Name (Last Name).",
+    "source_i485_label": "4.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt5Line4b_GivenName[0]",
+    "pdf_field_label_original": "Part 5. Information About Your Marital History. Information About Your Current Marriage (including if you are legally separated). Current Spouse's Legal Name. 4. B. Enter Given Name (First Name).",
+    "source_i485_label": "4.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt5Line4c_MiddleName[0]",
+    "pdf_field_label_original": "Part 5. Information About Your Marital History. Information About Your Current Marriage (including if you are legally separated). Current Spouse's Legal Name. 4. C. Enter Middle Name.",
+    "source_i485_label": "4.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt5Line6_DateofBirth[0]",
+    "pdf_field_label_original": "Part 5. Information About Your Marital History. Information About Your Current Marriage (including if you are legally separated). 6. Enter Current Spouse's Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "source_i485_label": "5",
+    "source_i485_field_original": "Date of Birth (mm/dd/yyyy)",
+    "jira_source_fields": [
+      {
+        "name": "Date of Birth (mm/dd/yyyy)",
+        "id": "customfield_10182"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt511a_FamilyName[0]",
+    "pdf_field_label_original": "Part 5. Information About Your Marital History. Information About Prior Marriages (if any). If you have been married before, whether in the United States or in any other country, provide the following information about your prior spouse.  If you have had more than one previous marriage, use the space provided in Part 14. Additional Information to provide the information below. Prior Spouse's Legal Name (provide family name before marriage). 11. A. Enter Family Name (Last Name).",
+    "source_i485_label": "11.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt5Line11b_GivenName[0]",
+    "pdf_field_label_original": "Part 5. Information About Your Marital History. Information About Prior Marriages (if any). Prior Spouse's Legal Name (provide family name before marriage). 11. B. Enter Given Name (First Name).",
+    "source_i485_label": "11.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt5Line11c_MiddleName[0]",
+    "pdf_field_label_original": "Part 5. Information About Your Marital History. Information About Prior Marriages (if any). Prior Spouse's Legal Name (provide family name before marriage). 11. C. Enter Middle Name.",
+    "source_i485_label": "11.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt5Line12_DateofBirth[0]",
+    "pdf_field_label_original": "Part 5. Information About Your Marital History. Information About Prior Marriages (if any). 12. Enter Prior Spouse's Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "source_i485_label": "5",
+    "source_i485_field_original": "Date of Birth (mm/dd/yyyy)",
+    "jira_source_fields": [
+      {
+        "name": "Date of Birth (mm/dd/yyyy)",
+        "id": "customfield_10182"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line2a_FamilyName[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Provide the following information for each of your children.  \nIf you have more than three children, use the space provided in Part 14. Additional Information. Child One. Current Legal Name. 2. A. Enter Family Name (Last Name).",
+    "source_i485_label": "2.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line2b_GivenName[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child One. Current Legal Name. 2. B. Enter Given Name (First Name).",
+    "source_i485_label": "2.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line2c_MiddleName[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child One. Current Legal Name. 2. C. Enter Middle Name.",
+    "source_i485_label": "2.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line4_DateofBirth[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child One. 4. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "source_i485_label": "4",
+    "source_i485_field_original": "Date of Birth (mm/dd/yyyy)",
+    "jira_source_fields": [
+      {
+        "name": "Date of Birth (mm/dd/yyyy)",
+        "id": "customfield_10182"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line6_Country[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child One. 5. Enter Country of Birth.",
+    "source_i485_label": "5",
+    "source_i485_field_original": "Country of Birth",
+    "jira_source_fields": [
+      {
+        "name": "Country of Birth",
+        "id": "customfield_10190"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line7a_FamilyName[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child Two. Current Legal Name. 7. A. Enter Family Name (Last Name).",
+    "source_i485_label": "7.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line7b_GivenName[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child Two. Current Legal Name. 7. B. Enter Given Name (First Name).",
+    "source_i485_label": "7.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line7c_MiddleName[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child Two. Current Legal Name. 7. C. Enter Middle Name.",
+    "source_i485_label": "7.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line9_DateofBirth[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child Two. 9. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "source_i485_label": "9",
+    "source_i485_field_original": "Date of Birth (mm/dd/yyyy)",
+    "jira_source_fields": [
+      {
+        "name": "Date of Birth (mm/dd/yyyy)",
+        "id": "customfield_10182"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line10_Country[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child Two. 10. Enter Country of Birth.",
+    "source_i485_label": "6",
+    "source_i485_field_original": "Country of Birth",
+    "jira_source_fields": [
+      {
+        "name": "Country of Birth",
+        "id": "customfield_10190"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line12a_FamilyName[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child Three. Current Legal Name. 12. A. Enter Family Name (Last Name).",
+    "source_i485_label": "12.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line12b_GivenName[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child Three. Current Legal Name. 12. B. Enter Given Name (First Name).",
+    "source_i485_label": "12.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line12c_MiddleName[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child Three. Current Legal Name. 12. C. Enter Middle Name.",
+    "source_i485_label": "12.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line14_DateofBirth[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child Three. 14. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "source_i485_label": "14",
+    "source_i485_field_original": "Date of Birth (mm/dd/yyyy)",
+    "jira_source_fields": [
+      {
+        "name": "Date of Birth (mm/dd/yyyy)",
+        "id": "customfield_10182"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt6Line15_Country[0]",
+    "pdf_field_label_original": "Part 6. Information About Your Children. Child Three. 15. Enter Country of Birth.",
+    "source_i485_label": "6",
+    "source_i485_field_original": "Country of Birth",
+    "jira_source_fields": [
+      {
+        "name": "Country of Birth",
+        "id": "customfield_10190"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt11Line1b_GivenName[0]",
+    "pdf_field_label_original": "Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).",
+    "source_i485_label": "1.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt11Line1a_FamilyName[0]",
+    "pdf_field_label_original": "Part 11. Interpreter's Contact Information, Certification, and Signature. Provide the following information about the interpreter. Interpreter's Full Name. 1. A. Enter Interpreter's Family Name (Last Name).",
+    "source_i485_label": "1.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt12Line1b_PreparerGivenName[0]",
+    "pdf_field_label_original": "Part 12. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name. 1. B. Enter Preparer's Given Name (First Name).",
+    "source_i485_label": "1.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt12Line1a_PreparerFamilyName[0]",
+    "pdf_field_label_original": "Part 12. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Provide the following information about the preparer. Preparer's Full Name. 1. A. Enter Preparer's Family Name (Last Name).",
+    "source_i485_label": "1.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line1a_FamilyName[1]",
+    "pdf_field_label_original": "Part 14. Additional Information. If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Type or print your name and A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. A. Family Name (Last Name). This is a read only field. This field pre-populates from page 1.",
+    "source_i485_label": "1.a.",
+    "source_i485_field_original": "Family Name (Last Name)",
+    "jira_source_fields": [
+      {
+        "name": "Family Name (Last Name)",
+        "id": "customfield_10175"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line1b_GivenName[1]",
+    "pdf_field_label_original": "Part 14. Additional Information. 1. B. Given Name (First Name). This is a read only field. This field pre-populates from page 1.",
+    "source_i485_label": "1.b.",
+    "source_i485_field_original": "Given Name (First Name)",
+    "jira_source_fields": [
+      {
+        "name": "Given Name (First Name)",
+        "id": "customfield_10176"
+      }
+    ]
+  },
+  {
+    "pdf_internal_id": "Pt1Line1c_MiddleName[1]",
+    "pdf_field_label_original": "Part 14. Additional Information. 1. C. Middle Name. This is a read only field. This field pre-populates from page 1.",
+    "source_i485_label": "1.c.",
+    "source_i485_field_original": "Middle Name",
+    "jira_source_fields": [
+      {
+        "name": "Middle Name",
+        "id": "customfield_10177"
+      }
+    ]
+  }
+]

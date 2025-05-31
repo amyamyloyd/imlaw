@@ -1,0 +1,213 @@
+Section,Row in simple_map.csv,I-485 Field (Original),Jira Matches (Full String),Specifically Matched Jira Name
+Matched,4,Have you ever applied for an immigrant visa to obtain permanent resident status at a U.S. Embassy or U.S. Consulate abroad?,Have you ever applied for an immigrant visa to obtain permanent resident status at a U.S. Embassy or U.S. Consulate abroad? - customfield_10589,Have you ever applied for an immigrant visa to obtain permanent resident status at a U.S. Embassy or U.S. Consulate abroad?
+Matched,6,Given Name (First Name),Given Name (First Name) - customfield_10176,Given Name (First Name)
+Matched,7,Middle Name,I-485: Special Immigrant - customfield_10513; Middle Name - customfield_10177,Middle Name
+Matched,8,Asylee or Refugee,I-485: Asylee or Refugee - customfield_10546,Asylee or Refugee
+Matched,9,Special Programs Based on Certain Public Laws,I-485: Special Programs Based on Certain Public Laws - customfield_10550,Special Programs Based on Certain Public Laws
+Matched,10,Additional Options,I-485: Additional Options - customfield_10551,Additional Options
+Matched,12,Family Name (Last Name),Family Name (Last Name) - customfield_10175,Family Name (Last Name)
+Matched,13,Given Name (First Name),Given Name (First Name) - customfield_10176; Location of U.S. Embassy or U.S. Consulate- Country - customfield_10591; Most Recent Address Outside the United States: Country - customfield_10459; Prior Address: Country - customfield_10448,Given Name (First Name)
+Matched,14,Middle Name,Middle Name - customfield_10177,Middle Name
+Matched,15,Receipt Number of Underlying Petition (if any),A-Number (if any) - customfield_10498; Additional Information About You: Decision - customfield_10592; Date of Birth (mm/dd/yyyy) - customfield_10182; I-485: Receipt Number of Underlying Petition (if any) - customfield_10502,Receipt Number of Underlying Petition (if any)
+Matched,16,Family Name (Last Name),Current U.S. Physical Address: City or Town - customfield_10423; Current U.S. Physical Address: Street Number and Name - customfield_10422; Family Name (Last Name) - customfield_10175; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Most Recent Address Outside the United States: City or Town - customfield_10454; Most Recent Address Outside the United States: Street Number and Name - customfield_10451; Prior Address: City or Town - customfield_10443; Prior Address: Street Number and Name - customfield_10440,Family Name (Last Name)
+Matched,17,Given Name (First Name),"Current U.S. Physical Address: Apt., Ste., Flr. - customfield_10424; Given Name (First Name) - customfield_10176; Most Recent Address Outside the United States: Apt., Sye., Flr. - customfield_10452; Prior Address: Apt., Ste., Flr. - customfield_10441",Given Name (First Name)
+Matched,18,Middle Name,Current U.S. Physical Address: City or Town - customfield_10423; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Location of U.S. Embassy or U.S. Consulate- Country - customfield_10591; Middle Name - customfield_10177; Most Recent Address Outside the United States: City or Town - customfield_10454; Most Recent Address Outside the United States: Country - customfield_10459; Prior Address: City or Town - customfield_10443; Prior Address: Country - customfield_10448,Middle Name
+Matched,19,State,Current U.S. Physical Address: State - customfield_10426; Most Recent Address Outside the United States: State - customfield_10455; Prior Address: State - customfield_10444,State
+Matched,20,Province,Most Recent Address Outside the United States: Province - customfield_10457; Prior Address: Province - customfield_10446,Province
+Matched,21,Postal Code,Most Recent Address Outside the United States: Postal Code - customfield_10458; Prior Address: Postal Code - customfield_10447,Postal Code
+Matched,22,Country,Location of U.S. Embassy or U.S. Consulate- Country - customfield_10591; Most Recent Address Outside the United States: Country - customfield_10459; Prior Address: Country - customfield_10448,Country
+Matched,24,Family Name (Last Name),Family Name (Last Name) - customfield_10175,Family Name (Last Name)
+Matched,25,Given Name (First Name),Given Name (First Name) - customfield_10176,Given Name (First Name)
+Matched,26,Middle Name,Middle Name - customfield_10177,Middle Name
+Matched,27,Date of Birth (mm/dd/yyyy),A-Number (if any) - customfield_10498; City or Town of Birth - customfield_10189; Country of Birth - customfield_10190; Date of Birth (mm/dd/yyyy) - customfield_10182,Date of Birth (mm/dd/yyyy)
+Matched,28,Family Name (Last Name),Current U.S. Physical Address: Street Number and Name - customfield_10422; Family Name (Last Name) - customfield_10175; Most Recent Address Outside the United States: Street Number and Name - customfield_10451; Prior Address: Street Number and Name - customfield_10440,Family Name (Last Name)
+Matched,29,Given Name (First Name),"Current U.S. Physical Address: Apt., Ste., Flr. - customfield_10424; Given Name (First Name) - customfield_10176; Most Recent Address Outside the United States: Apt., Sye., Flr. - customfield_10452; Prior Address: Apt., Ste., Flr. - customfield_10441",Given Name (First Name)
+Matched,30,Middle Name,Current U.S. Physical Address: City or Town - customfield_10423; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Middle Name - customfield_10177; Most Recent Address Outside the United States: City or Town - customfield_10454; Prior Address: City or Town - customfield_10443,Middle Name
+Matched,31,State,Current U.S. Physical Address: State - customfield_10426; Most Recent Address Outside the United States: State - customfield_10455; Prior Address: State - customfield_10444,State
+Matched,32,Zip Code,Current U.S. Physical Address: Zip Code - customfield_10427; Most Recent Address Outside the United States: Zip Code - customfield_10456; Prior Address: Zip Code - customfield_10445,Zip Code
+Matched,33,Province,Most Recent Address Outside the United States: Province - customfield_10457; Prior Address: Province - customfield_10446,Province
+Matched,34,Postal Code,Most Recent Address Outside the United States: Postal Code - customfield_10458; Prior Address: Postal Code - customfield_10447,Postal Code
+Matched,35,Country,Location of U.S. Embassy or U.S. Consulate- Country - customfield_10591; Most Recent Address Outside the United States: Country - customfield_10459; Prior Address: Country - customfield_10448,Country
+Matched,36,Sex,Country of Birth - customfield_10190; Sex - customfield_10187,Sex
+Matched,37,City or Town of Birth,City or Town of Birth - customfield_10189,City or Town of Birth
+Matched,38,Street Number and Name,Current U.S. Physical Address: City or Town - customfield_10423; Current U.S. Physical Address: Street Number and Name - customfield_10422; Family Name (Last Name) - customfield_10175; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Most Recent Address Outside the United States: City or Town - customfield_10454; Most Recent Address Outside the United States: Street Number and Name - customfield_10451; Prior Address: City or Town - customfield_10443; Prior Address: Street Number and Name - customfield_10440,Street Number and Name
+Matched,39,"Apt., Ste., Flr.","Current U.S. Physical Address: Apt., Ste., Flr. - customfield_10424; Given Name (First Name) - customfield_10176; Most Recent Address Outside the United States: Apt., Sye., Flr. - customfield_10452; Prior Address: Apt., Ste., Flr. - customfield_10441","Apt., Ste., Flr."
+Matched,40,City or Town,Current U.S. Physical Address: City or Town - customfield_10423; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Location of U.S. Embassy or U.S. Consulate- Country - customfield_10591; Middle Name - customfield_10177; Most Recent Address Outside the United States: City or Town - customfield_10454; Most Recent Address Outside the United States: Country - customfield_10459; Prior Address: City or Town - customfield_10443; Prior Address: Country - customfield_10448,City or Town
+Matched,41,State,Current U.S. Physical Address: State - customfield_10426; Most Recent Address Outside the United States: State - customfield_10455; Prior Address: State - customfield_10444,State
+Matched,42,Zip Code,Current U.S. Physical Address: Zip Code - customfield_10427; Most Recent Address Outside the United States: Zip Code - customfield_10456; Prior Address: Zip Code - customfield_10445,Zip Code
+Matched,43,Province,Most Recent Address Outside the United States: Province - customfield_10457; Prior Address: Province - customfield_10446,Province
+Matched,44,Postal Code,Most Recent Address Outside the United States: Postal Code - customfield_10458; Prior Address: Postal Code - customfield_10447,Postal Code
+Matched,45,Country,Location of U.S. Embassy or U.S. Consulate- Country - customfield_10591; Most Recent Address Outside the United States: Country - customfield_10459; Prior Address: Country - customfield_10448,Country
+Matched,46,Country of Birth,A-Number (if any) - customfield_10498; Country of Birth - customfield_10190,Country of Birth
+Matched,48,Country,Location of U.S. Embassy or U.S. Consulate- Country - customfield_10591; Most Recent Address Outside the United States: Country - customfield_10459; Prior Address: Country - customfield_10448,Country
+Matched,49,Country of Citizenship or Nationality,Country of Citizenship or Nationality - customfield_10191; Date of Birth (mm/dd/yyyy) - customfield_10182,Country of Citizenship or Nationality
+Matched,50,Country,Location of U.S. Embassy or U.S. Consulate- Country - customfield_10591; Most Recent Address Outside the United States: Country - customfield_10459; Prior Address: Country - customfield_10448,Country
+Matched,51,Street Number and Name,Current U.S. Physical Address: City or Town - customfield_10423; Current U.S. Physical Address: Street Number and Name - customfield_10422; Family Name (Last Name) - customfield_10175; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Most Recent Address Outside the United States: City or Town - customfield_10454; Most Recent Address Outside the United States: Street Number and Name - customfield_10451; Prior Address: City or Town - customfield_10443; Prior Address: Street Number and Name - customfield_10440,Street Number and Name
+Matched,52,"Apt., Ste., Flr.","Current U.S. Physical Address: Apt., Ste., Flr. - customfield_10424; Given Name (First Name) - customfield_10176; Most Recent Address Outside the United States: Apt., Sye., Flr. - customfield_10452; Prior Address: Apt., Ste., Flr. - customfield_10441","Apt., Ste., Flr."
+Matched,53,City or Town,Current U.S. Physical Address: City or Town - customfield_10423; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Location of U.S. Embassy or U.S. Consulate- Country - customfield_10591; Middle Name - customfield_10177; Most Recent Address Outside the United States: City or Town - customfield_10454; Most Recent Address Outside the United States: Country - customfield_10459; Prior Address: City or Town - customfield_10443; Prior Address: Country - customfield_10448,City or Town
+Matched,54,State,Current U.S. Physical Address: State - customfield_10426; Most Recent Address Outside the United States: State - customfield_10455; Prior Address: State - customfield_10444,State
+Matched,55,Zip Code,Current U.S. Physical Address: Zip Code - customfield_10427; Most Recent Address Outside the United States: Zip Code - customfield_10456; Prior Address: Zip Code - customfield_10445,Zip Code
+Matched,56,Province,Most Recent Address Outside the United States: Province - customfield_10457; Prior Address: Province - customfield_10446,Province
+Matched,57,Postal Code,Most Recent Address Outside the United States: Postal Code - customfield_10458; Prior Address: Postal Code - customfield_10447,Postal Code
+Matched,61,Middle Name,Middle Name - customfield_10177,Middle Name
+Matched,62,USCIS Online Account Number (if any),Date of Birth (mm/dd/yyyy) - customfield_10182; USCIS Online Account Number (if any) - customfield_10192; USCIS Online Account Number (if any) - customfield_10499,USCIS Online Account Number (if any)
+Matched,63,Family Name (Last Name),Current U.S. Physical Address: City or Town - customfield_10423; Family Name (Last Name) - customfield_10175; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Most Recent Address Outside the United States: City or Town - customfield_10454; Prior Address: City or Town - customfield_10443,Family Name (Last Name)
+Matched,64,Given Name (First Name),Given Name (First Name) - customfield_10176,Given Name (First Name)
+Matched,65,Middle Name,Location of U.S. Embassy or U.S. Consulate- Country - customfield_10591; Middle Name - customfield_10177; Most Recent Address Outside the United States: Country - customfield_10459; Prior Address: Country - customfield_10448,Middle Name
+Matched,66,Sex,Sex - customfield_10187,Sex
+Matched,68,Street Number and Name,"Current U.S. Physical Address: Apt., Ste., Flr. - customfield_10424; Current U.S. Physical Address: Street Number and Name - customfield_10422; Given Name (First Name) - customfield_10176; Most Recent Address Outside the United States: Apt., Sye., Flr. - customfield_10452; Most Recent Address Outside the United States: Street Number and Name - customfield_10451; Prior Address: Apt., Ste., Flr. - customfield_10441; Prior Address: Street Number and Name - customfield_10440",Street Number and Name
+Matched,69,"Apt., Ste., Flr.","Current U.S. Physical Address: Apt., Ste., Flr. - customfield_10424; Current U.S. Physical Address: City or Town - customfield_10423; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Middle Name - customfield_10177; Most Recent Address Outside the United States: Apt., Sye., Flr. - customfield_10452; Most Recent Address Outside the United States: City or Town - customfield_10454; Prior Address: Apt., Ste., Flr. - customfield_10441; Prior Address: City or Town - customfield_10443","Apt., Ste., Flr."
+Matched,70,City or Town,Current U.S. Physical Address: City or Town - customfield_10423; Current U.S. Physical Address: State - customfield_10426; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Most Recent Address Outside the United States: City or Town - customfield_10454; Most Recent Address Outside the United States: State - customfield_10455; Prior Address: City or Town - customfield_10443; Prior Address: State - customfield_10444,City or Town
+Matched,71,State,Current U.S. Physical Address: State - customfield_10426; Current U.S. Physical Address: Zip Code - customfield_10427; Most Recent Address Outside the United States: State - customfield_10455; Most Recent Address Outside the United States: Zip Code - customfield_10456; Prior Address: State - customfield_10444; Prior Address: Zip Code - customfield_10445,State
+Matched,72,Zip Code,Current U.S. Physical Address: Zip Code - customfield_10427; Most Recent Address Outside the United States: Province - customfield_10457; Most Recent Address Outside the United States: Zip Code - customfield_10456; Prior Address: Province - customfield_10446; Prior Address: Zip Code - customfield_10445,Zip Code
+Matched,73,Postal Code,Most Recent Address Outside the United States: Postal Code - customfield_10458; Prior Address: Postal Code - customfield_10447,Postal Code
+Matched,75,Street Number and Name,Current U.S. Physical Address: Street Number and Name - customfield_10422; Most Recent Address Outside the United States: Street Number and Name - customfield_10451; Prior Address: Street Number and Name - customfield_10440,Street Number and Name
+Matched,76,"Apt., Ste., Flr.","Current U.S. Physical Address: Apt., Ste., Flr. - customfield_10424; Most Recent Address Outside the United States: Apt., Sye., Flr. - customfield_10452; Prior Address: Apt., Ste., Flr. - customfield_10441","Apt., Ste., Flr."
+Matched,77,City or Town,Current U.S. Physical Address: City or Town - customfield_10423; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Most Recent Address Outside the United States: City or Town - customfield_10454; Prior Address: City or Town - customfield_10443,City or Town
+Matched,78,State,Current U.S. Physical Address: State - customfield_10426; Most Recent Address Outside the United States: State - customfield_10455; Prior Address: State - customfield_10444,State
+Matched,79,Zip Code,Current U.S. Physical Address: Zip Code - customfield_10427; Most Recent Address Outside the United States: Zip Code - customfield_10456; Prior Address: Zip Code - customfield_10445,Zip Code
+Matched,82,Country,Location of U.S. Embassy or U.S. Consulate- Country - customfield_10591; Most Recent Address Outside the United States: Country - customfield_10459; Prior Address: Country - customfield_10448,Country
+Matched,85,Street Number and Name,Current U.S. Physical Address: City or Town - customfield_10423; Current U.S. Physical Address: Street Number and Name - customfield_10422; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Most Recent Address Outside the United States: City or Town - customfield_10454; Most Recent Address Outside the United States: Street Number and Name - customfield_10451; Prior Address: City or Town - customfield_10443; Prior Address: Street Number and Name - customfield_10440,Street Number and Name
+Matched,86,"Apt., Ste., Flr.","Current U.S. Physical Address: Apt., Ste., Flr. - customfield_10424; Most Recent Address Outside the United States: Apt., Sye., Flr. - customfield_10452; Prior Address: Apt., Ste., Flr. - customfield_10441","Apt., Ste., Flr."
+Matched,87,City or Town,Current U.S. Physical Address: City or Town - customfield_10423; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Location of U.S. Embassy or U.S. Consulate- Country - customfield_10591; Most Recent Address Outside the United States: City or Town - customfield_10454; Most Recent Address Outside the United States: Country - customfield_10459; Prior Address: City or Town - customfield_10443; Prior Address: Country - customfield_10448,City or Town
+Matched,88,State,Current U.S. Physical Address: State - customfield_10426; Most Recent Address Outside the United States: State - customfield_10455; Prior Address: State - customfield_10444,State
+Matched,89,Zip Code,Current U.S. Physical Address: Zip Code - customfield_10427; Most Recent Address Outside the United States: Zip Code - customfield_10456; Prior Address: Zip Code - customfield_10445,Zip Code
+Matched,90,Province,Most Recent Address Outside the United States: Province - customfield_10457; Prior Address: Province - customfield_10446,Province
+Matched,91,Postal Code,Most Recent Address Outside the United States: Postal Code - customfield_10458; Prior Address: Postal Code - customfield_10447,Postal Code
+Matched,92,Expiration Date of this Passport or Travel Document (mm/dd/yyyy),Expiration Date of this Passport or Travel Document (mm/dd/yyyy) - customfield_10194,Expiration Date of this Passport or Travel Document (mm/dd/yyyy)
+Matched,94,City or Town,Current U.S. Physical Address: City or Town - customfield_10423; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Most Recent Address Outside the United States: City or Town - customfield_10454; Prior Address: City or Town - customfield_10443,City or Town
+Matched,95,State,Current U.S. Physical Address: State - customfield_10426; Most Recent Address Outside the United States: State - customfield_10455; Prior Address: State - customfield_10444,State
+Matched,96,Date of Last Arrival (mm/dd/yyyy),Date of Last Arrival (mm/dd/yyyy) - customfield_10242; Date of Last Arrival (mm/dd/yyyy) - customfield_10500,Date of Last Arrival (mm/dd/yyyy)
+Matched,100,Family Name (Last Name),Family Name (Last Name) - customfield_10175,Family Name (Last Name)
+Matched,101,Given Name (First Name),Given Name (First Name) - customfield_10176,Given Name (First Name)
+Matched,102,Middle Name,Middle Name - customfield_10177,Middle Name
+Matched,103,Zip Code,Current U.S. Physical Address: Zip Code - customfield_10427; Most Recent Address Outside the United States: Zip Code - customfield_10456; Prior Address: Zip Code - customfield_10445,Zip Code
+
+Section,Row in simple_map.csv,I-485 Field (Original),Jira Matches (Full String),Specifically Matched Jira Name
+Not Matched,5,Family-based,Family Name (Last Name) - customfield_10175,
+Not Matched,11,"Are you applying for adjustment based on the Immigration and Nationality Act (INA) section 245(i)? NOTE: If you answered ""Yes"" to Item Number 2., you",A-Number (if any) - customfield_10498,
+Not Matched,23,Priority Date from Underlying Petition (if any) (mm/dd/yyyy),Additional Information About You: Date of Decision (mm/dd/yyyy) - customfield_10593; Date of Birth (mm/dd/yyyy) - customfield_10182; I-485: Priority Date from Underlying Petition (if any) - customfield_10503; Sex - customfield_10187,
+Not Matched,47,From (mm/dd/yyyy),Current U.S. Physical Address: City or Town - customfield_10423; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Most Recent Address Outside the United States: City or Town - customfield_10454; Prior Address: City or Town - customfield_10443,
+Not Matched,58,Alien Registration Number (A-Number)(if any),Country of Birth - customfield_10190,
+Not Matched,59,From (mm/dd/yyyy),Family Name (Last Name) - customfield_10175,
+Not Matched,60,To (mm/dd/yyyy),Given Name (First Name) - customfield_10176,
+Not Matched,67,InCareOfName (if any),Current U.S. Physical Address: Street Number and Name - customfield_10422; Family Name (Last Name) - customfield_10175; Most Recent Address Outside the United States: Street Number and Name - customfield_10451; Prior Address: Street Number and Name - customfield_10440,
+Not Matched,74,Your Occupation,"A-Number (if any) - customfield_10498; City or Town of Birth - customfield_10189; Employment and Educational History: Your Occupation (if unemployed or retired, so state) - customfield_10598",
+Not Matched,80,"Has the Social Security Administration (SSA) ever officially issued a Social Security caer to you? If you answered ""Yes,"" provide the information requested in Item Number 15.",Country of Birth - customfield_10190; Date of Birth (mm/dd/yyyy) - customfield_10182,
+Not Matched,81,From (mm/dd/yyyy),Current U.S. Physical Address: City or Town - customfield_10423; Location of U.S. Embassy or U.S. Consulate- City or Town - customfield_10590; Most Recent Address Outside the United States: City or Town - customfield_10454; Prior Address: City or Town - customfield_10443,
+Not Matched,83,Provide your U.S. Social Security Number (SSN),Country of Birth - customfield_10190,
+Not Matched,84,"Do you want the SSA to issue you a Social Security card? (You must also answer ""Yes"" to Item Number 17. Consent for Disclosure, to receive a card).",Social Security Card: Do you want the SSA to issue you a Social Security card? - customfield_10464,
+Not Matched,93,Country that Issued this Passport or Travewl Document,"Employment and Educational History: Your Occupation (if unemployed or retired, so state) - customfield_10598",
+Not Matched,97,Other:,Other: - customfield_10310,
+Not Matched,98,Form I-94 Arrival Departure Record Number,Form I-94 Arrival/Departure Record Number - customfield_10378,
+Not Matched,99,What is your current immigration status (if it has changed since your arrival)?,What is your current immigration status? - customfield_10382,
+Not Matched,108,Human Trafficking Victim or Crime Victim,,
+Not Matched,109,From (mm/dd/yyyy),,
+Not Matched,110,To (mm/dd/yyyy),,
+Not Matched,111,Item Number,,
+Not Matched,112,To (mm/dd/yyyy),,
+Not Matched,113,InCareOfName (if any),,
+Not Matched,114,To (mm/dd/yyyy),,
+Not Matched,115,Consent for Disclosure: I authorize disclosure of information from this application to the SSA for the purpose of assigning me an SSN and issuing me a Social Security Card.,,
+Not Matched,116,Passport Number Used at Last Arrival,,
+Not Matched,117,Travel Document Number Used at Last Arrival,,
+Not Matched,118,Nonimmigrant Visa Number from this Passport (if any),,
+Not Matched,119,From (mm/dd/yyyy),,
+Not Matched,120,To (mm/dd/yyyy),,
+Not Matched,121,"Have you EVER applied for any kind of relief or protection from removal, exclusion, or deportation?",,
+Not Matched,122,Have you EVER been a J nonimmigrant exchange visitor who was subject to the two-year foreign residence requirement?,,
+Not Matched,123,Have you complied with the foreign residence requirement?,,
+Not Matched,124,Have you been granted a waiver or has Department of State issued a favorable waiver recommendation letter for you?,,
+Not Matched,125,"Have you EVER been arrested, cited, charged, or detained for any reason by any law enforcement official (including but not limited to any U.S. immigration official or any official of the U.S. armed forces or U.S. Coast Guard)?",,
+Not Matched,126,"Was inspected at a port of entry and admitted as (for example, exchange visitor; visitor, waived through; temporary worker; student):",,
+Not Matched,127,"Was inspected at a port of entry and paroled as (for example, humanitarian parole, Cuban parole):",,
+Not Matched,128,Came in to the United States without admission or parole.,,
+Not Matched,129,"Have you EVER committed a crime of any kind (even if you were not arrested, cited, charged with, or tried for that crime)?",,
+Not Matched,130,Expiration Date of Authorized Stay Shown on Form I-94 (mm/dd/yyyy),,
+Not Matched,131,"Status on Form I-94 (for example, class of admission, or paroled, if paroled)",,
+Not Matched,132,"Have you EVER been ordered punished by a judge or had conditions imposed on you that restrained your liberty (such as a prison sentence, suspended sentence, house arrest, parole, alternative sentencing, drug or alcohol treatment, rehabilitative programs or classes, probation, or community service)?",,
+Not Matched,133,"Have you EVER been a defendant or the accused in a criminal proceeding (including pre-trial diversion, deferred prosecution, deferred adjudication, or any withheld adjudication)?",,
+Not Matched,134,"Have you EVER violated (or attempted or conspired to violate) any controlled substance law or regulation of a state, the United States, or a foreign country?",,
+Not Matched,135,Have you EVER been convicted of two or more offenses (other than purely political offenses) for which the combined sentences to confinement were five years or more?,,
+Not Matched,136,"Have you EVER illicitly (illegally) trafficked or benefited from the trafficking of any controlled substances, such as chemicals, illegal drugs, or narcotics?",,
+Not Matched,137,"Have you EVER knowingly aided, abetted, assisted, conspired, or colluded in the illicit trafficking of any illegal narcotic or other controlled substances?",,
+Not Matched,138,"Are you the spouse, son, or daughter of a foreign national who illicitly trafficked or aided (or otherwise abetted, assisted, conspired, or colluded) in the illicit trafficking of a controlled substance, such as chemicals, illegal drugs, or narcotics and you obtained, within the last five years, any financial or other benefit from the illegal activity of your spouse or parent, although you knew or reasonably should have known that the financial or other benefit resulted from the illicit activity of your spouse or parent?",,
+Not Matched,139,Have you EVER engaged in prostitution or are you coming to the United States to engage in prostitution?,,
+Not Matched,140,Have you EVER directly or indirectly procured (or attempted to procure) or imported prostitutes or persons for the purpose of prostitution?,,
+Not Matched,141,Have you EVER received any proceeds or money from prostitution?,,
+Not Matched,142,"Do you intend to engage in illegal gambling or any other form of commercialized vice, such as prostitution, bootlegging, or the sale of child pornography, while in the United States?",,
+Not Matched,143,Have you EVER exercised immunity (diplomatic or otherwise) to avoid being prosecuted for a criminal offense in the United States?,,
+Not Matched,144,"Have you EVER, while serving as a foreign government official, been responsible for or directly carried out violations of religious freedoms?",,
+Not Matched,145,"Have you EVER induced by force, fraud, or coercion (or otherwise been involved in) the trafficking of persons for commercial sex acts?",,
+Not Matched,146,"Have you EVER trafficked a person into involuntary servitude, peonage, debt bondage, or slavery? Trafficking includes recruiting, harboring, transporting, providing, or obtaining a person for labor or services through the use of force, fraud, or coercion.",,
+Not Matched,147,"Have you EVER knowingly aided, abetted, assisted, conspired, or colluded with others in trafficking persons for commercial sex acts or involuntary servitude, peonage, debt bondage, or slavery?",,
+Not Matched,148,"Are you the spouse, son or daughter of a foreign national who engaged in the trafficking of persons and have received or obtained, within the last five years, any financial or other benefits from the illicit activity of your spouse or your parent, although you knew or reasonably should have known that this benefit resulted from the illicit activity of your spouse or parent?",,
+Not Matched,149,"Have you EVER engaged in money laundering or have you EVER knowingly aided, assisted, conspired, or colluded with others in money laundering or do you seek to enter the United States to engage in such activity?",,
+Not Matched,150,Engage in any activity that violates or evades any law relating to espionage (including spying) or sabotage in the United States?,,
+Not Matched,151,"Engage in any activity in the United States that violates or evades any law prohibiting the export from the United States of goods, technology, or sensitive information?",,
+Not Matched,152,"Engage in any activity whose purpose includes opposing, controlling, or overthrowing the U.S. Government by force, violence, or other unlawful means while in the United States?",,
+Not Matched,153,"Engage in any activity that could endanger the welfare, safety, or security of the United States?",,
+Not Matched,154,Engage in any other unlawful activity?,,
+Not Matched,155,"Are you engaged in or, upon your entry into the United States, do you intend to engage in any activity that could have potentially serious adverse foreign policy consequences for the United States?",,
+Not Matched,156,"Committed, threatened to commit, attempted to commit, conspired to commit, incited, endorsed, advocated, planned, or prepared any of the following: hijacking, sabotage, kidnapping, political assassination, or use of a weapon or explosive to harm another individual or cause substantial damage to property",,
+Not Matched,157,"Participated in, or been a member of, a group or organization that did any of the activities described in Item Number 48.a.?",,
+Not Matched,158,Recruited members or asked for money or things of value for a group or organization that did any of the activities described in Item Number 48.a.?,,
+Not Matched,159,"Provided money, a thing of value, services or labor, or any other assistance or support for any of the activities described in Item Number 48.a.?",,
+Not Matched,160,"Provided money, a thing of value, services or labor, or any other assistance or support for an individual, group, or organization who did any of the activities described in Item Number 48.a.?",,
+Not Matched,161,"Have you EVER received any type of military, paramilitary, or weapons training?",,
+Not Matched,162,Do you intend to engage in any of the activities listed in any part of Item Numbers 48.a. - 49.?,,
+Not Matched,163,"Committed, threatened to commit, attempted to commit, conspired to commit, incited, endorsed, advocated, planned, or prepared any of the following: hijacking, sabotage, kidnapping, political assassination, or use of a weapon or explosive to harm another individual or cause substantial damage to property?",,
+Not Matched,164,"Participated in, or been a member or a representative of a group or organization that did any of the activities described in Item Number 51.a.?",,
+Not Matched,165,"Recruited members, or asked for money or things of value, for a group or organization that did any of the activities described in Item Number 51.a.?",,
+Not Matched,166,"Provided money, a thing of value, services or labor, or any other assistance or support for any of the activities described in Item Number 51.a.?",,
+Not Matched,167,"Provided money, a thing of value, services or labor, or any other assistance or support to an individual, group, or organization who did any of the activities described in Item Number 51.a.?",,
+Not Matched,168,"Received any type of military, paramilitary, or weapons training from a group or organization that did any of the activities described in Item Number 51.a.?",,
+Not Matched,169,"Have you EVER assisted or participated in selling, providing, or transporting weapons to any person who, to your knowledge, used them against another person?",,
+Not Matched,170,"Have you EVER worked, volunteered, or otherwise served in any prison, jail, prison camp, detention facility, labor camp, or any other situation that involved detaining persons?",,
+Not Matched,171,"Have you EVER been a member of, assisted, or participated in any group, unit, or organization of any kind in which you or other persons used any type of weapon against any person or threatened to do so?",,
+Not Matched,172,"Have you EVER served in, been a member of, assisted, or participated in any military unit, paramilitary unit, police unit, self-defense unit, vigilante unit, rebel group, guerilla group, militia, insurgent organization, or any other armed group?",,
+Not Matched,173,"Have you EVER been a member of, or in any way affiliated with, the Communist Party or any other totalitarian party (in the United States or abroad)?",,
+Not Matched,174,"During the period from March 23, 1933 to May 8, 1945, did you ever order, incite, assist, or otherwise participate in the persecution of any person because of race, religion, national origin, or political opinion, in association with either the Nazi government of Germany or any organization or government associated or allied with the Nazi government of Germany?",,
+Not Matched,175,Acts involving torture or genocide?,,
+Not Matched,176,Killing any person?,,
+Not Matched,177,Intentionally and severely injuring any person?,,
+Not Matched,178,"Engaging in any kind of sexual contact or relations with any person who did not consent or was unable to consent, or was being forced or threatened?",,
+Not Matched,179,Limiting or denying any person's ability to exercise religious beliefs?,,
+Not Matched,180,"Have you EVER recruited, enlisted, conscripted, or used any person under 15 years of age to serve in or help an armed force or group?",,
+Not Matched,181,"Have you EVER used any person under 15 years of age to take part in hostilities, or to help or provide services to people in combat?",,
+Not Matched,182,Are you subject to the public charge ground of inadmissibility under INA section 212(a)(4)?,,
+Not Matched,183,What is the size of your household?,,
+Not Matched,184,Indicate your annual household income.,,
+Not Matched,185,Identify the total value of your household assets.,,
+Not Matched,186,Identify the total value of your household liabilities (including both secured and unsecured liabilities).,,
+Not Matched,187,What is the highest degree or level of school you have completed?,,
+Not Matched,188,"List your certifications, licenses, skills obtained through work experience, and educational certificates",,
+Not Matched,189,"Have you ever received Supplemental Security Income (SSI), Temporary Assistance for Needy Families (TANF), or State, Tribal, territorial, or local, cash benefit programs for income maintenance (often called “General Assistance” in the State context, but which also exist under other names)?",,
+Not Matched,190,Have you ever received long-term institutionalization at government expense?,,
+Not Matched,191,"If your answer to Item Number 68.a. is “Yes,” list the specific benefit(s) you received, the start and end dates of each period of receipt, and the dollar amount of benefits received",,
+Not Matched,192,"If your answer to Item Number 68.b. is “Yes,” list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized.",,
+Not Matched,193,"Have you EVER failed or refused to attend or to remain in attendance at any removal proceeding filed against you on or after April 1, 1997?",,
+Not Matched,194,"If your answer to Item Number 69.a. is ""Yes,"" do you believe you had reasonable cause?",,
+Not Matched,195,"If your answer to Item Number 69.b. is ""Yes,"" attach a written statement explaining why you had reasonable cause.",,
+Not Matched,196,"Have you EVER submitted fraudulent or counterfeit documentation to any U.S. Government official to obtain or attempt to obtain any immigration benefit, including a visa or entry into the United States?",,
+Not Matched,197,"Have you EVER lied about, concealed, or misrepresented any information on an application or petition to obtain a visa, other documentation required for entry into the United States, admission to the United States, or any other kind of immigration benefit?",,
+Not Matched,198,Have you EVER falsely claimed to be a U.S. citizen (in writing or any other way)?,,
+Not Matched,199,Have you EVER been a stowaway on a vessel or aircraft arriving in the United States?,,
+Not Matched,200,"Have you EVER knowingly encouraged, induced, assisted, abetted, or aided any foreign national to enter or to try to enter the United States illegally (alien smuggling)?",,
+Not Matched,201,Are you under a final order of civil penalty for violating INA section 274C for use of fraudulent documents?,,
+Not Matched,202,"Have you EVER been excluded, deported, or removed from the United States or have you ever departed the United States on your own after having been ordered excluded, deported, or removed from the United States?",,
+Not Matched,203,Have you EVER entered the United States without being inspected and admitted or paroled?,,
+Not Matched,204,"For more than 180 days but less than a year, and then departed the United States?",,
+Not Matched,205,For one year or more and then departed the United States?,,
+Not Matched,206,Having been unlawfully present in the United States for more than one year in the aggregate?,,
+Not Matched,207,"Having been deported, excluded, or removed from the United States?",,
+Not Matched,208,Do you plan to practice polygamy in the United States?,,
+Not Matched,209,"Are you accompanying another foreign national who requires your protection or guardianship but who is inadmissible after being certified by a medical officer as being helpless from sickness, physical or mental disability, or infancy, as described in INA section 232(c)?",,
+Not Matched,210,"Have you EVER voted in violation of any Federal, state, or local constitutional provision, statute, ordinance, or regulation in the United States?",,
+Not Matched,211,"Have you EVER voted in violation of any Federal, state, or local constitutional provision, statute, ordinance, or regulation in the United States?",,
+Not Matched,212,Have you EVER renounced U.S. citizenship to avoid being taxed by the United States?,,
+Not Matched,213,Applied for exemption or discharge from training or service in the U.S. armed forces or in the U.S. National Security Training Corps on the ground that you are a foreign national?,,
+Not Matched,214,Been relieved or discharged from such training or service on the ground that you are a foreign national?,,
+Not Matched,215,Been convicted of desertion from the U.S. armed forces?,,
+Not Matched,216,Have you EVER left or remained outside the United States to avoid or evade training or service in the U.S. armed forces in time of war or a period declared by the President to be a national emergency?,,
+Not Matched,217,"If your answer to Item Number 86.a. is “Yes,” what was your nationality or immigration status immediately before you left (for example, U.S. citizen or national, lawful permanent resident, nonimmigrant, parolee, present without admission or parole, or any other status)?",,
