@@ -1,0 +1,217 @@
+<context>
+
+## 🔍 Overview
+
+This system enables immigration law firms or legal admins to extract, analyze, and populate U.S. immigration forms (PDFs) using reusable user data. The tool automatically reads field metadata from government-issued PDF forms (e.g., I-485), stores field schemas in a central MongoDB database, and allows React forms to collect user data once and reuse it across multiple forms and versions. This removes the need for redundant entry of names, addresses, and other personal data.
+
+**Target Users**: Legal staff and form preparers (admin access), typically a team of 5–10 users.
+
+**Problem Solved**:
+
+* Reduces manual data entry across forms
+* Detects changes in government form versions
+* Auto-generates user-facing data entry forms that dynamically update based on prior data
+* Canonicalizes and reuses core data like names, DOBs, addresses across form fields
+
+---
+
+## 🚀 Core Features
+
+### 1. **PDF Upload & Metadata Extraction**
+
+* Extract all fillable field metadata (tooltips, field names, tab order, positions)
+* Normalize field labels (e.g., convert "Pt1Line1a" → "1a")
+* Store form field schemas in MongoDB under form type + version
+
+### 2. **Canonical Field Registry**
+
+* Maintain a master list of reusable fields (e.g., `given_name`, `date_of_birth`)
+* Map each canonical field to:
+
+  * One or more forms
+  * One or more locations within each form
+* Track aliases, field repetition, and label variants
+
+### 3. **Form Schema Versioning**
+
+* Store each form’s field schema by version (e.g., `i-485_v2024`)
+* Track field layout, mappings, and updated fields between versions
+
+### 4. **Client Profile & Data Store**
+
+* Clients can input data once and reuse it across forms
+* Repeatable sections (e.g., multiple siblings, jobs, entries) supported
+* Support partial saves; resume later with only blank fields showing
+
+### 5. **React Form Generation**
+
+* React forms are auto-generated based on canonical schema
+* UI allows editing of incomplete fields only, with pre-filled fields shown to the right
+* Delivered via Jira Forge for integration with issue workflows
+
+### 6. **Admin Review & Schema Approval**
+
+* Admins review extracted field metadata post-upload
+* Option to approve and convert to versioned schema
+* Store mapping status and notes per field if needed
+
+---
+
+## 🧑‍💼 User Experience
+
+### 👤 User Personas
+
+* **Admin Staff**: Uploads PDFs, reviews extracted fields, manages mappings
+* **Data Entry User**: Enters personal information once, applies it to many forms
+
+### 🛍️ Key Flows
+
+#### Admin
+
+1. Upload a new form (PDF)
+2. View and approve extracted field metadata
+3. Map fields to canonical schema (UI support optional in MVP)
+4. Save schema as new version
+
+#### Client
+
+1. Fill out a profile form (e.g., basic info, address, job history)
+2. Select a form to populate
+3. System autofills fields; client reviews and edits only remaining ones
+4. Download or submit completed PDF
+
+### 🧠 UI/UX Considerations
+
+* Auto-collapse completed sections
+* Highlight required and blank fields
+* Provide diff view if schema changes in a future version
+
+---
+
+## 🏗️ Technical Architecture
+
+### 📦 System Components
+
+* **Python Service**: Extracts PDF field metadata
+* **MongoDB Atlas**: Stores all form schemas, mappings, and client data
+* **React Frontend (Jira Forge)**: Auto-generated forms based on canonical schema
+* **Admin UI (optional)**: For field review and schema management
+
+### 🧬 Data Models (Simplified)
+
+```js
+// CanonicalField
+{
+  canonical_name: "given_name",
+  display_label: "Given Name",
+  data_type: "string",
+  form_mappings: [
+    { form: "i-485", version: "2023", pdf_id: "Pt1Line1a", label: "1. A. Given Name" },
+    { form: "i-130", version: "2024", pdf_id: "page2_q3", label: "3. First Name" }
+  ]
+}
+
+// FormSchema
+{
+  form_type: "i-485",
+  version: "2024",
+  fields: [
+    { pdf_id: "Pt1Line1a", tooltip: "Given Name", canonical_field: "given_name" },
+    ...
+  ]
+}
+
+// ClientEntry
+{
+  client_id: "abc123",
+  data: {
+    given_name: "Amy",
+    dob: "1990-01-01",
+    siblings: [{ name: "John", relationship: "Brother" }]
+  }
+}
+```
+
+### 🔗 APIs and Integrations
+
+* PDF extractor (Python, REST endpoint or CLI)
+* MongoDB CRUD for schema, canonical fields, client entries
+* React frontend: `GET /form-schema/i-485/2023`, `POST /client-entry`
+
+### 🏗️ Infrastructure Requirements
+
+* MongoDB Atlas (or self-hosted)
+* Flask or FastAPI backend for schema endpoints
+* React (Jira Forge App) for front-end
+
+---
+
+## 💠 Development Roadmap
+
+### ✅ Phase 1: MVP
+
+* Upload PDF + extract metadata
+* Store form field schemas in MongoDB
+* Build canonical registry and mapping structure
+* Store client data entry as JSON against canonical schema
+* Export mapped data to a flat JSON → use in filler script
+
+### ✅ Phase 2: Auto-Form Filler
+
+* Given a client’s data and a form schema, fill a new PDF
+* Handle multiple entries (e.g., siblings) via repeat groups
+* Support download of filled PDF
+
+### ✅ Phase 3: React UI + Jira Forge
+
+* Auto-generate forms from schema
+* Show pre-filled fields to the right, editable form on left
+* Allow partial save/resume later
+
+### 🚀 Phase 4: Admin UI for Mapping + Analytics
+
+* Visual tool to inspect PDF metadata → canonical field link
+* Track field changes between versions
+* Generate reports for unmapped fields or schema drift
+
+---
+
+## 📈 Logical Dependency Chain
+
+1. **PDF extraction + MongoDB schema storage**
+2. **Canonical field registry + mapping**
+3. **Form filler (script or service)**
+4. **Client data model + submission flow**
+5. **React UI (Jira Forge) using schema**
+6. **Admin tooling / schema audit**
+
+---
+
+## ⚠️ Risks and Mitigations
+
+| Risk                                    | Mitigation                                                           |
+| --------------------------------------- | -------------------------------------------------------------------- |
+| PDF metadata incomplete                 | Switch from `PyPDF2` to `pdfminer.six` or `pdfplumber`               |
+| Form versions break mappings            | Store all schemas as versioned docs; diff support later              |
+| Schema-mapping complexity               | Use normalized canonical fields and admin approval step              |
+| Auto-generated React UX friction        | Build progressive UI (only show unfilled fields); enhance over time  |
+| Mongo schema flexibility vs consistency | Define structure but allow nested + dynamic fields (with validation) |
+
+---
+
+## 📌 Appendix
+
+### Libraries / Tools
+
+* PDF Metadata: `PyPDF2`, `pdfplumber`, `pdfminer.six`
+* Database: MongoDB (Atlas preferred)
+* Frontend: React + Jira Forge
+* Form Renderer: [`react-jsonschema-form`](https://github.com/rjsf-team/react-jsonschema-form)
+
+### Future Enhancements
+
+* NLP field label matching
+* Field-level permissions
+* Per-client schema overrides (if needed for large orgs)
+
+</prd>

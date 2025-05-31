@@ -4,8 +4,9 @@
         "command": "npx",
         "args": ["-y", "--package=task-master-ai", "task-master-ai"],
         "env": {
-          "ANTHROPIC_API_KEY": "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",
-          "OPENAI_API_KEY": "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",
+          "ANTHROPIC_API_KEY": "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",
+          "PERPLEXITY_API_KEY": "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",
+          "OPENAI_API_KEY": "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",
           "GOOGLE_API_KEY": "AIzaSyC2Cc0_FfiIdd1yGcxf8izEWHIIqNLpl60",
           "MISTRAL_API_KEY": "EnzIaBjtzlH3B0HNaIEleCDtvW8TSep6"
         }
