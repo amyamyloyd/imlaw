@@ -1,31 +1,40 @@
-from fastapi import FastAPI, UploadFile, File
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import uvicorn
-from config.database import Database
-from routes.pdf_metadata_routes import router as pdf_metadata_router
+from .routes import (
+    pdf_metadata_routes,
+    canonical_field_routes,
+    field_mapping_routes,
+    form_schema_routes,
+    client_entry_routes
+)
+from .db.indexes import create_indexes
 
 app = FastAPI(
-    title="ImLaw API",
-    description="API for immigration law document management system",
+    title="Immigration Forms API",
+    description="API for managing immigration form schemas and field mappings",
     version="1.0.0"
 )
 
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # React frontend
+    allow_origins=["*"],  # In production, replace with specific origins
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"],
+    allow_headers=["*"]
 )
 
-# Initialize database connection
+# Include routers
+app.include_router(pdf_metadata_routes.router)
+app.include_router(canonical_field_routes.router)
+app.include_router(field_mapping_routes.router)
+app.include_router(form_schema_routes.router)
+app.include_router(client_entry_routes.router)
+
 @app.on_event("startup")
 async def startup_event():
-    Database.initialize()
-
-# Include routers
-app.include_router(pdf_metadata_router)
+    """Initialize database indexes and validation rules"""
+    await create_indexes()
 
 @app.get("/")
 async def root():

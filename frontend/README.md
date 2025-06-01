@@ -1,54 +1,101 @@
-# React + TypeScript + Vite
+# ImLaw Admin Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the administrative interface for the ImLaw application, built with React, TypeScript, and Material-UI.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Canonical Field Registry Management
+- Form Field Mapping Interface
+- Validation Rule Configuration
+- Usage Statistics Viewing
+- Material-UI Based Design
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Node.js (v18 or later)
+- npm (v9 or later)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Setup
+
+1. Install dependencies:
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. Create a `.env` file in the root directory with the following content:
+```env
+VITE_API_BASE_URL=http://localhost:8000  # Update with your backend API URL
 ```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+## Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+The build output will be in the `dist` directory.
+
+## Development
+
+### Project Structure
+
+```
+frontend/
+├── docs/               # Documentation
+├── src/               # Source code
+│   ├── components/    # Reusable components
+│   ├── pages/         # Page components
+│   ├── types/         # TypeScript interfaces
+│   ├── App.tsx        # Main application component
+│   └── main.tsx       # Application entry point
+├── public/            # Static assets
+└── package.json       # Project configuration
+```
+
+### Key Technologies
+
+- React 18
+- TypeScript
+- Material-UI
+- React Router
+- Vite
+
+### Documentation
+
+- [Admin UI Components](docs/admin-ui-components.md)
+
+## Testing
+
+Run the test suite:
+
+```bash
+npm run test
+```
+
+## Linting
+
+Run ESLint:
+
+```bash
+npm run lint
+```
+
+## Contributing
+
+1. Create a feature branch
+2. Make your changes
+3. Run tests and linting
+4. Submit a pull request
+
+## License
+
+This project is proprietary and confidential.

@@ -1,4 +1,5 @@
 from ..config.database import Database
+from ..models.canonical_field_collection import CanonicalFieldCollection
 
 def create_indexes():
     """Create indexes for all collections"""
@@ -31,12 +32,19 @@ def create_indexes():
     ], name="field_id_lookup")
     
     # Canonical Fields Collection
-    db.canonical_fields.create_index("field_name", unique=True, name="unique_field_name")
-    db.canonical_fields.create_index("category")
-    db.canonical_fields.create_index([
-        ("form_mappings.form_type", 1),
-        ("form_mappings.form_version", 1)
-    ], name="form_mappings")
+    canonical_fields = CanonicalFieldCollection()
+    
+    # Create indexes
+    for index in canonical_fields.indexes:
+        db[canonical_fields.name].create_index(**index)
+    
+    # Apply validation rules
+    db.command({
+        "collMod": canonical_fields.name,
+        "validator": canonical_fields.validation,
+        "validationLevel": "strict",
+        "validationAction": "error"
+    })
     
     # Client Entries Collection
     db.client_entries.create_index("client_id", unique=True, name="unique_client_id")
