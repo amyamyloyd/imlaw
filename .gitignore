@@ -69,3 +69,9 @@ tasks.json
 tasks/ 
 
 tm_commands.txt
+
+# Added by Claude Task Master
+# Dependency directories
+.idea
+.vscode
+# OS specific

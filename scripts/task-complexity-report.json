@@ -1,93 +1,133 @@
 {
   "meta": {
-    "generatedAt": "2025-05-31T16:13:40.884Z",
-    "tasksAnalyzed": 10,
-    "totalTasks": 10,
-    "analysisCount": 10,
+    "generatedAt": "2025-06-01T12:57:50.156Z",
+    "tasksAnalyzed": 1,
+    "totalTasks": 15,
+    "analysisCount": 15,
     "thresholdScore": 5,
     "projectName": "Taskmaster",
-    "usedResearch": false
+    "usedResearch": true
   },
   "complexityAnalysis": [
     {
       "taskId": 1,
-      "taskTitle": "PDF Metadata Extraction Service",
-      "complexityScore": 6,
-      "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down the PDF Metadata Extraction Service into subtasks covering: 1) Project setup and environment configuration, 2) Core PDF field extraction implementation, 3) Field normalization logic, 4) REST API development, and 5) Performance optimization and caching.",
-      "reasoning": "This task involves PDF parsing libraries, metadata extraction, field normalization algorithms, and API development. It's moderately complex due to potential PDF format variations and the need for robust error handling. The task already has well-defined subtasks covering the key components."
+      "taskTitle": "Setup Project Repository and Initial Structure",
+      "complexityScore": 5,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Break down the setup into subtasks for backend repo initialization, frontend repo initialization, shared types setup, linting configuration (backend/frontend), CI/CD pipeline setup, and documentation (README).",
+      "reasoning": "This task involves multiple standard setup steps across backend and frontend, but each is well-understood and follows best practices. Complexity is moderate due to coordination and tooling setup."
     },
     {
       "taskId": 2,
-      "taskTitle": "MongoDB Schema Design and Setup",
-      "complexityScore": 7,
+      "taskTitle": "Configure MongoDB Atlas and Database Schemas",
+      "complexityScore": 6,
       "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down the MongoDB Schema Design and Setup task into subtasks covering: 1) MongoDB Atlas cluster setup and configuration, 2) Canonical fields collection implementation, 3) Form schemas collection implementation, 4) Client entries collection implementation, and 5) Database access layer with CRUD operations.",
-      "reasoning": "This task involves designing complex, interconnected schemas with nested structures, versioning support, and proper indexing. It requires careful consideration of data relationships, query patterns, and schema validation. The MongoDB Atlas setup adds additional complexity for configuration and security."
+      "expansionPrompt": "Expand into subtasks for MongoDB Atlas cluster setup, connection configuration, schema definition for each collection, index creation, and CRUD operation validation.",
+      "reasoning": "Requires cloud setup, schema design, and validation logic. Slightly higher complexity due to integration and schema/index considerations."
     },
     {
       "taskId": 3,
-      "taskTitle": "Form Schema Storage API",
-      "complexityScore": 6,
-      "recommendedSubtasks": 4,
-      "expansionPrompt": "Break down the Form Schema Storage API task into subtasks covering: 1) API endpoint implementation for form schema creation, 2) Versioning logic and conflict handling, 3) Form schema retrieval endpoints with filtering capabilities, and 4) Integration with the PDF extraction service.",
-      "reasoning": "This task requires implementing RESTful endpoints with proper validation, versioning logic, and MongoDB integration. The complexity comes from handling schema versioning, ensuring data integrity, and providing efficient query capabilities. It has dependencies on both the PDF extraction service and MongoDB setup."
-    },
-    {
-      "taskId": 4,
-      "taskTitle": "Canonical Field Registry Implementation",
-      "complexityScore": 8,
-      "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down the Canonical Field Registry Implementation into subtasks covering: 1) Core canonical field data model and storage, 2) Field mapping system between form fields and canonical fields, 3) API endpoints for managing canonical fields, 4) Field suggestion algorithm based on patterns and names, and 5) Integration with form schemas.",
-      "reasoning": "This is one of the most complex tasks as it's the central mapping system connecting different forms and versions. It requires sophisticated matching algorithms, handling field variants and aliases, and maintaining relationships between canonical fields and their various representations across forms. The suggestion algorithm adds significant complexity."
+      "taskTitle": "Implement PDF Metadata Extraction Service",
+      "complexityScore": 7,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Decompose into subtasks for library evaluation, PDF parsing logic, metadata extraction, field normalization, output formatting, and optional REST/CLI interface.",
+      "reasoning": "Involves non-trivial PDF parsing, data normalization, and possibly exposing as a service. Complexity is increased by the need for robust extraction and normalization."
     },
     {
       "taskId": 5,
-      "taskTitle": "Client Data Model and Storage",
+      "taskTitle": "Build Canonical Field Registry and Mapping",
       "complexityScore": 7,
-      "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down the Client Data Model and Storage task into subtasks covering: 1) Client data schema implementation, 2) API endpoints for client data CRUD operations, 3) Support for partial updates and nested fields, 4) Handling of repeatable sections (arrays), and 5) Form-specific data retrieval and formatting.",
-      "reasoning": "This task involves creating a flexible data model that can store varied client information mapped to canonical fields. The complexity comes from supporting partial updates, handling nested data structures, managing repeatable sections, and providing efficient retrieval for form filling. It has dependencies on both the MongoDB setup and canonical field registry."
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Expand into subtasks for registry schema design, CRUD endpoint implementation, mapping logic, persistence, query functionality, and testing.",
+      "reasoning": "Requires designing a flexible registry, implementing mapping logic, and exposing endpoints. Complexity is higher due to mapping and CRUD operations."
     },
     {
       "taskId": 6,
-      "taskTitle": "PDF Form Filler Service",
-      "complexityScore": 8,
+      "taskTitle": "Implement Form Schema Versioning and Diff",
+      "complexityScore": 7,
       "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down the PDF Form Filler Service into subtasks covering: 1) PDF template management system, 2) Field mapping between client data and PDF fields, 3) Implementation of PDF filling functionality, 4) Handling of repeatable sections and arrays, and 5) API endpoints for generating filled PDFs.",
-      "reasoning": "This task is highly complex due to the challenges of programmatically filling PDF forms with proper formatting. It requires handling various field types (text, checkboxes, radio buttons), managing repeatable sections, and ensuring proper positioning. PDF libraries can be temperamental, and government forms often have complex structures requiring special handling."
+      "expansionPrompt": "Break down into subtasks for version history storage, diff algorithm implementation, change tracking, admin review interface, and testing.",
+      "reasoning": "Involves implementing version control and diff logic, which can be complex depending on schema changes and review requirements."
     },
     {
       "taskId": 7,
-      "taskTitle": "React Form Generation System",
-      "complexityScore": 8,
-      "recommendedSubtasks": 6,
-      "expansionPrompt": "Break down the React Form Generation System into subtasks covering: 1) Form schema to JSON Schema conversion, 2) Dynamic UI generation with react-jsonschema-form, 3) Pre-filled field handling and display, 4) Form validation and error handling, 5) Partial save and resume functionality, and 6) Integration with backend APIs.",
-      "reasoning": "This task involves creating a complex React application that dynamically generates forms based on schemas. The complexity comes from converting between schema formats, handling pre-filled fields, implementing validation, supporting partial saves, and creating an intuitive UI. The dynamic nature of the forms and the need to handle various field types add significant complexity."
+      "taskTitle": "Design and Implement Client Data Model",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Decompose into subtasks for data model design, repeatable section support, partial save logic, CRUD operations, and testing.",
+      "reasoning": "Requires flexible data modeling and support for partial saves and repeatable sections, adding moderate complexity."
     },
     {
       "taskId": 8,
-      "taskTitle": "Jira Forge Integration",
-      "complexityScore": 7,
-      "recommendedSubtasks": 4,
-      "expansionPrompt": "Break down the Jira Forge Integration task into subtasks covering: 1) Forge app setup and configuration, 2) Authentication between Forge and backend API, 3) React form embedding within Jira, and 4) Integration with Jira workflows and issue data.",
-      "reasoning": "This task requires working with Atlassian's Forge platform, which has its own learning curve and constraints. The complexity comes from embedding the React form system within Jira, handling authentication between systems, and integrating with Jira workflows. The task depends on the React form generation system being completed first."
+      "taskTitle": "Build Backend API for Schema and Client Data",
+      "complexityScore": 8,
+      "recommendedSubtasks": 7,
+      "expansionPrompt": "Expand into subtasks for endpoint design, implementation for each resource, authentication/security, validation, integration with DB, automated testing, and documentation.",
+      "reasoning": "High complexity due to multiple endpoints, security, validation, and integration with several data models."
     },
     {
       "taskId": 9,
-      "taskTitle": "Admin Review and Schema Approval UI",
-      "complexityScore": 6,
-      "recommendedSubtasks": 4,
-      "expansionPrompt": "Break down the Admin Review and Schema Approval UI task into subtasks covering: 1) Form schema review interface, 2) Field mapping management UI, 3) Schema approval workflow implementation, and 4) Integration with canonical field registry.",
-      "reasoning": "This task involves creating an administrative interface for reviewing and approving form schemas. The complexity comes from implementing the field mapping UI, managing the approval workflow, and integrating with the canonical field registry. It's moderately complex but depends on several other components being completed first."
+      "taskTitle": "Implement PDF Form Filler Script/Service",
+      "complexityScore": 7,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Break down into subtasks for PDF library integration, field mapping logic, repeatable section handling, PDF generation, output validation, and error handling.",
+      "reasoning": "Requires accurate mapping and PDF manipulation, with added complexity for repeatable sections and output validation."
     },
     {
       "taskId": 10,
-      "taskTitle": "Analytics and Schema Versioning Diff Tool",
-      "complexityScore": 7,
+      "taskTitle": "Setup React Frontend Project for Jira Forge",
+      "complexityScore": 5,
       "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down the Analytics and Schema Versioning Diff Tool into subtasks covering: 1) Version comparison algorithm implementation, 2) Diff visualization UI, 3) Schema drift analysis and reporting, 4) Unmapped field reporting, and 5) Historical version browsing interface.",
-      "reasoning": "This task involves creating sophisticated diff algorithms to compare form schemas across versions and visualize the differences. The complexity comes from implementing the comparison logic, creating intuitive visualizations, and generating meaningful analytics. It requires a deep understanding of the schema structure and versioning system."
+      "expansionPrompt": "Expand into subtasks for project initialization, Forge UI kit integration, authentication setup, environment variable configuration, and build pipeline setup.",
+      "reasoning": "Standard frontend setup with additional integration for Jira Forge, making it moderately complex."
+    },
+    {
+      "taskId": 11,
+      "taskTitle": "Implement Auto-Generated React Forms from Schema",
+      "complexityScore": 8,
+      "recommendedSubtasks": 7,
+      "expansionPrompt": "Decompose into subtasks for schema fetching, form generation logic, UI layout (pre-filled/editable), data binding, partial save/resume, validation, and testing.",
+      "reasoning": "High complexity due to dynamic form generation, data binding, and partial save/resume logic."
+    },
+    {
+      "taskId": 12,
+      "taskTitle": "Implement Client Profile and Data Entry Flow",
+      "complexityScore": 7,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Break down into subtasks for profile form UI, data entry logic, form selection, auto-fill implementation, editing flow, and testing.",
+      "reasoning": "Requires reusable UI, data flow management, and auto-fill logic, adding to the complexity."
+    },
+    {
+      "taskId": 13,
+      "taskTitle": "Build Admin UI for Schema Review and Approval",
+      "complexityScore": 7,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Expand into subtasks for admin panel UI, metadata fetching, approval workflow, mapping interface, status persistence, and notes handling.",
+      "reasoning": "Admin workflows and mapping interfaces require careful UI and state management, increasing complexity."
+    },
+    {
+      "taskId": 14,
+      "taskTitle": "Implement Download/Submit Completed PDF Flow",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Decompose into subtasks for frontend-backend integration, download button UI, PDF retrieval logic, submission workflow, and validation.",
+      "reasoning": "Moderate complexity due to integration and ensuring PDF content matches user input."
+    },
+    {
+      "taskId": 15,
+      "taskTitle": "Add Analytics and Reporting for Schema Drift",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Expand into subtasks for analytics dashboard UI, unmapped field tracking, schema drift detection, report generation, and validation.",
+      "reasoning": "Requires analytics logic and reporting UI, but is less complex than core data or API tasks."
+    },
+    {
+      "taskId": 4,
+      "taskTitle": "Store Form Field Schemas in MongoDB",
+      "complexityScore": 6,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Break down the 'Store Form Field Schemas in MongoDB' task into subtasks covering: 1) Schema design with versioning, 2) MongoDB collection setup with validation, 3) Service implementation for schema storage, 4) Version management implementation, and 5) Testing and validation",
+      "reasoning": "This task involves implementing schema versioning in MongoDB which requires careful design. The complexity comes from handling versioning properly, ensuring proper schema validation, and implementing retrieval mechanisms. The task requires knowledge of MongoDB schema versioning patterns, document design, and database operations. The dependencies on tasks 2 and 3 suggest integration with existing components."
     }
   ]
 }

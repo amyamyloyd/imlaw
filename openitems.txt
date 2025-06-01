@@ -1,0 +1,41 @@
+Special Field Types to Implement:
+
+1. A-Number Fields
+   - Individual character boxes (AlienNumber[0] through AlienNumber[23])
+   - Full text fields (Pt1Line4_AlienNumber[0], etc.)
+   - Special formatting requirements (A123456789)
+
+2. Yes/No Selection Fields
+   - Radio button/checkbox fields
+   - Examples: Pt1Line3_YN[0], Pt1Line3_YN[1]
+   - Need to handle mutual exclusivity
+
+3. Gender Selection Fields
+   - Male/Female radio buttons
+   - Example: Pt1Line6_CB_Sex[0], Pt1Line6_CB_Sex[1]
+
+4. Multiple Choice Fields
+   - Marital Status (single, married, divorced, etc.)
+   - Race selections
+   - Eye color
+   - Hair color
+
+5. Date Fields
+   - Format requirements
+   - Example: Pt1Line3_DOB[0]
+
+6. Address Fields
+   - Multiple components (street, city, state, zip)
+   - Unit number handling
+   - In Care Of Name fields
+
+7. Checkbox Groups
+   - Multiple selection allowed
+   - Example: Race selection fields
+
+Next Steps:
+1. Implement basic text field writing for POC (DONE)
+2. Add field type detection
+3. Add special field handlers one type at a time
+4. Add validation for each field type
+5. Add error handling for invalid input 
