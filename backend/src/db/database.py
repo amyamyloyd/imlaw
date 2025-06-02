@@ -1,4 +1,4 @@
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, AsyncGenerator
 from motor.motor_asyncio import AsyncIOMotorClient, AsyncIOMotorDatabase, AsyncIOMotorCollection
 from pymongo.server_api import ServerApi
 import os
@@ -12,21 +12,25 @@ class Database:
     
     def __init__(self):
         """Initialize database connection"""
+        pass
+    
+    def _ensure_connection(self):
+        """Ensure database connection is established"""
         if Database._instance is None:
-            # Use the known working connection string
-            mongodb_url = "mongodb+srv://amyamylloyd:imlaw2020@cluster0.6jkf0yo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-            database_name = 'imlaw'
+            # Get connection string from environment
+            mongodb_url = os.getenv('MONGODB_URI')
+            if not mongodb_url:
+                raise ValueError("MONGODB_URI environment variable is required")
             
-            print(f"Initializing database connection...")
+            database_name = os.getenv('MONGODB_DB_NAME', 'imlaw')
             
             try:
                 # Create client with server API version 1
                 Database._client = AsyncIOMotorClient(
                     mongodb_url,
-                    server_api=ServerApi('1')  # Fixed parameter name and using ServerApi class
+                    server_api=ServerApi('1')
                 )
                 Database._instance = Database._client[database_name]
-                print(f"Successfully connected to database: {database_name}")
             except Exception as e:
                 print(f"Error connecting to MongoDB: {str(e)}")
                 raise
@@ -34,8 +38,7 @@ class Database:
     @property
     def db(self) -> AsyncIOMotorDatabase:
         """Get the database instance"""
-        if Database._instance is None:
-            raise RuntimeError("Database not initialized")
+        self._ensure_connection()
         return Database._instance
     
     def get_collection(self, name: str) -> AsyncIOMotorCollection:
@@ -56,4 +59,15 @@ class Database:
         if Database._client is not None:
             Database._client.close()
             Database._client = None
-            Database._instance = None 
+            Database._instance = None
+
+# Create a global database instance that initializes lazily
+db = Database()
+
+async def get_db() -> AsyncGenerator[Database, None]:
+    """FastAPI dependency for getting the database instance"""
+    db = Database()
+    try:
+        yield db
+    finally:
+        await db.close() 

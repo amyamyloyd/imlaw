@@ -1,11 +1,15 @@
+"""Schema migration service"""
 from typing import List, Dict, Any, Optional, Tuple
-from datetime import datetime
+from datetime import datetime, UTC
 from enum import Enum
 from pydantic import BaseModel
+from bson import ObjectId
 
-from db.database import Database
-from models.versioned_form_schema import VersionedFormSchema, SchemaVersion, FieldChange
-from services.versioned_schema_service import VersionedSchemaService
+from src.db.database import Database
+from src.models.versioned_form_schema import VersionedFormSchema, SchemaVersion, FieldChange
+from src.services.versioned_schema_service import VersionedSchemaService
+from src.models.form_schema import FormSchema, FormFieldDefinition
+from src.models.versioned_form_schema import VersionDiff, ChangeType
 
 class MigrationType(str, Enum):
     """Types of schema migrations"""
@@ -14,31 +18,29 @@ class MigrationType(str, Enum):
     MANUAL = "manual"      # Requires manual intervention
 
 class MigrationStrategy(BaseModel):
-    """Strategy for migrating between schema versions"""
-    migration_type: MigrationType
-    from_version: str
-    to_version: str
-    field_mappings: Dict[str, str] = {}  # old_field_id -> new_field_id
-    transformations: Dict[str, Dict[str, Any]] = {}  # field_id -> transformation rules
-    validation_rules: Dict[str, Dict[str, Any]] = {}  # field_id -> validation rules
+    """Strategy for migrating form data between schema versions"""
+    field_mappings: Dict[str, str]  # old_field_id -> new_field_id
+    value_transformations: Dict[str, Dict[str, Any]]  # field_id -> transformation rules
+    validation_updates: Dict[str, Dict[str, Any]]  # field_id -> new validation rules
 
 class SchemaMigrationService:
-    """Service for managing form schema migrations and compatibility"""
+    """Service for migrating form data between schema versions"""
     
-    def __init__(self, db: Database):
-        """Initialize with database connection"""
+    def __init__(self, db=None):
         self.db = db
-        self.schema_service = VersionedSchemaService(db)
-        self.migrations_collection = self.db.get_collection("schema_migrations")
-        self._ensure_indexes()
+        self.migration_strategies: Dict[str, Dict[str, MigrationStrategy]] = {}  # form_type -> {version_pair -> strategy}
+        if db:
+            self.migrations_collection = self.db.get_collection("schema_migrations")
+            self._ensure_indexes()
         
     def _ensure_indexes(self):
-        """Ensure required indexes exist"""
-        self.migrations_collection.create_index([
-            ("form_type", 1),
-            ("from_version", 1),
-            ("to_version", 1)
-        ], unique=True)
+        """Ensure required indexes exist in the database"""
+        if self.db:
+            self.migrations_collection.create_index([
+                ("form_type", 1),
+                ("from_version", 1),
+                ("to_version", 1)
+            ], unique=True)
         
     async def create_migration_strategy(
         self,
@@ -379,4 +381,121 @@ class SchemaMigrationService:
                 value = min(value, rules["maximum"])
             return value
             
+        return value 
+
+    def register_migration_strategy(self, form_type: str, from_version: str, to_version: str, strategy: MigrationStrategy) -> None:
+        """Register a migration strategy for a specific form type and version pair"""
+        if form_type not in self.migration_strategies:
+            self.migration_strategies[form_type] = {}
+        
+        version_pair = f"{from_version}->{to_version}"
+        self.migration_strategies[form_type][version_pair] = strategy
+        
+        if self.db:
+            # Store in database
+            self.migrations_collection.update_one(
+                {
+                    "form_type": form_type,
+                    "from_version": from_version,
+                    "to_version": to_version
+                },
+                {
+                    "$set": {
+                        "strategy": strategy.model_dump(),
+                        "updated_at": datetime.now(UTC)
+                    }
+                },
+                upsert=True
+            )
+    
+    def get_migration_strategy(self, form_type: str, from_version: str, to_version: str) -> Optional[MigrationStrategy]:
+        """Get the migration strategy for a specific form type and version pair"""
+        # First try in-memory cache
+        if form_type in self.migration_strategies:
+            version_pair = f"{from_version}->{to_version}"
+            if version_pair in self.migration_strategies[form_type]:
+                return self.migration_strategies[form_type][version_pair]
+        
+        # If not found and we have a db connection, try database
+        if self.db:
+            strategy_doc = self.migrations_collection.find_one({
+                "form_type": form_type,
+                "from_version": from_version,
+                "to_version": to_version
+            })
+            
+            if strategy_doc:
+                strategy = MigrationStrategy(**strategy_doc["strategy"])
+                # Cache in memory
+                if form_type not in self.migration_strategies:
+                    self.migration_strategies[form_type] = {}
+                version_pair = f"{from_version}->{to_version}"
+                self.migration_strategies[form_type][version_pair] = strategy
+                return strategy
+        
+        return None
+    
+    def migrate_form_data(self, form_type: str, from_version: str, to_version: str, form_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Migrate form data from one schema version to another"""
+        strategy = self.get_migration_strategy(form_type, from_version, to_version)
+        if not strategy:
+            # If no explicit strategy is found, try to generate one from version diff
+            strategy = self._generate_migration_strategy(form_type, from_version, to_version)
+        
+        if not strategy:
+            raise ValueError(f"No migration strategy found for {form_type} from version {from_version} to {to_version}")
+        
+        migrated_data = {}
+        
+        # Apply field mappings
+        for old_field_id, new_field_id in strategy.field_mappings.items():
+            if old_field_id in form_data:
+                migrated_data[new_field_id] = form_data[old_field_id]
+        
+        # Apply value transformations
+        for field_id, transformations in strategy.value_transformations.items():
+            if field_id in migrated_data:
+                value = migrated_data[field_id]
+                for transform_type, transform_rule in transformations.items():
+                    if transform_type == "format":
+                        value = self._apply_format_transformation(value, transform_rule)
+                    elif transform_type == "validation":
+                        value = self._apply_validation_transformation(value, transform_rule)
+                migrated_data[field_id] = value
+        
+        # Apply validation updates
+        for field_id, validation_rules in strategy.validation_updates.items():
+            if field_id in migrated_data:
+                value = migrated_data[field_id]
+                migrated_data[field_id] = self._apply_validation_transformation(value, validation_rules)
+        
+        return migrated_data
+    
+    def _generate_migration_strategy(self, form_type: str, from_version: str, to_version: str) -> Optional[MigrationStrategy]:
+        """Generate a migration strategy from version diff"""
+        # This would be implemented to analyze the version diff and generate a strategy
+        # For now, return None to indicate no automatic strategy available
+        return None
+    
+    def _apply_format_transformation(self, value: Any, transform_rule: Dict[str, Any]) -> Any:
+        """Apply format transformation to a field value"""
+        if transform_rule.get("type") == "date":
+            # Example: Convert date format
+            old_format = transform_rule.get("from_format", "%Y-%m-%d")
+            new_format = transform_rule.get("to_format", "%d/%m/%Y")
+            if isinstance(value, str):
+                try:
+                    date_obj = datetime.strptime(value, old_format)
+                    return date_obj.strftime(new_format)
+                except ValueError:
+                    return value
+        return value
+    
+    def _apply_validation_transformation(self, value: Any, transform_rule: Dict[str, Any]) -> Any:
+        """Apply validation transformation to a field value"""
+        if transform_rule.get("type") == "length":
+            # Example: Truncate value to max length
+            max_length = transform_rule.get("max_length")
+            if isinstance(value, str) and max_length and len(value) > max_length:
+                return value[:max_length]
         return value 

@@ -1,12 +1,14 @@
+"""Test PDF metadata API"""
 import pytest
 from fastapi.testclient import TestClient
 from datetime import datetime, timezone
 from copy import deepcopy
-from main import app
-from services.field_mapping_service import FieldMapping
-from services.version_control_service import FormVersion
+from src.main import app
+from src.services.field_mapping_service import FieldMapping
+from src.services.version_control_service import FormVersion
+from src.db.database import Database
 
-client = TestClient(app)
+# Remove global client instance and use fixture instead
 
 # Test data
 SAMPLE_FIELD_MAPPING = {
@@ -52,10 +54,36 @@ def sample_version():
     """Create a sample form version"""
     return deepcopy(SAMPLE_FORM_VERSION)
 
+@pytest.fixture
+def test_client(test_database):
+    """Create a test client"""
+    return TestClient(app)
+
+@pytest.fixture
+def test_form_data():
+    """Create test form data"""
+    return {
+        "form_type": "i485",
+        "version": "2024",
+        "fields": [
+            {
+                "id": "Pt1Line1a_FamilyName",
+                "label": "Family Name (Last Name)",
+                "type": "string",
+                "position": {
+                    "page": 1,
+                    "x": 100,
+                    "y": 100
+                },
+                "validation_rules": []
+            }
+        ]
+    }
+
 # Field Mapping Tests
-def test_create_field_mapping(sample_mapping):
+def test_create_field_mapping(test_client, sample_mapping):
     """Test creating a new field mapping"""
-    response = client.post("/api/pdf-metadata/mappings", json=sample_mapping)
+    response = test_client.post("/api/pdf-metadata/mappings", json=sample_mapping)
     assert response.status_code == 201
     assert isinstance(response.json(), str)  # Should return mapping ID
 
@@ -65,15 +93,15 @@ def test_create_invalid_field_mapping():
         "form_type": "i485",
         # Missing required fields
     }
-    response = client.post("/api/pdf-metadata/mappings", json=invalid_mapping)
+    response = test_client.post("/api/pdf-metadata/mappings", json=invalid_mapping)
     assert response.status_code == 400
 
 def test_get_form_mappings(sample_mapping):
     """Test retrieving mappings for a form version"""
     # First create a mapping
-    client.post("/api/pdf-metadata/mappings", json=sample_mapping)
+    test_client.post("/api/pdf-metadata/mappings", json=sample_mapping)
     
-    response = client.get(
+    response = test_client.get(
         f"/api/pdf-metadata/mappings/{sample_mapping['form_type']}/{sample_mapping['form_version']}"
     )
     assert response.status_code == 200
@@ -88,7 +116,7 @@ def test_bulk_create_mappings(sample_mapping):
         sample_mapping,
         {**sample_mapping, "field_id": "Pt1Line1b_GivenName", "canonical_name": "applicant.firstName"}
     ]
-    response = client.post("/api/pdf-metadata/mappings/bulk", json=mappings)
+    response = test_client.post("/api/pdf-metadata/mappings/bulk", json=mappings)
     assert response.status_code == 201
     mapping_ids = response.json()
     assert isinstance(mapping_ids, list)
@@ -97,7 +125,7 @@ def test_bulk_create_mappings(sample_mapping):
 def test_get_unmapped_fields(sample_mapping):
     """Test finding unmapped fields"""
     # First create a mapping
-    client.post("/api/pdf-metadata/mappings", json=sample_mapping)
+    test_client.post("/api/pdf-metadata/mappings", json=sample_mapping)
     
     field_ids = [
         sample_mapping["field_id"],  # This one is mapped
@@ -105,7 +133,7 @@ def test_get_unmapped_fields(sample_mapping):
         "Pt1Line1c_MiddleName"      # This one isn't
     ]
     
-    response = client.get(
+    response = test_client.get(
         f"/api/pdf-metadata/mappings/unmapped/{sample_mapping['form_type']}/{sample_mapping['form_version']}",
         params={"field_ids": field_ids}
     )
@@ -120,7 +148,7 @@ def test_get_unmapped_fields(sample_mapping):
 # Version Control Tests
 def test_create_form_version(sample_version):
     """Test creating a new form version"""
-    response = client.post("/api/pdf-metadata/versions", json=sample_version)
+    response = test_client.post("/api/pdf-metadata/versions", json=sample_version)
     assert response.status_code == 201
     assert isinstance(response.json(), str)  # Should return version ID
 
@@ -130,15 +158,15 @@ def test_create_invalid_form_version():
         "form_type": "i485",
         # Missing required fields
     }
-    response = client.post("/api/pdf-metadata/versions", json=invalid_version)
+    response = test_client.post("/api/pdf-metadata/versions", json=invalid_version)
     assert response.status_code == 400
 
 def test_list_form_versions(sample_version):
     """Test listing versions for a form type"""
     # First create a version
-    client.post("/api/pdf-metadata/versions", json=sample_version)
+    test_client.post("/api/pdf-metadata/versions", json=sample_version)
     
-    response = client.get(f"/api/pdf-metadata/versions/{sample_version['form_type']}")
+    response = test_client.get(f"/api/pdf-metadata/versions/{sample_version['form_type']}")
     assert response.status_code == 200
     versions = response.json()
     assert isinstance(versions, list)
@@ -148,9 +176,9 @@ def test_list_form_versions(sample_version):
 def test_get_active_version(sample_version):
     """Test getting the active version for a form type"""
     # First create an active version
-    client.post("/api/pdf-metadata/versions", json=sample_version)
+    test_client.post("/api/pdf-metadata/versions", json=sample_version)
     
-    response = client.get(f"/api/pdf-metadata/versions/{sample_version['form_type']}/active")
+    response = test_client.get(f"/api/pdf-metadata/versions/{sample_version['form_type']}/active")
     assert response.status_code == 200
     version = response.json()
     assert version["version"] == sample_version["version"]
@@ -159,9 +187,9 @@ def test_get_active_version(sample_version):
 def test_activate_form_version(sample_version):
     """Test activating a specific version"""
     # First create a version
-    client.post("/api/pdf-metadata/versions", json=sample_version)
+    test_client.post("/api/pdf-metadata/versions", json=sample_version)
     
-    response = client.post(
+    response = test_client.post(
         f"/api/pdf-metadata/versions/{sample_version['form_type']}/{sample_version['version']}/activate"
     )
     assert response.status_code == 200
@@ -170,21 +198,21 @@ def test_activate_form_version(sample_version):
 
 def test_activate_nonexistent_version():
     """Test activating a version that doesn't exist"""
-    response = client.post("/api/pdf-metadata/versions/i485/nonexistent/activate")
+    response = test_client.post("/api/pdf-metadata/versions/i485/nonexistent/activate")
     assert response.status_code == 404
 
 def test_compare_form_versions(sample_version):
     """Test comparing two versions"""
     # Create first version
-    client.post("/api/pdf-metadata/versions", json=sample_version)
+    test_client.post("/api/pdf-metadata/versions", json=sample_version)
     
     # Create second version with some changes
     version2 = deepcopy(sample_version)
     version2["version"] = "2024.1"
     version2["metadata"]["revision"] = "1.1"
-    client.post("/api/pdf-metadata/versions", json=version2)
+    test_client.post("/api/pdf-metadata/versions", json=version2)
     
-    response = client.get(
+    response = test_client.get(
         f"/api/pdf-metadata/versions/{sample_version['form_type']}/compare",
         params={
             "version1": sample_version["version"],
@@ -199,7 +227,7 @@ def test_compare_form_versions(sample_version):
 
 def test_compare_nonexistent_versions():
     """Test comparing versions that don't exist"""
-    response = client.get(
+    response = test_client.get(
         "/api/pdf-metadata/versions/i485/compare",
         params={"version1": "nonexistent1", "version2": "nonexistent2"}
     )
@@ -209,22 +237,22 @@ def test_compare_nonexistent_versions():
 def test_full_form_lifecycle(sample_version, sample_mapping):
     """Test the complete lifecycle of form version and field mapping management"""
     # 1. Create initial version
-    version_response = client.post("/api/pdf-metadata/versions", json=sample_version)
+    version_response = test_client.post("/api/pdf-metadata/versions", json=sample_version)
     assert version_response.status_code == 201
     
     # 2. Create field mappings
-    mapping_response = client.post("/api/pdf-metadata/mappings", json=sample_mapping)
+    mapping_response = test_client.post("/api/pdf-metadata/mappings", json=sample_mapping)
     assert mapping_response.status_code == 201
     
     # 3. Create updated version
     version2 = deepcopy(sample_version)
     version2["version"] = "2024.1"
     version2["metadata"]["revision"] = "1.1"
-    version2_response = client.post("/api/pdf-metadata/versions", json=version2)
+    version2_response = test_client.post("/api/pdf-metadata/versions", json=version2)
     assert version2_response.status_code == 201
     
     # 4. Compare versions
-    compare_response = client.get(
+    compare_response = test_client.get(
         f"/api/pdf-metadata/versions/{sample_version['form_type']}/compare",
         params={
             "version1": sample_version["version"],
@@ -236,22 +264,66 @@ def test_full_form_lifecycle(sample_version, sample_mapping):
     assert differences["metadata_changes"]["revision"]["type"] == "modified"
     
     # 5. Activate new version
-    activate_response = client.post(
+    activate_response = test_client.post(
         f"/api/pdf-metadata/versions/{version2['form_type']}/{version2['version']}/activate"
     )
     assert activate_response.status_code == 200
     
     # 6. Verify active version
-    active_response = client.get(f"/api/pdf-metadata/versions/{version2['form_type']}/active")
+    active_response = test_client.get(f"/api/pdf-metadata/versions/{version2['form_type']}/active")
     assert active_response.status_code == 200
     active_version = active_response.json()
     assert active_version["version"] == version2["version"]
     
     # 7. Check field mappings are preserved
-    mappings_response = client.get(
+    mappings_response = test_client.get(
         f"/api/pdf-metadata/mappings/{sample_mapping['form_type']}/{sample_mapping['form_version']}"
     )
     assert mappings_response.status_code == 200
     mappings = mappings_response.json()
     assert len(mappings) > 0
-    assert mappings[0]["field_id"] == sample_mapping["field_id"] 
+    assert mappings[0]["field_id"] == sample_mapping["field_id"]
+
+@pytest.mark.asyncio
+async def test_create_form_metadata(test_client, test_database, test_form_data):
+    """Test creating form metadata"""
+    response = test_client.post("/api/pdf-metadata", json=test_form_data)
+    assert response.status_code == 201
+    data = response.json()
+    assert data["form_type"] == test_form_data["form_type"]
+    assert data["version"] == test_form_data["version"]
+    assert len(data["fields"]) == len(test_form_data["fields"])
+
+@pytest.mark.asyncio
+async def test_get_form_metadata(test_client, test_database, test_form_data):
+    """Test getting form metadata"""
+    # First create the metadata
+    create_response = test_client.post("/api/pdf-metadata", json=test_form_data)
+    assert create_response.status_code == 201
+    
+    # Then get it
+    response = test_client.get(
+        f"/api/pdf-metadata/{test_form_data['form_type']}/{test_form_data['version']}"
+    )
+    assert response.status_code == 200
+    data = response.json()
+    assert data["form_type"] == test_form_data["form_type"]
+    assert data["version"] == test_form_data["version"]
+
+@pytest.mark.asyncio
+async def test_list_form_metadata(test_client, test_database, test_form_data):
+    """Test listing form metadata"""
+    # Create form metadata
+    create_response = test_client.post("/api/pdf-metadata", json=test_form_data)
+    assert create_response.status_code == 201
+    
+    # List all metadata
+    response = test_client.get("/api/pdf-metadata")
+    assert response.status_code == 200
+    data = response.json()
+    assert len(data) >= 1
+    assert any(
+        m["form_type"] == test_form_data["form_type"] and 
+        m["version"] == test_form_data["version"] 
+        for m in data
+    ) 

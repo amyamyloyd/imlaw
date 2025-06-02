@@ -33,9 +33,22 @@ Special Field Types to Implement:
    - Multiple selection allowed
    - Example: Race selection fields
 
+Template Management:
+- Current Development Approach:
+  - Using generalscripts directory for template storage
+  - Simplified access for testing and development
+  - Working templates (i485.pdf etc.) readily available
+- Final Implementation Plan:
+  - Implement template upload functionality
+  - Proper template storage and versioning
+  - Template validation on upload
+  - Template management interface
+  - Remove dependency on generalscripts location
+
 Next Steps:
 1. Implement basic text field writing for POC (DONE)
 2. Add field type detection
 3. Add special field handlers one type at a time
 4. Add validation for each field type
-5. Add error handling for invalid input 
+5. Add error handling for invalid input
+6. Implement template upload and management system 

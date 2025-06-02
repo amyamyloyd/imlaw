@@ -1,0 +1,18 @@
+{
+  "timestamp": "20250602_120823",
+  "total_fields": 1725,
+  "fields_needing_review": 480,
+  "domain_counts": {
+    "biographical": 979,
+    "employment": 253,
+    "medical": 228,
+    "immigration": 213,
+    "criminal": 213,
+    "office": 10
+  },
+  "field_type_counts": {
+    "Tx": 1031,
+    "Btn": 652,
+    "Ch": 42
+  }
+}

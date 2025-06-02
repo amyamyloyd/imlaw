@@ -1,0 +1,31 @@
+
+=== Field Analysis Summary ===
+
+Total Fields: 1725
+Fields Needing Review: 0 (0.0%)
+
+=== Persona Distribution ===
+  Persona  Count % of Total Fields
+applicant   1083             62.8%
+  unknown    539             31.2%
+ preparer    175             10.1%
+   family    174             10.1%
+
+=== Biographical Subcategory Distribution ===
+   Subcategory  Count % of Total Fields
+       unknown    733             42.5%
+  contact_info    614             35.6%
+ core_identity    405             23.5%
+   family_info    156              9.0%
+marital_status    104              6.0%
+     education      9              0.5%
+
+=== Domain Distribution ===
+      Domain  Count % of Total Fields
+biographical    701             40.6%
+     unknown    531             30.8%
+  employment    251             14.6%
+      office    233             13.5%
+     medical    232             13.4%
+ immigration    190             11.0%
+    criminal     91              5.3%

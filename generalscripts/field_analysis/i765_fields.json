@@ -1,0 +1,6288 @@
+{
+  "form_type": "i765",
+  "total_fields": 177,
+  "extraction_date": "2025-06-01T17:10:28.589921",
+  "fields": {
+    "PDF417BarCode1[0]": {
+      "field_type": "/Tx",
+      "value": "I-765|04/01/24|7",
+      "default_value": "I-765|04/01/24|7",
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 4097,
+      "page": 1,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": true,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line1a_FamilyName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388609,
+      "page": 1,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line1b_GivenName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388609,
+      "page": 1,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line1c_MiddleName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388609,
+      "page": 1,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Part1_Checkbox[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 1
+    },
+    "Part1_Checkbox[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 1
+    },
+    "Part1_Checkbox[2]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 1
+    },
+    "CheckBox1[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 1
+    },
+    "Line2a_FamilyName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 1,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line2b_GivenName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 1,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line2c_MiddleName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 1,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line3c_MiddleName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 1,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line3b_GivenName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 1,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line3a_FamilyName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 1,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line3a_FamilyName[1]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 1,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line3b_GivenName[1]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 1,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line3c_MiddleName[1]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 1,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "USCISELISAcctNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 25165824,
+      "page": 1,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Part2Line5_Checkbox[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Part2Line5_Checkbox[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Pt2Line7_Unit[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Pt2Line7_Unit[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Pt2Line7_AptSteFlrNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Pt2Line7_Unit[2]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Pt2Line7_CityOrTown[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Pt2Line7_State[0]": {
+      "field_type": "/Ch",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 67239936,
+      "page": 2,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": true,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt2Line7_ZipCode[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Pt2Line7_StreetNumberName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 2,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line14_Checkbox_No[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line14_Checkbox_Yes[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line7_AlienNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 25165825,
+      "page": 2,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line8_ElisAccountNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 25165824,
+      "page": 2,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line9_Checkbox[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line9_Checkbox[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line10_Checkbox[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line10_Checkbox[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line10_Checkbox[2]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line10_Checkbox[3]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line19_Checkbox[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line19_Checkbox[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line15a_FamilyName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 2,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line15b_GivenName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 2,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line16a_FamilyName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 2,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line16b_GivenName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 2,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line17b_CountryOfBirth[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 2,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line17a_CountryOfBirth[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 2,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line13_Checkbox[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line13_Checkbox[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line12b_SSN[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 25165824,
+      "page": 2,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt2Line5_Unit[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Pt2Line5_Unit[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Pt2Line5_AptSteFlrNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 1,
+      "page": 2,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt2Line5_Unit[2]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Pt2Line5_CityOrTown[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Pt2Line5_State[0]": {
+      "field_type": "/Ch",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 67239936,
+      "page": 2,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": true,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt2Line5_ZipCode[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line4b_StreetNumberName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 2,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line4a_InCareofName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line12a_Checkbox[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line12a_Checkbox[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 2
+    },
+    "Line20c_TravelDoc[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line21_DateOfLastEntry[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line20e_ExpDate[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line20d_CountryOfIssuance[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line20b_Passport[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line23_StatusLastEntry[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line24_CurrentStatus[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line26_SEVISnumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line27b_Everify[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line27c_EverifyIDNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "PtLine29_YesNo[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 3
+    },
+    "PtLine29_YesNo[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 3
+    },
+    "Line30a_ReceiptNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 25165824,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line28_ReceiptNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 25165824,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line27a_Degree[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line20a_I94Number[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 25165824,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line19_DOB[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line18c_CountryOfBirth[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line18a_CityTownOfBirth[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Line18b_CityTownOfBirth[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "section_1[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "section_2[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "section_3[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "PtLine30b_YesNo[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 3
+    },
+    "PtLine30b_YesNo[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 3
+    },
+    "place_entry[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 3,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt3Line1Checkbox[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 4
+    },
+    "Pt3Line1Checkbox[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 4
+    },
+    "Pt3Line1b_Language[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388609,
+      "page": 4,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Part3_Checkbox[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 4
+    },
+    "Pt3Line2_RepresentativeName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388609,
+      "page": 4,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt3Line7b_DateofSignature[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 4,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt3Line7a_Signature[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 1,
+      "page": 4,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt3Line3_DaytimePhoneNumber1[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 4
+    },
+    "Pt3Line4_MobileNumber1[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 4
+    },
+    "Pt3Line5_Email[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 4,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt4Line6_Checkbox[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 4
+    },
+    "Pt4Line2_InterpreterBusinessorOrg[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 4,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt4Line1b_InterpreterGivenName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 4,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt4Line1a_InterpreterFamilyName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 4,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt4Line4_InterpreterDaytimeTelephone[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt4Line6_Email[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt4Line5_MobileNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Part4_NameofLanguage[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt5Line1b_PreparerGivenName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt5Line2_BusinessName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt5Line1a_PreparerFamilyName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line3c_CityOrTown[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line3a_StreetNumberName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line3b_Unit[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 5
+    },
+    "Pt6Line3b_Unit[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 5
+    },
+    "Pt6Line3b_AptSteFlrNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 1,
+      "page": 5,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line3b_Unit[2]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 5
+    },
+    "Pt6Line3g_PostalCode[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 5
+    },
+    "Pt6Line3e_ZipCode[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line3d_State[0]": {
+      "field_type": "/Ch",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 67239936,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": true,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line3h_Country[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line3f_Province[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 5
+    },
+    "Pt5Line5_PreparerFaxNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 5
+    },
+    "Pt5Line4_DaytimePhoneNumber1[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 5
+    },
+    "Pt5Line6_Email[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt5Line3c_CityOrTown[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt5Line3a_StreetNumberName[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt5Line3b_Unit[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 5
+    },
+    "Pt5Line3b_Unit[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 5
+    },
+    "Pt5Line3b_AptSteFlrNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 1,
+      "page": 5,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt5Line3b_Unit[2]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 5
+    },
+    "Pt5Line3g_PostalCode[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 5
+    },
+    "Pt5Line3e_ZipCode[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 5
+    },
+    "Pt5Line3d_State[0]": {
+      "field_type": "/Ch",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 67239936,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": true,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt5Line3h_Country[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt5Line3f_Province[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt4Line6b_DateofSignature[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 5,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt4Line6a_Signature[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 1,
+      "page": 5,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Part5Line7_Checkbox[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 6
+    },
+    "Part5Line7_Checkbox[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 6
+    },
+    "Part5Line7b_Checkbox[0]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 6
+    },
+    "Part5Line7b_Checkbox[1]": {
+      "field_type": "/Btn",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 6
+    },
+    "Pt5Line8a_Signature[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 1,
+      "page": 6,
+      "field_flags": {
+        "readonly": true,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt5Line8b_DateofSignature[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 6,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line3a_PageNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 7
+    },
+    "Pt6Line3b_PartNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 7
+    },
+    "Pt6Line3c_ItemNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 7,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line4a_PageNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 7
+    },
+    "Pt6Line4b_PartNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 7
+    },
+    "Pt6Line4c_ItemNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 7,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line4d_AdditionalInfo[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8392704,
+      "page": 7,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": true,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line5a_PageNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 7
+    },
+    "Pt6Line5b_PartNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 7
+    },
+    "Pt6Line5c_ItemNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 7,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line5d_AdditionalInfo[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8392704,
+      "page": 7,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": true,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line6a_PageNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 7
+    },
+    "Pt6Line6b_PartNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 7
+    },
+    "Pt6Line6c_ItemNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 7,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line6d_AdditionalInfo[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8392704,
+      "page": 7,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": true,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line7a_PageNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 7
+    },
+    "Pt6Line7b_PartNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": 7
+    },
+    "Pt6Line7c_ItemNumber[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8388608,
+      "page": 7,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": false,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line7d_AdditionalInfo[0]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8392704,
+      "page": 7,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": true,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Pt6Line4d_AdditionalInfo[1]": {
+      "field_type": "/Tx",
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": 8392704,
+      "page": 7,
+      "field_flags": {
+        "readonly": false,
+        "required": false,
+        "multiline": true,
+        "password": false,
+        "radio": false,
+        "pushbutton": false,
+        "combo": false,
+        "edit": false,
+        "sort": false,
+        "multiselect": false
+      }
+    },
+    "Page1[0]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Page1[1]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Page1[2]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Page1[3]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Page1[4]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Page1[5]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Page1[6]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "#pageSet[0]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Page2[0]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Line18a_Receipt[0]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "#area[1]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Page3[0]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Page4[0]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Page5[0]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Page6[0]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "Page7[0]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    },
+    "form1[0]": {
+      "field_type": null,
+      "value": null,
+      "default_value": null,
+      "mapping_name": null,
+      "tooltip": null,
+      "max_length": null,
+      "flags": null,
+      "page": null
+    }
+  },
+  "ordered_fields": [
+    {
+      "name": "PDF417BarCode1[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": "I-765|04/01/24|7",
+        "default_value": "I-765|04/01/24|7",
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 4097,
+        "page": 1,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": true,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line1a_FamilyName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388609,
+        "page": 1,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line1b_GivenName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388609,
+        "page": 1,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line1c_MiddleName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388609,
+        "page": 1,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Part1_Checkbox[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 1
+      }
+    },
+    {
+      "name": "Part1_Checkbox[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 1
+      }
+    },
+    {
+      "name": "Part1_Checkbox[2]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 1
+      }
+    },
+    {
+      "name": "CheckBox1[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 1
+      }
+    },
+    {
+      "name": "Line2a_FamilyName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 1,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line2b_GivenName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 1,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line2c_MiddleName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 1,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line3c_MiddleName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 1,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line3b_GivenName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 1,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line3a_FamilyName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 1,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line3a_FamilyName[1]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 1,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line3b_GivenName[1]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 1,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line3c_MiddleName[1]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 1,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "USCISELISAcctNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 25165824,
+        "page": 1,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Part2Line5_Checkbox[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Part2Line5_Checkbox[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Pt2Line7_Unit[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Pt2Line7_Unit[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Pt2Line7_AptSteFlrNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Pt2Line7_Unit[2]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Pt2Line7_CityOrTown[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Pt2Line7_State[0]",
+      "data": {
+        "field_type": "/Ch",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 67239936,
+        "page": 2,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": true,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt2Line7_ZipCode[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Pt2Line7_StreetNumberName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 2,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line14_Checkbox_No[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line14_Checkbox_Yes[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line7_AlienNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 25165825,
+        "page": 2,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line8_ElisAccountNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 25165824,
+        "page": 2,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line9_Checkbox[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line9_Checkbox[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line10_Checkbox[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line10_Checkbox[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line10_Checkbox[2]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line10_Checkbox[3]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line19_Checkbox[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line19_Checkbox[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line15a_FamilyName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 2,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line15b_GivenName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 2,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line16a_FamilyName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 2,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line16b_GivenName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 2,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line17b_CountryOfBirth[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 2,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line17a_CountryOfBirth[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 2,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line13_Checkbox[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line13_Checkbox[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line12b_SSN[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 25165824,
+        "page": 2,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt2Line5_Unit[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Pt2Line5_Unit[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Pt2Line5_AptSteFlrNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 1,
+        "page": 2,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt2Line5_Unit[2]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Pt2Line5_CityOrTown[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Pt2Line5_State[0]",
+      "data": {
+        "field_type": "/Ch",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 67239936,
+        "page": 2,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": true,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt2Line5_ZipCode[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line4b_StreetNumberName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 2,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line4a_InCareofName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line12a_Checkbox[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line12a_Checkbox[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 2
+      }
+    },
+    {
+      "name": "Line20c_TravelDoc[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line21_DateOfLastEntry[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line20e_ExpDate[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line20d_CountryOfIssuance[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line20b_Passport[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line23_StatusLastEntry[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line24_CurrentStatus[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line26_SEVISnumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line27b_Everify[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line27c_EverifyIDNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "PtLine29_YesNo[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 3
+      }
+    },
+    {
+      "name": "PtLine29_YesNo[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 3
+      }
+    },
+    {
+      "name": "Line30a_ReceiptNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 25165824,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line28_ReceiptNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 25165824,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line27a_Degree[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line20a_I94Number[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 25165824,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line19_DOB[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line18c_CountryOfBirth[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line18a_CityTownOfBirth[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Line18b_CityTownOfBirth[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "section_1[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "section_2[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "section_3[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "PtLine30b_YesNo[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 3
+      }
+    },
+    {
+      "name": "PtLine30b_YesNo[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 3
+      }
+    },
+    {
+      "name": "place_entry[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 3,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt3Line1Checkbox[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 4
+      }
+    },
+    {
+      "name": "Pt3Line1Checkbox[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 4
+      }
+    },
+    {
+      "name": "Pt3Line1b_Language[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388609,
+        "page": 4,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Part3_Checkbox[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 4
+      }
+    },
+    {
+      "name": "Pt3Line2_RepresentativeName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388609,
+        "page": 4,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt3Line7b_DateofSignature[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 4,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt3Line7a_Signature[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 1,
+        "page": 4,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt3Line3_DaytimePhoneNumber1[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 4
+      }
+    },
+    {
+      "name": "Pt3Line4_MobileNumber1[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 4
+      }
+    },
+    {
+      "name": "Pt3Line5_Email[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 4,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt4Line6_Checkbox[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 4
+      }
+    },
+    {
+      "name": "Pt4Line2_InterpreterBusinessorOrg[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 4,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt4Line1b_InterpreterGivenName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 4,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt4Line1a_InterpreterFamilyName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 4,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt4Line4_InterpreterDaytimeTelephone[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt4Line6_Email[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt4Line5_MobileNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Part4_NameofLanguage[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt5Line1b_PreparerGivenName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt5Line2_BusinessName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt5Line1a_PreparerFamilyName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line3c_CityOrTown[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line3a_StreetNumberName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line3b_Unit[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 5
+      }
+    },
+    {
+      "name": "Pt6Line3b_Unit[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 5
+      }
+    },
+    {
+      "name": "Pt6Line3b_AptSteFlrNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 1,
+        "page": 5,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line3b_Unit[2]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 5
+      }
+    },
+    {
+      "name": "Pt6Line3g_PostalCode[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 5
+      }
+    },
+    {
+      "name": "Pt6Line3e_ZipCode[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line3d_State[0]",
+      "data": {
+        "field_type": "/Ch",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 67239936,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": true,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line3h_Country[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line3f_Province[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 5
+      }
+    },
+    {
+      "name": "Pt5Line5_PreparerFaxNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 5
+      }
+    },
+    {
+      "name": "Pt5Line4_DaytimePhoneNumber1[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 5
+      }
+    },
+    {
+      "name": "Pt5Line6_Email[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt5Line3c_CityOrTown[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt5Line3a_StreetNumberName[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt5Line3b_Unit[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 5
+      }
+    },
+    {
+      "name": "Pt5Line3b_Unit[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 5
+      }
+    },
+    {
+      "name": "Pt5Line3b_AptSteFlrNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 1,
+        "page": 5,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt5Line3b_Unit[2]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 5
+      }
+    },
+    {
+      "name": "Pt5Line3g_PostalCode[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 5
+      }
+    },
+    {
+      "name": "Pt5Line3e_ZipCode[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 5
+      }
+    },
+    {
+      "name": "Pt5Line3d_State[0]",
+      "data": {
+        "field_type": "/Ch",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 67239936,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": true,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt5Line3h_Country[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt5Line3f_Province[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt4Line6b_DateofSignature[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 5,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt4Line6a_Signature[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 1,
+        "page": 5,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Part5Line7_Checkbox[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 6
+      }
+    },
+    {
+      "name": "Part5Line7_Checkbox[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 6
+      }
+    },
+    {
+      "name": "Part5Line7b_Checkbox[0]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 6
+      }
+    },
+    {
+      "name": "Part5Line7b_Checkbox[1]",
+      "data": {
+        "field_type": "/Btn",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 6
+      }
+    },
+    {
+      "name": "Pt5Line8a_Signature[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 1,
+        "page": 6,
+        "field_flags": {
+          "readonly": true,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt5Line8b_DateofSignature[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 6,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line3a_PageNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 7
+      }
+    },
+    {
+      "name": "Pt6Line3b_PartNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 7
+      }
+    },
+    {
+      "name": "Pt6Line3c_ItemNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 7,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line4a_PageNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 7
+      }
+    },
+    {
+      "name": "Pt6Line4b_PartNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 7
+      }
+    },
+    {
+      "name": "Pt6Line4c_ItemNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 7,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line4d_AdditionalInfo[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8392704,
+        "page": 7,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": true,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line5a_PageNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 7
+      }
+    },
+    {
+      "name": "Pt6Line5b_PartNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 7
+      }
+    },
+    {
+      "name": "Pt6Line5c_ItemNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 7,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line5d_AdditionalInfo[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8392704,
+        "page": 7,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": true,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line6a_PageNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 7
+      }
+    },
+    {
+      "name": "Pt6Line6b_PartNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 7
+      }
+    },
+    {
+      "name": "Pt6Line6c_ItemNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 7,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line6d_AdditionalInfo[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8392704,
+        "page": 7,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": true,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line7a_PageNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 7
+      }
+    },
+    {
+      "name": "Pt6Line7b_PartNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": 7
+      }
+    },
+    {
+      "name": "Pt6Line7c_ItemNumber[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8388608,
+        "page": 7,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": false,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line7d_AdditionalInfo[0]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8392704,
+        "page": 7,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": true,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Pt6Line4d_AdditionalInfo[1]",
+      "data": {
+        "field_type": "/Tx",
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": 8392704,
+        "page": 7,
+        "field_flags": {
+          "readonly": false,
+          "required": false,
+          "multiline": true,
+          "password": false,
+          "radio": false,
+          "pushbutton": false,
+          "combo": false,
+          "edit": false,
+          "sort": false,
+          "multiselect": false
+        }
+      }
+    },
+    {
+      "name": "Page1[0]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Page1[1]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Page1[2]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Page1[3]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Page1[4]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Page1[5]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Page1[6]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "#pageSet[0]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Page2[0]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Line18a_Receipt[0]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "#area[1]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Page3[0]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Page4[0]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Page5[0]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Page6[0]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "Page7[0]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    },
+    {
+      "name": "form1[0]",
+      "data": {
+        "field_type": null,
+        "value": null,
+        "default_value": null,
+        "mapping_name": null,
+        "tooltip": null,
+        "max_length": null,
+        "flags": null,
+        "page": null
+      }
+    }
+  ]
+}

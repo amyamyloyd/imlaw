@@ -1,14 +1,17 @@
+"""PDF storage service"""
+import os
 from datetime import datetime, UTC
 from typing import Dict, List, Any, Optional
-
-from src.config.database import Database
+from src.db.database import Database
 from src.models.form_schema import FormSchema, FormFieldDefinition
 
 class PDFStorageService:
     """Service for storing PDF form field definitions and metadata in MongoDB"""
     
     def __init__(self):
-        self.db = Database.get_db()
+        database = Database()
+        self.db = database.db
+        self.form_schemas = self.db['form_schemas']
     
     def store_form_fields(
         self,
@@ -55,14 +58,14 @@ class PDFStorageService:
         )
         
         # Check if form version already exists
-        existing = self.db.form_schemas.find_one({
+        existing = self.form_schemas.find_one({
             "form_type": form_type,
             "version": version
         })
         
         if existing:
             # Update existing schema
-            self.db.form_schemas.update_one(
+            self.form_schemas.update_one(
                 {"_id": existing["_id"]},
                 {"$set": {
                     "fields": [f.model_dump() for f in field_definitions],
@@ -74,7 +77,7 @@ class PDFStorageService:
             return str(existing["_id"])
         else:
             # Insert new schema
-            result = self.db.form_schemas.insert_one(form_schema.model_dump())
+            result = self.form_schemas.insert_one(form_schema.model_dump())
             return str(result.inserted_id)
     
     def get_form_fields(self, form_type: str, version: str) -> Optional[Dict[str, Any]]:
@@ -88,7 +91,7 @@ class PDFStorageService:
         Returns:
             FormSchema document if found, None otherwise
         """
-        return self.db.form_schemas.find_one({
+        return self.form_schemas.find_one({
             "form_type": form_type,
             "version": version
         })
@@ -104,7 +107,7 @@ class PDFStorageService:
         Returns:
             True if deleted, False if not found
         """
-        result = self.db.form_schemas.delete_one({
+        result = self.form_schemas.delete_one({
             "form_type": form_type,
             "version": version
         })

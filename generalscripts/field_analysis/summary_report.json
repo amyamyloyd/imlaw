@@ -1,0 +1,26 @@
+{
+  "analysis_date": "2025-06-01T17:10:28.745041",
+  "forms_analyzed": 4,
+  "form_summaries": [
+    {
+      "form_type": "i485",
+      "total_fields": 739,
+      "extraction_date": "2025-06-01T17:10:28.416263"
+    },
+    {
+      "form_type": "i130",
+      "total_fields": 470,
+      "extraction_date": "2025-06-01T17:10:28.536710"
+    },
+    {
+      "form_type": "i765",
+      "total_fields": 177,
+      "extraction_date": "2025-06-01T17:10:28.589921"
+    },
+    {
+      "form_type": "i693",
+      "total_fields": 464,
+      "extraction_date": "2025-06-01T17:10:28.715065"
+    }
+  ]
+}

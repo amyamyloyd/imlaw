@@ -1,19 +1,23 @@
+"""PDF metadata service"""
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 from PyPDF2 import PdfReader
 from PyPDF2.generic import NameObject
 from bson import ObjectId
-from ..db.database import Database
-from .pdf_storage_service import PDFStorageService
-from .cache_service import CacheService
+from src.db.database import Database
+from src.services.pdf_storage_service import PDFStorageService
+from src.services.cache_service import CacheService
 import logging
 from pymongo import ASCENDING, DESCENDING
+from models.form_schema import FormSchema, FormFieldDefinition
+from pydantic import BaseModel, Field
 
 class PDFMetadataService:
     """Service for extracting and managing PDF form metadata"""
     
     def __init__(self):
-        self.db = Database.get_db()
+        database = Database()
+        self.db = database.db
         self.storage_service = PDFStorageService()
         self.cache_service = CacheService()
         self.forms_collection = self.db['forms']

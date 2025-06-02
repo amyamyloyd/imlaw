@@ -1,7 +1,7 @@
 from typing import Dict, Optional, List
 from datetime import datetime
 from pydantic import BaseModel, Field
-from database import Database
+from src.db.database import Database
 
 class FieldMapping(BaseModel):
     """Mapping between form-specific field IDs and canonical field names"""
@@ -18,7 +18,8 @@ class FieldMappingService:
     """Service for managing field name standardization and mapping"""
     
     def __init__(self):
-        self.db = Database.get_db()
+        database = Database()
+        self.db = database.db
         self.mappings_collection = self.db['field_mappings']
     
     async def create_mapping(self, mapping: FieldMapping) -> str:

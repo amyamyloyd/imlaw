@@ -1,3 +1,5 @@
+"""Models package"""
+
 from .form_schema import FormSchema, FormFieldDefinition
 from .canonical_field import CanonicalField, FormFieldMapping
 from .client_entry import ClientEntry, FormEntry

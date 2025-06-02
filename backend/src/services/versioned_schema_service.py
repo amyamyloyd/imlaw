@@ -1,11 +1,12 @@
+"""Versioned schema service"""
 from typing import List, Optional, Dict, Any, Tuple
 from datetime import datetime, timezone
 from pymongo.collection import Collection
 from pymongo.errors import DuplicateKeyError
 from bson.objectid import ObjectId
 
-from db.database import Database
-from models.versioned_form_schema import (
+from src.db.database import Database
+from src.models.versioned_form_schema import (
     VersionedFormSchema,
     SchemaVersion,
     VersionDiff,

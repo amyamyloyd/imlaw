@@ -1,0 +1,12 @@
+{
+  "timestamp": "20250602_121455",
+  "total_fields": 1725,
+  "fields_needing_review": 0,
+  "review_percentage": 0.0,
+  "output_files": {
+    "csv": "field_analysis_results_20250602_121455.csv",
+    "json": "field_analysis_results_20250602_121455.json",
+    "summary": "field_analysis_table_20250602_121455.txt",
+    "domain_analysis": "domain_analysis_table_20250602_121455.txt"
+  }
+}

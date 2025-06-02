@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generatedAt": "2025-06-01T12:57:50.156Z",
-    "tasksAnalyzed": 1,
+    "generatedAt": "2025-06-01T18:37:18.776Z",
+    "tasksAnalyzed": 9,
     "totalTasks": 15,
     "analysisCount": 15,
     "thresholdScore": 5,
@@ -42,14 +42,6 @@
       "reasoning": "Requires designing a flexible registry, implementing mapping logic, and exposing endpoints. Complexity is higher due to mapping and CRUD operations."
     },
     {
-      "taskId": 6,
-      "taskTitle": "Implement Form Schema Versioning and Diff",
-      "complexityScore": 7,
-      "recommendedSubtasks": 5,
-      "expansionPrompt": "Break down into subtasks for version history storage, diff algorithm implementation, change tracking, admin review interface, and testing.",
-      "reasoning": "Involves implementing version control and diff logic, which can be complex depending on schema changes and review requirements."
-    },
-    {
       "taskId": 7,
       "taskTitle": "Design and Implement Client Data Model",
       "complexityScore": 6,
@@ -58,76 +50,84 @@
       "reasoning": "Requires flexible data modeling and support for partial saves and repeatable sections, adding moderate complexity."
     },
     {
-      "taskId": 8,
-      "taskTitle": "Build Backend API for Schema and Client Data",
-      "complexityScore": 8,
-      "recommendedSubtasks": 7,
-      "expansionPrompt": "Expand into subtasks for endpoint design, implementation for each resource, authentication/security, validation, integration with DB, automated testing, and documentation.",
-      "reasoning": "High complexity due to multiple endpoints, security, validation, and integration with several data models."
-    },
-    {
-      "taskId": 9,
-      "taskTitle": "Implement PDF Form Filler Script/Service",
-      "complexityScore": 7,
-      "recommendedSubtasks": 6,
-      "expansionPrompt": "Break down into subtasks for PDF library integration, field mapping logic, repeatable section handling, PDF generation, output validation, and error handling.",
-      "reasoning": "Requires accurate mapping and PDF manipulation, with added complexity for repeatable sections and output validation."
-    },
-    {
-      "taskId": 10,
-      "taskTitle": "Setup React Frontend Project for Jira Forge",
-      "complexityScore": 5,
-      "recommendedSubtasks": 5,
-      "expansionPrompt": "Expand into subtasks for project initialization, Forge UI kit integration, authentication setup, environment variable configuration, and build pipeline setup.",
-      "reasoning": "Standard frontend setup with additional integration for Jira Forge, making it moderately complex."
-    },
-    {
-      "taskId": 11,
-      "taskTitle": "Implement Auto-Generated React Forms from Schema",
-      "complexityScore": 8,
-      "recommendedSubtasks": 7,
-      "expansionPrompt": "Decompose into subtasks for schema fetching, form generation logic, UI layout (pre-filled/editable), data binding, partial save/resume, validation, and testing.",
-      "reasoning": "High complexity due to dynamic form generation, data binding, and partial save/resume logic."
-    },
-    {
-      "taskId": 12,
-      "taskTitle": "Implement Client Profile and Data Entry Flow",
-      "complexityScore": 7,
-      "recommendedSubtasks": 6,
-      "expansionPrompt": "Break down into subtasks for profile form UI, data entry logic, form selection, auto-fill implementation, editing flow, and testing.",
-      "reasoning": "Requires reusable UI, data flow management, and auto-fill logic, adding to the complexity."
-    },
-    {
-      "taskId": 13,
-      "taskTitle": "Build Admin UI for Schema Review and Approval",
-      "complexityScore": 7,
-      "recommendedSubtasks": 6,
-      "expansionPrompt": "Expand into subtasks for admin panel UI, metadata fetching, approval workflow, mapping interface, status persistence, and notes handling.",
-      "reasoning": "Admin workflows and mapping interfaces require careful UI and state management, increasing complexity."
-    },
-    {
-      "taskId": 14,
-      "taskTitle": "Implement Download/Submit Completed PDF Flow",
-      "complexityScore": 6,
-      "recommendedSubtasks": 5,
-      "expansionPrompt": "Decompose into subtasks for frontend-backend integration, download button UI, PDF retrieval logic, submission workflow, and validation.",
-      "reasoning": "Moderate complexity due to integration and ensuring PDF content matches user input."
-    },
-    {
-      "taskId": 15,
-      "taskTitle": "Add Analytics and Reporting for Schema Drift",
-      "complexityScore": 6,
-      "recommendedSubtasks": 5,
-      "expansionPrompt": "Expand into subtasks for analytics dashboard UI, unmapped field tracking, schema drift detection, report generation, and validation.",
-      "reasoning": "Requires analytics logic and reporting UI, but is less complex than core data or API tasks."
-    },
-    {
       "taskId": 4,
       "taskTitle": "Store Form Field Schemas in MongoDB",
       "complexityScore": 6,
       "recommendedSubtasks": 5,
       "expansionPrompt": "Break down the 'Store Form Field Schemas in MongoDB' task into subtasks covering: 1) Schema design with versioning, 2) MongoDB collection setup with validation, 3) Service implementation for schema storage, 4) Version management implementation, and 5) Testing and validation",
       "reasoning": "This task involves implementing schema versioning in MongoDB which requires careful design. The complexity comes from handling versioning properly, ensuring proper schema validation, and implementing retrieval mechanisms. The task requires knowledge of MongoDB schema versioning patterns, document design, and database operations. The dependencies on tasks 2 and 3 suggest integration with existing components."
+    },
+    {
+      "taskId": 6,
+      "taskTitle": "Implement Form Schema Versioning and Diff",
+      "complexityScore": 9,
+      "recommendedSubtasks": 8,
+      "expansionPrompt": "Break down the remaining work into subtasks covering: version metadata management, active version switching, version comparison UI/logic, changelog storage, admin approval workflow, audit trail integration, user attribution, and error/edge case handling.",
+      "reasoning": "This task involves complex backend and frontend logic, including version history, diff algorithms, admin workflows, audit trails, and user attribution. It requires careful coordination between data storage, UI, and security, making it highly intricate and multifaceted."
+    },
+    {
+      "taskId": 8,
+      "taskTitle": "Build Backend API for Schema and Client Data",
+      "complexityScore": 8,
+      "recommendedSubtasks": 8,
+      "expansionPrompt": "Expand into subtasks for: endpoint design, authentication/security, resource CRUD implementation, input validation, database integration, automated testing, API documentation, and deployment/monitoring setup.",
+      "reasoning": "Building a secure, robust REST API with authentication, validation, and documentation is a substantial effort. It spans multiple concerns (security, data integrity, performance, and maintainability) and requires comprehensive testing and documentation."
+    },
+    {
+      "taskId": 9,
+      "taskTitle": "Implement PDF Form Filler Script/Service",
+      "complexityScore": 7,
+      "recommendedSubtasks": 7,
+      "expansionPrompt": "Expand into subtasks for: PDF library integration, field mapping logic, repeatable section handling, PDF output generation, output validation, error handling, and performance optimization.",
+      "reasoning": "PDF manipulation with dynamic data mapping and repeatable sections is moderately complex, especially when ensuring accuracy, handling edge cases, and maintaining output quality and error resilience."
+    },
+    {
+      "taskId": 10,
+      "taskTitle": "Setup React Frontend Project for Jira Forge",
+      "complexityScore": 4,
+      "recommendedSubtasks": 4,
+      "expansionPrompt": "Expand into subtasks for: project scaffolding, Forge UI kit integration, authentication setup, and environment/configuration management.",
+      "reasoning": "Project setup and integration with Jira Forge is straightforward but requires attention to configuration, authentication, and initial build pipeline setup."
+    },
+    {
+      "taskId": 11,
+      "taskTitle": "Implement Auto-Generated React Forms from Schema",
+      "complexityScore": 8,
+      "recommendedSubtasks": 8,
+      "expansionPrompt": "Expand into subtasks for: schema fetching, dynamic form generation, UI layout for pre-filled/editable fields, data binding, partial save/resume, validation logic, accessibility, and comprehensive testing.",
+      "reasoning": "Dynamic form generation from schema with advanced features like partial save/resume and validation is complex, requiring deep integration between backend, frontend, and state management."
+    },
+    {
+      "taskId": 12,
+      "taskTitle": "Implement Client Profile and Data Entry Flow",
+      "complexityScore": 7,
+      "recommendedSubtasks": 7,
+      "expansionPrompt": "Expand into subtasks for: profile form UI design, data entry logic, form selection mechanism, auto-fill implementation, editing flow, data persistence, and end-to-end testing.",
+      "reasoning": "Building a reusable, user-friendly profile and data entry flow with auto-fill and editing involves significant UI/UX and data management complexity."
+    },
+    {
+      "taskId": 13,
+      "taskTitle": "Build Admin UI for Schema Review and Approval",
+      "complexityScore": 7,
+      "recommendedSubtasks": 7,
+      "expansionPrompt": "Expand into subtasks for: admin panel UI design, metadata fetching, approval workflow, mapping interface, status persistence, notes handling, and audit logging.",
+      "reasoning": "Admin interfaces with approval workflows, mapping, and persistent state require careful design for usability, traceability, and reliability."
+    },
+    {
+      "taskId": 14,
+      "taskTitle": "Implement Download/Submit Completed PDF Flow",
+      "complexityScore": 5,
+      "recommendedSubtasks": 5,
+      "expansionPrompt": "Expand into subtasks for: frontend integration with PDF service, download button implementation, submission logic, error handling, and user feedback/UI states.",
+      "reasoning": "Integrating PDF download/submit features is moderately complex, involving frontend-backend coordination and user experience considerations."
+    },
+    {
+      "taskId": 15,
+      "taskTitle": "Add Analytics and Reporting for Schema Drift",
+      "complexityScore": 6,
+      "recommendedSubtasks": 6,
+      "expansionPrompt": "Expand into subtasks for: analytics dashboard UI, unmapped field tracking, schema drift detection logic, report generation, admin review interface, and testing/report validation.",
+      "reasoning": "Implementing analytics and reporting for schema drift requires backend logic for tracking changes, frontend dashboard development, and ensuring report accuracy."
     }
   ]
 }

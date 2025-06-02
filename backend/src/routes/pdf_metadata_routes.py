@@ -1,11 +1,14 @@
-from fastapi import APIRouter, UploadFile, File, HTTPException, Query, Body
+"""PDF metadata routes"""
+from fastapi import APIRouter, UploadFile, File, HTTPException, Query, Body, Path, Depends
 from typing import List, Optional, Dict, Any
 from pydantic import BaseModel
 from datetime import datetime
-from services.pdf_storage_service import PDFStorageService
-from services.pdf_metadata_service import PDFMetadataService
-from services.field_mapping_service import FieldMappingService, FieldMapping
-from services.version_control_service import VersionControlService, FormVersion
+from src.services.pdf_storage_service import PDFStorageService
+from src.services.pdf_metadata_service import PDFMetadataService
+from src.services.field_mapping_service import FieldMappingService, FieldMapping
+from src.services.version_control_service import VersionControlService, FormVersion
+from src.models.form_schema import FormSchema, FormFieldDefinition
+import logging
 
 router = APIRouter(
     prefix="/api/pdf-metadata",
@@ -16,11 +19,18 @@ router = APIRouter(
     }
 )
 
-# Initialize services
-metadata_service = PDFMetadataService()
-storage_service = PDFStorageService()
-mapping_service = FieldMappingService()
-version_service = VersionControlService()
+# Service dependencies
+def get_metadata_service():
+    return PDFMetadataService()
+
+def get_storage_service():
+    return PDFStorageService()
+
+def get_mapping_service():
+    return FieldMappingService()
+
+def get_version_service():
+    return VersionControlService()
 
 # Pydantic models for request/response
 class FieldDefinition(BaseModel):
@@ -78,7 +88,9 @@ EXAMPLE_FORM_VERSION = {
 @router.post("/forms/upload", response_model=FormMetadata)
 async def upload_form(
     file: UploadFile = File(...),
-    form_type: str = Query(..., description="Type of form being uploaded (e.g., i485, i130)")
+    form_type: str = Query(..., description="Type of form being uploaded (e.g., i485, i130)"),
+    metadata_service: PDFMetadataService = Depends(get_metadata_service),
+    storage_service: PDFStorageService = Depends(get_storage_service)
 ):
     """
     Upload a PDF form and extract its metadata and field definitions.
@@ -99,7 +111,8 @@ async def upload_form(
 async def list_forms(
     form_type: Optional[str] = None,
     page: int = Query(1, ge=1),
-    limit: int = Query(10, ge=1, le=100)
+    limit: int = Query(10, ge=1, le=100),
+    metadata_service: PDFMetadataService = Depends(get_metadata_service)
 ):
     """
     List all available form metadata, optionally filtered by form type.
@@ -112,7 +125,10 @@ async def list_forms(
         raise HTTPException(status_code=500, detail=str(e))
 
 @router.get("/forms/{form_id}", response_model=FormMetadata)
-async def get_form_metadata(form_id: str):
+async def get_form_metadata(
+    form_id: str,
+    metadata_service: PDFMetadataService = Depends(get_metadata_service)
+):
     """
     Get metadata and field definitions for a specific form.
     """
@@ -129,7 +145,8 @@ async def get_form_metadata(form_id: str):
 @router.get("/forms/{form_id}/fields", response_model=List[FieldDefinition])
 async def get_form_fields(
     form_id: str,
-    field_type: Optional[str] = None
+    field_type: Optional[str] = None,
+    metadata_service: PDFMetadataService = Depends(get_metadata_service)
 ):
     """
     Get field definitions for a specific form.
@@ -146,7 +163,10 @@ async def get_form_fields(
         raise HTTPException(status_code=500, detail=str(e))
 
 @router.delete("/forms/{form_id}")
-async def delete_form_metadata(form_id: str):
+async def delete_form_metadata(
+    form_id: str,
+    metadata_service: PDFMetadataService = Depends(get_metadata_service)
+):
     """
     Delete form metadata and field definitions from the database.
     """
@@ -163,7 +183,8 @@ async def delete_form_metadata(form_id: str):
 @router.post("/forms/{form_id}/fields/update", response_model=FormMetadata)
 async def update_field_definitions(
     form_id: str,
-    fields: List[FieldDefinition]
+    fields: List[FieldDefinition],
+    metadata_service: PDFMetadataService = Depends(get_metadata_service)
 ):
     """
     Update field definitions for a specific form.
@@ -183,29 +204,16 @@ async def update_field_definitions(
     "/mappings",
     response_model=str,
     summary="Create Field Mapping",
-    description="Create a new mapping between a form-specific field ID and a canonical field name.",
-    responses={
-        201: {
-            "description": "Mapping created successfully",
-            "content": {
-                "application/json": {
-                    "example": "507f1f77bcf86cd799439011"
-                }
-            }
-        },
-        400: {
-            "description": "Invalid mapping data"
-        }
-    }
+    description="Create a new mapping between a form-specific field ID and a canonical field name."
 )
 async def create_field_mapping(
     mapping: FieldMapping = Body(
         ...,
         example=EXAMPLE_FIELD_MAPPING,
         description="Field mapping data"
-    )
+    ),
+    mapping_service: FieldMappingService = Depends(get_mapping_service)
 ):
-    """Create a new field mapping"""
     try:
         mapping_id = await mapping_service.create_mapping(mapping)
         return mapping_id
@@ -216,23 +224,13 @@ async def create_field_mapping(
     "/mappings/{form_type}/{version}",
     response_model=List[FieldMapping],
     summary="Get Form Mappings",
-    description="Retrieve all field mappings for a specific form version.",
-    responses={
-        200: {
-            "description": "List of field mappings",
-            "content": {
-                "application/json": {
-                    "example": [EXAMPLE_FIELD_MAPPING]
-                }
-            }
-        }
-    }
+    description="Retrieve all field mappings for a specific form version."
 )
 async def get_form_mappings(
     form_type: str = Path(..., example="i485", description="Type of form"),
-    version: str = Path(..., example="2024", description="Form version")
+    version: str = Path(..., example="2024", description="Form version"),
+    mapping_service: FieldMappingService = Depends(get_mapping_service)
 ):
-    """Get all field mappings for a form version"""
     try:
         mappings = await mapping_service.get_form_mappings(form_type, version)
         return mappings
@@ -243,28 +241,18 @@ async def get_form_mappings(
     "/mappings/bulk",
     response_model=List[str],
     summary="Bulk Create Mappings",
-    description="Create multiple field mappings in a single request.",
-    responses={
-        201: {
-            "description": "Mappings created successfully",
-            "content": {
-                "application/json": {
-                    "example": ["507f1f77bcf86cd799439011", "507f1f77bcf86cd799439012"]
-                }
-            }
-        }
-    }
+    description="Create multiple field mappings in a single request."
 )
 async def bulk_create_mappings(
     mappings: List[FieldMapping] = Body(
         ...,
         example=[EXAMPLE_FIELD_MAPPING],
         description="List of field mappings to create"
-    )
+    ),
+    mapping_service: FieldMappingService = Depends(get_mapping_service)
 ):
-    """Create multiple field mappings at once"""
     try:
-        mapping_ids = await mapping_service.bulk_create_mappings(mappings)
+        mapping_ids = await mapping_service.create_mappings(mappings)
         return mapping_ids
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
@@ -273,17 +261,7 @@ async def bulk_create_mappings(
     "/mappings/unmapped/{form_type}/{version}",
     response_model=List[str],
     summary="Get Unmapped Fields",
-    description="Find fields that don't have canonical name mappings.",
-    responses={
-        200: {
-            "description": "List of unmapped field IDs",
-            "content": {
-                "application/json": {
-                    "example": ["Pt1Line1b_GivenName", "Pt1Line1c_MiddleName"]
-                }
-            }
-        }
-    }
+    description="Find fields that don't have canonical name mappings."
 )
 async def get_unmapped_fields(
     form_type: str = Path(..., example="i485", description="Type of form"),
@@ -292,40 +270,29 @@ async def get_unmapped_fields(
         ...,
         example=["Pt1Line1a_FamilyName", "Pt1Line1b_GivenName"],
         description="List of field IDs to check"
-    )
+    ),
+    mapping_service: FieldMappingService = Depends(get_mapping_service)
 ):
-    """Find fields that don't have mappings"""
     try:
-        unmapped = await mapping_service.find_unmapped_fields(form_type, version, field_ids)
+        unmapped = await mapping_service.get_unmapped_fields(form_type, version, field_ids)
         return unmapped
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# Version Control Routes
 @router.post(
     "/versions",
     response_model=str,
     summary="Create Form Version",
-    description="Create a new version for a form type.",
-    responses={
-        201: {
-            "description": "Version created successfully",
-            "content": {
-                "application/json": {
-                    "example": "507f1f77bcf86cd799439011"
-                }
-            }
-        }
-    }
+    description="Create a new version for a form type."
 )
 async def create_form_version(
     version: FormVersion = Body(
         ...,
         example=EXAMPLE_FORM_VERSION,
         description="Form version data"
-    )
+    ),
+    version_service: VersionControlService = Depends(get_version_service)
 ):
-    """Create a new form version"""
     try:
         version_id = await version_service.create_version(version)
         return version_id
@@ -336,26 +303,16 @@ async def create_form_version(
     "/versions/{form_type}",
     response_model=List[FormVersion],
     summary="List Form Versions",
-    description="List all versions for a form type, optionally including inactive versions.",
-    responses={
-        200: {
-            "description": "List of form versions",
-            "content": {
-                "application/json": {
-                    "example": [EXAMPLE_FORM_VERSION]
-                }
-            }
-        }
-    }
+    description="List all versions for a form type, optionally including inactive versions."
 )
 async def list_form_versions(
     form_type: str = Path(..., example="i485", description="Type of form"),
     include_inactive: bool = Query(
         False,
         description="Whether to include inactive versions in the response"
-    )
+    ),
+    version_service: VersionControlService = Depends(get_version_service)
 ):
-    """List all versions for a form type"""
     try:
         versions = await version_service.list_versions(form_type, include_inactive)
         return versions
@@ -366,25 +323,12 @@ async def list_form_versions(
     "/versions/{form_type}/active",
     response_model=FormVersion,
     summary="Get Active Version",
-    description="Get the currently active version for a form type.",
-    responses={
-        200: {
-            "description": "Active form version",
-            "content": {
-                "application/json": {
-                    "example": EXAMPLE_FORM_VERSION
-                }
-            }
-        },
-        404: {
-            "description": "No active version found"
-        }
-    }
+    description="Get the currently active version for a form type."
 )
 async def get_active_version(
-    form_type: str = Path(..., example="i485", description="Type of form")
+    form_type: str = Path(..., example="i485", description="Type of form"),
+    version_service: VersionControlService = Depends(get_version_service)
 ):
-    """Get the currently active version for a form type"""
     try:
         version = await version_service.get_active_version(form_type)
         if not version:
@@ -398,26 +342,13 @@ async def get_active_version(
 @router.post(
     "/versions/{form_type}/{version}/activate",
     summary="Activate Form Version",
-    description="Activate a specific version and deactivate all others.",
-    responses={
-        200: {
-            "description": "Version activated successfully",
-            "content": {
-                "application/json": {
-                    "example": {"message": "Version activated successfully"}
-                }
-            }
-        },
-        404: {
-            "description": "Version not found"
-        }
-    }
+    description="Activate a specific version and deactivate all others."
 )
 async def activate_form_version(
     form_type: str = Path(..., example="i485", description="Type of form"),
-    version: str = Path(..., example="2024", description="Version to activate")
+    version: str = Path(..., example="2024", description="Version to activate"),
+    version_service: VersionControlService = Depends(get_version_service)
 ):
-    """Activate a specific version and deactivate others"""
     try:
         success = await version_service.activate_version(form_type, version)
         if not success:
@@ -432,43 +363,20 @@ async def activate_form_version(
     "/versions/{form_type}/compare",
     response_model=Dict[str, Any],
     summary="Compare Form Versions",
-    description="Compare two versions of a form and get their differences.",
-    responses={
-        200: {
-            "description": "Version comparison results",
-            "content": {
-                "application/json": {
-                    "example": {
-                        "metadata_changes": {
-                            "revision": {
-                                "type": "modified",
-                                "old_value": "1.0",
-                                "new_value": "1.1"
-                            }
-                        },
-                        "field_changes": ["Pt1Line1a_FamilyName"],
-                        "version1_date": "2024-01-01T00:00:00Z",
-                        "version2_date": "2024-06-01T00:00:00Z",
-                        "newer_version": "2024"
-                    }
-                }
-            }
-        },
-        404: {
-            "description": "One or both versions not found"
-        }
-    }
+    description="Compare two versions of a form and get their differences."
 )
 async def compare_form_versions(
     form_type: str = Path(..., example="i485", description="Type of form"),
     version1: str = Query(..., example="2023", description="First version to compare"),
-    version2: str = Query(..., example="2024", description="Second version to compare")
+    version2: str = Query(..., example="2024", description="Second version to compare"),
+    version_service: VersionControlService = Depends(get_version_service)
 ):
-    """Compare two versions and return differences"""
     try:
         differences = await version_service.compare_versions(form_type, version1, version2)
+        if not differences:
+            raise HTTPException(status_code=404, detail="One or both versions not found")
         return differences
-    except ValueError as e:
-        raise HTTPException(status_code=404, detail=str(e))
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e)) 

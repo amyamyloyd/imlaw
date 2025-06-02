@@ -1,8 +1,14 @@
 from typing import Dict, Any, List, Optional, Union
 from datetime import datetime
-from pydantic import BaseModel, Field, constr, validator
+from pydantic import BaseModel, Field, field_validator
 from enum import Enum
 from .form_schema import FormSchema, FormFieldDefinition, FieldType, Position, FieldFlags
+
+class ChangeType(Enum):
+    """Types of changes that can occur in a form field"""
+    ADDED = "added"
+    REMOVED = "removed"
+    MODIFIED = "modified"
 
 class SchemaVersion(BaseModel):
     """Version information for a form schema"""
@@ -15,8 +21,9 @@ class SchemaVersion(BaseModel):
     def __str__(self) -> str:
         return f"{self.major}.{self.minor}.{self.patch}"
     
-    @validator("major", "minor", "patch")
-    def validate_version_numbers(cls, v):
+    @field_validator("major", "minor", "patch")
+    @classmethod
+    def validate_version_numbers(cls, v: int) -> int:
         if v < 0:
             raise ValueError("Version numbers must be non-negative")
         return v
@@ -24,15 +31,15 @@ class SchemaVersion(BaseModel):
 class FieldChange(BaseModel):
     """Represents a change in a form field between versions"""
     field_id: str = Field(..., description="ID of the changed field")
-    change_type: str = Field(..., description="Type of change (added, removed, modified)")
+    change_type: ChangeType = Field(..., description="Type of change (added, removed, modified)")
     previous_value: Optional[Dict[str, Any]] = Field(None, description="Field state before change")
     new_value: Optional[Dict[str, Any]] = Field(None, description="Field state after change")
     
-    @validator("change_type")
-    def validate_change_type(cls, v):
-        valid_types = {"added", "removed", "modified"}
-        if v not in valid_types:
-            raise ValueError(f"change_type must be one of {valid_types}")
+    @field_validator("change_type")
+    @classmethod
+    def validate_change_type(cls, v: ChangeType) -> ChangeType:
+        if not isinstance(v, ChangeType):
+            raise ValueError("Invalid change type")
         return v
 
 class VersionDiff(BaseModel):
@@ -52,8 +59,8 @@ class VersionedFormSchema(FormSchema):
     compatibility: List[str] = Field(default_factory=list, description="Compatible schema versions")
     migration_strategy: Optional[str] = Field(None, description="Strategy for migrating to this version")
     
-    class Config:
-        schema_extra = {
+    model_config = {
+        "json_schema_extra": {
             "example": {
                 "form_type": "I-485",
                 "version": "10/15/2023",
@@ -81,6 +88,7 @@ class VersionedFormSchema(FormSchema):
                 "migration_strategy": "in-place"
             }
         }
+    }
 
 class VersionedFormSchemaCollection:
     """MongoDB collection configuration for versioned form schemas"""

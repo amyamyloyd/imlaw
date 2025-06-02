@@ -1,0 +1,9 @@
+=== Domain Distribution ===
+      Domain  Count % of Total Fields
+biographical    701             40.6%
+     unknown    531             30.8%
+  employment    251             14.6%
+      office    233             13.5%
+     medical    232             13.4%
+ immigration    190             11.0%
+    criminal     91              5.3%

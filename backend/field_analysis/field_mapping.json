@@ -1,0 +1,114 @@
+{
+    "field_structure": {
+        "name_parsing": {
+            "pattern": "^(Pt|Part)(\\d+)Line(\\d+)([a-z])?_(\\w+)(\\[(\\d+)\\])?$",
+            "components": {
+                "part": "Part number from form",
+                "line": "Line number within part",
+                "subline": "Optional letter subdivision (a,b,c)",
+                "field_type": "Base field type (e.g., GivenName, State, CheckBox)",
+                "position": "Array position if multiple instances [0]"
+            }
+        }
+    },
+    "field_types": {
+        "personal_identifiers": {
+            "base_types": ["GivenName", "FamilyName", "MiddleName"],
+            "rules": ["subject"],
+            "collection_strategy": "collect_once",
+            "context_indicators": ["About You", "Beneficiary", "Petitioner"]
+        },
+        "document_numbers": {
+            "base_types": ["AlienNumber", "USCISOnlineActNumber", "SSN"],
+            "rules": ["composite", "subject"],
+            "position_handling": "character_by_character",
+            "context_indicators": ["if any", "A-Number", "Registration Number"]
+        },
+        "address_components": {
+            "base_types": ["StreetNumberName", "CityOrTown", "State", "ZipCode", "Country", "Province", "PostalCode"],
+            "rules": ["contact"],
+            "temporal_context": true,
+            "address_types": ["Mailing", "Physical", "Employment"]
+        },
+        "contact_methods": {
+            "base_types": ["DaytimePhoneNumber", "MobilePhoneNumber", "EmailAddress"],
+            "rules": ["contact", "subject"],
+            "collection_strategy": "collect_once"
+        },
+        "employment_fields": {
+            "base_types": ["EmployerOrCompName", "Occupation"],
+            "rules": ["employment"],
+            "temporal_context": true,
+            "related_address": true
+        },
+        "legal_status": {
+            "base_types": ["ClassOfAdmission", "DateOfAdmission", "CertificateNumber"],
+            "rules": ["residency", "subject"],
+            "temporal_context": true
+        },
+        "boolean_selections": {
+            "base_types": ["CheckBox", "Yes", "No", "Unit"],
+            "rules": ["boolean"],
+            "context_dependent": true,
+            "tooltip_analysis": true
+        },
+        "dates": {
+            "base_types": ["DateFrom", "DateTo", "DateOfMarriage", "DateOfIssuance", "DateofBirth"],
+            "rules": ["temporal"],
+            "format_validation": "MM/DD/YYYY"
+        },
+        "demographic": {
+            "base_types": ["Race", "Ethnicity", "HeightFeet", "HeightInches", "EyeColor", "HairColor"],
+            "rules": ["subject"],
+            "collection_strategy": "collect_once"
+        }
+    },
+    "relationship_mappings": {
+        "one_to_one": {
+            "core_identity": {
+                "fields": ["GivenName", "FamilyName", "MiddleName", "DateofBirth", "SSN"],
+                "rules": ["subject"],
+                "collect_once": true
+            }
+        },
+        "one_to_many": {
+            "addresses": {
+                "fields": ["StreetNumberName", "CityOrTown", "State", "ZipCode"],
+                "rules": ["contact"],
+                "temporal_tracking": true
+            },
+            "employment": {
+                "fields": ["EmployerOrCompName", "Occupation"],
+                "rules": ["employment"],
+                "temporal_tracking": true
+            }
+        },
+        "many_to_one": {
+            "family_members": {
+                "fields": ["GivenName", "FamilyName", "MiddleName"],
+                "rules": ["subject"],
+                "relationship_context": ["Parent", "Child", "Spouse"]
+            }
+        }
+    },
+    "position_handling": {
+        "character_fields": {
+            "description": "Fields that represent individual characters of a longer value",
+            "identification": {
+                "position_pattern": "[0-9]+",
+                "common_types": ["AlienNumber", "SSN", "USCISOnlineActNumber"]
+            },
+            "rules": {
+                "position_zero": "May represent first character or question number",
+                "sequence": "Maintain order for reconstruction"
+            }
+        },
+        "repeated_fields": {
+            "description": "Fields that can have multiple instances",
+            "identification": {
+                "array_pattern": "\\[\\d+\\]",
+                "common_types": ["address", "employment", "family_members"]
+            }
+        }
+    }
+} 

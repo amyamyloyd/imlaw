@@ -1,0 +1,399 @@
+{
+    "rule_types": {
+        "subject": {
+            "short_name": "subject",
+            "description": "Fields containing personal identification information",
+            "categories": {
+                "core_identity": {
+                    "indicators": ["About You", "Beneficiary", "Petitioner"],
+                    "field_types": ["GivenName", "FamilyName", "MiddleName"],
+                    "collection": "once"
+                },
+                "demographic": {
+                    "indicators": ["Race", "Ethnicity", "Height", "Weight", "Eye Color", "Hair Color"],
+                    "collection": "once"
+                },
+                "relationships": {
+                    "indicators": ["Parent", "Child", "Spouse", "Sibling"],
+                    "collection": "multiple",
+                    "context_required": true
+                }
+            }
+        },
+        "temporal": {
+            "short_name": "temporal",
+            "description": "Date fields and time-based information",
+            "categories": {
+                "specific_dates": {
+                    "format": "MM/DD/YYYY",
+                    "types": ["DateOfBirth", "DateOfMarriage", "DateOfIssuance"]
+                },
+                "ranges": {
+                    "components": ["DateFrom", "DateTo"],
+                    "types": ["employment", "address", "status"]
+                }
+            }
+        },
+        "reused": {
+            "short_name": "reused",
+            "description": "Information collected once but used in multiple places",
+            "detection_rules": [
+                "Identical tooltips across different fields",
+                "Same data appearing in different parts",
+                "Fields with similar names but different contexts",
+                "Tooltips containing 'prepopulate from page'"
+            ],
+            "categories": {
+                "personal_info": {
+                    "indicators": ["given name", "family name", "middle name", "date of birth", "alien number", "uscis number"],
+                    "collection": "once",
+                    "mapping": "by_persona"
+                },
+                "contact_info": {
+                    "indicators": ["phone number", "email address"],
+                    "collection": "once",
+                    "mapping": "by_persona"
+                }
+            }
+        },
+        "repeating": {
+            "short_name": "repeating",
+            "description": "Multiple instances of same type of information",
+            "detection_rules": [
+                "Numbered sequences in tooltips (e.g., 'Employer 1', 'Address 2')",
+                "Array-like field patterns",
+                "Groups with common prefixes/suffixes"
+            ],
+            "categories": {
+                "employment": {
+                    "pattern": "Employment History\\. Employer (One|Two|Three|[0-9]+)\\.",
+                    "collection": "variable",
+                    "mapping": "by_number",
+                    "indicators": ["employer", "occupation", "income"]
+                },
+                "address": {
+                    "pattern": "Address History\\. (Physical |Mailing )?Address (One|Two|Three|[0-9]+)\\.",
+                    "collection": "variable",
+                    "mapping": "by_number",
+                    "indicators": ["street", "city", "state", "zip", "postal"]
+                },
+                "family": {
+                    "pattern": "Spouses?, if any\\. Spouse (One|Two|Three|[0-9]+)\\.",
+                    "collection": "variable",
+                    "mapping": "by_number",
+                    "indicators": ["spouse", "marriage", "divorce"]
+                },
+                "children": {
+                    "pattern": "Child (One|Two|Three|[0-9]+)\\.",
+                    "collection": "variable",
+                    "mapping": "by_number",
+                    "indicators": ["child", "son", "daughter"]
+                }
+            }
+        },
+        "boolean": {
+            "short_name": "boolean",
+            "description": "Yes/No selections and checkboxes",
+            "categories": {
+                "simple_choices": {
+                    "description": "Basic yes/no selections",
+                    "tooltip_pattern": "Single sentence question"
+                },
+                "legal_declarations": {
+                    "description": "Complex legal statements requiring acknowledgment",
+                    "tooltip_pattern": "Multiple sentences, legal terminology",
+                    "indicators": ["residency", "rights", "preparer", "declaration", "certification"]
+                }
+            }
+        },
+        "composite": {
+            "short_name": "composite",
+            "description": "Fields that represent individual characters of a document number or identifier",
+            "position_handling": {
+                "position_zero": "May indicate first character or question number",
+                "sequence": "Must maintain order for reconstruction"
+            },
+            "field_types": {
+                "alien_number": {
+                    "pattern": "A-number or alien registration number",
+                    "format": "9 digits with optional 'A' prefix",
+                    "position_format": "[0-9]+"
+                },
+                "ssn": {
+                    "pattern": "Social Security Number",
+                    "format": "9 digits",
+                    "position_format": "[0-9]+"
+                },
+                "uscis_number": {
+                    "pattern": "USCIS Online Account Number",
+                    "format": "Variable length",
+                    "position_format": "[0-9]+"
+                }
+            }
+        },
+        "office": {
+            "short_name": "office",
+            "description": "Fields completed by office staff (attorney/paralegal)",
+            "indicators": {
+                "sections": ["For Attorney", "To Be Completed by Attorney", "Attorney or Accredited Representative"],
+                "fields": ["Attorney State Bar Number", "G-28", "VOLAG", "Law Firm"]
+            },
+            "detection_rules": [
+                "Check for attorney/representative section headers",
+                "Look for fields related to legal credentials",
+                "Fields typically at start or end of forms"
+            ]
+        },
+        "signature": {
+            "short_name": "signature",
+            "description": "Signature fields for various parties",
+            "indicators": {
+                "field_types": ["signature", "sign"],
+                "contexts": ["applicant signature", "attorney signature", "interpreter signature", "preparer signature"]
+            },
+            "detection_rules": [
+                "Look for 'signature' in field name or tooltip",
+                "Check for signature instructions in tooltip",
+                "Often found at end of parts/sections",
+                "Usually includes date fields nearby"
+            ]
+        },
+        "contact": {
+            "short_name": "contact",
+            "description": "Address and communication fields",
+            "categories": {
+                "address": {
+                    "components": ["StreetNumberName", "CityOrTown", "State", "ZipCode", "Country", "Province", "PostalCode"],
+                    "types": ["Mailing", "Physical", "Employment"],
+                    "temporal_tracking": true
+                },
+                "communication": {
+                    "components": ["DaytimePhoneNumber", "MobilePhoneNumber", "EmailAddress"],
+                    "collection": "once"
+                }
+            }
+        },
+        "employment": {
+            "short_name": "employment",
+            "description": "Employment history and related information",
+            "temporal_context": true,
+            "components": {
+                "employer": ["EmployerOrCompName", "Occupation"],
+                "address": ["StreetNumberName", "CityOrTown", "State", "ZipCode"],
+                "dates": ["DateFrom", "DateTo"]
+            }
+        },
+        "residency": {
+            "short_name": "residency",
+            "description": "Immigration status and related documentation",
+            "categories": {
+                "status": {
+                    "components": ["ClassOfAdmission", "DateOfAdmission"],
+                    "temporal_context": true
+                },
+                "documentation": {
+                    "components": ["CertificateNumber", "PlaceOfIssuance", "DateOfIssuance"]
+                }
+            }
+        },
+        "page_part": {
+            "short_name": "page_part",
+            "description": "Form structure indicators",
+            "categories": {
+                "page": {
+                    "indicators": ["Page", "Page Number"],
+                    "position": "zero",
+                    "collection": "structural"
+                },
+                "part": {
+                    "indicators": ["Part", "Section"],
+                    "position": "zero",
+                    "collection": "structural"
+                }
+            }
+        },
+        "medical": {
+            "short_name": "medical",
+            "description": "Medical history and health information",
+            "categories": {
+                "conditions": {
+                    "indicators": [
+                        "medical condition", "disability", "illness",
+                        "surgery", "medical", "examination",
+                        "health condition", "physical condition",
+                        "mental condition", "medical treatment"
+                    ],
+                    "temporal_context": true
+                },
+                "treatments": {
+                    "indicators": [
+                        "treatment", "medication", "hospitalization",
+                        "surgery", "medical procedure", "medical care",
+                        "doctor visit", "medical examination",
+                        "health screening", "medical test"
+                    ],
+                    "temporal_context": true
+                }
+            }
+        },
+        "criminal": {
+            "short_name": "criminal",
+            "description": "Criminal history information",
+            "categories": {
+                "history": {
+                    "indicators": [
+                        "arrest", "conviction", "criminal",
+                        "criminal acts", "violations", "charged",
+                        "detained", "Inadmissibility Grounds",
+                        "controlled substances", "illegal activity",
+                        "criminal record", "criminal history",
+                        "law enforcement", "police record"
+                    ],
+                    "temporal_context": true
+                },
+                "proceedings": {
+                    "indicators": [
+                        "court", "charges", "sentence",
+                        "prosecution", "criminal proceedings",
+                        "plea", "probation", "parole",
+                        "detention", "incarceration",
+                        "criminal case", "legal proceedings"
+                    ],
+                    "temporal_context": true
+                }
+            }
+        }
+    },
+    "metadata": {
+        "version": "1.0",
+        "last_updated": "2024-03-21",
+        "description": "Rules for classifying form field patterns",
+        "usage": "Used with field_tooltips.xlsx 'ruletype' column"
+    },
+    "domains": {
+        "biographical": [
+            {
+                "patterns": ["name", "address", "phone", "email", "birth", "nationality", "gender", "marital", "education"],
+                "confidence": 1.8
+            }
+        ],
+        "medical": [
+            {
+                "patterns": ["medical", "health", "doctor", "hospital", "surgery", "examination", "treatment", "condition"],
+                "confidence": 1.8
+            }
+        ],
+        "criminal": [
+            {
+                "patterns": ["arrest", "crime", "offense", "violation", "controlled substance", "conviction"],
+                "confidence": 1.8
+            }
+        ],
+        "immigration": [
+            {
+                "patterns": ["visa", "alien", "uscis", "immigration", "status", "passport", "i-94"],
+                "confidence": 1.8
+            }
+        ],
+        "employment": [
+            {
+                "patterns": ["employer", "job", "work", "occupation", "salary", "income", "employment"],
+                "confidence": 1.8
+            }
+        ],
+        "office": [
+            {
+                "patterns": ["barcode", "pdf417", "attorney", "preparer", "signature"],
+                "confidence": 2.0
+            }
+        ]
+    },
+    "biographical_subcategories": {
+        "core_identity": [
+            {
+                "patterns": ["name", "birth", "nationality", "gender", "ssn", "social security"],
+                "confidence": 1.8
+            }
+        ],
+        "contact_info": [
+            {
+                "patterns": ["address", "phone", "email", "city", "state", "zip", "postal", "contact"],
+                "confidence": 1.6
+            }
+        ],
+        "family_info": [
+            {
+                "patterns": ["spouse", "child", "parent", "sibling", "dependent", "family member"],
+                "confidence": 1.8
+            }
+        ],
+        "marital_status": [
+            {
+                "patterns": ["married", "single", "divorced", "widowed", "marriage", "spouse"],
+                "confidence": 1.8
+            }
+        ],
+        "education": [
+            {
+                "patterns": ["school", "degree", "education", "graduate", "study"],
+                "confidence": 1.6
+            }
+        ]
+    },
+    "personas": {
+        "applicant": {
+            "indicators": [
+                "you", "your", "applicant", "beneficiary", "self",
+                "i am", "i have", "my ", "principal", "client"
+            ],
+            "confidence": 2.0
+        },
+        "family": {
+            "indicators": [
+                "spouse", "husband", "wife", "child", "parent",
+                "mother", "father", "sibling", "dependent"
+            ],
+            "confidence": 1.8
+        },
+        "preparer": {
+            "indicators": [
+                "attorney", "preparer", "interpreter", "representative",
+                "lawyer", "accredited", "g-28"
+            ],
+            "confidence": 1.5
+        }
+    },
+    "mapping_rules": {
+        "prepopulate": {
+            "pattern": "prepopulate from page",
+            "action": "map_to_source",
+            "confidence": 2.0
+        },
+        "persona_based": {
+            "applicant": {
+                "base_fields": ["GivenName", "FamilyName", "MiddleName", "DateOfBirth", "AlienNumber"],
+                "confidence": 2.0
+            },
+            "family": {
+                "base_fields": ["SpouseGivenName", "SpouseFamilyName", "ChildName"],
+                "confidence": 1.8
+            },
+            "preparer": {
+                "base_fields": ["AttorneyName", "FirmName", "BarNumber"],
+                "confidence": 1.8
+            }
+        },
+        "sequence_based": {
+            "employment": {
+                "pattern": "Employer (\\d+|One|Two|Three)",
+                "base_fields": ["EmployerName", "Address", "Dates"],
+                "confidence": 1.8
+            },
+            "address": {
+                "pattern": "Address (\\d+|One|Two|Three)",
+                "base_fields": ["StreetNumber", "City", "State", "ZipCode"],
+                "confidence": 1.8
+            }
+        }
+    }
+} 

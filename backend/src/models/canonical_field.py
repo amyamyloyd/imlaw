@@ -1,6 +1,6 @@
 from typing import Dict, Any, List, Optional
 from datetime import datetime
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, Field, field_validator
 from enum import Enum
 
 class DataType(str, Enum):
@@ -44,14 +44,16 @@ class FormFieldMapping(BaseModel):
     created_at: datetime = Field(default_factory=datetime.utcnow)
     updated_at: datetime = Field(default_factory=datetime.utcnow)
 
-    @validator("form_type")
-    def validate_form_type(cls, v):
+    @field_validator("form_type")
+    @classmethod
+    def validate_form_type(cls, v: str) -> str:
         if not v.strip():
             raise ValueError("form_type cannot be empty")
         return v.upper()
 
-    @validator("form_version")
-    def validate_form_version(cls, v):
+    @field_validator("form_version")
+    @classmethod
+    def validate_form_version(cls, v: str) -> str:
         if not v.strip():
             raise ValueError("form_version cannot be empty")
         return v
@@ -77,34 +79,38 @@ class CanonicalField(BaseModel):
     usage_stats: UsageStats = Field(default_factory=UsageStats, description="Field usage statistics")
     metadata: Dict[str, Any] = Field(default_factory=dict, description="Additional metadata")
 
-    @validator("field_name")
-    def validate_field_name(cls, v):
+    @field_validator("field_name")
+    @classmethod
+    def validate_field_name(cls, v: str) -> str:
         if not v.strip():
             raise ValueError("field_name cannot be empty")
         if not v.replace("_", "").isalnum():
             raise ValueError("field_name must contain only alphanumeric characters and underscores")
         return v.lower()
 
-    @validator("display_name")
-    def validate_display_name(cls, v):
+    @field_validator("display_name")
+    @classmethod
+    def validate_display_name(cls, v: str) -> str:
         if not v.strip():
             raise ValueError("display_name cannot be empty")
         return v
 
-    @validator("dependencies")
-    def validate_dependencies(cls, v, values):
-        if "field_name" in values and values["field_name"] in v:
+    @field_validator("dependencies")
+    @classmethod
+    def validate_dependencies(cls, v: List[str], info) -> List[str]:
+        if "field_name" in info.data and info.data["field_name"] in v:
             raise ValueError("field cannot depend on itself")
         return v
 
-    @validator("updated_at")
-    def validate_updated_at(cls, v, values):
-        if "created_at" in values and v < values["created_at"]:
+    @field_validator("updated_at")
+    @classmethod
+    def validate_updated_at(cls, v: datetime, info) -> datetime:
+        if "created_at" in info.data and v < info.data["created_at"]:
             raise ValueError("updated_at cannot be before created_at")
         return v
 
-    class Config:
-        schema_extra = {
+    model_config = {
+        "json_schema_extra": {
             "example": {
                 "field_name": "family_name",
                 "display_name": "Family Name",
@@ -145,4 +151,5 @@ class CanonicalField(BaseModel):
                     "verification_required": True
                 }
             }
-        } 
+        }
+    } 

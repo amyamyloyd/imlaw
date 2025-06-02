@@ -8,9 +8,9 @@ import re
 load_dotenv()
 
 def test_connection():
-    uri = os.getenv('MONGODB_URL')
+    uri = os.getenv('MONGODB_URI')
     if not uri:
-        print("Error: MONGODB_URL not found in environment variables")
+        print("Error: MONGODB_URI not found in environment variables")
         return
 
     print("Attempting to connect to MongoDB...")
@@ -47,7 +47,7 @@ def test_connection():
         print("Successfully connected to MongoDB!")
         
         # Get database name
-        db_name = os.getenv('MONGODB_DB', 'imlaw')
+        db_name = os.getenv('MONGODB_DB_NAME', 'imlaw')
         db = client[db_name]
         
         # List collections
@@ -59,7 +59,7 @@ def test_connection():
     except Exception as e:
         print(f"Error connecting to MongoDB: {str(e)}")
         print("\nPlease ensure your .env file contains the MongoDB URL in this format:")
-        print("MONGODB_URL=mongodb+srv://username:password@cluster0.6jkf0yo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+        print("MONGODB_URI=mongodb+srv://username:password@cluster0.6jkf0yo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
         print("\nIf using an email as username, it should be properly URL encoded.")
     finally:
         if 'client' in locals():
