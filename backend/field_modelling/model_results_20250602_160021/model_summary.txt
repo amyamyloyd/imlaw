@@ -1,0 +1,5 @@
+Field Mapping Analysis Summary
+Generated: 2025-06-02 16:00:21
+
+Warning: No fields were successfully parsed.
+Please check the input file for JSON formatting issues.

@@ -1,0 +1,13 @@
+Field Mapping Analysis Summary
+Generated: 2025-06-02 16:07:15
+
+Total Fields Analyzed: 1725
+Fields with Form Mappings: 1725 (100.00% if total_fields > 0 else 0%%)
+One-to-One Mappings: 1725 (100.00% if total_fields > 0 else 0%%)
+Unmapped Fields: 0 (0.00% if total_fields > 0 else 0%%)
+
+Form-specific Mapping Distribution:
+i130: 439 fields (25.45% if total_fields > 0 else 0%%)
+i485: 697 fields (40.41% if total_fields > 0 else 0%%)
+i693: 429 fields (24.87% if total_fields > 0 else 0%%)
+i765: 160 fields (9.28% if total_fields > 0 else 0%%)

@@ -1,0 +1,682 @@
+[
+  {
+    "name": "VolagNumber[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": null,
+    "screen_label": "Volag Number, if any."
+  },
+  {
+    "name": "Pt6Line2_Checkbox[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Select At my request, the preparer named in Part 8. prepared this petition for me based only upon information I provided or authorized.",
+    "screen_label": "prepared this petition for me based only upon information I provided or authorized."
+  },
+  {
+    "name": "Pt6Line2_RepresentativeName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "RepresentativeName",
+    "screen_label": "Name of Preparer."
+  },
+  {
+    "name": "Pt8Line1b_PreparerGivenName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PreparerGivenName",
+    "screen_label": "Preparer's Given Name (First Name)."
+  },
+  {
+    "name": "Pt8Line2_BusinessName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "BusinessName",
+    "screen_label": "Preparer's Business or Organization Name, if any."
+  },
+  {
+    "name": "Pt8Line1a_PreparerFamilyName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PreparerFamilyName",
+    "screen_label": "Preparer's Family Name (Last Name)."
+  },
+  {
+    "name": "Pt8Line3_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt8Line3_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt8Line3_Unit[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt8Line3_Unit[1]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt8Line3_Unit[2]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt8Line3_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor Number."
+  },
+  {
+    "name": "Pt8Line3_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PostalCode",
+    "screen_label": "Postal Code."
+  },
+  {
+    "name": "Pt8Line3_ZipCode[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "ZipCode",
+    "screen_label": "Zip Code."
+  },
+  {
+    "name": "Pt8Line3_State[0]",
+    "type": "/Ch",
+    "persona": "preparer",
+    "domain": "office",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt8Line3_Country[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt8Line3_Province[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt8Line5_PreparerFaxNumber[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PreparerFaxNumber",
+    "screen_label": "Preparer's Mobile Telephone Number, if any."
+  },
+  {
+    "name": "Pt8Line4_DaytimePhoneNumber[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "DaytimePhoneNumber",
+    "screen_label": "Preparer's Daytime Telephone Number."
+  },
+  {
+    "name": "Pt8Line6_Email[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Email",
+    "screen_label": "Preparer's Email Address, if any."
+  },
+  {
+    "name": "Pt8Line7_Checkbox[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "A. Select I am not an attorney or accredited representative but have prepared this petition on behalf of the petitioner and with the petitioner's consent.",
+    "screen_label": "I am not an attorney or accredited representative but have prepared this petition on behalf of the petitioner and with the petitioner's consent."
+  },
+  {
+    "name": "Pt8Line7_Checkbox[1]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select I am an attorney or accredited representative and my representation of the petitioner in this case extends / does not extend beyond the preparation of this petition.",
+    "screen_label": "I am an attorney or accredited representative and my representation of the petitioner in this case extends / does not extend beyond the preparation of this petition."
+  },
+  {
+    "name": "Pt8Line7b_Checkbox[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Select I am an attorney or accredited representative and my representation of the petitioner in this case extends beyond the preparation of this petition. NOTE:  If you are an attorney or accredited representative whose representation extends beyond preparation of this petition, you may be obliged to submit a completed Form G - 28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this petition.",
+    "screen_label": "NOTE:  If you are an attorney or accredited representative whose representation extends beyond preparation of this petition, you may be obliged to submit a completed Form G - 28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this petition."
+  },
+  {
+    "name": "Pt8Line7b_Checkbox[1]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select I am an attorney or accredited representative and my representation of the petitioner in this case does not extend beyond the preparation of this petition.",
+    "screen_label": "I am an attorney or accredited representative and my representation of the petitioner in this case does not extend beyond the preparation of this petition."
+  },
+  {
+    "name": "Pt8Line8a_Signature[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Signature",
+    "screen_label": "Print and sign in ink."
+  },
+  {
+    "name": "Pt8Line8b_DateofSignature[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "DateofSignature",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line1_PreparerGivenName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PreparerGivenName",
+    "screen_label": "Preparer's Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line1_PreparerFamilyName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PreparerFamilyName",
+    "screen_label": "Preparer's Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line2_PreparerNameofBusinessorOrgName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PreparerNameofBusinessorOrgName",
+    "screen_label": "Preparer's Business or Organization Name."
+  },
+  {
+    "name": "Pt4Line8_Signature[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Signature",
+    "screen_label": "This is a read only field."
+  },
+  {
+    "name": "Pt4Line8_DateofSignature[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "DateofSignature",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line4_MobilePhone[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "MobilePhone",
+    "screen_label": "Preparer's Mobile Telephone Number, if any."
+  },
+  {
+    "name": "Pt4Line3_DaytimePhone[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "DaytimePhone",
+    "screen_label": "Preparer's Daytime Telephone Number."
+  },
+  {
+    "name": "Pt4Line5_EmailAddress[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "EmailAddress",
+    "screen_label": "Preparer's Email Address, if any."
+  },
+  {
+    "name": "VolagNumber[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": null,
+    "screen_label": "Volag Number, if any."
+  },
+  {
+    "name": "Pt10Line2_PreparerCB[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Select At my request, the preparer named in Part 12. prepared this application for me based only upon information I provided or authorized.",
+    "screen_label": "prepared this application for me based only upon information I provided or authorized."
+  },
+  {
+    "name": "Pt10Line2_Preparer[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Preparer",
+    "screen_label": "Name of Preparer."
+  },
+  {
+    "name": "Pt12Line1b_PreparerGivenName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PreparerGivenName",
+    "screen_label": "Preparer's Given Name (First Name)."
+  },
+  {
+    "name": "Pt12Line2_BusinessName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "BusinessName",
+    "screen_label": "Preparer's Business or Organization Name, if any."
+  },
+  {
+    "name": "Pt12Line1a_PreparerFamilyName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PreparerFamilyName",
+    "screen_label": "Preparer's Family Name (Last Name)."
+  },
+  {
+    "name": "Pt12Line3_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt12Line3_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt12Line3_Unit[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt12Line3_Unit[1]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt12Line3_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor Number."
+  },
+  {
+    "name": "Pt12Line3_Unit[2]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt12Line3_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PostalCode",
+    "screen_label": "Postal Code."
+  },
+  {
+    "name": "Pt12Line3_ZipCode[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "ZipCode",
+    "screen_label": "Zip Code."
+  },
+  {
+    "name": "Pt12Line3_State[0]",
+    "type": "/Ch",
+    "persona": "preparer",
+    "domain": "office",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt12Line3_Country[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt12Line3_Province[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt12Line5_MobileNumber[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "MobileNumber",
+    "screen_label": "Preparer's Mobile Telephone Number, if any."
+  },
+  {
+    "name": "Pt12Line4_DaytimePhoneNumber1[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "DaytimePhoneNumber1",
+    "screen_label": "Preparer's Daytime Telephone Number."
+  },
+  {
+    "name": "Pt12Line6_Email[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Email",
+    "screen_label": "Preparer's Email Address, if any."
+  },
+  {
+    "name": "Part12Line7_Checkbox[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "A. Select I am not an attorney or accredited representative but have prepared this application on behalf of the applicant and with the applicant's consent.",
+    "screen_label": "I am not an attorney or accredited representative but have prepared this application on behalf of the applicant and with the applicant's consent."
+  },
+  {
+    "name": "Part12Line7_Checkbox[1]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Select I am an attorney or accredited representative and my representation of the applicant in this case extends / does not extend beyond the preparation of this application. NOTE:  If you are an attorney or accredited representative, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this application.",
+    "screen_label": "NOTE:  If you are an attorney or accredited representative, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this application."
+  },
+  {
+    "name": "Part12Line7b_Extend[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select I am an attorney or accredited representative and my representation of the applicant in this case extends beyond the preparation of this application.",
+    "screen_label": "I am an attorney or accredited representative and my representation of the applicant in this case extends beyond the preparation of this application."
+  },
+  {
+    "name": "Part12Line7b_NotExtend[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select I am an attorney or accredited representative and my representation of the applicant in this case does not extend beyond the preparation of this application.",
+    "screen_label": "I am an attorney or accredited representative and my representation of the applicant in this case does not extend beyond the preparation of this application."
+  },
+  {
+    "name": "Pt12Line8a_Signature[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Signature",
+    "screen_label": "Print and sign in ink."
+  },
+  {
+    "name": "Pt12Line8b_DateofSignature[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "DateofSignature",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Part3_Checkbox[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "2. Select At my request, the preparer named in Part 5., prepared this application for me based only upon information I provided or authorized.",
+    "screen_label": "At my request, the preparer named in Part 5., prepared this application for me based only upon information I provided or authorized."
+  },
+  {
+    "name": "Pt3Line2_RepresentativeName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "RepresentativeName",
+    "screen_label": "name of Preparer from Part 5."
+  },
+  {
+    "name": "Pt5Line1b_PreparerGivenName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PreparerGivenName",
+    "screen_label": "Preparer's Given Name (First Name)."
+  },
+  {
+    "name": "Pt5Line2_BusinessName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "BusinessName",
+    "screen_label": "Preparer's  Business or Organization Name, if any."
+  },
+  {
+    "name": "Pt5Line1a_PreparerFamilyName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PreparerFamilyName",
+    "screen_label": "Preparer's Family Name (Last Name)."
+  },
+  {
+    "name": "Pt6Line3c_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "CityOrTown",
+    "screen_label": "the City or Town."
+  },
+  {
+    "name": "Pt6Line3a_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt6Line3b_Unit[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt6Line3b_Unit[1]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt6Line3b_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor number."
+  },
+  {
+    "name": "Pt6Line3b_Unit[2]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt6Line3g_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PostalCode",
+    "screen_label": "the Postal Code."
+  },
+  {
+    "name": "Pt6Line3e_ZipCode[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "ZipCode",
+    "screen_label": "the ZIP code."
+  },
+  {
+    "name": "Pt6Line3d_State[0]",
+    "type": "/Ch",
+    "persona": "preparer",
+    "domain": "office",
+    "value": null,
+    "screen_label": "state from list of states."
+  },
+  {
+    "name": "Pt6Line3h_Country[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Country",
+    "screen_label": "the Country."
+  },
+  {
+    "name": "Pt6Line3f_Province[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Province",
+    "screen_label": "the Province."
+  },
+  {
+    "name": "Pt5Line5_PreparerFaxNumber[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PreparerFaxNumber",
+    "screen_label": "Preparer's Mobile Telephone  Number (if any)."
+  },
+  {
+    "name": "Pt5Line4_DaytimePhoneNumber1[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "DaytimePhoneNumber1",
+    "screen_label": "Preparer's Daytime Telephone Number."
+  },
+  {
+    "name": "Pt5Line6_Email[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Email",
+    "screen_label": "Preparer's Email Address, (if any)."
+  },
+  {
+    "name": "Part5Line7_Checkbox[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "A. Select I am not an attorney or accredited representative but have prepared this application on behalf of the applicant and with the applicant's consent.",
+    "screen_label": "I am not an attorney or accredited representative but have prepared this application on behalf of the applicant and with the applicant's consent."
+  },
+  {
+    "name": "Part5Line7_Checkbox[1]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Select I am an attorney or accredited representative and my representation of the applicant in this case extends or does not extend beyond the preparation of this application. NOTE:  If you are an attorney or accredited you may need to submit a completed Form G - 28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this application.",
+    "screen_label": "NOTE:  If you are an attorney or accredited you may need to submit a completed Form G - 28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this application."
+  },
+  {
+    "name": "Part5Line7b_Checkbox[0]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select I am an attorney or accredited representative and my representation of the applicant in this case extends beyond the preparation of this application.",
+    "screen_label": "I am an attorney or accredited representative and my representation of the applicant in this case extends beyond the preparation of this application."
+  },
+  {
+    "name": "Part5Line7b_Checkbox[1]",
+    "type": "/Btn",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "B. Select I am an attorney or accredited representative and my representation of the applicant in this case does not extend beyond the preparation of this application.",
+    "screen_label": "I am an attorney or accredited representative and my representation of the applicant in this case does not extend beyond the preparation of this application."
+  },
+  {
+    "name": "Pt5Line8a_Signature[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Signature",
+    "screen_label": "Print and sign in ink."
+  },
+  {
+    "name": "Pt5Line8b_DateofSignature[0]",
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "DateofSignature",
+    "screen_label": "the  2-digit Month, 2-digit Day and 4-digit Year."
+  }
+]

@@ -1,0 +1,423 @@
+{
+  "version": "1.0",
+  "collections": {
+    "personal_info": {
+      "description": "Core personal information collected once",
+      "fields": {
+        "given_name": {
+          "type": "string",
+          "description": "Legal first name",
+          "aliases": ["first_name", "givenname"]
+        },
+        "family_name": {
+          "type": "string",
+          "description": "Legal last name",
+          "aliases": ["last_name", "surname"]
+        },
+        "middle_name": {
+          "type": "string",
+          "description": "Middle name if any",
+          "optional": true
+        },
+        "date_of_birth": {
+          "type": "date",
+          "description": "Date of birth in YYYY-MM-DD format"
+        },
+        "place_of_birth": {
+          "type": "object",
+          "fields": {
+            "city": "string",
+            "state": {"type": "string", "optional": true},
+            "country": "string"
+          }
+        },
+        "alien_number": {
+          "type": "string",
+          "description": "A-Number if applicable",
+          "pattern": "^A-?\\d{8,9}$",
+          "optional": true
+        },
+        "ssn": {
+          "type": "string",
+          "description": "Social Security Number",
+          "pattern": "^\\d{3}-?\\d{2}-?\\d{4}$",
+          "optional": true
+        },
+        "gender": {
+          "type": "string",
+          "enum": ["male", "female"],
+          "description": "Gender as indicated on official documents"
+        },
+        "eye_color": {
+          "type": "string",
+          "description": "Eye color"
+        },
+        "hair_color": {
+          "type": "string",
+          "description": "Hair color"
+        },
+        "marital_status": {
+          "type": "string",
+          "enum": ["single", "married", "divorced", "widowed", "separated"],
+          "description": "Current marital status"
+        },
+        "marriage_history": {
+          "type": "object",
+          "fields": {
+            "total_marriages": {"type": "integer", "description": "Total number of marriages"},
+            "current_marriage_date": {"type": "date", "optional": true},
+            "last_marriage_end_date": {"type": "date", "optional": true},
+            "last_marriage_end_reason": {
+              "type": "string",
+              "enum": ["divorced", "annulled", "widowed", "separated"],
+              "optional": true
+            }
+          }
+        },
+        "race": {
+          "type": "string",
+          "description": "Race as indicated on official documents",
+          "optional": true
+        },
+        "ethnicity": {
+          "type": "string",
+          "description": "Ethnicity as indicated on official documents",
+          "optional": true
+        }
+      }
+    },
+    "contact_info": {
+      "description": "Current contact information",
+      "fields": {
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "phone": {
+          "type": "string",
+          "description": "Primary phone number"
+        },
+        "in_care_of": {
+          "type": "string",
+          "description": "Name of person receiving mail on behalf of applicant",
+          "optional": true
+        },
+        "current_address": {
+          "type": "object",
+          "fields": {
+            "street": "string",
+            "unit": {"type": "string", "optional": true},
+            "city": "string",
+            "state": "string",
+            "zip": "string",
+            "country": "string"
+          }
+        }
+      }
+    },
+    "addresses": {
+      "description": "Historical addresses",
+      "type": "array",
+      "max_items": 5,
+      "sequence_identifiers": ["Address 1", "Address 2", "Address 3", "Address 4", "Address 5"],
+      "item_schema": {
+        "type": "object",
+        "fields": {
+          "date_from": "date",
+          "date_to": "date",
+          "street": "string",
+          "unit": {"type": "string", "optional": true},
+          "city": "string",
+          "state": "string",
+          "zip": "string",
+          "country": "string"
+        }
+      }
+    },
+    "employment": {
+      "description": "Employment history",
+      "type": "array",
+      "max_items": 5,
+      "sequence_identifiers": ["Employer 1", "Employer 2", "Employer 3", "Employer 4", "Employer 5"],
+      "item_schema": {
+        "type": "object",
+        "fields": {
+          "employer_name": "string",
+          "date_from": "date",
+          "date_to": "date",
+          "job_title": "string",
+          "address": {
+            "type": "object",
+            "fields": {
+              "street": "string",
+              "unit": {"type": "string", "optional": true},
+              "city": "string",
+              "state": "string",
+              "zip": "string",
+              "country": "string"
+            }
+          }
+        }
+      }
+    },
+    "family_members": {
+      "description": "Family relationships",
+      "type": "array",
+      "categories": ["children", "siblings", "parents", "spouses"],
+      "item_schema": {
+        "type": "object",
+        "fields": {
+          "relationship": {
+            "type": "string",
+            "enum": ["child", "sibling", "parent", "spouse", "stepchild", "adopted"]
+          },
+          "given_name": "string",
+          "family_name": "string",
+          "middle_name": {"type": "string", "optional": true},
+          "date_of_birth": "date",
+          "country_of_birth": "string",
+          "current_address": {
+            "type": "object",
+            "optional": true,
+            "fields": {
+              "street": "string",
+              "unit": {"type": "string", "optional": true},
+              "city": "string",
+              "state": "string",
+              "zip": "string",
+              "country": "string"
+            }
+          }
+        }
+      }
+    },
+    "documents": {
+      "description": "Supporting documents",
+      "type": "array",
+      "item_schema": {
+        "type": "object",
+        "fields": {
+          "type": {
+            "type": "string",
+            "enum": ["passport", "visa", "birth_certificate", "marriage_certificate", "i-94", "i-20", "i-797"]
+          },
+          "number": "string",
+          "issue_date": "date",
+          "expiry_date": "date",
+          "issuing_country": "string"
+        }
+      }
+    },
+    "medical": {
+      "description": "Medical examination and vaccination records",
+      "fields": {
+        "tb_classification": {
+          "type": "string",
+          "description": "TB Classification result",
+          "optional": true
+        },
+        "sputum_results": {
+          "type": "array",
+          "description": "Sputum smear/culture results",
+          "optional": true,
+          "items": {
+            "type": "object",
+            "fields": {
+              "date": "date",
+              "type": "string",
+              "result": "string"
+            }
+          }
+        },
+        "vaccinations": {
+          "type": "array",
+          "description": "Vaccination records",
+          "items": {
+            "type": "object",
+            "fields": {
+              "type": {
+                "type": "string",
+                "enum": ["TB", "PV", "TD", "Other"]
+              },
+              "date": "date",
+              "status": "string",
+              "notes": {"type": "string", "optional": true}
+            }
+          }
+        },
+        "disorders": {
+          "type": "array",
+          "description": "Medical disorders or conditions",
+          "optional": true,
+          "items": {
+            "type": "object",
+            "fields": {
+              "type": "string",
+              "diagnosis_date": {"type": "date", "optional": true},
+              "status": "string",
+              "notes": {"type": "string", "optional": true}
+            }
+          }
+        },
+        "screening_results": {
+          "type": "array",
+          "description": "Medical screening results",
+          "items": {
+            "type": "object",
+            "fields": {
+              "date": "date",
+              "type": "string",
+              "result": "string",
+              "findings": {"type": "string", "optional": true},
+              "remarks": {"type": "string", "optional": true}
+            }
+          }
+        }
+      }
+    },
+    "form_metadata": {
+      "description": "Metadata about form fields and their context",
+      "type": "object",
+      "dynamic_fields": true,
+      "value_schema": {
+        "type": "object",
+        "fields": {
+          "form_id": {
+            "type": "string",
+            "description": "Form identifier (i485, i90, etc.)",
+            "enum": ["i485", "i130", "i90", "i751", "n400"]
+          },
+          "field_name": "string",
+          "short_label": {
+            "type": "string",
+            "description": "Extracted label from tooltip (e.g., 'Select Province', 'Enter Floor')"
+          },
+          "tooltip": {
+            "type": "string",
+            "description": "Complete tooltip text"
+          },
+          "field_type": {
+            "type": "string",
+            "enum": ["button", "checkbox", "text", "date", "number"]
+          },
+          "location": {
+            "type": "object",
+            "fields": {
+              "part": {"type": "integer", "optional": true},
+              "line": {"type": "integer", "optional": true},
+              "item": {"type": "string", "optional": true}
+            }
+          }
+        }
+      }
+    },
+    "answers": {
+      "description": "Form-specific yes/no and checkbox answers",
+      "type": "object",
+      "dynamic_fields": true,
+      "value_schema": {
+        "type": "object",
+        "fields": {
+          "value": "boolean",
+          "context": {"type": "string", "description": "Context extracted from tooltip"},
+          "form_id": {
+            "type": "string",
+            "description": "Form identifier (i485, i90, etc.)",
+            "enum": ["i485", "i130", "i90", "i751", "n400"]
+          },
+          "short_label": {
+            "type": "string",
+            "description": "Extracted label from tooltip (e.g., 'Select Eye Color')"
+          },
+          "options": {
+            "type": "array",
+            "items": "string",
+            "description": "Available options for binary choices"
+          },
+          "field_name": "string",
+          "tooltip": "string",
+          "page": {"type": "integer", "optional": true},
+          "part": {"type": "integer", "optional": true}
+        }
+      }
+    },
+    "office": {
+      "description": "Office/administrative fields and form metadata",
+      "fields": {
+        "preparer_name": "string",
+        "attorney_bar_number": "string",
+        "filing_category": "string",
+        "office_notes": "string",
+        "page_number": {"type": "integer", "optional": true},
+        "part_number": {"type": "integer", "optional": true},
+        "item_number": {"type": "integer", "optional": true},
+        "additional_info": {"type": "string", "optional": true},
+        "remarks": {"type": "string", "optional": true},
+        "results": {"type": "string", "optional": true},
+        "findings": {"type": "string", "optional": true},
+        "screening_date": {"type": "date", "optional": true},
+        "complete_series": {"type": "boolean", "optional": true}
+      }
+    },
+    "form_structure": {
+      "description": "Form structural elements and metadata",
+      "fields": {
+        "page_number": {
+          "type": "integer",
+          "description": "Page number in the form"
+        },
+        "part_number": {
+          "type": "integer",
+          "description": "Part number within the form"
+        },
+        "line_number": {
+          "type": "integer",
+          "description": "Line number within a part"
+        },
+        "item_number": {
+          "type": "integer",
+          "description": "Item/question number"
+        },
+        "section_title": {
+          "type": "string",
+          "description": "Title of the current section",
+          "optional": true
+        },
+        "additional_info": {
+          "type": "string",
+          "description": "Additional form context or instructions",
+          "optional": true
+        }
+      }
+    },
+    "generic_text": {
+      "description": "Generic text fields that don't fit specific categories",
+      "type": "object",
+      "dynamic_fields": true,
+      "value_schema": {
+        "type": "object",
+        "fields": {
+          "value": "string",
+          "context": {"type": "string", "description": "Field context if available"},
+          "form_id": {
+            "type": "string",
+            "description": "Form identifier (i485, i90, etc.)",
+            "enum": ["i485", "i130", "i90", "i751", "n400"]
+          },
+          "short_label": {
+            "type": "string",
+            "description": "Extracted label from tooltip"
+          },
+          "form_location": {
+            "type": "object",
+            "fields": {
+              "page": {"type": "integer", "optional": true},
+              "part": {"type": "integer", "optional": true},
+              "line": {"type": "integer", "optional": true}
+            }
+          }
+        }
+      }
+    }
+  }
+} 

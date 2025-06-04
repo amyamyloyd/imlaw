@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Pt6Line1_TotalChildren[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "TotalChildren",
+    "screen_label": "Number."
+  },
+  {
+    "name": "Pt6Line2a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt6Line2b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt6Line2c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt6Line4_DateofBirth[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "DateofBirth",
+    "screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  {
+    "name": "Pt6Line6_Country[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt6Line6_YesNo[0]",
+    "type": "/Btn",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "Is this child applying with you. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt6Line6_YesNo[1]",
+    "type": "/Btn",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "Is this child applying with you. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt6Line7a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt6Line7b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt6Line7c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt6Line9_DateofBirth[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "DateofBirth",
+    "screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  {
+    "name": "Pt6Line10_Country[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt6Line11_YesNo[0]",
+    "type": "/Btn",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "Is this child applying with you. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt6Line11_YesNo[1]",
+    "type": "/Btn",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "Is this child applying with you. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt6Line12a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt6Line12b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt6Line12c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt6Line14_DateofBirth[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "DateofBirth",
+    "screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  {
+    "name": "Pt6Line15_Country[0]",
+    "type": "/Tx",
+    "persona": "family_member",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt6Line16_YesNo[0]",
+    "type": "/Btn",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "Is this child applying with you. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt6Line16_YesNo[1]",
+    "type": "/Btn",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "Is this child applying with you. Select No.",
+    "screen_label": "No."
+  }
+]

@@ -1,0 +1,458 @@
+[
+  {
+    "name": "PtLine20a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt2Line20b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt2Line20c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt2Line23_DateMarriageEnded[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "DateMarriageEnded",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt2Line22c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt2Line22b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt2Line22a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt2Line21_DateMarriageEnded[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "DateMarriageEnded",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt2Line1_CB[19]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Special Programs Based on Certain Public Laws. Select Dependent status under the Haitian Refugee Immigrant Fairness Act for battered spouses and children.",
+    "screen_label": "Dependent status under the Haitian Refugee Immigrant Fairness Act for battered spouses and children."
+  },
+  {
+    "name": "Pt2Line1_CB[22]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Special Programs Based on Certain Public Laws. Select The Cuban Adjustment Act for battered spouses and children.",
+    "screen_label": "The Cuban Adjustment Act for battered spouses and children."
+  },
+  {
+    "name": "Pt2Line5a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt5Line2_YNNA[0]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Coast Guard. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt5Line2_YNNA[1]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Coast Guard. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt5Line2_YNNA[2]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Coast Guard. Select Not Applicable.",
+    "screen_label": "Not Applicable."
+  },
+  {
+    "name": "Pt5Line4a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt5Line4b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt5Line4c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt5Line6_DateofBirth[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "DateofBirth",
+    "screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  {
+    "name": "Pt5Line7_Date[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Date",
+    "screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  {
+    "name": "Pt5Line8c_Country[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt5Line8b_State[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "State",
+    "screen_label": "State or Province."
+  },
+  {
+    "name": "Pt5Line8a_CityTown[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "CityTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt5Line9c_Country[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt5Line9b_State[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "State",
+    "screen_label": "State or Province."
+  },
+  {
+    "name": "Pt5Line9a_CityTown[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "CityTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt5Line10_YN[0]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Is your current spouse applying with you. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt5Line10_YN[1]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Is your current spouse applying with you. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt511a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt5Line11b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt5Line11c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt5Line12_DateofBirth[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "DateofBirth",
+    "screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  {
+    "name": "Pt5Line13_Date[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Date",
+    "screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  {
+    "name": "Pt5Line14c_Country[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt5Line14b_State[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "State",
+    "screen_label": "State or Province."
+  },
+  {
+    "name": "Pt5Line14a_CityTown[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "CityTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt5Line15_Date[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Date",
+    "screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  {
+    "name": "Pt5Line16a_CityTown[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "CityTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt5Line16b_State[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "State",
+    "screen_label": "State or Province."
+  },
+  {
+    "name": "Pt5Line16c_Country[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt8Line34_YesNo[0]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "Are you the spouse, son, or daughter of a foreign national who illicitly trafficked or aided (or otherwise abetted, assisted, conspired, or colluded) in the illicit trafficking of a controlled substance, such as chemicals, illegal drugs, or narcotics and you obtained, within the last five years, any financial or other benefit from the illegal activity of your spouse or parent, although you knew or reasonably should have known that the financial or other benefit resulted from the illicit activity of your spouse or parent. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt8Line34_YesNo[1]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "Are you the spouse, son, or daughter of a foreign national who illicitly trafficked or aided (or otherwise abetted, assisted, conspired, or colluded) in the illicit trafficking of a controlled substance, such as chemicals, illegal drugs, or narcotics and you obtained, within the last five years, any financial or other benefit from the illegal activity of your spouse or parent, although you knew or reasonably should have known that the financial or other benefit resulted from the illicit activity of your spouse or parent. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt8Line44_YesNo[0]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "Are you the spouse, son or daughter of a foreign national who engaged in the trafficking of persons and have received or obtained, within the last five years, any financial or other benefits from the illicit activity of your spouse or your parent, although you knew or reasonably should have known that this benefit resulted from the illicit activity of your spouse or parent. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt8Line44_YesNo[1]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "Are you the spouse, son or daughter of a foreign national who engaged in the trafficking of persons and have received or obtained, within the last five years, any financial or other benefits from the illicit activity of your spouse or your parent, although you knew or reasonably should have known that this benefit resulted from the illicit activity of your spouse or parent. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt8Line51a_YesNo[0]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "Committed, threatened to commit, attempted to commit, conspired to commit, incited, endorsed, advocated, planned, or prepared any of the following:  hijacking, sabotage, kidnapping, political assassination, or use of a weapon or explosive to harm another individual or cause substantial damage to property. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt8Line51a_YesNo[1]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "Committed, threatened to commit, attempted to commit, conspired to commit, incited, endorsed, advocated, planned, or prepared any of the following:  hijacking, sabotage, kidnapping, political assassination, or use of a weapon or explosive to harm another individual or cause substantial damage to property. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt8Line51b_YesNo[0]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "A.. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt8Line51b_YesNo[1]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "A.. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt8Line51c_YesNo[0]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "A.. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt8Line51c_YesNo[1]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "A.. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt8Line51d_YesNo[0]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "A.. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt8Line51d_YesNo[1]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "A.. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt8Line51e_YesNo[0]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "A.. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt8Line51e_YesNo[1]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "A.. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt8Line51f_YesNo[0]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "A.. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt8Line51f_YesNo[1]",
+    "type": "/Btn",
+    "persona": "spouse",
+    "domain": "criminal",
+    "value": "A.. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Line30a_ReceiptNumber[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "immigration",
+    "value": "ReceiptNumber",
+    "screen_label": "13 Characters."
+  },
+  {
+    "name": "Line28_ReceiptNumber[0]",
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "immigration",
+    "value": "ReceiptNumber",
+    "screen_label": "13 Characters."
+  }
+]

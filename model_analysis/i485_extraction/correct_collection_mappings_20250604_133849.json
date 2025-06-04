@@ -1,0 +1,1921 @@
+{
+  "Applicant_FamilyName": {
+    "type": "one_to_many",
+    "description": "Applicant FamilyName data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "FamilyName",
+    "form_fields": [
+      "Pt11Line1a_FamilyName[0]",
+      "Pt1Line1a_FamilyName[0]",
+      "Pt1Line1a_FamilyName[1]",
+      "Pt1Line28a_FamilyName[0]",
+      "Pt1Line2a_FamilyName[0]",
+      "Pt1Line3a_FamilyName[0]",
+      "Pt1Line4a_FamilyName[0]",
+      "Pt2Line5a_FamilyName[0]",
+      "Pt4Line10a_FamilyName[0]",
+      "Pt4Line1a_FamilyName[0]",
+      "Pt4Line2a_FamilyName[0]",
+      "Pt4Line9a_FamilyName[0]",
+      "Pt511a_FamilyName[0]",
+      "Pt5Line4a_FamilyName[0]",
+      "Pt6Line12a_FamilyName[0]",
+      "Pt6Line2a_FamilyName[0]",
+      "Pt6Line7a_FamilyName[0]"
+    ],
+    "field_count": 17,
+    "sample_screen_label": "Family Name (Last Name).",
+    "sample_tooltip": "NOTE TO ALL APPLICANTS:  If you do not completely fill out this application or fail to submit required documents listed in the Instructions, U.S. Citizenship and Immigration Services (U S C I S) may deny your application. Part 1. Information About You (Person applying for lawful permanent residence). Your Current Legal Name (do not provide a nickname). 1. A. Enter Family Name (Last Name)."
+  },
+  "Applicant_GivenName": {
+    "type": "one_to_many",
+    "description": "Applicant GivenName data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "GivenName",
+    "form_fields": [
+      "Pt11Line1b_GivenName[0]",
+      "Pt1Line1b_GivenName[0]",
+      "Pt1Line1b_GivenName[1]",
+      "Pt1Line28b_GivenName[0]",
+      "Pt1Line2b_GivenName[0]",
+      "Pt1Line3b_GivenName[0]",
+      "Pt1Line4b_GivenName[0]",
+      "Pt2Line5b_GivenName[0]",
+      "Pt4Line10b_GivenName[0]",
+      "Pt4Line1b_GivenName[0]",
+      "Pt4Line2b_GivenName[0]",
+      "Pt4Line9b_GivenName[0]",
+      "Pt5Line11b_GivenName[0]",
+      "Pt5Line4b_GivenName[0]",
+      "Pt6Line12b_GivenName[0]",
+      "Pt6Line2b_GivenName[0]",
+      "Pt6Line7b_GivenName[0]"
+    ],
+    "field_count": 17,
+    "sample_screen_label": "Given Name (First Name).",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Your Current Legal Name (do not provide a nickname). 1. B. Enter Given Name (First Name)."
+  },
+  "Applicant_MiddleName": {
+    "type": "one_to_many",
+    "description": "Applicant MiddleName data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "MiddleName",
+    "form_fields": [
+      "Pt1Line1c_MiddleName[0]",
+      "Pt1Line1c_MiddleName[1]",
+      "Pt1Line28c_MiddleName[0]",
+      "Pt1Line2c_MiddleName[0]",
+      "Pt1Line3c_MiddleName[0]",
+      "Pt1Line4c_MiddleName[0]",
+      "Pt2Line5c_MiddleName[0]",
+      "Pt4Line10c_MiddleName[0]",
+      "Pt4Line1c_MiddleName[0]",
+      "Pt4Line2c_MiddleName[0]",
+      "Pt4Line9c_MiddleName[0]",
+      "Pt5Line11c_MiddleName[0]",
+      "Pt5Line4c_MiddleName[0]",
+      "Pt6Line12c_MiddleName[0]",
+      "Pt6Line2c_MiddleName[0]",
+      "Pt6Line7c_MiddleName[0]"
+    ],
+    "field_count": 16,
+    "sample_screen_label": "Middle Name.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Your Current Legal Name (do not provide a nickname). 1. C. Enter Middle Name."
+  },
+  "Attorney_AttorneyStateBarNumber": {
+    "type": "one_to_one",
+    "description": "Attorney AttorneyStateBarNumber data (collected across forms)",
+    "persona": "attorney",
+    "domain": "office",
+    "value": "AttorneyStateBarNumber",
+    "form_fields": [
+      "AttorneyStateBarNumber[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Attorney State Bar Number, if applicable.",
+    "sample_tooltip": "To be completed by an attorney or accredited representative, if any. Enter Attorney State Bar Number, if applicable."
+  },
+  "Attorney_CheckBox1": {
+    "type": "one_to_one",
+    "description": "Attorney CheckBox1 data (collected across forms)",
+    "persona": "attorney",
+    "domain": "office",
+    "value": "CheckBox1",
+    "form_fields": [
+      "CheckBox1[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "To be completed by an attorney or accredited representative, if any. Select this box if Form G-28 is attached.",
+    "sample_tooltip": "To be completed by an attorney or accredited representative, if any. Select this box if Form G-28 is attached."
+  },
+  "Attorney_VolagNumber": {
+    "type": "one_to_one",
+    "description": "Attorney VolagNumber data (collected across forms)",
+    "persona": "attorney",
+    "domain": "office",
+    "value": "VolagNumber",
+    "form_fields": [
+      "VolagNumber[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Volag Number, if any.",
+    "sample_tooltip": "To be completed by an attorney or accredited representative, if any. Enter Volag Number, if any."
+  },
+  "Attorney_USCISOnlineAcctNumber": {
+    "type": "one_to_one",
+    "description": "Attorney USCISOnlineAcctNumber data (collected across forms)",
+    "persona": "attorney",
+    "domain": "office",
+    "value": "USCISOnlineAcctNumber",
+    "form_fields": [
+      "USCISOnlineAcctNumber[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Attorney or Accredited Representative U S C I S Online Account Number, if any.",
+    "sample_tooltip": "To be completed by an attorney or accredited representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any."
+  },
+  "Applicant_AlienNumber": {
+    "type": "standard",
+    "description": "Applicant AlienNumber data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "AlienNumber",
+    "form_fields": [
+      "Pt1Line10_AlienNumber[0]",
+      "Pt1Line10_AlienNumber[10]",
+      "Pt1Line10_AlienNumber[11]",
+      "Pt1Line10_AlienNumber[12]",
+      "Pt1Line10_AlienNumber[13]",
+      "Pt1Line10_AlienNumber[14]",
+      "Pt1Line10_AlienNumber[15]",
+      "Pt1Line10_AlienNumber[16]",
+      "Pt1Line10_AlienNumber[17]",
+      "Pt1Line10_AlienNumber[18]",
+      "Pt1Line10_AlienNumber[19]",
+      "Pt1Line10_AlienNumber[1]",
+      "Pt1Line10_AlienNumber[20]",
+      "Pt1Line10_AlienNumber[21]",
+      "Pt1Line10_AlienNumber[2]",
+      "Pt1Line10_AlienNumber[3]",
+      "Pt1Line10_AlienNumber[4]",
+      "Pt1Line10_AlienNumber[5]",
+      "Pt1Line10_AlienNumber[6]",
+      "Pt1Line10_AlienNumber[7]",
+      "Pt1Line10_AlienNumber[8]",
+      "Pt1Line10_AlienNumber[9]",
+      "Pt1Line8_AlienNumber[0]",
+      "Pt5Line5_AlienNumber[0]",
+      "Pt6Line13_AlienNumber[0]",
+      "Pt6Line3_AlienNumber[0]",
+      "Pt6Line8_AlienNumber[0]"
+    ],
+    "field_count": 27,
+    "sample_screen_label": "Number).",
+    "sample_tooltip": "Enter Alien Registration Number (A. Number). "
+  },
+  "Applicant_DateofBirth": {
+    "type": "standard",
+    "description": "Applicant DateofBirth data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "DateofBirth",
+    "form_fields": [
+      "Pt1Line5_DateofBirth[0]",
+      "Pt4Line11_DateofBirth[0]",
+      "Pt4Line3_DateofBirth[0]",
+      "Pt5Line12_DateofBirth[0]",
+      "Pt5Line6_DateofBirth[0]",
+      "Pt6Line14_DateofBirth[0]",
+      "Pt6Line4_DateofBirth[0]",
+      "Pt6Line9_DateofBirth[0]"
+    ],
+    "field_count": 8,
+    "sample_screen_label": "Additional Information.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Other Information About You. 5. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year. NOTE:  In addition to providing your actual date of birth, include any other dates of birth you have used in connection with any legal names or non-legal names in the space provided in Part 14. Additional Information."
+  },
+  "Applicant_Gender": {
+    "type": "standard",
+    "description": "Applicant Gender data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "Gender",
+    "form_fields": [
+      "Pt1Line6_Gender[0]",
+      "Pt1Line6_Gender[1]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Sex. Select Female.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Other Information About You. 6. Sex. Select Female."
+  },
+  "Applicant_CityOrTown": {
+    "type": "one_to_many",
+    "description": "Applicant CityOrTown data (collected across forms)",
+    "persona": "applicant",
+    "domain": "criminal",
+    "value": "CityOrTown",
+    "form_fields": [
+      "Pt1Line12_CityOrTown[0]",
+      "Pt1Line13_CityOrTown[0]",
+      "Pt1Line6_CityOrTown[0]",
+      "Pt3Line12_CityOrTown[0]",
+      "Pt3Line16_CityOrTown[0]",
+      "Pt3Line20_CityOrTown[0]",
+      "Pt3Line5_CityOrTown[0]",
+      "Pt3Line7_CityOrTown[0]",
+      "Pt3Line9_CityOrTown[0]"
+    ],
+    "field_count": 9,
+    "sample_screen_label": "City or Town of Birth.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Other Information About You. 7. Enter City or Town of Birth."
+  },
+  "Applicant_CountryofBirth": {
+    "type": "standard",
+    "description": "Applicant CountryofBirth data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "CountryofBirth",
+    "form_fields": [
+      "Pt1Line8_CountryofBirth[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Country of Birth.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Other Information About You. 8. Enter Country of Birth."
+  },
+  "Applicant_CountryofCitizenship": {
+    "type": "standard",
+    "description": "Applicant CountryofCitizenship data (collected across forms)",
+    "persona": "applicant",
+    "domain": "criminal",
+    "value": "CountryofCitizenship",
+    "form_fields": [
+      "Pt1Line9_CountryofCitizenship[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Country of Citizenship or Nationality.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Other Information About You. 9. Enter Country of Citizenship or Nationality."
+  },
+  "Applicant_StreetNumberName": {
+    "type": "one_to_many",
+    "description": "Applicant StreetNumberName data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "StreetNumberName",
+    "form_fields": [
+      "Pt1Line12_StreetNumberName[0]",
+      "Pt1Line13_StreetNumberName[0]",
+      "Pt3Line12_StreetNumberName[0]",
+      "Pt3Line16_StreetNumberName[0]",
+      "Pt3Line20_StreetNumberName[0]",
+      "Pt3Line5_StreetNumberName[0]",
+      "Pt3Line7_StreetNumberName[0]",
+      "Pt3Line9_StreetNumberName[0]"
+    ],
+    "field_count": 8,
+    "sample_screen_label": "Street Number and Name.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). U.S. Mailing Address. 12. B. Enter Street Number and Name."
+  },
+  "Applicant_Unit": {
+    "type": "standard",
+    "description": "Applicant Unit data (collected across forms)",
+    "persona": "applicant",
+    "domain": "criminal",
+    "value": "Unit",
+    "form_fields": [
+      "Pt1Line12_Unit[0]",
+      "Pt1Line12_Unit[1]",
+      "Pt1Line12_Unit[2]",
+      "Pt1Line13_Unit[0]",
+      "Pt1Line13_Unit[1]",
+      "Pt1Line13_Unit[2]",
+      "Pt3Line12_Unit[0]",
+      "Pt3Line12_Unit[1]",
+      "Pt3Line12_Unit[2]",
+      "Pt3Line16_Unit[0]",
+      "Pt3Line16_Unit[1]",
+      "Pt3Line16_Unit[2]",
+      "Pt3Line20_Unit[0]",
+      "Pt3Line20_Unit[1]",
+      "Pt3Line20_Unit[2]",
+      "Pt3Line5_Unit[0]",
+      "Pt3Line5_Unit[1]",
+      "Pt3Line5_Unit[2]",
+      "Pt3Line7_Unit[0]",
+      "Pt3Line7_Unit[1]",
+      "Pt3Line7_Unit[2]",
+      "Pt3Line9_Unit[0]",
+      "Pt3Line9_Unit[1]",
+      "Pt3Line9_Unit[2]"
+    ],
+    "field_count": 24,
+    "sample_screen_label": "C. Select Floor.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). U.S. Mailing Address. 12. C. Select Floor."
+  },
+  "Applicant_AptSteFlrNumber": {
+    "type": "standard",
+    "description": "Applicant AptSteFlrNumber data (collected across forms)",
+    "persona": "applicant",
+    "domain": "criminal",
+    "value": "AptSteFlrNumber",
+    "form_fields": [
+      "Pt1Line12_AptSteFlrNumber[0]",
+      "Pt1Line13_AptSteFlrNumber[0]",
+      "Pt3Line12_AptSteFlrNumber[0]",
+      "Pt3Line16_AptSteFlrNumber[0]",
+      "Pt3Line20_AptSteFlrNumber[0]",
+      "Pt3Line5_AptSteFlrNumber[0]",
+      "Pt3Line7_AptSteFlrNumber[0]",
+      "Pt3Line9_AptSteFlrNumber[0]"
+    ],
+    "field_count": 8,
+    "sample_screen_label": "Apartment, Suite or Floor Number.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). U.S. Mailing Address. 12. C. Enter Apartment, Suite or Floor Number."
+  },
+  "Applicant_ZipCode": {
+    "type": "one_to_many",
+    "description": "Applicant ZipCode data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "ZipCode",
+    "form_fields": [
+      "Pt1Line12_ZipCode[0]",
+      "Pt1Line13_ZipCode[0]",
+      "Pt3Line12_ZipCode[0]",
+      "Pt3Line16_ZipCode[0]",
+      "Pt3Line20_ZipCode[0]",
+      "Pt3Line5_ZipCode[0]",
+      "Pt3Line7_ZipCode[0]",
+      "Pt3Line9_ZipCode[0]"
+    ],
+    "field_count": 8,
+    "sample_screen_label": "Zip Code.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). U.S. Mailing Address. 12. F. Enter Zip Code."
+  },
+  "Applicant_State": {
+    "type": "one_to_many",
+    "description": "Applicant State data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "State",
+    "form_fields": [
+      "Pt1Line12_State[0]",
+      "Pt1Line13_State[0]",
+      "Pt1Line23b_State[0]",
+      "Pt3Line12_State[0]",
+      "Pt3Line16_State[0]",
+      "Pt3Line20_State[0]",
+      "Pt3Line5_State[0]",
+      "Pt3Line7_State[0]",
+      "Pt3Line9_State[0]",
+      "Pt8Line11b_State[0]",
+      "Pt8Line3b_State[0]",
+      "Pt8Line7b_State[0]"
+    ],
+    "field_count": 12,
+    "sample_screen_label": "State from List of States.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). U.S. Mailing Address. 12. E. Select State from List of States."
+  },
+  "Applicant_InCareofName": {
+    "type": "standard",
+    "description": "Applicant InCareofName data (collected across forms)",
+    "persona": "applicant",
+    "domain": "criminal",
+    "value": "InCareofName",
+    "form_fields": [
+      "Pt1Line12_InCareofName[0]",
+      "Pt1Line13_InCareofName[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "In Care Of Name, if any.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). U.S. Mailing Address. 12. A. Enter In Care Of Name, if any."
+  },
+  "Applicant_USCISELISAcctNumber": {
+    "type": "standard",
+    "description": "Applicant USCISELISAcctNumber data (collected across forms)",
+    "persona": "applicant",
+    "domain": "criminal",
+    "value": "USCISELISAcctNumber",
+    "form_fields": [
+      "Pt1Line11_USCISELISAcctNumber[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "U S C I S Online Account Number, if any.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Other Information About You. 11. Enter U S C I S Online Account Number, if any."
+  },
+  "Applicant_YN": {
+    "type": "standard",
+    "description": "Applicant YN data (collected across forms)",
+    "persona": "applicant",
+    "domain": "criminal",
+    "value": "YN",
+    "form_fields": [
+      "Pt1Line14_YN[0]",
+      "Pt1Line14_YN[1]",
+      "Pt1Line16_YN[0]",
+      "Pt1Line16_YN[1]",
+      "Pt1Line17_YN[0]",
+      "Pt1Line17_YN[1]",
+      "Pt3Line1_YN[0]",
+      "Pt3Line1_YN[1]"
+    ],
+    "field_count": 8,
+    "sample_screen_label": "Has the Social Security Administration (SSA) ever officially issued a Social Security card to you. Select No.",
+    "sample_tooltip": "Part 1. Information About You (individual applying for lawful permanent residence).  Social Security Card. 14. Has the Social Security Administration (SSA) ever officially issued a Social Security card to you? Select No."
+  },
+  "Applicant_SSN": {
+    "type": "standard",
+    "description": "Applicant SSN data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "SSN",
+    "form_fields": [
+      "Pt1Line15_SSN[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "9 digit social security number.",
+    "sample_tooltip": "Part 1. Information About You (individual applying for lawful permanent residence).  Social Security Card. 15. Provide your U.S. Social Security Number (SSN).  Enter 9 digit social security number."
+  },
+  "Applicant_PassportNum": {
+    "type": "standard",
+    "description": "Applicant PassportNum data (collected across forms)",
+    "persona": "applicant",
+    "domain": "immigration",
+    "value": "PassportNum",
+    "form_fields": [
+      "Pt1Line18_PassportNum[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Passport Number Used at Last Arrival.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. Provide the information for Item Numbers 18. through 24. if you last entered the United States using a passport or travel document. 18. Enter Passport Number Used at Last Arrival."
+  },
+  "Applicant_TravelDoc": {
+    "type": "standard",
+    "description": "Applicant TravelDoc data (collected across forms)",
+    "persona": "applicant",
+    "domain": "criminal",
+    "value": "TravelDoc",
+    "form_fields": [
+      "Pt2Line19_TravelDoc[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Travel Document Number Used at Last Arrival.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. 19. Enter Travel Document Number Used at Last Arrival."
+  },
+  "Applicant_ExpDate": {
+    "type": "standard",
+    "description": "Applicant ExpDate data (collected across forms)",
+    "persona": "applicant",
+    "domain": "immigration",
+    "value": "ExpDate",
+    "form_fields": [
+      "Pt1Line20_ExpDate[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. 20. Enter Date of this Passport or Travel Document. Enter as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  "Applicant_Passport": {
+    "type": "standard",
+    "description": "Applicant Passport data (collected across forms)",
+    "persona": "applicant",
+    "domain": "immigration",
+    "value": "Passport",
+    "form_fields": [
+      "Pt1Line21_Passport[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Country that Issued this Passport or Travel Document.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. 21. Enter Country that Issued this Passport or Travel Document."
+  },
+  "Applicant_VisaNum": {
+    "type": "standard",
+    "description": "Applicant VisaNum data (collected across forms)",
+    "persona": "applicant",
+    "domain": "immigration",
+    "value": "VisaNum",
+    "form_fields": [
+      "Pt1Line22_VisaNum[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Nonimmigrant Visa Number from this Passport, if any.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. 22. Enter Nonimmigrant Visa Number from this Passport, if any."
+  },
+  "Applicant_CityTown": {
+    "type": "standard",
+    "description": "Applicant CityTown data (collected across forms)",
+    "persona": "applicant",
+    "domain": "immigration",
+    "value": "CityTown",
+    "form_fields": [
+      "Pt1Line23a_CityTown[0]",
+      "Pt8Line11a_CityTown[0]",
+      "Pt8Line3a_CityTown[0]",
+      "Pt8Line8a_CityTown[0]"
+    ],
+    "field_count": 4,
+    "sample_screen_label": "City or Town.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. Place of Last Arrival into the United States. 23. A. Enter City or Town."
+  },
+  "Applicant_Date": {
+    "type": "standard",
+    "description": "Applicant Date data (collected across forms)",
+    "persona": "applicant",
+    "domain": "immigration",
+    "value": "Date",
+    "form_fields": [
+      "Pt1Line24_Date[0]",
+      "Pt1Line26b_Date[0]",
+      "Pt2Line4_Date[0]",
+      "Pt2Line7_Date[0]",
+      "Pt2Line9_Date[0]",
+      "Pt3Line4_Date[0]",
+      "Pt3Line6a_Date[0]",
+      "Pt3Line6b_Date[0]"
+    ],
+    "field_count": 8,
+    "sample_screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. 24. Enter Date of Last Arrival. Enter as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  "Applicant_ParoleEntrance": {
+    "type": "standard",
+    "description": "Applicant ParoleEntrance data (collected across forms)",
+    "persona": "applicant",
+    "domain": "criminal",
+    "value": "ParoleEntrance",
+    "form_fields": [
+      "Pt1Line25b_ParoleEntrance[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Paroled As.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. When I last arrived in the United States, I. 25. B. Enter Paroled As."
+  },
+  "Applicant_CB": {
+    "type": "standard",
+    "description": "Applicant CB data (collected across forms)",
+    "persona": "applicant",
+    "domain": "medical",
+    "value": "CB",
+    "form_fields": [
+      "Pt1Line25a_CB[0]",
+      "Pt1Line25b_CB[0]",
+      "Pt1Line25c_CB[0]",
+      "Pt1Line25d_CB[0]",
+      "Pt2Line1_CB[0]",
+      "Pt2Line1_CB[10]",
+      "Pt2Line1_CB[11]",
+      "Pt2Line1_CB[12]",
+      "Pt2Line1_CB[13]",
+      "Pt2Line1_CB[14]",
+      "Pt2Line1_CB[15]",
+      "Pt2Line1_CB[16]",
+      "Pt2Line1_CB[17]",
+      "Pt2Line1_CB[18]",
+      "Pt2Line1_CB[19]",
+      "Pt2Line1_CB[1]",
+      "Pt2Line1_CB[20]",
+      "Pt2Line1_CB[21]",
+      "Pt2Line1_CB[22]",
+      "Pt2Line1_CB[23]",
+      "Pt2Line1_CB[24]",
+      "Pt2Line1_CB[25]",
+      "Pt2Line1_CB[26]",
+      "Pt2Line1_CB[2]",
+      "Pt2Line1_CB[3]",
+      "Pt2Line1_CB[4]",
+      "Pt2Line1_CB[5]",
+      "Pt2Line1_CB[6]",
+      "Pt2Line1_CB[7]",
+      "Pt2Line1_CB[8]",
+      "Pt2Line1_CB[9]",
+      "Pt2Line2_CB[0]",
+      "Pt2Line2_CB[1]",
+      "Pt8Line63_CB[0]",
+      "Pt8Line63_CB[1]",
+      "Pt8Line63_CB[2]",
+      "Pt8Line63_CB[3]",
+      "Pt8Line63_CB[4]",
+      "Pt8Line64_CB[0]",
+      "Pt8Line64_CB[1]",
+      "Pt8Line64_CB[2]",
+      "Pt8Line64_CB[3]",
+      "Pt8Line64_CB[4]",
+      "Pt8Line65_CB[0]",
+      "Pt8Line65_CB[1]",
+      "Pt8Line65_CB[2]",
+      "Pt8Line65_CB[3]",
+      "Pt8Line65_CB[4]",
+      "Pt8Line66_CB[0]",
+      "Pt8Line66_CB[1]",
+      "Pt8Line66_CB[2]",
+      "Pt8Line66_CB[3]",
+      "Pt8Line66_CB[4]",
+      "Pt8Line66_CB[5]",
+      "Pt8Line66_CB[6]",
+      "Pt8Line66_CB[7]",
+      "Pt8Line66_CB[8]"
+    ],
+    "field_count": 57,
+    "sample_screen_label": "A. Select Was inspected at a port of entry and admitted as (for example, exchange visitor; visitor, waived through; temporary worker; student).",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. When I last arrived in the United States, I. 25. A. Select Was inspected at a port of entry and admitted as (for example, exchange visitor; visitor, waived through; temporary worker; student)."
+  },
+  "Applicant_Status": {
+    "type": "standard",
+    "description": "Applicant Status data (collected across forms)",
+    "persona": "applicant",
+    "domain": "medical",
+    "value": "Status",
+    "form_fields": [
+      "Pt1Line26c_Status[0]",
+      "Pt1Line27_Status[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Status on Form I - 94 (for example, class of admission, or paroled, if paroled).",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. 26. C. Enter Status on Form I - 94 (for example, class of admission, or paroled, if paroled)."
+  },
+  "Applicant_AdmissionEntry": {
+    "type": "standard",
+    "description": "Applicant AdmissionEntry data (collected across forms)",
+    "persona": "applicant",
+    "domain": "criminal",
+    "value": "AdmissionEntry",
+    "form_fields": [
+      "Pt1Line25a_AdmissionEntry[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Admitted As.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. When I last arrived in the United States, I. 25. A. Enter Admitted As."
+  },
+  "Applicant_other": {
+    "type": "standard",
+    "description": "Applicant other data (collected across forms)",
+    "persona": "applicant",
+    "domain": "criminal",
+    "value": "other",
+    "form_fields": [
+      "Pt2Line25d_other[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Other.",
+    "sample_tooltip": "Part 1. Information About You (Person applying for lawful permanent residence). Recent Immigration History. When I last arrived in the United States, I. 25. D. Enter Other."
+  },
+  "Applicant_OtherEligibility": {
+    "type": "grouped_checkboxes",
+    "description": "Applicant OtherEligibility data (collected across forms)",
+    "persona": "applicant",
+    "domain": "immigration",
+    "value": "OtherEligibility",
+    "form_fields": [
+      "Pt2Line1g_OtherEligibility[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Other Eligibility.",
+    "sample_tooltip": "Part 2. Application Type or Filing Category. I am applying to register lawful permanent residence or adjust status to that of a lawful permanent resident based on the following immigrant category (select only one box).  (See the Form I - 4 85 Instructions for more information, including any Additional Instructions that relate to the immigrant category you select.). 1. G. Additional Options. Other eligibility. Enter Other Eligibility."
+  },
+  "Applicant_Receipt": {
+    "type": "standard",
+    "description": "Applicant Receipt data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Receipt",
+    "form_fields": [
+      "Pt2Line3_Receipt[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Receipt Number of Underlying Petition, if any.",
+    "sample_tooltip": "Part 2. Application Type or Filing Category. Information About Your Immigrant Category. If you are the principal applicant, provide the following information. 3. Enter Receipt Number of Underlying Petition, if any. "
+  },
+  "Applicant_ReceiptNumber": {
+    "type": "standard",
+    "description": "Applicant ReceiptNumber data (collected across forms)",
+    "persona": "applicant",
+    "domain": "immigration",
+    "value": "ReceiptNumber",
+    "form_fields": [
+      "Pt2Line8_ReceiptNumber[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Receipt Number of Principal's Underlying Petition, if any.",
+    "sample_tooltip": "Part 2. Application Type or Filing Category. Information About Your Immigrant Category. 8. Enter Receipt Number of Principal's Underlying Petition, if any."
+  },
+  "Applicant_City": {
+    "type": "standard",
+    "description": "Applicant City data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "City",
+    "form_fields": [
+      "Pt3Line2a_City[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "City.",
+    "sample_tooltip": "Part 3. Additional Information About You. Location of U.S. Embassy or U.S. Consulate. 2. A. Enter City."
+  },
+  "Applicant_Country": {
+    "type": "standard",
+    "description": "Applicant Country data (collected across forms)",
+    "persona": "applicant",
+    "domain": "immigration",
+    "value": "Country",
+    "form_fields": [
+      "Pt3Line12_Country[0]",
+      "Pt3Line16_Country[0]",
+      "Pt3Line20_Country[0]",
+      "Pt3Line2b_Country[0]",
+      "Pt3Line5_Country[0]",
+      "Pt3Line7_Country[0]",
+      "Pt3Line9_Country[0]",
+      "Pt8Line11c_Country[0]",
+      "Pt8Line3c_Country[0]",
+      "Pt8Line7c_Country[0]"
+    ],
+    "field_count": 10,
+    "sample_screen_label": "Country.",
+    "sample_tooltip": "Part 3. Additional Information About You. Location of U.S. Embassy or U.S. Consulate. 2. B. Enter Country."
+  },
+  "Applicant_Decision": {
+    "type": "standard",
+    "description": "Applicant Decision data (collected across forms)",
+    "persona": "applicant",
+    "domain": "medical",
+    "value": "Decision",
+    "form_fields": [
+      "Pt3Line3_Decision[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Decision (for example, approved, refused, denied, withdrawn).",
+    "sample_tooltip": "Part 3. Additional Information About You. 3. Enter Decision (for example, approved, refused, denied, withdrawn)."
+  },
+  "Applicant_Province": {
+    "type": "standard",
+    "description": "Applicant Province data (collected across forms)",
+    "persona": "applicant",
+    "domain": "medical",
+    "value": "Province",
+    "form_fields": [
+      "Pt3Line12_Province[0]",
+      "Pt3Line16_Province[0]",
+      "Pt3Line20_Province[0]",
+      "Pt3Line5_Province[0]",
+      "Pt3Line7_Province[0]",
+      "Pt3Line9_Province[0]"
+    ],
+    "field_count": 6,
+    "sample_screen_label": "Province.",
+    "sample_tooltip": "Part 3. Additional Information About You. Address History. Physical Address One (current address). 5. F. Enter Province."
+  },
+  "Applicant_PostalCode": {
+    "type": "standard",
+    "description": "Applicant PostalCode data (collected across forms)",
+    "persona": "applicant",
+    "domain": "medical",
+    "value": "PostalCode",
+    "form_fields": [
+      "Pt3Line12_PostalCode[0]",
+      "Pt3Line16_PostalCode[0]",
+      "Pt3Line20_PostalCode[0]",
+      "Pt3Line5_PostalCode[0]",
+      "Pt3Line7_PostalCode[0]",
+      "Pt3Line9_PostalCode[0]"
+    ],
+    "field_count": 6,
+    "sample_screen_label": "Postal Code.",
+    "sample_tooltip": "Part 3. Additional Information About You. Address History. Physical Address One (current address). 5. G. Enter Postal Code."
+  },
+  "Applicant_DateFrom": {
+    "type": "standard",
+    "description": "Applicant DateFrom data (collected across forms)",
+    "persona": "applicant",
+    "domain": "medical",
+    "value": "DateFrom",
+    "form_fields": [
+      "Pt3Line10a_DateFrom[0]",
+      "Pt3Line14a_DateFrom[0]",
+      "Pt3Line18a_DateFrom[0]",
+      "Pt3Line22a_DateFrom[0]",
+      "Pt3Line8a_DateFrom[0]",
+      "Pt8Line13a_DateFrom[0]",
+      "Pt8Line5a_DateFrom[0]",
+      "Pt8Line9a_DateFrom[0]"
+    ],
+    "field_count": 8,
+    "sample_screen_label": "as 2 digit month, 2 digit day and 4 digit year.",
+    "sample_tooltip": "Part 3. Additional Information About You. Address History. Physical Address Two. Dates of Residence. 8. A. Enter Date From. Enter as 2 digit month, 2 digit day and 4 digit year."
+  },
+  "Applicant_DateTo": {
+    "type": "standard",
+    "description": "Applicant DateTo data (collected across forms)",
+    "persona": "applicant",
+    "domain": "medical",
+    "value": "DateTo",
+    "form_fields": [
+      "Pt3Line10a_DateTo[0]",
+      "Pt3Line14b_DateTo[0]",
+      "Pt3Line18a_DateTo[0]",
+      "Pt3Line22a_DateTo[0]",
+      "Pt3Line8b_DateTo[0]",
+      "Pt8Line13b_DateTo[0]",
+      "Pt8Line5b_DateTo[0]",
+      "Pt8Line9b_DateTo[0]"
+    ],
+    "field_count": 8,
+    "sample_screen_label": "as 2 digit month, 2 digit day and 4 digit year.",
+    "sample_tooltip": "Part 3. Additional Information About You. Address History. Physical Address Two. Dates of Residence. 8. B. Enter Date To. Enter as 2 digit month, 2 digit day and 4 digit year."
+  },
+  "Applicant_EmployerName": {
+    "type": "one_to_many",
+    "description": "Applicant EmployerName data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "EmployerName",
+    "form_fields": [
+      "Pt3Line11_EmployerName[0]",
+      "Pt3Line13_EmployerName[0]",
+      "Pt3Line17_EmployerName[0]",
+      "Pt3Line19_EmployerName[0]",
+      "Pt3Line20_EmployerName[0]",
+      "Pt3Line4a_EmployerName[0]"
+    ],
+    "field_count": 6,
+    "sample_screen_label": "Name of Employer or Company.",
+    "sample_tooltip": "Part 3. Additional Information About You. Employment History. Provide your employment history for the last five years, whether inside or outside the United States.  Provide the most recent employment first.  If you need extra space to complete this section, use the space provided in Part 14. Additional Information. Employer One (current or most recent). 11. Enter Name of Employer or Company."
+  },
+  "Family_member_Gender": {
+    "type": "standard",
+    "description": "Family_member Gender data (collected across forms)",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "Gender",
+    "form_fields": [
+      "Pt4Line12_Gender[0]",
+      "Pt4Line12_Gender[1]",
+      "Pt4Line4_Gender[0]",
+      "Pt4Line4_Gender[1]"
+    ],
+    "field_count": 4,
+    "sample_screen_label": "Sex. Select Female.",
+    "sample_tooltip": "Part 4. Information About Your Parents. Information About Your Parent One. 4. Sex. Select Female."
+  },
+  "Family_member_CityTown": {
+    "type": "standard",
+    "description": "Family_member CityTown data (collected across forms)",
+    "persona": "family_member",
+    "domain": "office",
+    "value": "CityTown",
+    "form_fields": [
+      "Pt4Line13_CityTown[0]",
+      "Pt4Line15_CityTown[0]",
+      "Pt4Line5_CityTown[0]",
+      "Pt4Line7_CityTown[0]",
+      "Pt5Line14a_CityTown[0]",
+      "Pt5Line16a_CityTown[0]",
+      "Pt5Line8a_CityTown[0]",
+      "Pt5Line9a_CityTown[0]"
+    ],
+    "field_count": 8,
+    "sample_screen_label": "City or Town of Birth.",
+    "sample_tooltip": "Part 4. Information About Your Parents. Information About Your Parent One. 5. Enter City or Town of Birth."
+  },
+  "Family_member_Country": {
+    "type": "standard",
+    "description": "Family_member Country data (collected across forms)",
+    "persona": "family_member",
+    "domain": "immigration",
+    "value": "Country",
+    "form_fields": [
+      "Pt4Line14_Country[0]",
+      "Pt4Line16_Country[0]",
+      "Pt4Line6_Country[0]",
+      "Pt4Line8_Country[0]",
+      "Pt5Line14c_Country[0]",
+      "Pt5Line16c_Country[0]",
+      "Pt5Line8c_Country[0]",
+      "Pt5Line9c_Country[0]",
+      "Pt6Line10_Country[0]",
+      "Pt6Line15_Country[0]",
+      "Pt6Line6_Country[0]"
+    ],
+    "field_count": 11,
+    "sample_screen_label": "Country of Birth.",
+    "sample_tooltip": "Part 4. Information About Your Parents. Information About Your Parent One. 6. Enter Country of Birth. "
+  },
+  "Family_member_MaritalStatus": {
+    "type": "standard",
+    "description": "Family_member MaritalStatus data (collected across forms)",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "MaritalStatus",
+    "form_fields": [
+      "Pt5Line1_MaritalStatus[0]",
+      "Pt5Line1_MaritalStatus[1]",
+      "Pt5Line1_MaritalStatus[2]",
+      "Pt5Line1_MaritalStatus[3]",
+      "Pt5Line1_MaritalStatus[4]",
+      "Pt5Line1_MaritalStatus[5]"
+    ],
+    "field_count": 6,
+    "sample_screen_label": "What is your current marital status. Select Divorced.",
+    "sample_tooltip": "Part 5. Information About Your Marital History. 1. What is your current marital status? Select Divorced."
+  },
+  "Family_member_YNNA": {
+    "type": "standard",
+    "description": "Family_member YNNA data (collected across forms)",
+    "persona": "family_member",
+    "domain": "office",
+    "value": "YNNA",
+    "form_fields": [
+      "Pt5Line2_YNNA[0]",
+      "Pt5Line2_YNNA[1]",
+      "Pt5Line2_YNNA[2]"
+    ],
+    "field_count": 3,
+    "sample_screen_label": "Coast Guard. Select No.",
+    "sample_tooltip": "Part 5. Information About Your Marital History. 2. If you are married, is your spouse a current member of the U.S. armed forces or U.S. Coast Guard? Select No."
+  },
+  "Family_member_TimesMarried": {
+    "type": "standard",
+    "description": "Family_member TimesMarried data (collected across forms)",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "TimesMarried",
+    "form_fields": [
+      "Pt5Line3_TimesMarried[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Number.",
+    "sample_tooltip": "Part 5. Information About Your Marital History. 3. How many times have you been married (including annulled marriages and marriages to the same person)? Enter Number."
+  },
+  "Family_member_Date": {
+    "type": "standard",
+    "description": "Family_member Date data (collected across forms)",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "Date",
+    "form_fields": [
+      "Pt5Line13_Date[0]",
+      "Pt5Line15_Date[0]",
+      "Pt5Line7_Date[0]"
+    ],
+    "field_count": 3,
+    "sample_screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year.",
+    "sample_tooltip": "Part 5. Information About Your Marital History. Information About Your Current Marriage (including if you are legally separated). 7. Enter Date of Marriage to Current Spouse. Enter as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  "Family_member_State": {
+    "type": "standard",
+    "description": "Family_member State data (collected across forms)",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "State",
+    "form_fields": [
+      "Pt5Line14b_State[0]",
+      "Pt5Line16b_State[0]",
+      "Pt5Line8b_State[0]",
+      "Pt5Line9b_State[0]"
+    ],
+    "field_count": 4,
+    "sample_screen_label": "State or Province.",
+    "sample_tooltip": "Part 5. Information About Your Marital History. Information About Your Current Marriage (including if you are legally separated). Current Spouse's Place of Birth. 8. B. Enter State or Province."
+  },
+  "Family_member_YN": {
+    "type": "standard",
+    "description": "Family_member YN data (collected across forms)",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "YN",
+    "form_fields": [
+      "Pt5Line10_YN[0]",
+      "Pt5Line10_YN[1]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Is your current spouse applying with you. Select No.",
+    "sample_tooltip": "Part 5. Information About Your Marital History. Information About Your Current Marriage (including if you are legally separated). 10. Is your current spouse applying with you? Select No."
+  },
+  "Family_member_TotalChildren": {
+    "type": "standard",
+    "description": "Family_member TotalChildren data (collected across forms)",
+    "persona": "family_member",
+    "domain": "personal",
+    "value": "TotalChildren",
+    "form_fields": [
+      "Pt6Line1_TotalChildren[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Number.",
+    "sample_tooltip": "Part 6. Information About Your Children. 1. Indicate the total number of ALL living children (including adult sons and daughters) that you have. NOTE:  The term \u201cchildren\u201d includes all biological or legally adopted children, as well as current stepchildren, of any age, whether born in the United States or other countries, married or unmarried, living with you or elsewhere and includes any missing children and those born to you outside of marriage. Enter Number."
+  },
+  "Family_member_YesNo": {
+    "type": "standard",
+    "description": "Family_member YesNo data (collected across forms)",
+    "persona": "family_member",
+    "domain": "office",
+    "value": "YesNo",
+    "form_fields": [
+      "Pt6Line11_YesNo[0]",
+      "Pt6Line11_YesNo[1]",
+      "Pt6Line16_YesNo[0]",
+      "Pt6Line16_YesNo[1]",
+      "Pt6Line6_YesNo[0]",
+      "Pt6Line6_YesNo[1]"
+    ],
+    "field_count": 6,
+    "sample_screen_label": "Is this child applying with you. Select Yes.",
+    "sample_tooltip": "Part 6. Information About Your Children. Child One. 6. Is this child applying with you? Select Yes."
+  },
+  "Applicant_Ethnicity": {
+    "type": "standard",
+    "description": "Applicant Ethnicity data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "Ethnicity",
+    "form_fields": [
+      "Pt7Line1_Ethnicity[0]",
+      "Pt7Line1_Ethnicity[1]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Ethnicity (Select only one box). Select Hispanic or Latino.",
+    "sample_tooltip": "Part 7. Biographic Information. 1. Ethnicity (Select only one box). Select Hispanic or Latino."
+  },
+  "Applicant_Race": {
+    "type": "standard",
+    "description": "Applicant Race data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "Race",
+    "form_fields": [
+      "Pt7Line2_Race[0]",
+      "Pt7Line2_Race[1]",
+      "Pt7Line2_Race[2]",
+      "Pt7Line2_Race[3]",
+      "Pt7Line2_Race[4]"
+    ],
+    "field_count": 5,
+    "sample_screen_label": "Race (Select all applicable boxes). Select Asian.",
+    "sample_tooltip": "Part 7. Biographic Information. 2. Race (Select all applicable boxes). Select Asian."
+  },
+  "Applicant_HeightFeet": {
+    "type": "standard",
+    "description": "Applicant HeightFeet data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "HeightFeet",
+    "form_fields": [
+      "Pt7Line3_HeightFeet[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Number of Feet from list.",
+    "sample_tooltip": "Part 7. Biographic Information. 3. Height. Feet. Select Number of Feet from list."
+  },
+  "Applicant_HeightInches": {
+    "type": "standard",
+    "description": "Applicant HeightInches data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "HeightInches",
+    "form_fields": [
+      "Pt7Line3_HeightInches[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Number of Inches from list.",
+    "sample_tooltip": "Part 7. Biographic Information. 3. Height. Inches. Select Number of Inches from list."
+  },
+  "Applicant_Weight1": {
+    "type": "standard",
+    "description": "Applicant Weight1 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "Weight1",
+    "form_fields": [
+      "Pt7Line4_Weight1[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "first digit of Weight in Pounds.",
+    "sample_tooltip": "Part 7. Biographic Information. 4. Weight. Pounds. Enter first digit of Weight in Pounds."
+  },
+  "Applicant_Weight2": {
+    "type": "standard",
+    "description": "Applicant Weight2 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "Weight2",
+    "form_fields": [
+      "Pt7Line4_Weight2[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "second digit of Weight in Pounds.",
+    "sample_tooltip": "Part 7. Biographic Information. 4. Weight. Pounds. Enter second digit of Weight in Pounds."
+  },
+  "Applicant_Weight3": {
+    "type": "standard",
+    "description": "Applicant Weight3 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "Weight3",
+    "form_fields": [
+      "Pt7Line4_Weight3[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "third digit of Weight in Pounds.",
+    "sample_tooltip": "Part 7. Biographic Information. 4. Weight. Pounds. Enter third digit of Weight in Pounds."
+  },
+  "Applicant_Eyecolor": {
+    "type": "standard",
+    "description": "Applicant Eyecolor data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "Eyecolor",
+    "form_fields": [
+      "Pt7Line5_Eyecolor[0]",
+      "Pt7Line5_Eyecolor[1]",
+      "Pt7Line5_Eyecolor[2]",
+      "Pt7Line5_Eyecolor[3]",
+      "Pt7Line5_Eyecolor[4]",
+      "Pt7Line5_Eyecolor[5]",
+      "Pt7Line5_Eyecolor[6]",
+      "Pt7Line5_Eyecolor[7]",
+      "Pt7Line5_Eyecolor[8]"
+    ],
+    "field_count": 9,
+    "sample_screen_label": "Eye Color (Select only one box). Select Blue.",
+    "sample_tooltip": "Part 7. Biographic Information. 5. Eye Color (Select only one box). Select Blue."
+  },
+  "Applicant_Haircolor": {
+    "type": "standard",
+    "description": "Applicant Haircolor data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "Haircolor",
+    "form_fields": [
+      "Pt7Line6_Haircolor[0]",
+      "Pt7Line6_Haircolor[1]",
+      "Pt7Line6_Haircolor[2]",
+      "Pt7Line6_Haircolor[3]",
+      "Pt7Line6_Haircolor[4]",
+      "Pt7Line6_Haircolor[5]",
+      "Pt7Line6_Haircolor[6]",
+      "Pt7Line6_Haircolor[7]",
+      "Pt7Line6_Haircolor[8]"
+    ],
+    "field_count": 9,
+    "sample_screen_label": "Hair Color (Select only one box). Select Bald (No hair).",
+    "sample_tooltip": "Part 7. Biographic Information. 6. Hair Color (Select only one box). Select Bald (No hair)."
+  },
+  "Applicant_YesNo": {
+    "type": "standard",
+    "description": "Applicant YesNo data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "YesNo",
+    "form_fields": [
+      "Pt8Line14_YesNo[0]",
+      "Pt8Line14_YesNo[1]",
+      "Pt8Line15_YesNo[0]",
+      "Pt8Line15_YesNo[1]",
+      "Pt8Line16_YesNo[0]",
+      "Pt8Line16_YesNo[1]",
+      "Pt8Line17_YesNo[0]",
+      "Pt8Line17_YesNo[1]",
+      "Pt8Line18_YesNo[0]",
+      "Pt8Line18_YesNo[1]",
+      "Pt8Line19_YesNo[0]",
+      "Pt8Line19_YesNo[1]",
+      "Pt8Line1_YesNo[0]",
+      "Pt8Line1_YesNo[1]",
+      "Pt8Line20_YesNo[0]",
+      "Pt8Line20_YesNo[1]",
+      "Pt8Line21_YesNo[0]",
+      "Pt8Line21_YesNo[1]",
+      "Pt8Line22_YesNo[0]",
+      "Pt8Line22_YesNo[1]",
+      "Pt8Line23_YesNo[0]",
+      "Pt8Line23_YesNo[1]",
+      "Pt8Line24a_YesNo[0]",
+      "Pt8Line24a_YesNo[1]",
+      "Pt8Line24b_YesNo[0]",
+      "Pt8Line24b_YesNo[1]",
+      "Pt8Line24c_YesNo[0]",
+      "Pt8Line24c_YesNo[1]",
+      "Pt8Line25_YesNo[0]",
+      "Pt8Line25_YesNo[1]",
+      "Pt8Line26_YesNo[0]",
+      "Pt8Line26_YesNo[1]",
+      "Pt8Line27_YesNo[0]",
+      "Pt8Line27_YesNo[1]",
+      "Pt8Line28_YesNo[0]",
+      "Pt8Line28_YesNo[1]",
+      "Pt8Line29_YesNo[0]",
+      "Pt8Line29_YesNo[1]",
+      "Pt8Line30_YesNo[0]",
+      "Pt8Line30_YesNo[1]",
+      "Pt8Line31_YesNo[0]",
+      "Pt8Line31_YesNo[1]",
+      "Pt8Line32_YesNo[0]",
+      "Pt8Line32_YesNo[1]",
+      "Pt8Line33_YesNo[0]",
+      "Pt8Line33_YesNo[1]",
+      "Pt8Line34_YesNo[0]",
+      "Pt8Line34_YesNo[1]",
+      "Pt8Line35_YesNo[0]",
+      "Pt8Line35_YesNo[1]",
+      "Pt8Line36_YesNo[0]",
+      "Pt8Line36_YesNo[1]",
+      "Pt8Line37_YesNo[0]",
+      "Pt8Line37_YesNo[1]",
+      "Pt8Line38_YesNo[0]",
+      "Pt8Line38_YesNo[1]",
+      "Pt8Line39_YesNo[0]",
+      "Pt8Line39_YesNo[1]",
+      "Pt8Line40_YesNo[0]",
+      "Pt8Line40_YesNo[1]",
+      "Pt8Line41_YesNo[0]",
+      "Pt8Line41_YesNo[1]",
+      "Pt8Line42_YesNo[0]",
+      "Pt8Line42_YesNo[1]",
+      "Pt8Line43_YesNo[0]",
+      "Pt8Line43_YesNo[1]",
+      "Pt8Line44_YesNo[0]",
+      "Pt8Line44_YesNo[1]",
+      "Pt8Line45_YesNo[0]",
+      "Pt8Line45_YesNo[1]",
+      "Pt8Line46a_YesNo[0]",
+      "Pt8Line46a_YesNo[1]",
+      "Pt8Line46b_YesNo[0]",
+      "Pt8Line46b_YesNo[1]",
+      "Pt8Line46c_YesNo[0]",
+      "Pt8Line46c_YesNo[1]",
+      "Pt8Line46d_YesNo[0]",
+      "Pt8Line46d_YesNo[1]",
+      "Pt8Line46e_YesNo[0]",
+      "Pt8Line46e_YesNo[1]",
+      "Pt8Line47_YesNo[0]",
+      "Pt8Line47_YesNo[1]",
+      "Pt8Line48a_YesNo[0]",
+      "Pt8Line48a_YesNo[1]",
+      "Pt8Line48b_YesNo[0]",
+      "Pt8Line48b_YesNo[1]",
+      "Pt8Line48c_YesNo[0]",
+      "Pt8Line48c_YesNo[1]",
+      "Pt8Line48d_YesNo[0]",
+      "Pt8Line48d_YesNo[1]",
+      "Pt8Line48e_YesNo[0]",
+      "Pt8Line48e_YesNo[1]",
+      "Pt8Line49_YesNo[0]",
+      "Pt8Line49_YesNo[1]",
+      "Pt8Line50_YesNo[0]",
+      "Pt8Line50_YesNo[1]",
+      "Pt8Line51a_YesNo[0]",
+      "Pt8Line51a_YesNo[1]",
+      "Pt8Line51b_YesNo[0]",
+      "Pt8Line51b_YesNo[1]",
+      "Pt8Line51c_YesNo[0]",
+      "Pt8Line51c_YesNo[1]",
+      "Pt8Line51d_YesNo[0]",
+      "Pt8Line51d_YesNo[1]",
+      "Pt8Line51e_YesNo[0]",
+      "Pt8Line51e_YesNo[1]",
+      "Pt8Line51f_YesNo[0]",
+      "Pt8Line51f_YesNo[1]",
+      "Pt8Line52_YesNo[0]",
+      "Pt8Line52_YesNo[1]",
+      "Pt8Line53_YesNo[0]",
+      "Pt8Line53_YesNo[1]",
+      "Pt8Line54_YesNo[0]",
+      "Pt8Line54_YesNo[1]",
+      "Pt8Line55_YesNo[0]",
+      "Pt8Line55_YesNo[1]",
+      "Pt8Line56_YesNo[0]",
+      "Pt8Line56_YesNo[1]",
+      "Pt8Line57_YesNo[0]",
+      "Pt8Line57_YesNo[1]",
+      "Pt8Line58a_YesNo[0]",
+      "Pt8Line58a_YesNo[1]",
+      "Pt8Line58b_YesNo[0]",
+      "Pt8Line58b_YesNo[1]",
+      "Pt8Line58c_YesNo[0]",
+      "Pt8Line58c_YesNo[1]",
+      "Pt8Line58d_YesNo[0]",
+      "Pt8Line58d_YesNo[1]",
+      "Pt8Line58e_YesNo[0]",
+      "Pt8Line58e_YesNo[1]",
+      "Pt8Line59_YesNo[0]",
+      "Pt8Line59_YesNo[1]",
+      "Pt8Line60_YesNo[0]",
+      "Pt8Line60_YesNo[1]",
+      "Pt8Line61_YesNo[0]",
+      "Pt8Line61_YesNo[1]",
+      "Pt8Line68a_YesNo[0]",
+      "Pt8Line68a_YesNo[1]",
+      "Pt8Line68b_YesNo[0]",
+      "Pt8Line68b_YesNo[1]",
+      "Pt8Line69a_YesNo[0]",
+      "Pt8Line69a_YesNo[1]",
+      "Pt8Line69b_YesNo[0]",
+      "Pt8Line69b_YesNo[1]",
+      "Pt8Line70_YesNo[0]",
+      "Pt8Line70_YesNo[1]",
+      "Pt8Line71_YesNo[0]",
+      "Pt8Line71_YesNo[1]",
+      "Pt8Line72_YesNo[0]",
+      "Pt8Line72_YesNo[1]",
+      "Pt8Line73_YesNo[0]",
+      "Pt8Line73_YesNo[1]",
+      "Pt8Line74_YesNo[0]",
+      "Pt8Line74_YesNo[1]",
+      "Pt8Line75_YesNo[0]",
+      "Pt8Line75_YesNo[1]",
+      "Pt8Line76_YesNo[0]",
+      "Pt8Line76_YesNo[1]",
+      "Pt8Line77_YesNo[0]",
+      "Pt8Line77_YesNo[1]",
+      "Pt8Line78a_YesNo[0]",
+      "Pt8Line78a_YesNo[1]",
+      "Pt8Line78b_YesNo[0]",
+      "Pt8Line78b_YesNo[1]",
+      "Pt8Line79a_YesNo[0]",
+      "Pt8Line79a_YesNo[1]",
+      "Pt8Line79b_YesNo[0]",
+      "Pt8Line79b_YesNo[1]",
+      "Pt8Line80_YesNo[0]",
+      "Pt8Line80_YesNo[1]",
+      "Pt8Line81_YesNo[0]",
+      "Pt8Line81_YesNo[1]",
+      "Pt8Line82_YesNo[0]",
+      "Pt8Line82_YesNo[1]",
+      "Pt8Line83_YesNo[0]",
+      "Pt8Line83_YesNo[1]",
+      "Pt8Line84_YesNo[0]",
+      "Pt8Line84_YesNo[1]",
+      "Pt8Line85a_YesNo[0]",
+      "Pt8Line85a_YesNo[1]",
+      "Pt8Line85b_YesNo[0]",
+      "Pt8Line85b_YesNo[1]",
+      "Pt8Line85c_YesNo[0]",
+      "Pt8Line85c_YesNo[1]",
+      "Pt8Line86a_YesNo[0]",
+      "Pt8Line86a_YesNo[1]"
+    ],
+    "field_count": 186,
+    "sample_screen_label": "If you answered \"No,\" but are unsure of your answer, provide an explanation of the events and circumstances in the space provided in Part 14. Additional Information.",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. 1. Have you EVER been a member of, involved in, or in any way associated with any organization, association, fund, foundation, party, club, society, or similar group in the United States or in any other location in the world including any military service? Select No. If you answered \"No,\" but are unsure of your answer, provide an explanation of the events and circumstances in the space provided in Part 14. Additional Information."
+  },
+  "Applicant_OrgName": {
+    "type": "standard",
+    "description": "Applicant OrgName data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "OrgName",
+    "form_fields": [
+      "Pt8Line10_OrgName[0]",
+      "Pt8Line2_OrgName[0]",
+      "Pt8Line6_OrgName[0]"
+    ],
+    "field_count": 3,
+    "sample_screen_label": "Name of Organization.",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Organization One. 2. Enter Name of Organization."
+  },
+  "Applicant_Group": {
+    "type": "standard",
+    "description": "Applicant Group data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "Group",
+    "form_fields": [
+      "Pt8Line12_Group[0]",
+      "Pt8Line4_Group[0]",
+      "Pt8Line8_Group[0]"
+    ],
+    "field_count": 3,
+    "sample_screen_label": "Nature of Group.",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Organization One. 4. Enter Nature of Group."
+  },
+  "Applicant_FamilyStatus": {
+    "type": "standard",
+    "description": "Applicant FamilyStatus data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "FamilyStatus",
+    "form_fields": [
+      "Pt8Line62_FamilyStatus[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "the size of your household.",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 62. Enter the size of your household."
+  },
+  "Applicant_Column1Row1": {
+    "type": "standard",
+    "description": "Applicant Column1Row1 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column1Row1",
+    "form_fields": [
+      "Pt8Line68c_Column1Row1[0]",
+      "Pt8Line68d_Column1Row1[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 1",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the Institution Name City and State. Row 1"
+  },
+  "Applicant_Column1Row2": {
+    "type": "standard",
+    "description": "Applicant Column1Row2 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column1Row2",
+    "form_fields": [
+      "Pt8Line68c_Column1Row2[0]",
+      "Pt8Line68d_Column1Row2[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 2",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the Institution Name City and State. Row 2"
+  },
+  "Applicant_Column1Row3": {
+    "type": "standard",
+    "description": "Applicant Column1Row3 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column1Row3",
+    "form_fields": [
+      "Pt8Line68c_Column1Row3[0]",
+      "Pt8Line68d_Column1Row3[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 3",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the Institution Name City and State. Row 3"
+  },
+  "Applicant_Column1Row4": {
+    "type": "standard",
+    "description": "Applicant Column1Row4 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column1Row4",
+    "form_fields": [
+      "Pt8Line68c_Column1Row4[0]",
+      "Pt8Line68d_Column1Row4[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 4",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the Institution Name City and State. Row 4"
+  },
+  "Applicant_Column4Row1": {
+    "type": "standard",
+    "description": "Applicant Column4Row1 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column4Row1",
+    "form_fields": [
+      "Pt8Line68c_Column4Row1[0]",
+      "Pt8Line68d_Column4Row1[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 1",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the Reason for institutionalization. Row 1"
+  },
+  "Applicant_Column4Row2": {
+    "type": "standard",
+    "description": "Applicant Column4Row2 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column4Row2",
+    "form_fields": [
+      "Pt8Line68c_Column4Row2[0]",
+      "Pt8Line68d_Column4Row2[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 2",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the Reason for institutionalization.  Row 2"
+  },
+  "Applicant_Column4Row3": {
+    "type": "standard",
+    "description": "Applicant Column4Row3 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column4Row3",
+    "form_fields": [
+      "Pt8Line68c_Column4Row3[0]",
+      "Pt8Line68d_Column4Row3[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 3",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the Reason for institutionalization. Row 3"
+  },
+  "Applicant_Column4Row4": {
+    "type": "standard",
+    "description": "Applicant Column4Row4 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column4Row4",
+    "form_fields": [
+      "Pt8Line68c_Column4Row4[0]",
+      "Pt8Line68d_Column4Row4[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 4",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the Reason for institutionalization.  Row 4"
+  },
+  "Applicant_Column2Row1": {
+    "type": "standard",
+    "description": "Applicant Column2Row1 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column2Row1",
+    "form_fields": [
+      "Pt8Line68c_Column2Row1[0]",
+      "Pt8Line68d_Column2Row1[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 1",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the Start Date of each period. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. Row 1"
+  },
+  "Applicant_Column2Row2": {
+    "type": "standard",
+    "description": "Applicant Column2Row2 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column2Row2",
+    "form_fields": [
+      "Pt8Line68c_Column2Row2[0]",
+      "Pt8Line68d_Column2Row2[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 2",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the Start Date of each period. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. Row 2"
+  },
+  "Applicant_Column2Row3": {
+    "type": "standard",
+    "description": "Applicant Column2Row3 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column2Row3",
+    "form_fields": [
+      "Pt8Line68c_Column2Row3[0]",
+      "Pt8Line68d_Column2Row3[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 3",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the Start Date of each period. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. Row 3"
+  },
+  "Applicant_Column2Row4": {
+    "type": "standard",
+    "description": "Applicant Column2Row4 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column2Row4",
+    "form_fields": [
+      "Pt8Line68c_Column2Row4[0]",
+      "Pt8Line68d_Column2Row4[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 4",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the Start Date of each period. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. Row 4"
+  },
+  "Applicant_Column3Row1": {
+    "type": "standard",
+    "description": "Applicant Column3Row1 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column3Row1",
+    "form_fields": [
+      "Pt8Line68c_Column3Row1[0]",
+      "Pt8Line68d_Column3Row1[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 1",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the End Date of each period. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. Row 1"
+  },
+  "Applicant_Column3Row2": {
+    "type": "standard",
+    "description": "Applicant Column3Row2 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column3Row2",
+    "form_fields": [
+      "Pt8Line68c_Column3Row2[0]",
+      "Pt8Line68d_Column3Row2[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 2",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the End Date of each period. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. Row 2"
+  },
+  "Applicant_Column3Row3": {
+    "type": "standard",
+    "description": "Applicant Column3Row3 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column3Row3",
+    "form_fields": [
+      "Pt8Line68c_Column3Row3[0]",
+      "Pt8Line68d_Column3Row3[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 3",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the End Date of each period. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. Row 3"
+  },
+  "Applicant_Column3Row4": {
+    "type": "standard",
+    "description": "Applicant Column3Row4 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "office",
+    "value": "Column3Row4",
+    "form_fields": [
+      "Pt8Line68c_Column3Row4[0]",
+      "Pt8Line68d_Column3Row4[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Row 4",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Public Charge. 68.d. If your answer to Item Number 68.b. is \u201cYes,\u201d list the name, city, and state for each institution, the start and end dates of each period of institutionalization, and the reason you were institutionalized. Enter the End Date of each period. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. Row 4"
+  },
+  "Applicant_Nationality": {
+    "type": "standard",
+    "description": "Applicant Nationality data (collected across forms)",
+    "persona": "applicant",
+    "domain": "medical",
+    "value": "Nationality",
+    "form_fields": [
+      "Pt8Line86b_Nationality[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "citizen or national, lawful permanent resident, nonimmigrant, parolee, present without admission or parole, or any other status)?",
+    "sample_tooltip": "Part 8. General Eligibility and Inadmissibility Grounds. Miscellaneous Conduct. 86. B. If your answer to Item Number 86. A. is \u201cYes,\u201d Enter your nationality or immigration status immediately before you left (for example, U.S. citizen or national, lawful permanent resident, nonimmigrant, parolee, present without admission or parole, or any other status)?"
+  },
+  "Interpreter_Deaf": {
+    "type": "standard",
+    "description": "Interpreter Deaf data (collected across forms)",
+    "persona": "interpreter",
+    "domain": "medical",
+    "value": "Deaf",
+    "form_fields": [
+      "Pt9Line2a_Deaf[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "I am deaf or hard of hearing and request the following accommodation. (If you are requesting a sign-language interpreter, indicate for which language (for example, American Sign Language).)",
+    "sample_tooltip": "Part 9. Accommodations for Individuals With Disabilities and/or Impairments. 2. A. Select I am deaf or hard of hearing and request the following accommodation.  (If you are requesting a sign-language interpreter, indicate for which language (for example, American Sign Language).)"
+  },
+  "Interpreter_Accommodation": {
+    "type": "standard",
+    "description": "Interpreter Accommodation data (collected across forms)",
+    "persona": "interpreter",
+    "domain": "personal",
+    "value": "Accommodation",
+    "form_fields": [
+      "Pt9Line2a_Accommodation[0]",
+      "Pt9Line2b_Accommodation[0]",
+      "Pt9Line2c_Accommodation[0]"
+    ],
+    "field_count": 3,
+    "sample_screen_label": "Language.",
+    "sample_tooltip": "Part 9. Accommodations for Individuals With Disabilities and/or Impairments. 2. A. Enter Language."
+  },
+  "Interpreter_YesNo": {
+    "type": "standard",
+    "description": "Interpreter YesNo data (collected across forms)",
+    "persona": "interpreter",
+    "domain": "personal",
+    "value": "YesNo",
+    "form_fields": [
+      "Pt9Line1_YesNo[0]",
+      "Pt9Line1_YesNo[1]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Are you requesting an accommodation because of your disabilities and/or impairments. Select No.",
+    "sample_tooltip": "Part 9. Accommodations for Individuals With Disabilities and/or Impairments. 1. Are you requesting an accommodation because of your disabilities and/or impairments? Select No."
+  },
+  "Interpreter_Blind": {
+    "type": "standard",
+    "description": "Interpreter Blind data (collected across forms)",
+    "persona": "interpreter",
+    "domain": "personal",
+    "value": "Blind",
+    "form_fields": [
+      "Pt9Line2b_Blind[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "B. Select I am blind or have low vision and request the following accommodation.",
+    "sample_tooltip": "Part 9. Accommodations for Individuals With Disabilities and/or Impairments. 2. B. Select I am blind or have low vision and request the following accommodation. "
+  },
+  "Interpreter_Other": {
+    "type": "standard",
+    "description": "Interpreter Other data (collected across forms)",
+    "persona": "interpreter",
+    "domain": "medical",
+    "value": "Other",
+    "form_fields": [
+      "Pt9Line2c_Other[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "I have another type of disability and/or impairment. (Describe the nature of your disability and/or impairment and the accommodation you are requesting.)",
+    "sample_tooltip": "Part 9. Accommodations for Individuals With Disabilities and/or Impairments. 2. C. Select I have another type of disability and/or impairment. (Describe the nature of your disability and/or impairment and the accommodation you are requesting.)"
+  },
+  "Preparer_English": {
+    "type": "standard",
+    "description": "Preparer English data (collected across forms)",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "English",
+    "form_fields": [
+      "Pt10Line1_English[0]",
+      "Pt10Line1_English[1]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "The interpreter named in Part 11. read to me every question and instruction on this application and my answer to every question in a language in which I am fluent, and I understood everything.",
+    "sample_tooltip": "Part 10. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Statement. 1. B. Select The interpreter named in Part 11. read to me every question and instruction on this application and my answer to every question in a language in which I am fluent, and I understood everything. "
+  },
+  "Preparer_Language": {
+    "type": "standard",
+    "description": "Preparer Language data (collected across forms)",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Language",
+    "form_fields": [
+      "Pt10Line1b_Language[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Language.",
+    "sample_tooltip": "Part 10. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Statement. 1. B. Enter Language."
+  },
+  "Preparer_PreparerCB": {
+    "type": "standard",
+    "description": "Preparer PreparerCB data (collected across forms)",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "PreparerCB",
+    "form_fields": [
+      "Pt10Line2_PreparerCB[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "At my request, the preparer named in Part 12. prepared this application for me based only upon information I provided or authorized.",
+    "sample_tooltip": "Part 10. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Statement. 2. Select At my request, the preparer named in Part 12. prepared this application for me based only upon information I provided or authorized."
+  },
+  "Preparer_Preparer": {
+    "type": "standard",
+    "description": "Preparer Preparer data (collected across forms)",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Preparer",
+    "form_fields": [
+      "Pt10Line2_Preparer[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Name of Preparer.",
+    "sample_tooltip": "Part 10. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Statement. 2. Enter Name of Preparer."
+  },
+  "Applicant_DaytimePhone": {
+    "type": "standard",
+    "description": "Applicant DaytimePhone data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "DaytimePhone",
+    "form_fields": [
+      "Pt10Line3_DaytimePhone[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Applicant's Daytime Telephone Number.",
+    "sample_tooltip": "Part 10. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Contact Information. 3. Enter Applicant's Daytime Telephone Number."
+  },
+  "Applicant_MobilePhone": {
+    "type": "standard",
+    "description": "Applicant MobilePhone data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "MobilePhone",
+    "form_fields": [
+      "Pt10Line4_MobilePhone[0]",
+      "Pt11Line5_MobilePhone[0]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Applicant's Mobile Telephone Number, if any.",
+    "sample_tooltip": "Part 10. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Contact Information. 4. Enter Applicant's Mobile Telephone Number, if any."
+  },
+  "Preparer_Email": {
+    "type": "standard",
+    "description": "Preparer Email data (collected across forms)",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Email",
+    "form_fields": [
+      "Pt10Line5_Email[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Applicant's Email Address, if any.",
+    "sample_tooltip": "Part 10. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Contact Information. 5. Enter Applicant's Email Address, if any."
+  },
+  "Preparer_Date": {
+    "type": "standard",
+    "description": "Preparer Date data (collected across forms)",
+    "persona": "preparer",
+    "domain": "office",
+    "value": "Date",
+    "form_fields": [
+      "Pt10Line6b_Date[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "as 2 digit month, 2 digit day and 4 digit year.",
+    "sample_tooltip": "Part 10. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Signature. 6. B. Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year."
+  },
+  "Family_member_Signature": {
+    "type": "standard",
+    "description": "Family_member Signature data (collected across forms)",
+    "persona": "family_member",
+    "domain": "office",
+    "value": "Signature",
+    "form_fields": [
+      "Pt5Line6a_Signature[0]",
+      "Pt5Line6a_Signature[1]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "Print and sign in ink.",
+    "sample_tooltip": "Part 10. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. Applicant's Signature. 6. A. Applicant's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink."
+  },
+  "Applicant_PreparerGivenName": {
+    "type": "standard",
+    "description": "Applicant PreparerGivenName data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "PreparerGivenName",
+    "form_fields": [
+      "Pt12Line1b_PreparerGivenName[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Preparer's Given Name (First Name).",
+    "sample_tooltip": "Part 12. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name. 1. B. Enter Preparer's Given Name (First Name)."
+  },
+  "Applicant_BusinessName": {
+    "type": "standard",
+    "description": "Applicant BusinessName data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "BusinessName",
+    "form_fields": [
+      "Pt12Line2_BusinessName[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Preparer's Business or Organization Name, if any.",
+    "sample_tooltip": "Part 12. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name. 2. Enter Preparer's Business or Organization Name, if any."
+  },
+  "Applicant_PreparerFamilyName": {
+    "type": "standard",
+    "description": "Applicant PreparerFamilyName data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "PreparerFamilyName",
+    "form_fields": [
+      "Pt12Line1a_PreparerFamilyName[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Preparer's Family Name (Last Name).",
+    "sample_tooltip": "Part 12. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Provide the following information about the preparer. Preparer's Full Name. 1. A. Enter Preparer's Family Name (Last Name)."
+  },
+  "Applicant_DaytimePhoneNumber1": {
+    "type": "standard",
+    "description": "Applicant DaytimePhoneNumber1 data (collected across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "value": "DaytimePhoneNumber1",
+    "form_fields": [
+      "Pt12Line4_DaytimePhoneNumber1[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "Preparer's Daytime Telephone Number.",
+    "sample_tooltip": "Part 12. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number."
+  },
+  "Attorney_Checkbox": {
+    "type": "one_to_one",
+    "description": "Attorney Checkbox data (collected across forms)",
+    "persona": "attorney",
+    "domain": "office",
+    "value": "Checkbox",
+    "form_fields": [
+      "Part12Line7_Checkbox[0]",
+      "Part12Line7_Checkbox[1]"
+    ],
+    "field_count": 2,
+    "sample_screen_label": "A. Select I am not an attorney or accredited representative but have prepared this application on behalf of the applicant and with the applicant's consent.",
+    "sample_tooltip": "Part 12. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Statement. 7. A. Select I am not an attorney or accredited representative but have prepared this application on behalf of the applicant and with the applicant's consent."
+  },
+  "Attorney_Extend": {
+    "type": "one_to_one",
+    "description": "Attorney Extend data (collected across forms)",
+    "persona": "attorney",
+    "domain": "office",
+    "value": "Extend",
+    "form_fields": [
+      "Part12Line7b_Extend[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "B. Select I am an attorney or accredited representative and my representation of the applicant in this case extends beyond the preparation of this application.",
+    "sample_tooltip": "Part 12. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the applicant in this case extends beyond the preparation of this application. "
+  },
+  "Attorney_NotExtend": {
+    "type": "one_to_one",
+    "description": "Attorney NotExtend data (collected across forms)",
+    "persona": "attorney",
+    "domain": "office",
+    "value": "NotExtend",
+    "form_fields": [
+      "Part12Line7b_NotExtend[0]"
+    ],
+    "field_count": 1,
+    "sample_screen_label": "B. Select I am an attorney or accredited representative and my representation of the applicant in this case does not extend beyond the preparation of this application.",
+    "sample_tooltip": "Part 12. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the applicant in this case does not extend beyond the preparation of this application. "
+  }
+}

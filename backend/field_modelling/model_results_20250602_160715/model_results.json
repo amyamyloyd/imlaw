@@ -1,0 +1,847 @@
+{
+  "personas": {
+    "unknown": {
+      "unknown": {
+        "unknown": {
+          "type": "repeating_group",
+          "category": "employment",
+          "fields": {
+            "Pt2Line40_EmployerOrCompName[0]": {
+              "type": "EmployerOrCompName",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line40_EmployerOrCompName[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Provide your employment history for the last five years, whether inside or outside the United States. Provide your current employment first. If you are currently unemployed, type or print \"Unemployed\" in Item Number 42. Employer 1. 42. Enter Name of Employer / Company.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 40",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": null
+                }
+              ]
+            },
+            "Pt2Line41_AptSteFlrNumber[0]": {
+              "type": "AptSteFlrNumber",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line41_AptSteFlrNumber[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 43. B. Enter Apartment, Suite or Floor Number.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 41",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line41_CityOrTown[0]": {
+              "type": "CityOrTown",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line41_CityOrTown[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 43. C. Enter City or Town.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 41",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line41_Country[0]": {
+              "type": "Country",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line41_Country[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 43. H. Enter Country.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 41",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line41_PostalCode[0]": {
+              "type": "PostalCode",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line41_PostalCode[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 43. G. Enter Postal Code.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 41",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line41_Province[0]": {
+              "type": "Province",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line41_Province[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 43. F. Enter Province.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 41",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line41_State[0]": {
+              "type": "State",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line41_State[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 43. D. Select State from List of States.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 41",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line41_StreetNumberName[0]": {
+              "type": "StreetNumberName",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line41_StreetNumberName[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 43. A. Enter Street Number and Name.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 41",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line41_Unit[0]": {
+              "type": "Unit",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line41_Unit[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 43. B. Select Apartment.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 41",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line41_Unit[1]": {
+              "type": "Unit",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line41_Unit[1]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 43. B. Select Suite.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 41",
+                  "subline": null,
+                  "position": "1",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line41_Unit[2]": {
+              "type": "Unit",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line41_Unit[2]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 43. B. Select Floor.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 41",
+                  "subline": null,
+                  "position": "2",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line41_ZipCode[0]": {
+              "type": "ZipCode",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line41_ZipCode[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 43. E. Enter Zip Code.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 41",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line42_Occupation[0]": {
+              "type": "Occupation",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line42_Occupation[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 44. Enter Your Occupation.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 42",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line43a_DateFrom[0]": {
+              "type": "DateFrom",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line43a_DateFrom[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 45. A. Enter Date From. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 43",
+                  "subline": "a",
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line43b_DateTo[0]": {
+              "type": "DateTo",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line43b_DateTo[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 1. 45. B. Date To. Present. No Entry.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 43",
+                  "subline": "b",
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 1.0
+                }
+              ]
+            },
+            "Pt2Line44_EmployerOrOrgName[0]": {
+              "type": "EmployerOrOrgName",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line44_EmployerOrOrgName[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 46. Enter Name of Employer / Company.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 44",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line45_AptSteFlrNumber[0]": {
+              "type": "AptSteFlrNumber",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line45_AptSteFlrNumber[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 47. B. Enter Apartment, Suite or Floor Number.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 45",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line45_CityOrTown[0]": {
+              "type": "CityOrTown",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line45_CityOrTown[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 47. C. Enter City or Town.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 45",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line45_Country[0]": {
+              "type": "Country",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line45_Country[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 47. H. Enter Country.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 45",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line45_PostalCode[0]": {
+              "type": "PostalCode",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line45_PostalCode[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 47. G. Enter Postal Code.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 45",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line45_Province[0]": {
+              "type": "Province",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line45_Province[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 47. F. Enter Province.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 45",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line45_State[0]": {
+              "type": "State",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line45_State[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 47. D. Select State from List of States.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 45",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line45_StreetNumberName[0]": {
+              "type": "StreetNumberName",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line45_StreetNumberName[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 47. A. Enter Street Number and Name.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 45",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line45_Unit[0]": {
+              "type": "Unit",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line45_Unit[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 47. B. Select Apartment.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 45",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line45_Unit[1]": {
+              "type": "Unit",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line45_Unit[1]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 47. B. Select Suite.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 45",
+                  "subline": null,
+                  "position": "1",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line45_Unit[2]": {
+              "type": "Unit",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line45_Unit[2]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 47. B. Select Floor.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 45",
+                  "subline": null,
+                  "position": "2",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line45_ZipCode[0]": {
+              "type": "ZipCode",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line45_ZipCode[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 47. E. Enter Zip Code.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 45",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line46_Occupation[0]": {
+              "type": "Occupation",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line46_Occupation[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 48. Enter Your Occupation.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 46",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line47a_DateFrom[0]": {
+              "type": "DateFrom",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line47a_DateFrom[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 49. A. Enter Date From. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 47",
+                  "subline": "a",
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt2Line47b_DateTo[0]": {
+              "type": "DateTo",
+              "mappings": [
+                {
+                  "form_id": "i130",
+                  "field_name": "Pt2Line47b_DateTo[0]",
+                  "tooltip": "Part 2. Information About You (Petitioner). Employment History. Employer 2. 49. B. Enter Date To. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                  "part": "Part 2",
+                  "part_num": "2",
+                  "line": "Line 47",
+                  "subline": "b",
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line11_EmployerName[0]": {
+              "type": "EmployerName",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line11_EmployerName[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Provide your employment history for the last five years, whether inside or outside the United States. Provide the most recent employment first. If you need extra space to complete this section, use the space provided in Part 14. Additional Information. Employer One (current or most recent). 11. Enter Name of Employer or Company.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 11",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": null
+                }
+              ]
+            },
+            "Pt3Line13_EmployerName[0]": {
+              "type": "EmployerName",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line13_EmployerName[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer One (current or most recent). 13. Enter Your Occupation.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 13",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": null
+                }
+              ]
+            },
+            "Pt3Line16_AptSteFlrNumber[0]": {
+              "type": "AptSteFlrNumber",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line16_AptSteFlrNumber[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Address of Employer or Company. 16. B. Enter Apartment, Suite or Floor Number.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 16",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line16_CityOrTown[0]": {
+              "type": "CityOrTown",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line16_CityOrTown[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Address of Employer or Company. 16. C. Enter City or Town.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 16",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line16_Country[0]": {
+              "type": "Country",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line16_Country[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Address of Employer or Company. 16. H. Enter Country.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 16",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line16_PostalCode[0]": {
+              "type": "PostalCode",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line16_PostalCode[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Address of Employer or Company. 16. G. Enter Postal Code.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 16",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line16_Province[0]": {
+              "type": "Province",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line16_Province[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Address of Employer or Company. 16. F. Enter Province.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 16",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line16_State[0]": {
+              "type": "State",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line16_State[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Address of Employer or Company. 16. D. Select State from List of States.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 16",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line16_StreetNumberName[0]": {
+              "type": "StreetNumberName",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line16_StreetNumberName[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Address of Employer or Company. 16. A. Enter Street Number and Name.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 16",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line16_Unit[0]": {
+              "type": "Unit",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line16_Unit[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Address of Employer or Company. 16. B. Select Floor.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 16",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line16_Unit[1]": {
+              "type": "Unit",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line16_Unit[1]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Address of Employer or Company. 16. B. Select Apartment.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 16",
+                  "subline": null,
+                  "position": "1",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line16_Unit[2]": {
+              "type": "Unit",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line16_Unit[2]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Address of Employer or Company. 16. B. Select Suite.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 16",
+                  "subline": null,
+                  "position": "2",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line16_ZipCode[0]": {
+              "type": "ZipCode",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line16_ZipCode[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Address of Employer or Company. 16. E. Enter Zip Code.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 16",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line17_EmployerName[0]": {
+              "type": "EmployerName",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line17_EmployerName[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. 17. Enter Your Occupation.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 17",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line18a_DateFrom[0]": {
+              "type": "DateFrom",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line18a_DateFrom[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Dates of Employment. 18. A. Enter Date From. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 18",
+                  "subline": "a",
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line18a_DateTo[0]": {
+              "type": "DateTo",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line18a_DateTo[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. Dates of Employment. 18. B. Enter Date To. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 18",
+                  "subline": "a",
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            },
+            "Pt3Line19_EmployerName[0]": {
+              "type": "EmployerName",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line19_EmployerName[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Provide your most recent employment outside of the United States (if not already listed above). 19. Enter Name of Employer or Company.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 19",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": null
+                }
+              ]
+            },
+            "Pt3Line20_EmployerName[0]": {
+              "type": "EmployerName",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line20_EmployerName[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Provide your most recent employment outside of the United States (if not already listed above). 21. Enter Your Occupation.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 20",
+                  "subline": null,
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": null
+                }
+              ]
+            },
+            "Pt3Line4a_EmployerName[0]": {
+              "type": "EmployerName",
+              "mappings": [
+                {
+                  "form_id": "i485",
+                  "field_name": "Pt3Line4a_EmployerName[0]",
+                  "tooltip": "Part 3. Additional Information About You. Employment History. Employer Two. 15. Enter Name of Employer or Company.",
+                  "part": "Part 3",
+                  "part_num": "3",
+                  "line": "Line 4",
+                  "subline": "a",
+                  "position": "0",
+                  "mapping_type": "by_number",
+                  "sequence_number": 2.0
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

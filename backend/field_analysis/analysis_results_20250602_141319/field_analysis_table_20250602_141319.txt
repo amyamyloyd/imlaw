@@ -1,0 +1,23 @@
+
+=== Field Analysis Summary ===
+
+Total Fields: 1725
+Fields Needing Review: 0 (0.0%)
+
+=== Reused Fields Summary ===
+reuse_category
+contact_info      43
+personal_info    205
+preparer_info      2
+
+=== Repeating Fields Summary ===
+repeating_category  sequence_number
+children            1.0                 8
+                    2.0                 8
+                    3.0                 8
+employment          1.0                14
+                    2.0                30
+family              1.0                 6
+                    2.0                 8
+
+=== Persona Distribution ===

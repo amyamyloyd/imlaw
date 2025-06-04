@@ -1,0 +1,3060 @@
+Form: i130.pdf
+Field: PDF417BarCode1[0]
+Type: /Tx
+Tooltip: PDF417BarCode1
+
+Form: i130.pdf
+Field: CheckBox1[0]
+Type: /Btn
+Tooltip: To be completed by an attorney or accredited representative, if any. Select this box if Form G - 28 is attached.
+
+Form: i130.pdf
+Field: AttorneyStateBarNumber[0]
+Type: /Tx
+Tooltip: To be completed by an attorney or accredited representative, if any. Enter Attorney State Bar Number, if applicable.
+
+Form: i130.pdf
+Field: USCISOnlineAcctNumber[0]
+Type: /Tx
+Tooltip: To be completed by an attorney or accredited representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any.
+
+Form: i130.pdf
+Field: Pt3Line1_Ethnicity[0]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 1. Ethnicity (Select only one box). Select Not Hispanic or Latino.
+
+Form: i130.pdf
+Field: Pt3Line2_Race_Black[0]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 2. Race (Select all applicable boxes). Select Black or African American.
+
+Form: i130.pdf
+Field: Pt3Line2_Race_AmericanIndianAlaskaNative[0]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 2. Race (Select all applicable boxes). Select American Indian or Alaska Native.
+
+Form: i130.pdf
+Field: Pt3Line2_Race_White[0]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 2. Race (Select all applicable boxes). Select White.
+
+Form: i130.pdf
+Field: Pt3Line2_Race_Asian[0]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 2. Race (Select all applicable boxes). Select Asian.
+
+Form: i130.pdf
+Field: Pt3Line2_Race_NativeHawaiianOtherPacificIslander[0]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 2. Race (Select all applicable boxes). Select Native Hawaiian or Other Pacific Islander.
+
+Form: i130.pdf
+Field: Pt3Line3_HeightFeet[0]
+Type: /Ch
+Tooltip: Part 3. Biographic Information. 3. Height. Enter Feet.
+
+Form: i130.pdf
+Field: Pt3Line3_HeightInches[0]
+Type: /Ch
+Tooltip: Part 3. Biographic Information. 3. Height. Enter Inches.
+
+Form: i130.pdf
+Field: Pt3Line4_Pound1[0]
+Type: /Tx
+Tooltip: Part 3. Biographic Information. 4. Weight. Enter Pounds. Enter First Digit of Three Digits.
+
+Form: i130.pdf
+Field: Pt3Line4_Pound2[0]
+Type: /Tx
+Tooltip: Part 3. Biographic Information. 4. Weight. Enter Pounds. Enter Second Digit of Three Digits.
+
+Form: i130.pdf
+Field: Pt3Line4_Pound3[0]
+Type: /Tx
+Tooltip: Part 3. Biographic Information. 4. Weight. Enter Pounds. Enter Third Digit of Three Digits.
+
+Form: i130.pdf
+Field: Pt3Line5_EyeColor[0]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 5. Eye Color (Select only one box). Select Blue.
+
+Form: i130.pdf
+Field: Pt3Line5_EyeColor[1]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 5. Eye Color (Select only one box). Select Brown.
+
+Form: i130.pdf
+Field: Pt3Line5_EyeColor[2]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 5. Eye Color (Select only one box). Select Hazel.
+
+Form: i130.pdf
+Field: Pt3Line5_EyeColor[3]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 5. Eye Color (Select only one box). Select Pink.
+
+Form: i130.pdf
+Field: Pt3Line5_EyeColor[4]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 5. Eye Color (Select only one box). Select Maroon.
+
+Form: i130.pdf
+Field: Pt3Line5_EyeColor[5]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 5. Eye Color (Select only one box). Select Green.
+
+Form: i130.pdf
+Field: Pt3Line5_EyeColor[6]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 5. Eye Color (Select only one box). Select Gray.
+
+Form: i130.pdf
+Field: Pt3Line5_EyeColor[7]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 5. Eye Color (Select only one box). Select Black.
+
+Form: i130.pdf
+Field: Pt3Line5_EyeColor[8]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 5. Eye Color (Select only one box). Select Unknown / Other.
+
+Form: i130.pdf
+Field: Pt3Line6_HairColor[0]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 6. Hair Color (Select only one box). Select Bald (No hair).
+
+Form: i130.pdf
+Field: Pt3Line6_HairColor[1]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 6. Hair Color (Select only one box). Select Black.
+
+Form: i130.pdf
+Field: Pt3Line6_HairColor[2]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 6. Hair Color (Select only one box). Select Blond.
+
+Form: i130.pdf
+Field: Pt3Line6_HairColor[3]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 6. Hair Color (Select only one box). Select Brown.
+
+Form: i130.pdf
+Field: Pt3Line6_HairColor[4]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 6. Hair Color (Select only one box). Select Gray.
+
+Form: i130.pdf
+Field: Pt3Line6_HairColor[5]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 6. Hair Color (Select only one box). Select Red.
+
+Form: i130.pdf
+Field: Pt3Line6_HairColor[6]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 6. Hair Color (Select only one box). Select Sandy.
+
+Form: i130.pdf
+Field: Pt3Line6_HairColor[7]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 6. Hair Color (Select only one box). Select White.
+
+Form: i130.pdf
+Field: Pt3Line6_HairColor[8]
+Type: /Btn
+Tooltip: Part 3. Biographic Information. 6. Hair Color (Select only one box). Select Unknown / Other.
+
+Form: i130.pdf
+Field: Pt5Line2b_GivenName[0]
+Type: /Tx
+Tooltip: Part 5. Other Information. 2. B. Enter Given Name (First Name).
+
+Form: i130.pdf
+Field: Pt5Line2c_MiddleName[0]
+Type: /Tx
+Tooltip: Part 5. Other Information. 2. C. Enter Middle Name.
+
+Form: i130.pdf
+Field: Pt5Line5_Result[0]
+Type: /Tx
+Tooltip: Part 5. Other Information. 5. Enter Result (for example, approved, denied, withdrawn).
+
+Form: i130.pdf
+Field: Pt5Line4_DateFiled[0]
+Type: /Tx
+Tooltip: Part 5. Other Information. 4. Enter Date Filed. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i130.pdf
+Field: Pt5Line3a_CityOrTown[0]
+Type: /Tx
+Tooltip: Part 5. Other Information. 3. A. Enter City or Town.
+
+Form: i130.pdf
+Field: Pt5Line3b_State[0]
+Type: /Ch
+Tooltip: Part 5. Other Information. 3. B. Select State from List of States.
+
+Form: i130.pdf
+Field: Pt4Line7_Relationship[0]
+Type: /Tx
+Tooltip: Part 5. Other Information. Relative 1. 7. Enter Relationship.
+
+Form: i130.pdf
+Field: Pt4Line6b_GivenName[0]
+Type: /Tx
+Tooltip: Part 5. Other Information. Relative 1. 6. B. Enter Given Name (First Name).
+
+Form: i130.pdf
+Field: Pt4Line6c_MiddleName[0]
+Type: /Tx
+Tooltip: Part 5. Other Information. Relative 1. 6. C. Enter Middle Name.
+
+Form: i130.pdf
+Field: Pt6Line3_DaytimePhoneNumber[0]
+Type: /Tx
+Tooltip: Part 6. Petitioner's Statement, Contact Information, Declaration, and Signature. Petitioner's Contact Information. 3. Enter Petitioner's Daytime Telephone Number.
+
+Form: i130.pdf
+Field: Pt6Line5_Email[0]
+Type: /Tx
+Tooltip: Part 6. Petitioner's Statement, Contact Information, Declaration, and Signature. Petitioner's Contact Information. 5. Enter Petitioner's Email Address, if any.
+
+Form: i130.pdf
+Field: Pt6Line4_MobileNumber[0]
+Type: /Tx
+Tooltip: Part 6. Petitioner's Statement, Contact Information, Declaration, and Signature. Petitioner's Contact Information. 4. Enter Petitioner's Mobile Telephone Number, if any.
+
+Form: i130.pdf
+Field: Pt4Line8c_MiddleName[0]
+Type: /Tx
+Tooltip: Part 5. Other Information. Relative 2. 8. C. Enter Middle Name.
+
+Form: i130.pdf
+Field: Pt4Line8b_GivenName[0]
+Type: /Tx
+Tooltip: Part 5. Other Information. Relative 2. 8. B. Enter Given Name (First Name).
+
+Form: i130.pdf
+Field: Pt4Line9_Relationship[0]
+Type: /Tx
+Tooltip: Part 5. Other Information. Relative 2. 9. Enter Relationship.
+
+Form: i130.pdf
+Field: Pt6Line1Checkbox[0]
+Type: /Btn
+Tooltip: Part 6. Petitioner's Statement, Contact Information, Declaration, and Signature. NOTE: Read the Penalties section of the Form I - 130 Instructions before completing this part. Petitioner's Statement. NOTE: Select the box for either Item Number 1. A. or 1. B. If applicable, select the box for Item Number 2. 1. A. Select I can read and understand English, and I have read and understand every question and instruction on this petition and my answer to every question.
+
+Form: i130.pdf
+Field: Pt6Line1Checkbox[1]
+Type: /Btn
+Tooltip: Part 6. Petitioner's Statement, Contact Information, Declaration, and Signature. Petitioner's Statement. NOTE: Select the box for either Item Number 1. A. or 1. B. If applicable, select the box for Item Number 2. 1. B. Select The interpreter named in Part 7. read to me every question and instruction on this petition and my answer to every question in a language in which I am fluent.  I understood all of this information as interpreted.
+
+Form: i130.pdf
+Field: Pt6Line1b_Language[0]
+Type: /Tx
+Tooltip: Part 6. Petitioner's Statement, Contact Information, Declaration, and Signature. Petitioner's Statement. 1. B. Enter Language.
+
+Form: i130.pdf
+Field: Pt6Line6b_DateofSignature[0]
+Type: /Tx
+Tooltip: Part 6. Petitioner's Statement, Contact Information, Declaration, and Signature. Petitioner's Signature. 6. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i130.pdf
+Field: P5_Line6a_SignatureofApplicant[0]
+Type: /Tx
+Tooltip: Part 6. Petitioner's Statement, Contact Information, Declaration, and Signature. Petitioner's Signature. 6. A. Petitioner's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.
+
+Form: i130.pdf
+Field: Pt7Line1b_InterpreterGivenName[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).
+
+Form: i130.pdf
+Field: Pt7Line2_InterpreterBusinessorOrg[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name, if any.
+
+Form: i130.pdf
+Field: Pt7Line3_CityOrTown[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. C. Enter City or Town.
+
+Form: i130.pdf
+Field: Pt7Line3_StreetNumberName[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. A. Enter Street Number and Name.
+
+Form: i130.pdf
+Field: Pt7Line3_Unit[0]
+Type: /Btn
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Apartment.
+
+Form: i130.pdf
+Field: Pt7Line3_Unit[1]
+Type: /Btn
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Suite.
+
+Form: i130.pdf
+Field: Pt7Line3_Unit[2]
+Type: /Btn
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Floor.
+
+Form: i130.pdf
+Field: Pt7Line3_AptSteFlrNumber[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.
+
+Form: i130.pdf
+Field: Pt7Line3_PostalCode[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. G. Enter Postal Code.
+
+Form: i130.pdf
+Field: Pt7Line3_ZipCode[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. E. Enter Zip Code.
+
+Form: i130.pdf
+Field: Pt7Line3_State[0]
+Type: /Ch
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. D. Select State from List of States.
+
+Form: i130.pdf
+Field: Pt7Line3_Country[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. H. Enter Country.
+
+Form: i130.pdf
+Field: Pt7Line3_Province[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. F. Enter Province.
+
+Form: i130.pdf
+Field: Pt7_NameofLanguage[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that: I am fluent in English and (another language), which is the same language provided in Part 6., Item  Number 1.b., and I have read to this petitioner in the identified language every question and instruction on this petition and his or her answer to every question.  The petitioner informed me that he or she understands every instruction, question, and answer on the petition, including the Petitioner's Declaration and Certification, and has verified the accuracy of every answer. Enter Language.
+
+Form: i130.pdf
+Field: Pt7Line7b_DateofSignature[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i130.pdf
+Field: Pt7Line7a_Signature[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. A. Interpreter's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.
+
+Form: i130.pdf
+Field: Pt7Line4_InterpreterDaytimeTelephone[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number.
+
+Form: i130.pdf
+Field: Pt7Line5_Email[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter Interpreter's Email Address, if any.
+
+Form: i130.pdf
+Field: Pt4Line53_DaytimePhoneNumber[0]
+Type: /Tx
+Tooltip: Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number, if any.
+
+Form: i130.pdf
+Field: Pt2Line1_AlienNumber[1]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 2. Alien Registration Number (A. Number), if any. This is a read only field. This field pre-populates from page 1.
+
+Form: i130.pdf
+Field: Pt9Line3a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 3. A. Enter Page Number.
+
+Form: i130.pdf
+Field: Pt9Line3b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 3. B. Enter Part Number.
+
+Form: i130.pdf
+Field: Pt9Line3c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 3. C. Enter Item Number.
+
+Form: i130.pdf
+Field: Pt9Line3d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 3. D. Enter Additional Information.
+
+Form: i130.pdf
+Field: Pt9Line4a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 4. A. Enter Page Number.
+
+Form: i130.pdf
+Field: Pt9Line4b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 4. B. Enter Part Number.
+
+Form: i130.pdf
+Field: Pt9Line4c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 4. C. Enter Item Number.
+
+Form: i130.pdf
+Field: Pt9Line4d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 4. D. Enter Additional Information.
+
+Form: i130.pdf
+Field: Pt9Line5a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 5. A. Enter Page Number.
+
+Form: i130.pdf
+Field: Pt9Line5b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 5. B. Enter Part Number.
+
+Form: i130.pdf
+Field: Pt9Line5c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 5. C. Enter Item Number.
+
+Form: i130.pdf
+Field: Pt9Line6a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 6. A. Enter Page Number.
+
+Form: i130.pdf
+Field: Pt9Line6b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 6. B. Enter Part Number.
+
+Form: i130.pdf
+Field: Pt9Line6c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 6. C. Enter Item Number.
+
+Form: i130.pdf
+Field: Pt2Line4b_GivenName[1]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 1. B. Given Name (First Name). This is a read only field. This field pre-populates from page 1.
+
+Form: i130.pdf
+Field: Pt2Line4c_MiddleName[1]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 1. C. Middle Name. This is a read only field. This field pre-populates from page 1.
+
+Form: i130.pdf
+Field: Pt9Line6d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 6. D. Enter Additional Information.
+
+Form: i130.pdf
+Field: Pt9Line5d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 5. D. Enter Additional Information.
+
+Form: i130.pdf
+Field: Pt9Line9a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 7. A. Enter Page Number.
+
+Form: i130.pdf
+Field: Pt9Line7b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 7. B. Enter Part Number.
+
+Form: i130.pdf
+Field: Pt9Line7c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 7. C. Enter Item Number.
+
+Form: i130.pdf
+Field: Pt9Line7d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 9. Additional Information. 7. D. Enter Additional Information.
+
+Form: i693.pdf
+Field: PDF417BarCode2[0]
+Type: /Tx
+Tooltip: PDF417BarCode2
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[0]
+Type: /Tx
+Tooltip: Middle Name. This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[0]
+Type: /Tx
+Tooltip: Given Name (First Name). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[0]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[1]
+Type: /Tx
+Tooltip: Given Name (First Name). This is a read only field. Is is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[1]
+Type: /Tx
+Tooltip: Middle Name. This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[1]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt3Line1_InterpreterGivenName[0]
+Type: /Tx
+Tooltip: Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).
+
+Form: i693.pdf
+Field: Pt3Line2_NameofBusinessorOrgName[0]
+Type: /Tx
+Tooltip: Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name.
+
+Form: i693.pdf
+Field: Pt3Line5_MobilePhone[0]
+Type: /Tx
+Tooltip: Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Mobile Telephone Number, if any.
+
+Form: i693.pdf
+Field: Pt3Line4_DaytimePhone[0]
+Type: /Tx
+Tooltip: Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter Interpreter's Daytime Telephone Number. 
+
+Form: i693.pdf
+Field: Pt3Line6_EmailAddress[0]
+Type: /Tx
+Tooltip: Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Email Address, if any.
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[2]
+Type: /Tx
+Tooltip: Given Name (First Name). This is a read only field. Is is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[2]
+Type: /Tx
+Tooltip: Middle Name. This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[2]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt3Line7_Signature[0]
+Type: /Tx
+Tooltip: Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 6. Interpreter's Signature. This is a read only field.
+
+Form: i693.pdf
+Field: Pt3Line7_DateofSignature[0]
+Type: /Tx
+Tooltip: Part 3. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 6. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[3]
+Type: /Tx
+Tooltip: Given Name (First Name). This is a read only field. Is is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[3]
+Type: /Tx
+Tooltip: Middle Name. This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[3]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt7Line1_GivenName[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Civil Surgeon's Information. 1. Enter Given Name (First Name).
+
+Form: i693.pdf
+Field: Pt7Line2_MedPracticeName[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Civil Surgeon's Information. 2. Enter Name of Medical Practice, Facility, or Health Department.
+
+Form: i693.pdf
+Field: Pt7Line1_MiddleName[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Civil Surgeon's Information. 1. Enter Middle Name, if applicable.
+
+Form: i693.pdf
+Field: Pt7Line1_CivilSurgeonID[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Civil Surgeon's Information.   1. Enter Civil Surgeon Identification Number (CSID) (unless performing the examination under a health department or military blanket designation).
+
+Form: i693.pdf
+Field: Pt6Line3_DateofExam1[0]
+Type: /Tx
+Tooltip: Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 3. Dates of Follow-up Examinations, if required. Enter Date of Examination One. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt6Line3_DateofExam3[0]
+Type: /Tx
+Tooltip: Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 3. Dates of Follow-up Examinations, if required. Enter Date of Examination Three. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt6Line3_DateofExam2[0]
+Type: /Tx
+Tooltip: Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 3. Dates of Follow-up Examinations, if required. Enter Date of Examination Two. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt6Line1_OverallFinding[0]
+Type: /Btn
+Tooltip: Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 1. Summary of Overall Findings. B. Select Class B Conditions (See Item Numbers 1. through 4. in Part 8. Civil Surgeon Worksheet). 
+
+Form: i693.pdf
+Field: Pt6Line1_OverallFinding[1]
+Type: /Btn
+Tooltip: Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 1. Summary of Overall Findings. A. Select No Class A. or Class B Condition.
+
+Form: i693.pdf
+Field: Pt6Line1_OverallFinding[2]
+Type: /Btn
+Tooltip: Part 6. Summary of Medical Examination (To be completed by the civil surgeon). 1. Summary of Overall Findings. C. Select Class A. Conditions (See Item Numbers 1. through 3. in Part 8. Civil Surgeon Worksheet).
+
+Form: i693.pdf
+Field: Pt7Line3_StreetNumberName[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Enter Street Number and Name.
+
+Form: i693.pdf
+Field: Pt7Line3_AptSteFlrNumber[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Enter Apartment, Suite or Floor Number.
+
+Form: i693.pdf
+Field: Pt7Line3_Unit[0]
+Type: /Btn
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Select Floor.
+
+Form: i693.pdf
+Field: Pt7Line3_Unit[1]
+Type: /Btn
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Select Suite.
+
+Form: i693.pdf
+Field: Pt7Line3_Unit[2]
+Type: /Btn
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Select Apartment.
+
+Form: i693.pdf
+Field: Pt7Line3_CityOrTown[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Enter City or Town.
+
+Form: i693.pdf
+Field: Pt7Line3_State[0]
+Type: /Ch
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Select State from List of States.
+
+Form: i693.pdf
+Field: Pt7Line3_ZipCode[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Physical Address. 3. Enter ZIP Code.
+
+Form: i693.pdf
+Field: Pt7Line4_StreetNumberName[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Enter Street Number and Name Street Number and Name (P O Box)
+
+Form: i693.pdf
+Field: Pt7Line4_AptSteFlrNumber[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Enter Apartment, Suite or Floor Number, if applicable.
+
+Form: i693.pdf
+Field: Pt7Line4_Unit[0]
+Type: /Btn
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Select Floor.
+
+Form: i693.pdf
+Field: Pt7Line4_Unit[1]
+Type: /Btn
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Select Suite.
+
+Form: i693.pdf
+Field: Pt7Line4_Unit[2]
+Type: /Btn
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Select Apartment.
+
+Form: i693.pdf
+Field: Pt7Line4_CityOrTown[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Enter City or Town.
+
+Form: i693.pdf
+Field: Pt7Line4_State[0]
+Type: /Ch
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Select State from List of States.
+
+Form: i693.pdf
+Field: Pt7Line4_ZipCode[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Mailing Address. 4. Enter ZIP Code.
+
+Form: i693.pdf
+Field: Pt7Line6_MobilePhone[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Contact Information. 6. Enter Mobile Telephone Number, if any.
+
+Form: i693.pdf
+Field: Pt7Line5_DaytimePhone[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Contact Information. 5. Enter Daytime Telephone Number. 
+
+Form: i693.pdf
+Field: Pt7Line7_EmailAddress[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Contact Information. 7. Enter Email Address, if any.
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[4]
+Type: /Tx
+Tooltip: Given Name (First Name). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[4]
+Type: /Tx
+Tooltip: Middle Name. This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[4]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt7Line7_CivilSurgeonSignature[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Civil Surgeon's Signature. 8. Civil Surgeon's Signature. This is a read only field.
+
+Form: i693.pdf
+Field: Pt7Line8_DateofSignature[0]
+Type: /Tx
+Tooltip: Part 7. Civil Surgeon's Contact Information, Certification, and Signature. Civil Surgeon's Signature. 8. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[5]
+Type: /Tx
+Tooltip: Given Name (First Name). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[5]
+Type: /Tx
+Tooltip: Middle Name. This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt8Line1A_GammarRelease[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay. Select only one box. Select T-Spot.
+
+Form: i693.pdf
+Field: Pt8Line1A_GammarRelease[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay.  Select only one box. Select QuantiFERON.
+
+Form: i693.pdf
+Field: Pt8Line1A1_Result[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay. Result. Select Negative (no chest X-ray required)
+
+Form: i693.pdf
+Field: Pt8Line1A1_Result[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay. Result. Select Positive (chest X-ray required).
+
+Form: i693.pdf
+Field: Pt8Line1A2_InitialScreening[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet . 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 2. Initial Screening Test Result and Chest X-Ray Determinations. Select Chest X-ray not required (medically cleared for T B for U S C I S).
+
+Form: i693.pdf
+Field: Pt8Line1A2_InitialScreening[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet . 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 2. Initial Screening Test Result and Chest X-Ray Determinations. Select Chest X-ray required due to I G R A exception (Clearly specify the I G R A exception in the Remarks section below.)
+
+Form: i693.pdf
+Field: Pt8Line1A2_InitialScreening[2]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet . 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 2. Initial Screening Test Result and Chest X-Ray Determinations. Select Chest X-ray required due to T B signs or symptoms, or due to immunosuppression (such as H I V).
+
+Form: i693.pdf
+Field: Pt8Line1A2_InitialScreening[3]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet . 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 2. Initial Screening Test Result and Chest X-Ray Determinations. Select Chest X-ray required due to initial screening test results.
+
+Form: i693.pdf
+Field: Pt8Line1A3_Results[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. Result. Select Normal.
+
+Form: i693.pdf
+Field: Pt8Line1A3_Results[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).  Sputum Smears and Cultures Results.       3. Chest X-Ray. Result. Select Abnormal (describe results in Remarks section below).
+
+Form: i693.pdf
+Field: Pt8Line1A3_XrayReadDate[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results.   3. Chest X-Ray. Enter Date Chest X-Ray Read. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt8Line1A_GammarRelease[2]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay (for acceptable I G R A.'s, consult the Technical Instructions for Civil Surgeons and any updates posted on the C D C's Web site). Select Not administered (I G R A. exception; please explain in Remarks section below).
+
+Form: i693.pdf
+Field: Pt8Line1A1_TSDate[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay. T-Spot. Enter Date Blood Sample Drawn. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt8Line1A1_QFDate[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay. QuantiFERON.  Enter Date Blood Sample Drawn. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt8Line1A3_Infiltrate[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Infiltrate or consolidation
+
+Form: i693.pdf
+Field: Pt8Line1A3_Reticular[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Reticular markings suggestive of fibrosis
+
+Form: i693.pdf
+Field: Pt8Line1A3_Miliary[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Miliary findings
+
+Form: i693.pdf
+Field: Pt8Line1A3_NodulesorMass[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Nodule(s) or mass with poorly defined margins (such as tuberculoma)
+
+Form: i693.pdf
+Field: Pt8Line1A3_Cavitylesion[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Cavitary lesion
+
+Form: i693.pdf
+Field: Pt8Line1A3_Hilar[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Hilar/mediastinal adenopathy
+
+Form: i693.pdf
+Field: Pt8Line1A3_Pleuraleffusion[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Pleural effusion
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[5]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt8Line1A1_Result[2]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 1. Interferon Gama Release Assay. Result. Select Indeterminate (including borderline/equivocal) (no chest X-ray required)
+
+Form: i693.pdf
+Field: Pt8Line1A3_DiscretelinearOpac[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Discrete linear opacity.
+
+Form: i693.pdf
+Field: Pt8Line1A3_Irregularthickpleural[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Irregular thick pleural reaction
+
+Form: i693.pdf
+Field: Pt8Line1A3_Volumeloss[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Volume loss or retraction
+
+Form: i693.pdf
+Field: Pt8Line1A3_DiscreteNodule[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Discrete nodules without calcification
+
+Form: i693.pdf
+Field: Pt8Line1A3_Other[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Results      3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Other (further describe in Remarks section below)
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[6]
+Type: /Tx
+Tooltip: Given Name (First Name). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[6]
+Type: /Tx
+Tooltip: Middle Name. This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[6]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt8Line1A6_TBClassification[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select No Class A. or Class B  T B  findings.  
+
+Form: i693.pdf
+Field: Pt8Line1A6_TBClassification[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select Class A. Pulmonary T B Disease.
+
+Form: i693.pdf
+Field: Pt8Line1A6_TBClassification[2]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select Class B 1 Pulmonary T B.
+
+Form: i693.pdf
+Field: Pt8Line1A6_TBClassification[3]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select Class B 0 Pulmonary T B.
+
+Form: i693.pdf
+Field: Pt8Line1A6_TBClassification[4]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select Class B 1 Extrapulmonary T B.
+
+Form: i693.pdf
+Field: Pt8Line1A6_TBClassification[5]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select Class B 2 T B, Latent T B Infection.
+
+Form: i693.pdf
+Field: Pt8Line1A6_TBClassification[6]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. 6. T B Classification / Findings (Select only if chest x-ray was performed). Select Class B, Other Chest Condition (non-T B).
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Smear Results table. Row 1. Enter X for Negative Result Reported.
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[1]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Smear Results table. Row 2. Enter X for Negative Result Reported.
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[2]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Smear Results table. Row 3. Enter X for Negative Result Reported.
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[3]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5) Sputum Smears and Cultures Result. Sputum Smear Results table. Row 1. Enter X for a Positive Result Reported. 
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[4]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5) Sputum Smears and Cultures Result. Sputum Smear Results table. Row 2. Enter X for a Positive Result Reported. 
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[5]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5) Sputum Smears and Cultures Result. Sputum Smear Results table. Row 3. Enter X for a Positive Result Reported. 
+
+Form: i693.pdf
+Field: Pt7Line1B1b_DateScreeningRun[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5). Sputum Smears and Cultures Results. Sputum Smear Results Table. Row 1. Enter Date when Specimen was Obtained. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt7Line1B1b_DateScreeningRun[1]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5). Sputum Smears and Cultures Results. Sputum Smear Results Table. Row 2. Enter Date when Specimen was Obtained. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt7Line1B1b_DateScreeningRun[2]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5). Sputum Smears and Cultures Results. Sputum Smear Results Table. Row 3. Enter Date when Specimen was Obtained. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt7Line1B1b_DateScreeningRun[3]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5) Sputum Smears and Cultures Result. Sputum Smears Result Table. Row 1. Enter Date when Smear Result was Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt7Line1B1b_DateScreeningRun[4]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5) Sputum Smears and Cultures Result. Sputum Smears Result Table. Row 2. Enter Date when Smear Result was Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt7Line1B1b_DateScreeningRun[5]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). (5) Sputum Smears and Cultures Result. Sputum Smears Result Table. Row 3. Enter Date when Smear Result was Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[6]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results table. Row 1. Enter X for Negative Result Reported.
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[7]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results table. Row 2. Enter X for Negative Result Reported.
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[8]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results table. Row 2. Enter X for Negative Result Reported.
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[9]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 1. Enter X for a Positive Result. 
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[10]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 2. Enter X for a Positive Result. 
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[11]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 3. Enter X for a Positive Result. 
+
+Form: i693.pdf
+Field: Pt7Line1B1b_DateScreeningRun[6]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results table. Row 1. Enter  Date  when Specimen was Obtained. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt7Line1B1b_DateScreeningRun[7]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results table. Row 2. Enter  Date  when Specimen was Obtained. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt7Line1B1b_DateScreeningRun[8]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results table. Row 3. Enter  Date  when Specimen was Obtained. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt7Line1B1b_DateScreeningRun[9]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Smear Results Table. Row 1. Enter Date when Culture Result was Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt7Line1B1b_DateScreeningRun[10]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Smear Results Table. Row 2. Enter Date when Culture Result was Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt7Line1B1b_DateScreeningRun[11]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Smear Results Table. Row 3. Enter Date when Culture Result was Reported. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[12]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 1. Enter X for a Contaminated Result.
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[13]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 2. Enter X for a Contaminated Result.
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[14]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 3. Enter X for a Contaminated Result.
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[15]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 1. Enter X for a NTM Result.
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[16]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 2. Enter X for a NTM Result.
+
+Form: i693.pdf
+Field: Pt7Line1B1d_name[17]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   Sputum Smears and Cultures Result.   5. Sputum Smears and Cultures Results.Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 5. Sputum Smears and Cultures Results. Sputum Culture Results Table. Row 3. Enter X for a NTM Result. Sputum Culture Results. Enter X for a NTM Result.
+
+Form: i693.pdf
+Field: Pt8Line1A4_SputumSmearsCultures[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. communicable Disease of Public Health Significance. A. Tuberculosis (T B).   4.  Sputum Smears and Cultures Decision.        Select  No, not indicated
+
+Form: i693.pdf
+Field: Pt8Line1A4_SputumSmearsCultures[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   4.  Sputum Smears and Cultures Decision        Select  Yes, indicated due to signs or symptoms of T B
+
+Form: i693.pdf
+Field: Pt8Line1A4_SputumSmearsCultures[2]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B).   4.  Sputum Smears and Cultures Decision.        Select Yes, indicated due to chest X ray suggestive of T B
+
+Form: i693.pdf
+Field: Pt8Line1A4_SputumSmearsCultures[3]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Yes, indicated for end of treatment cultures.
+
+Form: i693.pdf
+Field: Pt8Line1A4_SputumSmearsCultures[4]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. A. Tuberculosis (T B). 3. Chest X-Ray. T B Classification / Findings (Select only if chest x-ray was performed). Select Yes, indicated due to known H I V infection or extrapulmonary T B.
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[7]
+Type: /Tx
+Tooltip: Given Name (First Name). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[7]
+Type: /Tx
+Tooltip: Middle Name. This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt8Line1B2_Findings[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 2. Findings. Select No Class A or Class B Syphilis.
+
+Form: i693.pdf
+Field: Pt8Line1B2_Findings[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 2. Findings. Select Syphilis, Class B (treated in the last year).
+
+Form: i693.pdf
+Field: Pt8Line1B2_Findings[2]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 2. Findings. Select Syphilis, Class A. (untreated).
+
+Form: i693.pdf
+Field: Pt8Line1B3_Remarks[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 3. Enter Remarks: (Include any therapy given with doses and dates).
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[7]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt8Line1B3_Drug[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 3. Enter Remarks: (Include stage of syphilis diagnosed [primary, secondary, early latent, late latent or latent of unknown duration, tertiary, neurosyphilis, congential] and any therapy given with doses and dates of administration). Enter Drug.
+
+Form: i693.pdf
+Field: Pt8Line1B3_Dosage[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 3. Enter Remarks: (Include stage of syphilis diagnosed [primary, secondary, early latent, late latent or latent of unknown duration, tertiary, neurosyphilis, congential] and any therapy given with doses and dates of administration). Enter Dosage.
+
+Form: i693.pdf
+Field: Pt8Line1B3_startDate[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 3. Enter Remarks: (Include stage of syphilis diagnosed [primary, secondary, early latent, late latent or latent of unknown duration, tertiary, neurosyphilis, congential] and any therapy given with doses and dates of administration). Enter Start Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt8Line1B3_endDate[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. B. Syphilis. 3. Enter Remarks: (Include stage of syphilis diagnosed [primary, secondary, early latent, late latent or latent of unknown duration, tertiary, neurosyphilis, congential] and any therapy given with doses and dates of administration). Enter End Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt8Line1c2_Findings[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 2. Findings. Select Gonorrhea, Class B (treated in the last year).
+
+Form: i693.pdf
+Field: Pt8Line1c2_Findings[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 2. Findings. Select Gonorrhea, Class A. (untreated).
+
+Form: i693.pdf
+Field: Pt8Line1c2_Findings[2]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 2. Findings. Select No Class A. or Class B Gonorrhea.
+
+Form: i693.pdf
+Field: Pt8Line1c3_Remarks[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 3. Enter Remarks: (Include any symptoms or treatment given with doses and dates of administration).
+
+Form: i693.pdf
+Field: Pt8Line1C3_Drug[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 3. Enter Remarks: (Include any symptoms or treatment given with doses and dates of administration). Enter Drug.
+
+Form: i693.pdf
+Field: Pt8Line1C3_Dosage[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 3. Enter Remarks: (Include any symptoms or treatment given with doses and dates of administration). Enter Dosage.
+
+Form: i693.pdf
+Field: Pt8Line1C3_startDate[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 3. Enter Remarks: (Include any symptoms or treatment given with doses and dates of administration). Enter Start Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt8Line1C3_endDate[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. C. Gonorrhea. 3. Enter Remarks: (Include any symptoms or treatment given with doses and dates of administration). Enter End Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[8]
+Type: /Tx
+Tooltip: Given Name (First Name). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[8]
+Type: /Tx
+Tooltip: Middle Name. This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt8Line2A_Disorders[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 2. Physical or Mental Disorders With Associated Harmful Behavior. Include here any physical or mental disorders with current associated harmful behavior or history of associated harmful behavior judged likely to recur.  This category of physical or mental disorders includes any diagnosis of substance-use disorders that involve any substance that is not listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act (for example, diagnosis of an alcohol-use disorder).  Diagnose mental disorders according to the diagnostic criteria in the most recent edition of the Diagnostic and Statistical Manual (DSM) or another authoritative source, as determined by the director of the CDC.  Diagnose physical disorders according to the diagnostic criteria in the most recent edition of the World Health Organization's Manual of the International Classification of Diseases, Injuries, and Causes of Death (ICD) or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information.A. Findings. 1. Select No Class A or B Physical or Mental Disorder.
+
+Form: i693.pdf
+Field: Pt8Line2A_Disorders[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 2. Physical or Mental Disorders With Associated Harmful Behavior. Include here any physical or mental disorders with current associated harmful behavior or history of associated harmful behavior judged likely to recur.  This category of physical or mental disorders includes any diagnosis of substance-use disorders that involve any substance that is not listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act (for example, diagnosis of an alcohol-use disorder).  Diagnose mental disorders according to the diagnostic criteria in the most recent edition of the Diagnostic and Statistical Manual (DSM) or another authoritative source, as determined by the director of the CDC.  Diagnose physical disorders according to the diagnostic criteria in the most recent edition of the World Health Organization's Manual of the International Classification of Diseases, Injuries, and Causes of Death (ICD) or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information.A. Findings. 5. Select Physical/Mental Disorder with a History of Associated Harmful Behavior Unlikely to Recur, Class B.
+
+Form: i693.pdf
+Field: Pt8Line2A_Disorders[2]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 2. Physical or Mental Disorders With Associated Harmful Behavior. Include here any physical or mental disorders with current associated harmful behavior or history of associated harmful behavior judged likely to recur.  This category of physical or mental disorders includes any diagnosis of substance-use disorders that involve any substance that is not listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act (for example, diagnosis of an alcohol-use disorder).  Diagnose mental disorders according to the diagnostic criteria in the most recent edition of the Diagnostic and Statistical Manual (DSM) or another authoritative source, as determined by the director of the CDC.  Diagnose physical disorders according to the diagnostic criteria in the most recent edition of the World Health Organization's Manual of the International Classification of Diseases, Injuries, and Causes of Death (ICD) or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information. A. Findings. 4. Select Current Physical / Mental Disorder without Associated Harmful Behavior, Class B.
+
+Form: i693.pdf
+Field: Pt8Line2A_Disorders[3]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 2. Physical or Mental Disorders With Associated Harmful Behavior. Include here any physical or mental disorders with current associated harmful behavior or history of associated harmful behavior judged likely to recur.  This category of physical or mental disorders includes any diagnosis of substance-use disorders that involve any substance that is not listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act (for example, diagnosis of an alcohol-use disorder).  Diagnose mental disorders according to the diagnostic criteria in the most recent edition of the Diagnostic and Statistical Manual (DSM) or another authoritative source, as determined by the director of the CDC.  Diagnose physical disorders according to the diagnostic criteria in the most recent edition of the World Health Organization's Manual of the International Classification of Diseases, Injuries, and Causes of Death (ICD) or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information. A. Findings. 3. Select History of Physical / Mental Disorder with Associated Harmful Behavior Likely to Recur, Class A.
+
+Form: i693.pdf
+Field: Pt8Line2A_Disorders[4]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 2. Physical or Mental Disorders With Associated Harmful Behavior. Include here any physical or mental disorders with current associated harmful behavior or history of associated harmful behavior judged likely to recur.  This category of physical or mental disorders includes any diagnosis of substance-use disorders that involve any substance that is not listed in Schedule I, II, III, IV, or V of section 202 of the Controlled Substances Act (for example, diagnosis of an alcohol-use disorder).  Diagnose mental disorders according to the diagnostic criteria in the most recent edition of the Diagnostic and Statistical Manual (DSM) or another authoritative source, as determined by the director of the CDC.  Diagnose physical disorders according to the diagnostic criteria in the most recent edition of the World Health Organization's Manual of the International Classification of Diseases, Injuries, and Causes of Death (ICD) or another authoritative source as determined by the director of the CDC.  See the CDC's Technical Instructions for Civil Surgeons for more information.A. Findings. 2. Select Physical/Mental Disorder with Associated Harmful Behavior, Class A.
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[8]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt8Line1D1_Findings[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. A. Select No Class A. / B Condition.
+
+Form: i693.pdf
+Field: Pt8Line1D1_Findings[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. B. Select Hansen's Disease (leprosy, any classification) untreated, Class A.
+
+Form: i693.pdf
+Field: Pt8Line1D1b_Checkboxf[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. B. Hansen's Disease (leprosy, any classification) untreated, Class A. Select Indeterminate, tuberculoid, borderline tuberculoid (paucibacillary).
+
+Form: i693.pdf
+Field: Pt8Line1D1b_Checkboxf[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. B. Hansen's Disease (leprosy, any classification) untreated, Class A. Select Mid-borderline, borderline lepromatous, lepromatous (multibacillary).
+
+Form: i693.pdf
+Field: Pt8Line1D1_Findings[2]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. C. Select Hansen's Disease (leprosy, any classification) treated or partially treated, Class B.
+
+Form: i693.pdf
+Field: Pt8Line1C1c_Checkboxg[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. C. Hansen's Disease (leprosy, any classification) treated or partially treated, Class B. Select Indeterminate, tuberculoid, borderline tuberculoid (paucibacillary).
+
+Form: i693.pdf
+Field: Pt8Line1C1c_Checkboxg[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 1. Communicable Disease of Public Health Significance. D. Other Class A. / Class B Conditions for Communicable Diseases of Public Health Significance. 1. Findings. C. Hansen's Disease (leprosy, any classification) treated or partially treated, Class B. Select Mid-borderline, borderline lepromatous, lepromatous (multibacillary).
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[9]
+Type: /Tx
+Tooltip: Given Name (First Name). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[9]
+Type: /Tx
+Tooltip: Middle Name. This is a read only field. It is pre-filled from first page. 
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[9]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. It is pre-flled from the first page. 
+
+Form: i693.pdf
+Field: Pt8Line4_ListOtherMedConditions[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 4. Other Medical Conditions (List any other Class B conditions, such as hypertension or diabetes, and all required evaluation components as found in Technical Instructions for Civil Surgeons.)
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[10]
+Type: /Tx
+Tooltip: Given Name (First Name). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[10]
+Type: /Tx
+Tooltip: Middle Name. This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[10]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt9Line3_DateSigned[0]
+Type: /Tx
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 3. Signature of Health Department Individual or Other Doctor Performing Referral Evaluation. Enter Date Signed. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. 
+
+Form: i693.pdf
+Field: Pt9Line4_NameOfMPorHD[0]
+Type: /Tx
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 4. Enter Name of Medical Practice or Health Department.
+
+Form: i693.pdf
+Field: Pt9Line3_Signature[0]
+Type: /Tx
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 3. Signature of Health Department Individual or Other Doctor Performing Referral Evaluation. Signature. This is read only field.
+
+Form: i693.pdf
+Field: Pt9Line2_StreetNumberName[0]
+Type: /Tx
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Enter Street Number and Name.
+
+Form: i693.pdf
+Field: Pt9Line2_AptSteFlrNumber[0]
+Type: /Tx
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Enter Apartment, Suite or Floor Number.
+
+Form: i693.pdf
+Field: Pt9Line2_Unit[0]
+Type: /Btn
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Select Floor.
+
+Form: i693.pdf
+Field: Pt9Line2_Unit[1]
+Type: /Btn
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Select Suite.
+
+Form: i693.pdf
+Field: Pt9Line2_Unit[2]
+Type: /Btn
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Select Apartment.
+
+Form: i693.pdf
+Field: Pt9Line2_CityOrTown[0]
+Type: /Tx
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Enter City or Town.
+
+Form: i693.pdf
+Field: Pt9Line2_State[0]
+Type: /Ch
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Select State from List of States.
+
+Form: i693.pdf
+Field: Pt9Line2_ZipCode[0]
+Type: /Tx
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 2. Address. Enter ZIP Code.
+
+Form: i693.pdf
+Field: Pt9Line5_DaytimePhone[0]
+Type: /Tx
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 5. Enter Daytime Telephone Number.
+
+Form: i693.pdf
+Field: Pt9Line1_GivenName[0]
+Type: /Tx
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 1. Evaluating Physician or Health Department's Full Name. A. Enter Given Name (First Name).
+
+Form: i693.pdf
+Field: Pt9Line1_MiddleName[0]
+Type: /Tx
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 1. Evaluating Physician or Health Department's Full Name. A. Enter Middle Name.
+
+Form: i693.pdf
+Field: Pt9Line1_NameOfMPorHD[0]
+Type: /Tx
+Tooltip: Part 9. Referral Evaluation (To be completed by the health department or other doctor performing the referral evaluation). 1. Evaluating Physician or Health Department's Full Name. B. Enter Health Department's Name.
+
+Form: i693.pdf
+Field: Pt8Line5A_DoctorOrHDptName[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if a referral is medically required.) A. Type or Print Name of Doctor or Health Department Receiving Required Referral.
+
+Form: i693.pdf
+Field: Pt8Line5B_StreetNumberName[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Enter Street Number and Name. 
+
+Form: i693.pdf
+Field: Pt8Line5B_AptSteFlrNumber[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Enter Apartment, Suite or Floor Number.
+
+Form: i693.pdf
+Field: Pt8Line5B_Unit[0]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Select Floor.
+
+Form: i693.pdf
+Field: Pt8Line5B_Unit[1]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Select Suite.
+
+Form: i693.pdf
+Field: Pt8Line5B_Unit[2]
+Type: /Btn
+Tooltip: Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Select Apartment.
+
+Form: i693.pdf
+Field: Pt8Line5B_CityOrTown[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Enter City or Town.
+
+Form: i693.pdf
+Field: Pt8Line5B_State[0]
+Type: /Ch
+Tooltip: Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Select State from List of States.
+
+Form: i693.pdf
+Field: Pt8Line5B_ZipCode[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required.) B. Address. Enter ZIP Code.
+
+Form: i693.pdf
+Field: Pt8Line5C_DateOfReferral[0]
+Type: /Tx
+Tooltip: Part 8. Civil Surgeon Worksheet. 5. Required Referral to Health Department or Other Doctor (To be completed by civil surgeon, if referral was medically required. Do not complete if referral is not required, such as recommended referral for L T B  I treatment.) C. Enter Date of Referral. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: P9_TDVaccineCheckBox[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Tetanus, Diptheria, and Pertussis (T D A. P).
+
+Form: i693.pdf
+Field: Pt10Line13_CompleteSeries[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Complete Series. Line 13.  COVID-19 (In “Remarks” section, write “COVID-19” and specify vaccine brand). Enter the name of Vaccine.
+
+Form: i693.pdf
+Field: Pt10Line13_NotAge12[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line 13. COVID-19 (In “Remarks” section, write “COVID-19” and specify vaccine brand). Select Not Age Appropriate.
+
+Form: i693.pdf
+Field: Pt10Line13_InsufficientCheckBox12[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line 13. COVID-19 (In “Remarks” section, write “COVID-19” and specify vaccine brand). Select Insufficient Time Interval. 
+
+Form: i693.pdf
+Field: Pt10Line13_ContraCheckBox12[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line 13. COVID-19 (In “Remarks” section, write “COVID-19” and specify vaccine brand). Select Contraindication.
+
+Form: i693.pdf
+Field: Pt10Line13d_DateReceived_4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line 13.  COVID-19 (In “Remarks” section, write “COVID-19” and specify vaccine brand). Enter the fourth Vaccine Received Date as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line13_DateGiven_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line 13.  COVID-19 (In “Remarks” section, write “COVID-19” and specify vaccine brand). Enter Vaccine Received Date as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line13c_DateReceived_3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line 13.  COVID-19 (In “Remarks” section, write “COVID-19” and specify vaccine brand). Enter the third Vaccine Received Date as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line13b_DateReceived_2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line 13.  COVID-19 (In “Remarks” section, write “COVID-19” and specify vaccine brand). Enter the second Vaccine Received Date as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line13a_DateReceived_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line 13.  COVID-19 (In “Remarks” section, write “COVID-19” and specify vaccine brand). Enter the first Vaccine Received Date as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10_PVVaccineCheckBox[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Oral Polio Vaccine (O P V).
+
+Form: i693.pdf
+Field: Pt10_PVVaccineCheckBox[1]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Inactive Poliovirus Vaccine (I P  V).
+
+Form: i693.pdf
+Field: P10_TDVaccineCheckBox[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Tetanus Diptheria (T d).
+
+Form: i693.pdf
+Field: P10_VaccineCheckBox[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Diptheria Tetanus (D T).
+
+Form: i693.pdf
+Field: P10_VaccineCheckBox[1]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Diptheria, Tetanus, and Pertussis (D T P).
+
+Form: i693.pdf
+Field: P10_VaccineCheckBox[2]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A Written Record. Vaccine. Specify Vaccine. Select Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).
+
+Form: i693.pdf
+Field: Pt10Line1_DTDateReceived1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).  Diptheria, Tetanus, and Pertussis (D T P). Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line2_TdDateReceived1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line3a_DateReceived_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V).  Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line4a_DateReceived_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines are given, specify vaccines. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line5a_DateReceived_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Five. Haemophilus Influenzae Type b (H I B). Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line6_HBDateReceived1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Six. Hepatitis B. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line7a_DateReceived_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Seven. Varicella. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line8a_DateReceived_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eight. Pneumococcal. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line9a_DateReceived_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Nine. Influenza. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line10a_DateReceived_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Ten. Rotavirus. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line11a_DateReceived_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eleven. Hepatitis A. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line12a_DateReceived_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Twelve. Meningococcal. Enter the first Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line1_DTDateReceived2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).  Diptheria, Tetanus, and Pertussis (D T P). Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line2_TdDateReceived2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line3b_DateReceived_2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line4b_DateReceived_2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines are given, specify vaccines. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line5b_DateReceived_2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Five. Haemophilus Influenzae Type b (H I B). Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line6_HBDateReceived2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Six. Hepatitis B. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line7b_DateReceived_2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Seven. Varicella. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line8b_DateReceived_2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eight. Pneumococcal. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line9b_DateReceived_2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Nine. Influenza. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line10b_DateReceived_2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Ten. Rotavirus. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line11b_DateReceived_2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eleven. Hepatitis A. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line12b_DateReceived_2[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Twelve. Meningococcal. Enter the second Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line1_DTDateReceived3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).  Diptheria, Tetanus, and Pertussis (D T P). Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line2_TdDateReceived3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line3c_DateReceived_3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V).  Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line4c_DateReceived_3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines are given, specify vaccines. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line5c_DateReceived_3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Five. Haemophilus Influenzae Type b (H I B). Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line6_HBDateReceived3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Six. Hepatitis B. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line7c_DateReceived_3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Seven. Varicella. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line8c_DateReceived_3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eight. Pneumococcal. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line9c_DateReceived_3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Nine. Influenza. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line10c_DateReceived_3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Ten. Rotavirus. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line11c_DateReceived_3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eleven. Hepatitis A. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line12c_DateReceived_3[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Twelve. Meningococcal. Enter the third Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line1_DTDateReceived4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).  Diptheria, Tetanus, and Pertussis (D T P). Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line1_DTDateGiven[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).  Diptheria, Tetanus, and Pertussis (D T P). Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line2_TdDateGiven[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Enter Date Given Civil Surgeon.  Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line3_DateGiven_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line4_DateGiven_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines are given, specify vaccines. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line5_DateGiven_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line Five. Haemophilus Influenzae Type b (H I B). Enter Date Given by Civil Surgeon.  Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line6_HBDateGiven[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line Six. Hepatitis B. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line7_DateGiven_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line Seven. Varicella. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line8_DateGiven_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line Eight. Pneumococcal. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line9_DateGiven_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line Nine. Influenza. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line10_DateGiven_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line Ten. Rotavirus. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line11_DateGiven_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line Eleven. Hepatitis A. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line12_DateGiven_1[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine Given. Line Twelve. Meningococcal. Enter Date Given by Civil Surgeon. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line2_TdDateReceived4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line3d_DateReceived_4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line4d_DateReceived_4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines are given, specify vaccines. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line5d_DateReceived_4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Five. Haemophilus Influenzae Type b (H I B). Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line6_HBDateReceived4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Six. Hepatitis B. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line7d_DateReceived_4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Seven. Varicella. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line8d_DateReceived_4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eight. Pneumococcal. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line9d_DateReceived_4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Nine. Influenza. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line10d_DateReceived_4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Ten. Rotavirus. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line11d_DateReceived_4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Eleven. Hepatitis A. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line12d_DateReceived_4[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Vaccine History Transferred From A. Written Record. Line Twelve. Meningococcal. Enter the fourth Vaccine Received Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.
+
+Form: i693.pdf
+Field: Pt10Line1_NotAge1[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P). Diptheria, Tetanus, and Pertussis (D T P). Select Not Age Appropriate. 
+
+Form: i693.pdf
+Field: Pt10Line1_ContraCheckBox1[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P). Diptheria, Tetanus, and Pertussis (D T P). Select Contraindication. 
+
+Form: i693.pdf
+Field: Pt10Line2_TdContra[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Select Contraindication.
+
+Form: i693.pdf
+Field: Pt10Line3_ContraCheckBox3[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Select Contraindication.
+
+Form: i693.pdf
+Field: Pt10Line4_ContraCheckBox4[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record.  Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines. Select Contraindication.
+
+Form: i693.pdf
+Field: Pt10Line5_ContraCheckBox5[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Five.  Haemophilus Influenzae Type b (H I B). Select Contraindication. 
+
+Form: i693.pdf
+Field: Pt10Line6_ContraCheckBox6[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Six. Hepatitis B). Select Contraindication. 
+
+Form: i693.pdf
+Field: Pt10Line7_ContraCheckBox7[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Seven. Varicella. Select Contraindication. 
+
+Form: i693.pdf
+Field: Pt10Line8_ContraCheckBox8[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Eight. Pneumococcal. Select Contraindication. 
+
+Form: i693.pdf
+Field: Pt10Line9_ContraCheckBox9[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Nine. Influenza. Select Contraindication. 
+
+Form: i693.pdf
+Field: Pt10Line10_ContraCheckBox10[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Ten. Rotavirus. Select Contraindication. 
+
+Form: i693.pdf
+Field: Pt10Line11_ContraCheckBox11[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record.  Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Eleven. Hepatitis A. Select Contraindication. 
+
+Form: i693.pdf
+Field: Pt10Line12_ContraCheckBox12[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Twelve. Meningococcal. Select Contraindication.
+
+Form: i693.pdf
+Field: Pt10Line1_InsufficientCheckBox1[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P). Diptheria, Tetanus, and Pertussis (D T P). Select Insufficient Time Interval. 
+
+Form: i693.pdf
+Field: Pt10Line2_InsufficientCheckBox2[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Select Insufficient Time Interval. 
+
+Form: i693.pdf
+Field: Pt10Line3_InsufficientCheckBox3[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Select Insufficient Time Interval. 
+
+Form: i693.pdf
+Field: Pt10Line4_InsufficientCheckBox4[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record.  Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines. Select Insufficient Time Interval. 
+
+Form: i693.pdf
+Field: Pt10Line5_InsufficientCheckBox5[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Five.  Haemophilus Influenzae Type b (H I B). Select Insufficient Time Interval. 
+
+Form: i693.pdf
+Field: Pt10Line6_InsufficientCheckBox6[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Six. Hepatitis B). Select Insufficient Time Interval. 
+
+Form: i693.pdf
+Field: Pt10Line7_InsufficientCheckBox7[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Seven. Varicella. Select Insufficient Time Interval. 
+
+Form: i693.pdf
+Field: Pt10Line8_InsufficientCheckBox8[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Eight. Pneumococcal. Select Insufficient Time Interval. 
+
+Form: i693.pdf
+Field: Pt10Line10_InsufficientCheckBox9[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Nine. Influenza. Select Insufficient Time Interval.
+
+Form: i693.pdf
+Field: Pt10Line10_InsufficientCheckBox10[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Ten. Rotavirus. Select Insufficient Time Interval. 
+
+Form: i693.pdf
+Field: Pt10Line11_InsufficientCheckBox11[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Eleven. Hepatitis A. Select Insufficient Time Interval. 
+
+Form: i693.pdf
+Field: Pt10Line12_InsufficientCheckBox12[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Twelve. Meningococcal. Select Insufficient Time Interval. 
+
+Form: i693.pdf
+Field: Pt10Line2_NotAge2[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Select Not Age Appropriate. 
+
+Form: i693.pdf
+Field: Pt10Line3_NotAge3[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Three.  Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Select Not Age Appropriate. 
+
+Form: i693.pdf
+Field: Pt10Line4_NotAge4[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record.  Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Four. M M R (measles, mumps-rubella) or if monovalent or other combination of the vaccines. Select Not Age Appropriate. 
+
+Form: i693.pdf
+Field: Pt10Line5_NotAge5[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Five.  Haemophilus Influenzae Type b (H I B). Select Not Age Appropriate.
+
+Form: i693.pdf
+Field: Pt10Line6_NotAge6[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Six. Hepatitis B). Select Not Age Appropriate. 
+
+Form: i693.pdf
+Field: Pt10Line7_NotAge7[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Seven. Varicella. Select Not Age Appropriate. 
+
+Form: i693.pdf
+Field: Pt10Line8_NotAge8[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Eight. Pneumococcal. Select Not Age Appropriate. 
+
+Form: i693.pdf
+Field: Pt10Line9_NotAge9[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Nine. Influenza. Select Not Age Appropriate. 
+
+Form: i693.pdf
+Field: Pt10Line10_NotAge10[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Ten. Rotavirus. Select Not Age Appropriate. 
+
+Form: i693.pdf
+Field: Pt10Line11_NotAge11[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record.  Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Eleven. Hepatitis A. Select Not Age Appropriate. 
+
+Form: i693.pdf
+Field: Pt10Line12_NotAge12[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Twelve. Meningococcal. Select Not Age Appropriate.
+
+Form: i693.pdf
+Field: Pt10Line1_DTCompleteSeries[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Complete Series. Line One. Diptheria Tetanus (D T). Diptheria, Tetanus, and acelluar Pertussis (D T. A. P).  Diptheria, Tetanus, and Pertussis (D T P).  Mark an X if complete; write date of lab test if immune or "V H" if varicella history.
+
+Form: i693.pdf
+Field: Pt10Line2_TdCompleteSeries[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Complete Series. Line Two. Tetanus Diptheria (T d). Tetanus, Diptheria, and Pertussis (T D A. P). Mark an X if complete; write date of lab test if immune or "V H" if varicella history.
+
+Form: i693.pdf
+Field: Pt10Line1_CompleteSeries[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Complete Series. Line Three. Oral Polio Vaccine (O P V) or Inactive Poliovirus Vaccine (I P V). Mark an X if complete; write date of lab test if immune or "V H" if varicella history.
+
+Form: i693.pdf
+Field: Pt10Line1_CompleteSeries[1]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Complete Series. Line Four. MMR (measles, mumps-rubella) or if monovalent or other combination of the vaccines. Mark an X if complete; write date of lab test if immune or "V H" if varicella history.
+
+Form: i693.pdf
+Field: Pt10Line1_CompleteSeries[2]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record.  Complete Series. Line Five. Haemophilus Influenzae Type b (H I B). Mark an X if complete; write date of lab test if immune or "V H" if varicella history.
+
+Form: i693.pdf
+Field: Pt10Line1_HBCompleteSeries[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record.  Complete Series. Line Six. Hepatitis B. Mark an X if complete; write date of lab test if immune or "V H" if varicella history.
+
+Form: i693.pdf
+Field: Pt10Line1_CompleteSeries[3]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record.  Complete Series. Line Seven. Varicella. Mark an X if complete; write date of lab test if immune or "V H" if varicella history.
+
+Form: i693.pdf
+Field: Pt10Line1_CompleteSeries[4]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Complete Series. Line Eight. Pneumococcal. Mark an X if complete; write date of lab test if immune or "V H" if varicella history.
+
+Form: i693.pdf
+Field: Pt10Line1_CompleteSeries[5]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record.  Complete Series. Line Nine. Influenza. Mark an X if complete; write date of lab test if immune or "V H" if varicella history.
+
+Form: i693.pdf
+Field: Pt7Line1_CompleteSeries[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Complete Series. Line Ten. Rotavirus. Mark an X if complete; write date of lab test if immune or "V H" if varicella history.
+
+Form: i693.pdf
+Field: Pt10Line1_CompleteSeries[6]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Complete Series. Line Eleven. Hepatitis A. Mark an X if complete; write date of lab test if immune or "V H" if varicella history.
+
+Form: i693.pdf
+Field: Pt10Line1_CompleteSeries[7]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Complete Series. Line Twelve. Meningococcal. Mark an X if complete; write date of lab test if immune or "V H" if varicella history.
+
+Form: i693.pdf
+Field: Pt10Line9_InfluVaccineInsufficient9[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line Nine. Influenza. Select *See Below Table. 
+
+Form: i693.pdf
+Field: Pt10Line13_CheckBox13[0]
+Type: /Btn
+Tooltip: Part 10. Vaccination Record. Blanket Waivers to be Requested from U S C I S (Not Medically Appropriate). Line 13. COVID-19 (In “Remarks” section, write “COVID-19” and specify vaccine brand). Select *See Below Table. 
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[11]
+Type: /Tx
+Tooltip: Given Name (First Name). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[11]
+Type: /Tx
+Tooltip: Middle Name. This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: P10_USCIS_Remarks[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. FOR U S C I S USE ONLY. Enter Remarks, if any.
+
+Form: i693.pdf
+Field: P10_Remarks[0]
+Type: /Tx
+Tooltip: Part 10. Vaccination Record. Enter Remarks. If needed, provide any comments, such as the reason for contraindication.
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[11]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt11Line5d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 5. D. Enter Additional Information.
+
+Form: i693.pdf
+Field: Pt1Line3e_AlienNumber[12]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 2. Alien Registration Number (A. Number), if any. This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt11Line3a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 3. A. Enter Page Number. 
+
+Form: i693.pdf
+Field: Pt11Line3b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 3. B. Enter Part Number.
+
+Form: i693.pdf
+Field: Pt11Line3c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 3. C. Enter Item Number.
+
+Form: i693.pdf
+Field: Pt11Line3d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 3. D. Enter Additional Information.
+
+Form: i693.pdf
+Field: Pt11Line6a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 6. A. Enter Page Number. 
+
+Form: i693.pdf
+Field: Pt11Line6b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 6. B. Enter Part Number.
+
+Form: i693.pdf
+Field: Pt11Line6c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 6. C. Enter Item Number.
+
+Form: i693.pdf
+Field: Pt11Line6d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 6. D. Enter Additional Information.
+
+Form: i693.pdf
+Field: Pt11Line5c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 5. C. Enter Item Number.
+
+Form: i693.pdf
+Field: Pt11Line5b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 5. B. Enter Part Number.
+
+Form: i693.pdf
+Field: Pt11Line5a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 5. A. Enter Page Number. 
+
+Form: i693.pdf
+Field: Pt11Line4a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 4. A. Enter Page Number. 
+
+Form: i693.pdf
+Field: Pt11Line4b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 4. B. Enter Part Number.
+
+Form: i693.pdf
+Field: Pt11Line4c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 4. C. Enter Item Number.
+
+Form: i693.pdf
+Field: Pt11Line4d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 4. D. Enter Additional Information.
+
+Form: i693.pdf
+Field: Pt1Line1b_GivenName[12]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 1. Given Name (First Name). This is a read only field. It is pre-filled from the first page. 
+
+Form: i693.pdf
+Field: Pt1Line1c_MiddleName[12]
+Type: /Tx
+Tooltip: Part 11. Additional Information. 1. Middle Name if applicable. This is a read only field. It is pre-filled from the first page. 
+
+Form: i485.pdf
+Field: PDF417BarCode1[0]
+Type: /Tx
+Tooltip: PDF417BarCode1
+
+Form: i485.pdf
+Field: AttorneyStateBarNumber[0]
+Type: /Tx
+Tooltip: To be completed by an attorney or accredited representative, if any. Enter Attorney State Bar Number, if applicable.
+
+Form: i485.pdf
+Field: CheckBox1[0]
+Type: /Btn
+Tooltip: To be completed by an attorney or accredited representative, if any. Select this box if Form G-28 is attached.
+
+Form: i485.pdf
+Field: USCISOnlineAcctNumber[0]
+Type: /Tx
+Tooltip: To be completed by an attorney or accredited representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[0]
+Type: /Tx
+Tooltip: Enter Alien Registration Number (A. Number). 
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[1]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[3]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[4]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[5]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[6]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[7]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[8]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[9]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt7Line1_Ethnicity[0]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 1. Ethnicity (Select only one box). Select Hispanic or Latino.
+
+Form: i485.pdf
+Field: Pt7Line1_Ethnicity[1]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 1. Ethnicity (Select only one box). Select Not Hispanic or Latino.
+
+Form: i485.pdf
+Field: Pt7Line2_Race[0]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 2. Race (Select all applicable boxes). Select Asian.
+
+Form: i485.pdf
+Field: Pt7Line2_Race[1]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 2. Race (Select all applicable boxes). Select White.
+
+Form: i485.pdf
+Field: Pt7Line2_Race[2]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 2. Race (Select all applicable boxes). Select Black or African American.
+
+Form: i485.pdf
+Field: Pt7Line2_Race[3]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 2. Race (Select all applicable boxes). Select American Indian or Alaska Native.
+
+Form: i485.pdf
+Field: Pt7Line2_Race[4]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 2. Race (Select all applicable boxes). Select Native Hawaiian or Other Pacific Islander.
+
+Form: i485.pdf
+Field: Pt7Line3_HeightFeet[0]
+Type: /Ch
+Tooltip: Part 7. Biographic Information. 3. Height. Feet. Select Number of Feet from list.
+
+Form: i485.pdf
+Field: Pt7Line3_HeightInches[0]
+Type: /Ch
+Tooltip: Part 7. Biographic Information. 3. Height. Inches. Select Number of Inches from list.
+
+Form: i485.pdf
+Field: Pt7Line4_Weight1[0]
+Type: /Tx
+Tooltip: Part 7. Biographic Information. 4. Weight. Pounds. Enter first digit of Weight in Pounds.
+
+Form: i485.pdf
+Field: Pt7Line4_Weight2[0]
+Type: /Tx
+Tooltip: Part 7. Biographic Information. 4. Weight. Pounds. Enter second digit of Weight in Pounds.
+
+Form: i485.pdf
+Field: Pt7Line4_Weight3[0]
+Type: /Tx
+Tooltip: Part 7. Biographic Information. 4. Weight. Pounds. Enter third digit of Weight in Pounds.
+
+Form: i485.pdf
+Field: Pt7Line5_Eyecolor[0]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 5. Eye Color (Select only one box). Select Blue.
+
+Form: i485.pdf
+Field: Pt7Line5_Eyecolor[1]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 5. Eye Color (Select only one box). Select Black. 
+
+Form: i485.pdf
+Field: Pt7Line5_Eyecolor[2]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 5. Eye Color (Select only one box). Select Brown.
+
+Form: i485.pdf
+Field: Pt7Line5_Eyecolor[3]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 5. Eye Color (Select only one box). Select Gray.
+
+Form: i485.pdf
+Field: Pt7Line5_Eyecolor[4]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 5. Eye Color (Select only one box). Select Green.
+
+Form: i485.pdf
+Field: Pt7Line5_Eyecolor[5]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 5. Eye Color (Select only one box). Select Hazel.
+
+Form: i485.pdf
+Field: Pt7Line5_Eyecolor[6]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 5. Eye Color (Select only one box). Select Maroon.
+
+Form: i485.pdf
+Field: Pt7Line5_Eyecolor[7]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 5. Eye Color (Select only one box). Select Pink.
+
+Form: i485.pdf
+Field: Pt7Line5_Eyecolor[8]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 5. Eye Color (Select only one box). Select Unknown / Other.
+
+Form: i485.pdf
+Field: Pt7Line6_Haircolor[0]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 6. Hair Color (Select only one box). Select Bald (No hair).
+
+Form: i485.pdf
+Field: Pt7Line6_Haircolor[1]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 6. Hair Color (Select only one box). Select Black.
+
+Form: i485.pdf
+Field: Pt7Line6_Haircolor[2]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 6. Hair Color (Select only one box). Select Blond.
+
+Form: i485.pdf
+Field: Pt7Line6_Haircolor[3]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 6. Hair Color (Select only one box). Select Brown.
+
+Form: i485.pdf
+Field: Pt7Line6_Haircolor[4]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 6. Hair Color (Select only one box). Select Gray.
+
+Form: i485.pdf
+Field: Pt7Line6_Haircolor[5]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 6. Hair Color (Select only one box). Select Red.
+
+Form: i485.pdf
+Field: Pt7Line6_Haircolor[6]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 6. Hair Color (Select only one box). Select Sandy.
+
+Form: i485.pdf
+Field: Pt7Line6_Haircolor[7]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 6. Hair Color (Select only one box). Select White.
+
+Form: i485.pdf
+Field: Pt7Line6_Haircolor[8]
+Type: /Btn
+Tooltip: Part 7. Biographic Information. 6. Hair Color (Select only one box). Select Unknown / Other.
+
+Form: i485.pdf
+Field: Pt8Line2_OrgName[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization One. 2. Enter Name of Organization.
+
+Form: i485.pdf
+Field: Pt8Line3c_Country[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization One. 3. C. Enter Country.
+
+Form: i485.pdf
+Field: Pt8Line3b_State[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization One. 3. B. Enter State or Province.
+
+Form: i485.pdf
+Field: Pt8Line3a_CityTown[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization One. 3. A. Enter City or Town.
+
+Form: i485.pdf
+Field: Pt8Line4_Group[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization One. 4. Enter Nature of Group.
+
+Form: i485.pdf
+Field: Pt8Line5a_DateFrom[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization One. Dates of Membership or Dates of Involvement. 5. A. Enter Date From. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i485.pdf
+Field: Pt8Line5b_DateTo[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization One. Dates of Membership or Dates of Involvement. 5. B. Enter Date To. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i485.pdf
+Field: Pt8Line6_OrgName[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Two. 6. Enter Name of Organization.
+
+Form: i485.pdf
+Field: Pt8Line7c_Country[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Two. 7. C. Enter Country.
+
+Form: i485.pdf
+Field: Pt8Line7b_State[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Two. 7. B. Enter State or Province.
+
+Form: i485.pdf
+Field: Pt8Line8a_CityTown[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Two. 7. A. Enter City or Town.
+
+Form: i485.pdf
+Field: Pt8Line8_Group[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Two. 8. Enter Nature of Group.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[10]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt8Line9a_DateFrom[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Two. Dates of Membership or Dates of Involvement. 9. A. Enter Date From. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i485.pdf
+Field: Pt8Line9b_DateTo[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Two. Dates of Membership or Dates of Involvement. 9. B. Enter Date To. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i485.pdf
+Field: Pt8Line10_OrgName[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Three. 10. Enter Name of Organization.
+
+Form: i485.pdf
+Field: Pt8Line11a_CityTown[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Three. 11. A. Enter City or Town.
+
+Form: i485.pdf
+Field: Pt8Line11c_Country[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Three. 11. C. Enter Country.
+
+Form: i485.pdf
+Field: Pt8Line12_Group[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Three. 12. Enter Nature of Group.
+
+Form: i485.pdf
+Field: Pt8Line11b_State[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Three. 11. B. Enter State or Province.
+
+Form: i485.pdf
+Field: Pt8Line13a_DateFrom[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Three. Dates of Membership or Dates of Involvement. 13. A. Enter Date From. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i485.pdf
+Field: Pt8Line13b_DateTo[0]
+Type: /Tx
+Tooltip: Part 8. General Eligibility and Inadmissibility Grounds. Organization Three. Dates of Membership or Dates of Involvement. 13. B. Enter Date To. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[11]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[12]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[13]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt8Line66_CB[5]
+Type: /Btn
+Tooltip: Pt8Line66_CB
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[14]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: TextField1[0]
+Type: /Tx
+Tooltip: TextField1
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[15]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[16]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt9Line2a_Accommodation[0]
+Type: /Tx
+Tooltip: Part 9. Accommodations for Individuals With Disabilities and/or Impairments. 2. A. Enter Language.
+
+Form: i485.pdf
+Field: Pt9Line2b_Blind[0]
+Type: /Btn
+Tooltip: Part 9. Accommodations for Individuals With Disabilities and/or Impairments. 2. B. Select I am blind or have low vision and request the following accommodation. 
+
+Form: i485.pdf
+Field: Pt9Line2b_Accommodation[0]
+Type: /Tx
+Tooltip: Part 9. Accommodations for Individuals With Disabilities and/or Impairments. 2. B. Enter Accommodation.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[17]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt11Line2_OrgName[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name, if any.
+
+Form: i485.pdf
+Field: Pt11Line1b_GivenName[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).
+
+Form: i485.pdf
+Field: Pt11Line3_CityOrTown[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. C. Enter City or Town.
+
+Form: i485.pdf
+Field: Pt11Line3_StreetNumberName[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. A. Enter Street Number and Name.
+
+Form: i485.pdf
+Field: Pt11Line3_Unit[0]
+Type: /Btn
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Floor.
+
+Form: i485.pdf
+Field: Pt11Line3_Unit[1]
+Type: /Btn
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Apartment.
+
+Form: i485.pdf
+Field: Pt11Line3_AptSteFlrNumber[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number. 
+
+Form: i485.pdf
+Field: Pt11Line3_Unit[2]
+Type: /Btn
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Suite.
+
+Form: i485.pdf
+Field: Pt11Line3_PostalCode[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. G. Enter Postal Code.
+
+Form: i485.pdf
+Field: Pt11Line3_ZipCode[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. E. Enter Zip Code.
+
+Form: i485.pdf
+Field: Pt11Line3_State[0]
+Type: /Ch
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. D. Select State from List of States.
+
+Form: i485.pdf
+Field: Pt11Line3_Country[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. H. Enter Country.
+
+Form: i485.pdf
+Field: Pt11Line3_Province[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. F. Enter Province.
+
+Form: i485.pdf
+Field: Pt11Line4_DayPhone[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number. 
+
+Form: i485.pdf
+Field: Pt11Line6_Email[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter Interpreter's Email Address, if any.
+
+Form: i485.pdf
+Field: Pt11Line5_MobilePhone[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number, if any.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[18]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt11Line7b_DateofSignature[0]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i485.pdf
+Field: Pt5Line6a_Signature[1]
+Type: /Tx
+Tooltip: Part 11. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. A. Interpreter's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[19]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt13_USCISSignature[0]
+Type: /Tx
+Tooltip: Part 13. Signature at Interview. Subscribed to and sworn to (affirmed) before me. U S C I S Officer's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.
+
+Form: i485.pdf
+Field: Pt13_USCISOfficer[0]
+Type: /Tx
+Tooltip: Part 13. Signature at Interview. Subscribed to and sworn to (affirmed) before me. Enter U S C I S Officer's Printed Name or Stamp.
+
+Form: i485.pdf
+Field: Pt13_DateofSignature[0]
+Type: /Tx
+Tooltip: Part 13. Signature at Interview. Subscribed to and sworn to (affirmed) before me. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.
+
+Form: i485.pdf
+Field: Pt13_Corrections2[0]
+Type: /Tx
+Tooltip: Part 13. Signature at Interview. I swear (affirm) and certify under penalty of perjury under the laws of the United States of America that I know that the contents of this Form I-485, Application to Register Permanent Residence or Adjust Status, subscribed by me, including the corrections made to this application, numbered (enter number) through. Enter Second Number.
+
+Form: i485.pdf
+Field: Pt13_Pages1[0]
+Type: /Tx
+Tooltip: Part 13. Signature at Interview. All additional pages submitted by me with this Form I - 4 85, on numbered pages. Enter First Number.
+
+Form: i485.pdf
+Field: Pt13_Pages2[0]
+Type: /Tx
+Tooltip: Part 13. Signature at Interview. All additional pages submitted by me with this Form I - 4 85, on numbered pages (enter number) through. Enter Second Number.
+
+Form: i485.pdf
+Field: Pt14Line3a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 3. A. Enter Page Number.
+
+Form: i485.pdf
+Field: Pt14Line3b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 3. B. Enter Part Number.
+
+Form: i485.pdf
+Field: Pt14Line3c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 3. C. Enter Item Number.
+
+Form: i485.pdf
+Field: Pt14Line3d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 3. D. Enter Additional Information.
+
+Form: i485.pdf
+Field: Pt14Line4a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 4. A. Enter Page Number.
+
+Form: i485.pdf
+Field: Pt14Line4b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 4. B. Enter Part Number.
+
+Form: i485.pdf
+Field: Pt14Line4c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 4. C. Enter Item Number.
+
+Form: i485.pdf
+Field: Pt14Line4d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 4. D. Enter Additional Information.
+
+Form: i485.pdf
+Field: Pt14Line5a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 5. A. Enter Page Number.
+
+Form: i485.pdf
+Field: Pt14Line5b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 5. B. Enter Part Number.
+
+Form: i485.pdf
+Field: Pt14Line5c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 5. C. Enter Item Number.
+
+Form: i485.pdf
+Field: Pt14Line5d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 5. D. Enter Additional Information.
+
+Form: i485.pdf
+Field: Pt14Line6a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 6. A. Enter Page Number.
+
+Form: i485.pdf
+Field: Pt14Line6b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 6. B. Enter Part Number.
+
+Form: i485.pdf
+Field: Pt14Line6c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 6. C. Enter Item Number.
+
+Form: i485.pdf
+Field: Pt14Line6d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 6. D. Enter Additional Information.
+
+Form: i485.pdf
+Field: Pt14Line7a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 7. A. Enter Page Number.
+
+Form: i485.pdf
+Field: Pt14Line7b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 7. B. Enter Part Number.
+
+Form: i485.pdf
+Field: Pt14Line7c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 7. C. Enter Item Number.
+
+Form: i485.pdf
+Field: Pt14Line7d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 7. D. Enter Additional Information.
+
+Form: i485.pdf
+Field: Pt1Line1b_GivenName[1]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 1. B. Given Name (First Name). This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line1c_MiddleName[1]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 1. C. Middle Name. This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[20]
+Type: /Tx
+Tooltip: Part 14. Additional Information. 2. Alien Registration Number (A. Number), if any. This is a read only field. This field pre-populates from page 1.
+
+Form: i485.pdf
+Field: Pt1Line10_AlienNumber[21]
+Type: /Tx
+Tooltip: Alien Registration Number (A. Number). This is a read only field. This field pre-populates from page 1.
+
+Form: i765.pdf
+Field: PDF417BarCode1[0]
+Type: /Tx
+Tooltip: PDF417BarCode1
+
+Form: i765.pdf
+Field: Line1b_GivenName[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information. 1. B. Given Name (First Name) (This field is pre-populated from Part 1.) 
+
+Form: i765.pdf
+Field: Line1c_MiddleName[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information. 1. C. Middle Name (This field is pre-populated from Part 1.) 
+
+Form: i765.pdf
+Field: Part1_Checkbox[0]
+Type: /Btn
+Tooltip: Part 1.  Reason for Applying. I am applying for (select only one box). 1. A. Select Initial Permission to accept employment.
+
+Form: i765.pdf
+Field: Part1_Checkbox[1]
+Type: /Btn
+Tooltip: Part 1.  Reason for Applying. I am applying for (select only one box). 1.B. Select Replacement of lost, stolen, or damaged employment authorization document, or correction of my employment authorization document NOT DUE to U.S. Citizenship and Immigration Services (U S C I S) error. NOTE:  Replacement (correction) of an employment authorization document due to U S C I S error does not require a new Form I - 7 65 and filing fee.  Refer to  Replacement for Card Error in the What is the Filing Fee section of the Form I - 7 65 Instructions for further details.
+
+Form: i765.pdf
+Field: CheckBox1[0]
+Type: /Btn
+Tooltip: To be completed by an attorney or Board of Immigration Appeals (B I. A.)-accredited representative (if any). Select this box if Form G-28 is attached.
+
+Form: i765.pdf
+Field: USCISELISAcctNumber[0]
+Type: /Tx
+Tooltip: To be completed by an attorney or Board of Immigration Appeals (B I. A.)-accredited representative (if any). Enter Attorney or Accredited Representative U S C I S Online Number (if any). Enter 12 characters.
+
+Form: i765.pdf
+Field: Line7_AlienNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information. 2. A. Number, (if any). (This field is pre-populated from Part 1.) 
+
+Form: i765.pdf
+Field: Pt4Line2_InterpreterBusinessorOrg[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Provide the following information concerning the interpreter: Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name (if any).
+
+Form: i765.pdf
+Field: Pt4Line1b_InterpreterGivenName[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Provide the following information concerning the interpreter: Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).
+
+Form: i765.pdf
+Field: Pt4Line4_InterpreterDaytimeTelephone[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information.  4. Enter Interpreter's Daytime Telephone Number. 
+
+Form: i765.pdf
+Field: Pt4Line6_Email[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter Interpreter's Email Address (if any).
+
+Form: i765.pdf
+Field: Pt4Line5_MobileNumber[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number, (if any).
+
+Form: i765.pdf
+Field: Pt5Line3c_CityOrTown[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. C. Enter City or Town. 
+
+Form: i765.pdf
+Field: Pt5Line3a_StreetNumberName[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. A. Enter Street Number and Name.
+
+Form: i765.pdf
+Field: Pt5Line3b_Unit[0]
+Type: /Btn
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Floor. 
+
+Form: i765.pdf
+Field: Pt5Line3b_Unit[1]
+Type: /Btn
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Apartment.
+
+Form: i765.pdf
+Field: Pt5Line3b_AptSteFlrNumber[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Enter the Apartment, Suite or Floor number.
+
+Form: i765.pdf
+Field: Pt5Line3b_Unit[2]
+Type: /Btn
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and  Signature. Interpreter's Mailing Address. 3. B. Select Suite.
+
+Form: i765.pdf
+Field: Pt5Line3g_PostalCode[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. G. Enter the Postal Code.
+
+Form: i765.pdf
+Field: Pt5Line3e_ZipCode[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. E. Enter ZIP Code.
+
+Form: i765.pdf
+Field: Pt5Line3d_State[0]
+Type: /Ch
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. D. Select state from list of states.
+
+Form: i765.pdf
+Field: Pt5Line3h_Country[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. H. Enter the Country.
+
+Form: i765.pdf
+Field: Pt5Line3f_Province[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. F. Enter the Province.
+
+Form: i765.pdf
+Field: Pt4Line6b_DateofSignature[0]
+Type: /Tx
+Tooltip: Part 4.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Signature. 7. B. Date of Signature. Enter the 2-digit Month, 2-digit Day and 4-digit Year.
+
+Form: i765.pdf
+Field: Pt6Line3a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information. 3. A. Enter Page Number.
+
+Form: i765.pdf
+Field: Pt6Line3b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  3. B. Enter Part Number.
+
+Form: i765.pdf
+Field: Pt6Line3c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  3. C. Enter Item Number.
+
+Form: i765.pdf
+Field: Pt6Line4a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  4. A. Enter Page Number.
+
+Form: i765.pdf
+Field: Pt6Line4b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  4. B. Enter Part Number.
+
+Form: i765.pdf
+Field: Pt6Line4c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  4. C. Enter Item Number.
+
+Form: i765.pdf
+Field: Pt6Line4d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  4. D. Enter additional information.
+
+Form: i765.pdf
+Field: Pt6Line5a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  5. A. Enter Page Number.
+
+Form: i765.pdf
+Field: Pt6Line5b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  5. B. Enter Part Number.
+
+Form: i765.pdf
+Field: Pt6Line5c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  5. C. Enter Item Number.
+
+Form: i765.pdf
+Field: Pt6Line5d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  5. D. Enter additional information.
+
+Form: i765.pdf
+Field: Pt6Line6a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  6. A. Enter Page Number.
+
+Form: i765.pdf
+Field: Pt6Line6b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  6. B. Enter Part Number.
+
+Form: i765.pdf
+Field: Pt6Line6c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  6. C. Enter Item Number.
+
+Form: i765.pdf
+Field: Pt6Line6d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  6. D. Enter additional information.
+
+Form: i765.pdf
+Field: Pt6Line7a_PageNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  7. A. Enter Page Number.
+
+Form: i765.pdf
+Field: Pt6Line7b_PartNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  7. B. Enter Part Number.
+
+Form: i765.pdf
+Field: Pt6Line7c_ItemNumber[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  7. C. Enter Item Number.
+
+Form: i765.pdf
+Field: Pt6Line7d_AdditionalInfo[0]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  7. D. Enter additional information.
+
+Form: i765.pdf
+Field: Pt6Line4d_AdditionalInfo[1]
+Type: /Tx
+Tooltip: Part 6.  Additional Information.  3. D. Enter additional information.
+

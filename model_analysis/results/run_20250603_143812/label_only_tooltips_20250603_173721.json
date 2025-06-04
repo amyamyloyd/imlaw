@@ -1,0 +1,119 @@
+[
+  {
+    "name": "PDF417BarCode1[0]",
+    "page": 11,
+    "type": "/Tx",
+    "persona": null,
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "PDF417BarCode1",
+    "tooltip": "PDF417BarCode1",
+    "hierarchy": {
+      "parent_name": "Page1[11]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": "applicant",
+    "llm_domain": "office",
+    "react_label": "PDF417BarCode1[0]"
+  },
+  {
+    "name": "PDF417BarCode2[0]",
+    "page": 13,
+    "type": "/Tx",
+    "persona": null,
+    "domain": null,
+    "value_info": null,
+    "screen_label": "PDF417BarCode2",
+    "tooltip": "PDF417BarCode2",
+    "hierarchy": {
+      "parent_name": "Page1[13]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i693.pdf",
+    "llm_persona": "applicant",
+    "llm_domain": "office",
+    "react_label": "PDF417BarCode2[0]"
+  },
+  {
+    "name": "PDF417BarCode1[0]",
+    "page": 19,
+    "type": "/Tx",
+    "persona": null,
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "PDF417BarCode1",
+    "tooltip": "PDF417BarCode1",
+    "hierarchy": {
+      "parent_name": "Page1[19]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i485.pdf",
+    "llm_persona": "applicant",
+    "llm_domain": "office",
+    "react_label": "PDF417BarCode1[0]"
+  },
+  {
+    "name": "Pt8Line66_CB[5]",
+    "page": 13,
+    "type": "/Btn",
+    "persona": null,
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "CB"
+    },
+    "screen_label": "Pt8Line66_CB",
+    "tooltip": "Pt8Line66_CB",
+    "hierarchy": {
+      "parent_name": "#subform[13]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i485.pdf",
+    "llm_persona": "applicant",
+    "llm_domain": "office",
+    "react_label": "Pt8Line66_CB[5]"
+  },
+  {
+    "name": "TextField1[0]",
+    "page": 13,
+    "type": "/Tx",
+    "persona": null,
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "TextField1",
+    "tooltip": "TextField1",
+    "hierarchy": {
+      "parent_name": "#subform[13]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i485.pdf",
+    "llm_persona": "applicant",
+    "llm_domain": "office",
+    "react_label": "TextField1[0]"
+  },
+  {
+    "name": "PDF417BarCode1[0]",
+    "page": 6,
+    "type": "/Tx",
+    "persona": null,
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "PDF417BarCode1",
+    "tooltip": "PDF417BarCode1",
+    "hierarchy": {
+      "parent_name": "Page1[6]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i765.pdf",
+    "llm_persona": "applicant",
+    "llm_domain": "office",
+    "react_label": "PDF417BarCode1[0]"
+  }
+]

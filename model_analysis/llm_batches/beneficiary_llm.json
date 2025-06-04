@@ -1,0 +1,1394 @@
+[
+  {
+    "name": "Pt1Line1_Spouse[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "I am filing this petition for my (Select only one box). Select Spouse.",
+    "screen_label": "Spouse."
+  },
+  {
+    "name": "Pt1Line1_Siblings[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "I am filing this petition for my (Select only one box). Select Brother / Sister.",
+    "screen_label": "Brother / Sister."
+  },
+  {
+    "name": "Pt1Line1_Parent[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "I am filing this petition for my (Select only one box). Select Parent.",
+    "screen_label": "Parent."
+  },
+  {
+    "name": "Pt1Line1_Child[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "I am filing this petition for my (Select only one box). Select Child.",
+    "screen_label": "Child."
+  },
+  {
+    "name": "Pt1Line2_InWedlock[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "If you are filing this petition for your child or parent, select the box that describes your relationship (Select only one box). Select Child was born to parents who were married to each other at the time of the child's birth.",
+    "screen_label": "Child was born to parents who were married to each other at the time of the child's birth."
+  },
+  {
+    "name": "Pt1Line2_AdoptedChild[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "If you are filing this petition for your child or parent, select the box that describes your relationship (Select only one box). Select Child was adopted (not an Orphan or Hague Convention adoptee).",
+    "screen_label": "Child was adopted (not an Orphan or Hague Convention adoptee)."
+  },
+  {
+    "name": "Pt1Line2_Stepchild[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "If you are filing this petition for your child or parent, select the box that describes your relationship (Select only one box). Select Stepchild / Stepparent.",
+    "screen_label": "Stepchild / Stepparent."
+  },
+  {
+    "name": "Pt1Line2_OutOfWedlock[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "If you are filing this petition for your child or parent, select the box that describes your relationship (Select only one box). Select Child was born to parents who were not married to each other at the time of the child's birth.",
+    "screen_label": "Child was born to parents who were not married to each other at the time of the child's birth."
+  },
+  {
+    "name": "Pt1Line3_Yes[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "If the beneficiary is your brother / sister, are you related by adoption. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt1Line4_No[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Did you gain lawful permanent resident status or citizenship through adoption. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt1Line4_Yes[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Did you gain lawful permanent resident status or citizenship through adoption. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt1Line3_No[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "If the beneficiary is your brother / sister, are you related by adoption. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt4Line2_USCISOnlineActNumber[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "USCISOnlineActNumber",
+    "screen_label": "U S C I S Online Account Number, if any."
+  },
+  {
+    "name": "Pt4Line4a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line4b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line4c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "P4Line5a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line5b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line5c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line7_CityTownOfBirth[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CityTownOfBirth",
+    "screen_label": "City / Town / Village of Birth."
+  },
+  {
+    "name": "Pt4Line8_CountryOfBirth[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CountryOfBirth",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt4Line11_Province[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt4Line11_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "PostalCode",
+    "screen_label": "Postal Code."
+  },
+  {
+    "name": "Pt4Line11_Country[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt4Line12a_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt4Line12b_Unit[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt4Line12b_Unit[1]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt4Line12b_Unit[2]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt4Line12b_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor Number."
+  },
+  {
+    "name": "Pt4Line12c_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt4Line12e_ZipCode[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "ZipCode",
+    "screen_label": "Zip Code."
+  },
+  {
+    "name": "Pt4Line12d_State[0]",
+    "type": "/Ch",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt4Line13_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "PostalCode",
+    "screen_label": "Postal Code."
+  },
+  {
+    "name": "Pt4Line13_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor Number."
+  },
+  {
+    "name": "Pt4Line13_Unit[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt4Line13_Unit[1]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt4Line13_Unit[2]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt4Line13_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt4Line13_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt4Line13_Country[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt4Line13_Province[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt4Line11_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt4Line11_Unit[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt4Line11_Unit[1]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt4Line11_Unit[2]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt4Line11_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor Number."
+  },
+  {
+    "name": "Pt4Line11_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt4Line11_ZipCode[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "ZipCode",
+    "screen_label": "Zip Code."
+  },
+  {
+    "name": "Pt4Line11_State[0]",
+    "type": "/Ch",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt4Line9_DateOfBirth[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateOfBirth",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line9_Male[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Sex. Select Male.",
+    "screen_label": "Male."
+  },
+  {
+    "name": "Pt4Line9_Female[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Sex. Select Female.",
+    "screen_label": "Female."
+  },
+  {
+    "name": "Pt4Line10_Yes[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Has anyone else ever filed a petition for the beneficiary. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt4Line10_No[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Has anyone else ever filed a petition for the beneficiary. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt4Line10_Unknown[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Select Unknown. NOTE:  Select \"Unknown\" only if you do not know, and the beneficiary also does not know, if anyone else has ever filed a petition for the beneficiary.",
+    "screen_label": "NOTE:  Select \"Unknown\" only if you do not know, and the beneficiary also does not know, if anyone else has ever filed a petition for the beneficiary."
+  },
+  {
+    "name": "Pt4Line14_DaytimePhoneNumber[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DaytimePhoneNumber",
+    "screen_label": "Daytime Telephone Number, if any."
+  },
+  {
+    "name": "Pt4Line3_SSN[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "SSN",
+    "screen_label": "Social Security Number, if any."
+  },
+  {
+    "name": "Pt4Line20c_Province[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt4Line17_NumberofMarriages[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "NumberofMarriages",
+    "screen_label": "Number of Times Married."
+  },
+  {
+    "name": "Pt4Line18_MaritalStatus[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Current Marital Status. Select Widowed",
+    "screen_label": "Widowed"
+  },
+  {
+    "name": "Pt4Line18_MaritalStatus[1]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Current Marital Status. Select Annulled.",
+    "screen_label": "Annulled."
+  },
+  {
+    "name": "Pt4Line18_MaritalStatus[2]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Current Marital Status. Select Separated.",
+    "screen_label": "Separated."
+  },
+  {
+    "name": "Pt4Line18_MaritalStatus[3]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Current Marital Status. Select Single, Never Married.",
+    "screen_label": "Single, Never Married."
+  },
+  {
+    "name": "Pt4Line18_MaritalStatus[4]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Current Marital Status. Select Married.",
+    "screen_label": "Married."
+  },
+  {
+    "name": "Pt4Line18_MaritalStatus[5]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Current Marital Status. Select Divorced.",
+    "screen_label": "Divorced."
+  },
+  {
+    "name": "Pt4Line15_MobilePhoneNumber[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "MobilePhoneNumber",
+    "screen_label": "Mobile Telephone Number, if any."
+  },
+  {
+    "name": "Pt4Line16_EmailAddress[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "EmailAddress",
+    "screen_label": "Email Address, if any."
+  },
+  {
+    "name": "Pt4Line19_DateOfMarriage[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateOfMarriage",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line18a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line18b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line18c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line16a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line16b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line16c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line17_DateMarriageEnded[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateMarriageEnded",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line17_DateMarriageEnded[1]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateMarriageEnded",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line31_Relationship[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Relationship",
+    "screen_label": "Relationship."
+  },
+  {
+    "name": "Pt4Line30a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line30b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line30c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line32_DateOfBirth[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateOfBirth",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line49_CountryOfBirth[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CountryOfBirth",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt4Line35_Relationship[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Relationship",
+    "screen_label": "Relationship."
+  },
+  {
+    "name": "Pt4Line36_DateOfBirth[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateOfBirth",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line37_CountryOfBirth[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CountryOfBirth",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt4Line34a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line34b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line34c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line38b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line38c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line38a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line41_CountryOfBirth[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CountryOfBirth",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt4Line40_DateOfBirth[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateOfBirth",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line39_Relationship[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Relationship",
+    "screen_label": "Relationship."
+  },
+  {
+    "name": "Pt4Line20a_CityTown[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CityTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt4Line20b_State[0]",
+    "type": "/Ch",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt4Line20d_Country[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt4Line42c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line42b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line42a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line45_CountryOfBirth[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CountryOfBirth",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt4Line44_DateOfBirth[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateOfBirth",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line43_Relationship[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Relationship",
+    "screen_label": "Relationship."
+  },
+  {
+    "name": "Pt4Line46a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line46b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line46c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line47_Relationship[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Relationship",
+    "screen_label": "Relationship."
+  },
+  {
+    "name": "Pt4Line49_CountryOfBirth[1]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CountryOfBirth",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt4Line48_DateOfBirth[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateOfBirth",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line20_Yes[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Was the beneficiary EVER in the United States. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt4Line20_No[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Was the beneficiary EVER in the United States. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt4Line21d_DateExpired[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateExpired",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line21a_ClassOfAdmission[0]",
+    "type": "/Ch",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "Class of Admission."
+  },
+  {
+    "name": "Pt4Line21b_ArrivalDeparture[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "ArrivalDeparture",
+    "screen_label": "Form I - 94 Arrival-Departure Record Number."
+  },
+  {
+    "name": "Pt4Line21c_DateOfArrival[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateOfArrival",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line22_PassportNumber[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "immigration",
+    "value": "PassportNumber",
+    "screen_label": "Passport Number."
+  },
+  {
+    "name": "Pt4Line23_TravelDocNumber[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "TravelDocNumber",
+    "screen_label": "Travel Document Number."
+  },
+  {
+    "name": "Pt4Line24_CountryOfIssuance[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "immigration",
+    "value": "CountryOfIssuance",
+    "screen_label": "Country of Issuance for Passport or Travel Document."
+  },
+  {
+    "name": "Pt4Line25_ExpDate[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "ExpDate",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line26_NameOfCompany[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "NameOfCompany",
+    "screen_label": "Name of Current Employer, if applicable."
+  },
+  {
+    "name": "Pt4Line26_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt4Line26_Unit[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "C. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt4Line26_Unit[1]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "C. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt4Line26_Unit[2]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "C. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt4Line26_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor Number."
+  },
+  {
+    "name": "Pt4Line26_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt4Line26_State[0]",
+    "type": "/Ch",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt4Line26_ZipCode[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "ZipCode",
+    "screen_label": "Zip Code."
+  },
+  {
+    "name": "Pt4Line26_Province[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt4Line27_DateEmploymentBegan[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateEmploymentBegan",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line28_No[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "immigration",
+    "value": "Was the beneficiary EVER in immigration proceedings. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt4Line28_Yes[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "immigration",
+    "value": "Was the beneficiary EVER in immigration proceedings. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Pt4Line54_Removal[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "immigration",
+    "value": "If you answered \"Yes,\" select the type of proceedings and provide the location and date of the proceedings. Select Removal.",
+    "screen_label": "Removal."
+  },
+  {
+    "name": "Pt4Line54_Exclusion[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "immigration",
+    "value": "If you answered \"Yes,\" select the type of proceedings and provide the location and date of the proceedings. Select Exclusion / Deportation.",
+    "screen_label": "Exclusion / Deportation."
+  },
+  {
+    "name": "Pt4Line54_Rescission[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "If you answered \"Yes,\" select the type of proceedings and provide the location and date of the proceedings. Select Rescission.",
+    "screen_label": "Rescission."
+  },
+  {
+    "name": "Pt4Line54_JudicialProceedings[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "If you answered \"Yes,\" select the type of proceedings and provide the location and date of the proceedings. Select Other Judicial Proceedings.",
+    "screen_label": "Other Judicial Proceedings."
+  },
+  {
+    "name": "Pt4Line55a_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt4Line26_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "PostalCode",
+    "screen_label": "Postal Code."
+  },
+  {
+    "name": "Pt4Line26_Country[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt4Line55b_State[0]",
+    "type": "/Ch",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt4Line56_Date[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Date",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line55c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line55a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line55b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line56_Unit[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt4Line56_Unit[1]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt4Line56_Unit[2]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt4Line56_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor Number."
+  },
+  {
+    "name": "Pt4Line56_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt4Line56_Province[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt4Line56_Country[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt4Line56_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "PostalCode",
+    "screen_label": "Postal Code."
+  },
+  {
+    "name": "Pt4Line56_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt4Line57_Unit[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt4Line57_Unit[1]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt4Line57_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor."
+  },
+  {
+    "name": "Pt4Line57_Unit[2]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt4Line57_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt4Line57_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt4Line57_ZipCode[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "ZipCode",
+    "screen_label": "Zip Code."
+  },
+  {
+    "name": "Pt4Line57_State[0]",
+    "type": "/Ch",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt4Line58a_DateFrom[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateFrom",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line58b_DateTo[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "DateTo",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt4Line57_Province[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt4Line57_Country[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt4Line57_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "PostalCode",
+    "screen_label": "Postal Code."
+  },
+  {
+    "name": "Pt4Line61a_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "immigration",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt4Line61b_Province[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "immigration",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt4Line61c_Country[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Consulate has discretion over whether or not to accept the beneficiary's case."
+  },
+  {
+    "name": "Part4Line1_Yes[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Have you EVER previously filed a petition for this beneficiary or any other alien. Select Yes.",
+    "screen_label": "Yes."
+  },
+  {
+    "name": "Part4Line1_No[0]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "Have you EVER previously filed a petition for this beneficiary or any other alien. Select No.",
+    "screen_label": "No."
+  },
+  {
+    "name": "Pt4Line60a_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt4Line60b_State[0]",
+    "type": "/Ch",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt8Line27_YesNo[1]",
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "criminal",
+    "value": "Select No. NOTE:  If you were the beneficiary of a pardon, amnesty, a rehabilitation decree, or other act of clemency, provide documentation of that post-conviction action.",
+    "screen_label": "NOTE:  If you were the beneficiary of a pardon, amnesty, a rehabilitation decree, or other act of clemency, provide documentation of that post-conviction action."
+  }
+]

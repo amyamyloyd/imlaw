@@ -1,0 +1,38 @@
+
+=== Field Analysis Summary ===
+
+Total Fields: 1725
+Fields Needing Review: 0 (0.0%)
+
+=== Form Distribution Summary ===
+form_id
+i485    697
+i130    439
+i693    429
+i765    160
+
+=== Reused Fields Summary ===
+form_id  reuse_category
+i130     contact_info      12
+         personal_info     73
+         preparer_info      1
+i485     contact_info       9
+         personal_info     61
+         preparer_info      1
+i693     contact_info      13
+         personal_info     50
+i765     contact_info       9
+         personal_info     21
+
+=== Repeating Fields Summary ===
+form_id  repeating_category  sequence_number
+i130     employment          1.0                14
+                             2.0                15
+         family              1.0                 6
+                             2.0                 8
+i485     children            1.0                 8
+                             2.0                 8
+                             3.0                 8
+         employment          2.0                15
+
+=== Persona Distribution ===

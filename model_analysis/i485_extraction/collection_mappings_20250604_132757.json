@@ -1,0 +1,229 @@
+{
+  "Applicant_Current_Name": {
+    "type": "one_to_many",
+    "description": "Applicant current legal name (reused across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "form_fields": [
+      "Pt1Line1a_FamilyName[0]",
+      "Pt1Line1b_GivenName[0]",
+      "Pt1Line1c_MiddleName[0]",
+      "Pt1Line12_StreetNumberName[0]",
+      "Pt1Line13_StreetNumberName[0]",
+      "Pt3Line11_EmployerName[0]",
+      "Pt3Line13_EmployerName[0]",
+      "Pt3Line4a_EmployerName[0]",
+      "Pt3Line17_EmployerName[0]",
+      "Pt3Line19_EmployerName[0]",
+      "Pt3Line20_EmployerName[0]",
+      "Pt1Line1a_FamilyName[1]",
+      "Pt1Line1b_GivenName[1]",
+      "Pt1Line1c_MiddleName[1]"
+    ],
+    "components": {
+      "family_name": [
+        "Pt1Line1a_FamilyName[0]",
+        "Pt1Line1a_FamilyName[1]"
+      ],
+      "given_name": [
+        "Pt1Line1b_GivenName[0]",
+        "Pt1Line1b_GivenName[1]"
+      ],
+      "middle_name": [
+        "Pt1Line1c_MiddleName[0]",
+        "Pt1Line1c_MiddleName[1]"
+      ]
+    }
+  },
+  "Applicant_Mailing_Address": {
+    "type": "one_to_many",
+    "description": "Applicant mailing address (reused across forms)",
+    "persona": "applicant",
+    "domain": "personal",
+    "form_fields": [
+      "Pt1Line12_CityOrTown[0]",
+      "Pt1Line12_State[0]",
+      "Pt1Line13_CityOrTown[0]",
+      "Pt1Line13_State[0]"
+    ],
+    "components": {
+      "street": [],
+      "city": [
+        "Pt1Line12_CityOrTown[0]",
+        "Pt1Line13_CityOrTown[0]"
+      ],
+      "state": [
+        "Pt1Line12_State[0]",
+        "Pt1Line13_State[0]"
+      ],
+      "zip": []
+    }
+  },
+  "Applicant_Previous_Name_1": {
+    "type": "repeating",
+    "description": "Applicant previous name #1 (optional)",
+    "persona": "applicant",
+    "domain": "personal",
+    "form_fields": [
+      "Pt1Line2a_FamilyName[0]",
+      "Pt1Line2b_GivenName[0]",
+      "Pt1Line2c_MiddleName[0]"
+    ],
+    "occurrence": 1,
+    "components": {
+      "family_name": [
+        "Pt1Line2a_FamilyName[0]"
+      ],
+      "given_name": [
+        "Pt1Line2b_GivenName[0]"
+      ],
+      "middle_name": [
+        "Pt1Line2c_MiddleName[0]"
+      ]
+    }
+  },
+  "Applicant_Previous_Name_2": {
+    "type": "repeating",
+    "description": "Applicant previous name #2 (optional)",
+    "persona": "applicant",
+    "domain": "personal",
+    "form_fields": [
+      "Pt1Line3a_FamilyName[0]",
+      "Pt1Line3b_GivenName[0]",
+      "Pt1Line3c_MiddleName[0]"
+    ],
+    "occurrence": 2,
+    "components": {
+      "family_name": [
+        "Pt1Line3a_FamilyName[0]"
+      ],
+      "given_name": [
+        "Pt1Line3b_GivenName[0]"
+      ],
+      "middle_name": [
+        "Pt1Line3c_MiddleName[0]"
+      ]
+    }
+  },
+  "Applicant_Previous_Name_3": {
+    "type": "repeating",
+    "description": "Applicant previous name #3 (optional)",
+    "persona": "applicant",
+    "domain": "personal",
+    "form_fields": [
+      "Pt1Line4a_FamilyName[0]",
+      "Pt1Line4b_GivenName[0]",
+      "Pt1Line4c_MiddleName[0]"
+    ],
+    "occurrence": 3,
+    "components": {
+      "family_name": [
+        "Pt1Line4a_FamilyName[0]"
+      ],
+      "given_name": [
+        "Pt1Line4b_GivenName[0]"
+      ],
+      "middle_name": [
+        "Pt1Line4c_MiddleName[0]"
+      ]
+    }
+  },
+  "Attorney_AttorneyStateBarNumber_Office": {
+    "type": "one_to_one",
+    "description": "Single field collection for AttorneyStateBarNumber[0]",
+    "persona": "attorney",
+    "domain": "office",
+    "form_fields": [
+      "AttorneyStateBarNumber[0]"
+    ],
+    "screen_label": "Attorney State Bar Number, if applicable.",
+    "value_type": "unknown"
+  },
+  "Attorney_CheckBox1_Office": {
+    "type": "one_to_one",
+    "description": "Single field collection for CheckBox1[0]",
+    "persona": "attorney",
+    "domain": "office",
+    "form_fields": [
+      "CheckBox1[0]"
+    ],
+    "screen_label": "To be completed by an attorney or accredited representative, if any. Select this box if Form G-28 is attached.",
+    "value_type": "selection"
+  },
+  "Attorney_VolagNumber_Office": {
+    "type": "one_to_one",
+    "description": "Single field collection for VolagNumber[0]",
+    "persona": "attorney",
+    "domain": "office",
+    "form_fields": [
+      "VolagNumber[0]"
+    ],
+    "screen_label": "Volag Number, if any.",
+    "value_type": "unknown"
+  },
+  "Attorney_USCISOnlineAcctNumber_Office": {
+    "type": "one_to_one",
+    "description": "Single field collection for USCISOnlineAcctNumber[0]",
+    "persona": "attorney",
+    "domain": "office",
+    "form_fields": [
+      "USCISOnlineAcctNumber[0]"
+    ],
+    "screen_label": "Attorney or Accredited Representative U S C I S Online Account Number, if any.",
+    "value_type": "unknown"
+  },
+  "Attorney_Part12Line7_Checkbox_Office": {
+    "type": "one_to_one",
+    "description": "Single field collection for Part12Line7_Checkbox[0]",
+    "persona": "attorney",
+    "domain": "office",
+    "form_fields": [
+      "Part12Line7_Checkbox[0]"
+    ],
+    "screen_label": "A. Select I am not an attorney or accredited representative but have prepared this application on behalf of the applicant and with the applicant's consent.",
+    "value_type": "selection"
+  },
+  "Attorney_Part12Line7_Checkbox[1]_Office": {
+    "type": "one_to_one",
+    "description": "Single field collection for Part12Line7_Checkbox[1]",
+    "persona": "attorney",
+    "domain": "office",
+    "form_fields": [
+      "Part12Line7_Checkbox[1]"
+    ],
+    "screen_label": "I am an attorney or accredited representative and my representation of the applicant in this case extends / does not extend beyond the preparation of this application. NOTE:  If you are an attorney or accredited representative, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this application.",
+    "value_type": "selection"
+  },
+  "Attorney_Part12Line7b_Extend_Office": {
+    "type": "one_to_one",
+    "description": "Single field collection for Part12Line7b_Extend[0]",
+    "persona": "attorney",
+    "domain": "office",
+    "form_fields": [
+      "Part12Line7b_Extend[0]"
+    ],
+    "screen_label": "B. Select I am an attorney or accredited representative and my representation of the applicant in this case extends beyond the preparation of this application.",
+    "value_type": "selection"
+  },
+  "Attorney_Part12Line7b_NotExtend_Office": {
+    "type": "one_to_one",
+    "description": "Single field collection for Part12Line7b_NotExtend[0]",
+    "persona": "attorney",
+    "domain": "office",
+    "form_fields": [
+      "Part12Line7b_NotExtend[0]"
+    ],
+    "screen_label": "B. Select I am an attorney or accredited representative and my representation of the applicant in this case does not extend beyond the preparation of this application.",
+    "value_type": "selection"
+  },
+  "Applicant_Immigration_Category": {
+    "type": "grouped_checkboxes",
+    "description": "Immigration category selection (Part 2)",
+    "persona": "applicant",
+    "domain": "immigration",
+    "form_fields": [
+      "Pt2Line1g_OtherEligibility[0]"
+    ],
+    "sub_categories": {}
+  }
+}

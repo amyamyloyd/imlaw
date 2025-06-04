@@ -1,0 +1,136 @@
+PERSONA-AWARE COLLECTION FIELDS
+Generated from USCIS Form Field Analysis
+=====================================
+
+PERSONAL INFORMATION FIELDS
+---------------------------
+Names:
+- applicant_given_name (Applicant's given name)
+- applicant_family_name (Applicant's family name) 
+- applicant_middle_name (Applicant's middle name)
+- beneficiary_given_name (Beneficiary's given name)
+- beneficiary_family_name (Beneficiary's family name)
+- beneficiary_middle_name (Beneficiary's middle name)
+- spouse_given_name (Spouse's given name)
+- spouse_family_name (Spouse's family name)
+- spouse_middle_name (Spouse's middle name)
+- parent_given_name (Parent's given name)
+- parent_family_name (Parent's family name)
+- parent_middle_name (Parent's middle name)
+- family_member_given_name (Family_Member's given name)
+- family_member_family_name (Family_Member's family name)
+- family_member_middle_name (Family_Member's middle name)
+- preparer_given_name (Preparer's given name)
+- preparer_family_name (Preparer's family name)
+- preparer_full_name (Preparer's full name)
+- employer_given_name (Employer's given name)
+
+Dates of Birth:
+- applicant_date_of_birth (Applicant's date of birth)
+- beneficiary_date_of_birth (Beneficiary's date of birth)
+- spouse_date_of_birth (Spouse's date of birth)
+- parent_date_of_birth (Parent's date of birth)
+- family_member_date_of_birth (Family_Member's date of birth)
+
+Gender:
+- applicant_gender (Applicant's gender)
+- beneficiary_gender (Beneficiary's gender)
+- parent_gender (Parent's gender)
+
+Immigration IDs:
+- applicant_alien_number (Applicant's alien number)
+- beneficiary_alien_number (Beneficiary's alien number)
+- spouse_alien_number (Spouse's alien number)
+- family_member_alien_number (Family_Member's alien number)
+
+Social Security:
+- applicant_social_security_number (Applicant's social security number)
+- beneficiary_social_security_number (Beneficiary's social security number)
+
+ADDRESS FIELDS
+--------------
+Applicant Address:
+- applicant_address_city (Applicant's address city)
+- applicant_address_state (Applicant's address state)
+- applicant_address_zipcode (Applicant's address zipcode)
+- applicant_address_country (Applicant's address country)
+
+Beneficiary Address:
+- beneficiary_address_city (Beneficiary's address city)
+- beneficiary_address_state (Beneficiary's address state)
+- beneficiary_address_zipcode (Beneficiary's address zipcode)
+- beneficiary_address_country (Beneficiary's address country)
+
+Parent Address:
+- parent_address_city (Parent's address city)
+- parent_address_state (Parent's address state)
+- parent_address_country (Parent's address country)
+
+Preparer Address:
+- preparer_address_city (Preparer's address city)
+- preparer_address_state (Preparer's address state)
+- preparer_address_zipcode (Preparer's address zipcode)
+- preparer_address_country (Preparer's address country)
+
+Employer Address:
+- employer_address_city (Employer's address city)
+- employer_address_state (Employer's address state)
+- employer_address_zipcode (Employer's address zipcode)
+- employer_address_country (Employer's address country)
+
+Family Member Address:
+- family_member_address_country (Family_Member's address country)
+
+CONTACT INFORMATION FIELDS
+--------------------------
+Phone Numbers:
+- preparer_phone_number (Preparer's phone number)
+- beneficiary_phone_number (Beneficiary's phone number)
+
+Email Addresses:
+- preparer_email_address (Preparer's email address)
+- beneficiary_email_address (Beneficiary's email address)
+
+EMPLOYMENT FIELDS
+-----------------
+- employer_employer_name (Employer's employer name)
+
+MARRIAGE & FAMILY FIELDS
+------------------------
+Marriage Dates:
+- applicant_marriage_date (Applicant's marriage date)
+- spouse_marriage_date (Spouse's marriage date)
+- beneficiary_marriage_date (Beneficiary's marriage date)
+- family_member_marriage_date (Family_Member's marriage date)
+
+Marital Status:
+- applicant_marital_status (Applicant's marital status)
+- beneficiary_marital_status (Beneficiary's marital status)
+
+SUMMARY
+-------
+Total Collection Fields: 64
+Collection Fields by Persona:
+- Applicant: 11 field types
+- Beneficiary: 11 field types  
+- Spouse: 6 field types
+- Parent: 6 field types
+- Family Member: 6 field types
+- Preparer: 8 field types
+- Employer: 5 field types
+
+DATA COLLECTION STRATEGY
+------------------------
+For each persona-aware collection field:
+1. Collect the information once from the client
+2. Apply to ALL form fields that match that persona + field type
+3. Example: Collect "applicant_given_name" once, use for all applicant first name fields across all forms
+
+MAPPING RESULTS
+---------------
+- Total form fields mapped: 1,725
+- High confidence mappings: 670 (39%)
+- Low confidence mappings: 1,055 (61% - need manual review)
+
+The high confidence mappings can be automated immediately.
+The low confidence mappings require manual review and correction. 

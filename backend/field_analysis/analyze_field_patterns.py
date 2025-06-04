@@ -1,11 +1,12 @@
 import json
 import pandas as pd
 import re
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Optional
 from pathlib import Path
 from tabulate import tabulate
 from datetime import datetime
 from collections import defaultdict
+import numpy as np
 
 class FieldAnalyzer:
     def __init__(self, rules_file: str, mapping_file: str):
@@ -14,117 +15,50 @@ class FieldAnalyzer:
             self.rules = json.load(f)
         with open(mapping_file, 'r') as f:
             self.mappings = json.load(f)
-            
-        # Define personas
-        self.personas = {
-            "applicant": {
-                "indicators": [
-                    "you", "your", "applicant", "beneficiary", "self",
-                    "i am", "i have", "my ", "principal", "client"
-                ],
-                "confidence": 2.0
-            },
-            "family": {
-                "indicators": [
-                    "spouse", "husband", "wife", "child", "parent",
-                    "mother", "father", "sibling", "brother", "sister",
-                    "dependent", "relative", "family member"
-                ],
-                "confidence": 1.8
-            },
-            "preparer": {
-                "indicators": [
-                    "attorney", "lawyer", "paralegal", "interpreter",
-                    "translator", "notary", "accredited representative",
-                    "preparer", "law office", "firm", "representative"
-                ],
-                "confidence": 1.5
-            }
-        }
-
-        # Define biographical subcategories
-        self.biographical_subcategories = {
-            "core_identity": {
-                "indicators": [
-                    "name", "birth", "gender", "sex", "race", "ethnicity",
-                    "height", "weight", "eye color", "hair color", "biometric",
-                    "ssn", "social security", "date of birth"
-                ],
-                "confidence": 1.8
-            },
-            "contact_info": {
-                "indicators": [
-                    "address", "phone", "email", "telephone", "mobile",
-                    "mailing", "street", "city", "state", "zip", "postal",
-                    "country", "residence", "contact"
-                ],
-                "confidence": 1.6
-            },
-            "marital_status": {
-                "indicators": [
-                    "married", "single", "divorced", "widowed", "marriage",
-                    "separation", "wedding", "spouse", "husband", "wife",
-                    "marital status"
-                ],
-                "confidence": 1.7
-            },
-            "family_info": {
-                "indicators": [
-                    "children", "siblings", "parents", "mother", "father",
-                    "brother", "sister", "dependent", "family member",
-                    "relative", "household", "family unit", "family composition"
-                ],
-                "confidence": 1.7
-            },
-            "education": {
-                "indicators": [
-                    "school", "education", "degree", "diploma", "university",
-                    "college", "academic", "study", "student"
-                ],
-                "confidence": 1.5
-            }
-        }
-
-        # Domain indicators remain but biographical is now more general
-        self.domain_indicators = {
-            "biographical": [
-                "personal", "individual", "identity", "background",
-                "information", "details", "profile"
-            ],
-            "medical": [
-                "surgery", "medical", "examination", "health", "treatment",
-                "medication", "hospitalization", "diagnosis", "condition"
-            ],
-            "criminal": [
-                "criminal", "arrest", "detained", "violations", "charges",
-                "controlled substances", "inadmissibility grounds"
-            ],
-            "immigration": [
-                "visa", "status", "entry", "admission", "citizenship",
-                "permanent resident", "alien", "immigration", "naturalization",
-                "passport", "border", "port of entry", "alien number", 
-                "uscis number", "travel document", "volag number",
-                "arrival-departure record", "recipient number",
-                "principals underlying petition"
-            ],
-            "employment": [
-                "job", "work", "employer", "salary", "occupation",
-                "business", "income", "employment", "company", "position"
-            ],
-            "office": [
-                "barcode", "pdf417", "qr code", "scan"
-            ]
-        }
-
-        # Special field patterns
-        self.composite_patterns = [
-            "uscis", "alien number", "ssn", "arrival-departure record number",
-            "recipient number", "principals underlying petition number"
-        ]
         
-        self.ignore_patterns = [
-            "page number", "part number", "item number"
-        ]
+        # Extract reused and repeating patterns from rules
+        self.reused_patterns = self._extract_reused_patterns()
+        self.repeating_patterns = self._extract_repeating_patterns()
+        
+        # Keep existing persona and biographical definitions
+        self.personas = self.rules.get("personas", {})
+        self.biographical_subcategories = self.rules.get("biographical_subcategories", {})
+        self.domain_indicators = self.rules.get("domain_indicators", {})
+
+    def _extract_reused_patterns(self) -> Dict:
+        """Extract reused field patterns from rules."""
+        reused = self.rules["rule_types"]["reused"]
+        patterns = {
+            "detection": reused["detection_rules"],
+            "categories": {}
+        }
+        
+        for cat_name, cat_data in reused.get("categories", {}).items():
+            patterns["categories"][cat_name] = {
+                "indicators": cat_data["indicators"],
+                "collection": cat_data["collection"],
+                "mapping": cat_data["mapping"]
+            }
+        
+        return patterns
+
+    def _extract_repeating_patterns(self) -> Dict:
+        """Extract repeating field patterns from rules."""
+        repeating = self.rules["rule_types"]["repeating"]
+        patterns = {
+            "detection": repeating["detection_rules"],
+            "categories": {}
+        }
+        
+        for cat_name, cat_data in repeating.get("categories", {}).items():
+            patterns["categories"][cat_name] = {
+                "pattern": cat_data["pattern"],
+                "collection": cat_data["collection"],
+                "mapping": cat_data["mapping"],
+                "indicators": cat_data["indicators"]
+            }
+        
+        return patterns
 
     def parse_field_name(self, field_name: str) -> Dict:
         """Parse field name using multiple patterns to handle different formats.
@@ -291,7 +225,7 @@ class FieldAnalyzer:
         
         return matches if matches else [("unknown", 0.0)]
 
-    def analyze_field(self, field_name: str, tooltip: str, field_type: str) -> Dict:
+    def analyze_field(self, field_name: str, tooltip: str, field_type: str, form_id: str = None) -> Dict:
         """Analyze a single field and return its properties."""
         # Parse field name components
         parsed = self.parse_field_name(field_name)
@@ -301,40 +235,56 @@ class FieldAnalyzer:
             "field_name": field_name,
             "tooltip": tooltip,
             "field_type": field_type,
+            "form_id": form_id,  # Store the source form ID
             "needs_review": False,
             "confidence": 0.0,
             "domains": [],
             "personas": [],
-            "biographical_subcategories": []
+            "biographical_subcategories": [],
+            "is_reused": False,
+            "reuse_category": None,
+            "is_repeating": False,
+            "repeating_category": None,
+            "sequence_number": None,
+            "mapping_type": None
         }
         result.update(parsed)  # Add parsed field name components
         
+        # Check for reused fields
+        reused_analysis = self.analyze_reused_field(tooltip, field_name)
+        if reused_analysis["is_reused"]:
+            result.update(reused_analysis)
+        
+        # Check for repeating fields
+        repeating_analysis = self.analyze_repeating_field(tooltip, field_name)
+        if repeating_analysis["is_repeating"]:
+            result.update(repeating_analysis)
+        
         # Special handling for Checkbox fields
         if field_name.startswith('Checkbox'):
-            # Extract base field type from tooltip
             if tooltip:
-                # Try to find "Select this box" instruction
                 select_match = re.search(r'Select this box (.+?)\.', tooltip)
                 if select_match:
                     result["base_field_type"] = select_match.group(1).strip()
                 else:
-                    # Use the last sentence as the base field type
                     sentences = re.split(r'[.!?]+', tooltip)
                     if sentences:
                         result["base_field_type"] = sentences[-1].strip()
         
         # Special handling for AttorneyStateBarNumber
         if field_name.startswith('AttorneyStateBarNumber'):
-            result["domains"] = [("office", 2.0)]  # High confidence for office domain
-            result["personas"] = [("preparer", 2.0)]  # High confidence for preparer persona
+            result["domains"] = [("office", 2.0)]
+            result["personas"] = [("preparer", 2.0)]
             result["confidence"] = 2.0
+            result["is_reused"] = True
+            result["reuse_category"] = "preparer_info"
         
-        # Apply domain rules
-        if not result["domains"]:  # Only if not already set by special rules
+        # Apply domain rules if not already set
+        if not result["domains"]:
             result["domains"] = self.analyze_domain(tooltip)
         
-        # Apply persona rules
-        if not result["personas"]:  # Only if not already set by special rules
+        # Apply persona rules if not already set
+        if not result["personas"]:
             result["personas"] = self.analyze_persona(tooltip, field_name)
         
         # Apply biographical subcategory rules
@@ -342,211 +292,448 @@ class FieldAnalyzer:
             result["biographical_subcategories"] = self.analyze_biographical_subcategory(tooltip, field_name)
         
         # Calculate overall confidence
-        if not result["confidence"]:  # Only if not already set by special rules
+        if not result["confidence"]:
             confidences = [conf for _, conf in result["domains"]]
             result["confidence"] = max(confidences) if confidences else 0.0
         
         return result
 
-def analyze_fields(csv_file: str, rules_file: str, mapping_file: str) -> pd.DataFrame:
-    """Analyze all fields in the CSV and return results as a DataFrame."""
-    # Read input CSV
-    df = pd.read_csv(csv_file)
-    
-    # Initialize analyzer
-    analyzer = FieldAnalyzer(rules_file, mapping_file)
-    
-    # Analyze each field
-    results = []
-    for _, row in df.iterrows():
-        analysis = analyzer.analyze_field(
-            row['Field Name'],
-            row['Tooltip'],
-            row['Type']
-        )
-        
-        # Convert analysis to flat structure for DataFrame
-        flat_result = {
-            'Field_Name': analysis['field_name'],
-            'Tooltip': analysis['tooltip'],
-            'Field_Type': analysis['field_type'],
-            'Needs_Review': analysis['needs_review'],
-            'Confidence': analysis['confidence'],
-            'Part': analysis['part'],
-            'Part_Num': analysis['part_num'],
-            'Line': analysis['line'],
-            'Subline': analysis['subline'],
-            'Base_Field_Type': analysis.get('base_field_type', analysis['field_type']),
-            'Position': analysis['position'],
-            'Domains': '; '.join(f"{d}({c})" for d, c in analysis['domains']),
-            'Personas': '; '.join(f"{p}({c})" for p, c in analysis['personas']),
-            'Biographical_Subcategories': '; '.join(f"{s}({c})" for s, c in analysis['biographical_subcategories'])
+    def analyze_reused_field(self, tooltip: str, field_name: str) -> Dict:
+        """Analyze if a field is reused across the form."""
+        result = {
+            "is_reused": False,
+            "reuse_category": None,
+            "mapping_type": None
         }
-        results.append(flat_result)
+        
+        # Check for prepopulate pattern
+        if "prepopulate from page" in tooltip.lower():
+            result["is_reused"] = True
+            result["mapping_type"] = "prepopulate"
+            return result
+        
+        # Check categories
+        tooltip_lower = tooltip.lower()
+        field_name_lower = field_name.lower()
+        
+        for category, data in self.reused_patterns["categories"].items():
+            if any(indicator in tooltip_lower or indicator in field_name_lower 
+                  for indicator in data["indicators"]):
+                result["is_reused"] = True
+                result["reuse_category"] = category
+                result["mapping_type"] = data["mapping"]
+                break
+        
+        return result
+
+    def analyze_repeating_field(self, tooltip: str, field_name: str) -> Dict:
+        """Analyze if a field is part of a repeating sequence."""
+        result = {
+            "is_repeating": False,
+            "repeating_category": None,
+            "sequence_number": None,
+            "mapping_type": None
+        }
+        
+        # Check each repeating category's pattern
+        for category, data in self.repeating_patterns["categories"].items():
+            pattern = data["pattern"]
+            match = re.search(pattern, tooltip)
+            
+            if match:
+                result["is_repeating"] = True
+                result["repeating_category"] = category
+                result["mapping_type"] = data["mapping"]
+                
+                # Extract sequence number
+                sequence = match.group(1)
+                if sequence.isdigit():
+                    result["sequence_number"] = int(sequence)
+                else:
+                    # Convert word to number
+                    number_map = {"One": 1, "Two": 2, "Three": 3}
+                    result["sequence_number"] = number_map.get(sequence, None)
+                
+                break
+            
+            # Also check indicators in field name
+            if any(indicator in field_name.lower() for indicator in data["indicators"]):
+                result["is_repeating"] = True
+                result["repeating_category"] = category
+                result["mapping_type"] = data["mapping"]
+        
+        return result
+
+def extract_form_id(text: str) -> Optional[str]:
+    """Extract form ID from the field text (e.g., i485, i130)."""
+    if not text:
+        return None
     
-    # Convert to DataFrame
-    results_df = pd.DataFrame(results)
+    # Form ID is at the start of the text field
+    match = re.match(r'^([a-z]\d+)\s*\t', text.lower())
+    if match:
+        return match.group(1)
     
-    return results_df
+    # Try alternate formats
+    match = re.search(r'form\s+([a-z][-\s]*\d+)', text.lower())
+    if match:
+        # Clean up the form ID
+        form_id = match.group(1).replace('-', '').replace(' ', '')
+        return form_id
+    
+    return None
+
+def extract_short_label(tooltip: str) -> Optional[str]:
+    """Extract short label from tooltip text."""
+    if not tooltip:
+        return None
+        
+    # Look for "Select X" or "Enter X" in the last two lines
+    lines = [line.strip() for line in tooltip.split('\n') if line.strip()]
+    if not lines:
+        return None
+    
+    last_lines = lines[-2:] if len(lines) >= 2 else lines
+    
+    for line in reversed(last_lines):
+        # Look for "Select X" or "Enter X" patterns
+        select_match = re.search(r'Select\s+([^.]+)\.?$', line)
+        enter_match = re.search(r'Enter\s+([^.]+)\.?$', line)
+        
+        if select_match:
+            return f"Select {select_match.group(1)}"
+        elif enter_match:
+            return f"Enter {enter_match.group(1)}"
+    
+    return None
+
+def analyze_fields(fields_file: Path) -> None:
+    """Analyze field patterns from the JSON file."""
+    with open(fields_file, 'r') as f:
+        fields = json.load(f)
+    
+    # Initialize counters
+    form_ids = defaultdict(int)
+    field_types = defaultdict(int)
+    short_labels = []
+    context_patterns = defaultdict(int)
+    
+    for field in fields:
+        # Extract and count form IDs
+        form_id = field.get('form_id', 'unknown')
+        if form_id:
+            form_ids[form_id] += 1
+        
+        # Count field types
+        field_type = field.get('type', 'unknown')
+        field_types[field_type] += 1
+        
+        # Extract short labels for buttons and checkboxes
+        if field_type in ('button', 'checkbox'):
+            short_label = extract_short_label(field.get('tooltip', ''))
+            if short_label:
+                short_labels.append({
+                    'name': field.get('name', ''),
+                    'label': short_label,
+                    'type': field_type,
+                    'form_id': form_id
+                })
+        
+        # Look for context patterns in tooltips
+        tooltip = field.get('tooltip', '')
+        if tooltip:
+            # Look for common patterns
+            if re.search(r'(eye|hair)\s+color', tooltip.lower()):
+                context_patterns['physical_characteristics'] += 1
+            elif re.search(r'(male|female|gender|sex)', tooltip.lower()):
+                context_patterns['gender'] += 1
+            elif re.search(r'(sibling|parent|child|stepchild)', tooltip.lower()):
+                context_patterns['family_relationship'] += 1
+    
+    # Print results
+    print("\nForm ID Distribution:")
+    for form_id, count in sorted(form_ids.items()):
+        print(f"{form_id}: {count} fields")
+    
+    print("\nField Types:")
+    for field_type, count in sorted(field_types.items()):
+        print(f"{field_type}: {count} fields")
+    
+    print("\nButton/Checkbox Labels by Form:")
+    by_form = defaultdict(list)
+    for label_info in short_labels:
+        form_id = label_info.get('form_id', 'unknown')
+        by_form[form_id].append(label_info)
+    
+    for form_id, labels in sorted(by_form.items()):
+        print(f"\nForm {form_id}:")
+        for label_info in labels[:5]:  # Show first 5 per form
+            print(f"  {label_info['type']}: {label_info['name']} -> {label_info['label']}")
+        if len(labels) > 5:
+            print(f"  ... and {len(labels) - 5} more")
+    
+    print("\nContext Patterns:")
+    for pattern, count in sorted(context_patterns.items()):
+        print(f"{pattern}: {count} fields")
 
 def save_results(results_df: pd.DataFrame, base_dir: Path):
-    """Save analysis results in multiple formats."""
-    # Generate timestamp for files
+    """Save analysis results in multiple formats with consistent timestamped directory structure."""
+    # Generate timestamp for directory and files
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
     # Create output directory with timestamp
     output_dir = base_dir / f"analysis_results_{timestamp}"
     output_dir.mkdir(exist_ok=True)
     
-    # Save as CSV
+    # Save analysis results
     csv_file = output_dir / f"field_analysis_results_{timestamp}.csv"
+    json_file = output_dir / f"field_analysis_results_{timestamp}.json"
+    table_file = output_dir / f"field_analysis_table_{timestamp}.txt"
+    domain_file = output_dir / f"domain_analysis_table_{timestamp}.txt"
+    metadata_file = output_dir / f"analysis_metadata_{timestamp}.json"
+    
+    # Save CSV
     results_df.to_csv(csv_file, index=False)
     
-    # Save as JSON
-    json_file = output_dir / f"field_analysis_results_{timestamp}.json"
-    results_json = results_df.to_dict(orient='records')
+    # Convert DataFrame to JSON-safe dictionary
+    def clean_value(val):
+        if isinstance(val, (list, np.ndarray)):
+            return [clean_value(x) for x in val]
+        if pd.isna(val) or val is pd.NA:
+            return None
+        if isinstance(val, (np.int64, np.int32)):
+            return int(val)
+        if isinstance(val, (np.float64, np.float32)):
+            return float(val)
+        if isinstance(val, pd.Timestamp):
+            return val.isoformat()
+        return str(val) if not isinstance(val, (str, int, float, bool, type(None))) else val
+
+    # Convert DataFrame to records with cleaned values
+    results_json = []
+    for _, row in results_df.iterrows():
+        record = {}
+        for column in results_df.columns:
+            record[column] = clean_value(row[column])
+        results_json.append(record)
+
+    # Save JSON with indentation for readability
     with open(json_file, 'w') as f:
-        json.dump(results_json, f, indent=2)
+        json.dump(results_json, f, indent=2, default=str)
     
-    # Create domain summary table
-    domain_counts = defaultdict(int)
-    for domains in results_df['Domains'].str.split(';'):
-        if isinstance(domains, list):
-            for domain in domains:
-                if domain:
-                    domain_name = domain.split('(')[0].strip()
-                    domain_counts[domain_name] += 1
-    
-    domain_table = pd.DataFrame([
-        {'Domain': domain, 'Count': count, '% of Total Fields': f"{count/len(results_df)*100:.1f}%"}
-        for domain, count in domain_counts.items()
-    ]).sort_values('Count', ascending=False)
-    
-    domain_table_file = output_dir / f"domain_analysis_table_{timestamp}.txt"
-    with open(domain_table_file, 'w') as f:
-        f.write("=== Domain Distribution ===\n")
-        f.write(domain_table.to_string(index=False))
-    
-    # Create biographical subcategory summary table
-    bio_counts = defaultdict(int)
-    for subcats in results_df['Biographical_Subcategories'].str.split(';'):
-        if isinstance(subcats, list):
-            for subcat in subcats:
-                if subcat:
-                    subcat_name = subcat.split('(')[0].strip()
-                    bio_counts[subcat_name] += 1
-    
-    bio_table = pd.DataFrame([
-        {'Subcategory': subcat, 'Count': count, '% of Total Fields': f"{count/len(results_df)*100:.1f}%"}
-        for subcat, count in bio_counts.items()
-    ]).sort_values('Count', ascending=False)
-    
-    # Create persona summary table
-    persona_counts = defaultdict(int)
-    for personas in results_df['Personas'].str.split(';'):
-        if isinstance(personas, list):
-            for persona in personas:
-                if persona:
-                    persona_name = persona.split('(')[0].strip()
-                    persona_counts[persona_name] += 1
-    
-    persona_table = pd.DataFrame([
-        {'Persona': persona, 'Count': count, '% of Total Fields': f"{count/len(results_df)*100:.1f}%"}
-        for persona, count in persona_counts.items()
-    ]).sort_values('Count', ascending=False)
-    
-    # Save summary tables to a single file
-    summary_file = output_dir / f"field_analysis_table_{timestamp}.txt"
-    with open(summary_file, 'w') as f:
+    # Save analysis tables
+    with open(table_file, 'w') as f:
+        # Field Analysis Summary
         f.write("\n=== Field Analysis Summary ===\n\n")
         f.write(f"Total Fields: {len(results_df)}\n")
-        f.write(f"Fields Needing Review: {results_df['Needs_Review'].sum()} ({results_df['Needs_Review'].mean()*100:.1f}%)\n\n")
+        f.write(f"Fields Needing Review: {results_df['needs_review'].sum()} ({results_df['needs_review'].mean()*100:.1f}%)\n\n")
         
+        # Form Distribution Summary
+        f.write("=== Form Distribution Summary ===\n")
+        form_summary = results_df['form_id'].value_counts()
+        f.write(form_summary.to_string())
+        f.write("\n\n")
+        
+        # Reused Fields Summary
+        f.write("=== Reused Fields Summary ===\n")
+        reused_summary = results_df[results_df['is_reused']].groupby(['form_id', 'reuse_category']).size()
+        f.write(reused_summary.to_string())
+        f.write("\n\n")
+        
+        # Repeating Fields Summary
+        f.write("=== Repeating Fields Summary ===\n")
+        repeating_summary = results_df[results_df['is_repeating']].groupby(['form_id', 'repeating_category', 'sequence_number']).size()
+        f.write(repeating_summary.to_string())
+        f.write("\n\n")
+        
+        # Persona Distribution
         f.write("=== Persona Distribution ===\n")
-        f.write(persona_table.to_string(index=False))
-        f.write("\n\n=== Biographical Subcategory Distribution ===\n")
-        f.write(bio_table.to_string(index=False))
-        f.write("\n\n=== Domain Distribution ===\n")
-        f.write(domain_table.to_string(index=False))
+        persona_counts = defaultdict(int)
+        for personas in results_df['personas'].str.split(';'):
+            if isinstance(personas, list):
+                for persona in personas:
+                    if persona:
+                        persona_name = persona.split('(')[0].strip()
+                        persona_counts[persona_name] += 1
+        
+        # Create persona table data
+        persona_data = []
+        for persona, count in sorted(persona_counts.items()):
+            persona_data.append({
+                'Persona': persona,
+                'Count': count,
+                'Percentage': f"{count/len(results_df)*100:.1f}%"
+            })
+        
+        if persona_data:
+            persona_table = pd.DataFrame(persona_data)
+            f.write("\n" + tabulate(persona_table, headers='keys', tablefmt='grid', showindex=False) + "\n")
+    
+    # Save domain analysis
+    with open(domain_file, 'w') as f:
+        f.write("=== Domain Analysis Summary ===\n\n")
+        f.write("=== By Form ===\n")
+        for form_id in results_df['form_id'].unique():
+            form_data = results_df[results_df['form_id'] == form_id]
+            f.write(f"\nForm {form_id}:\n")
+            domain_counts = defaultdict(int)
+            for domains in form_data['domains'].str.split(';'):
+                if isinstance(domains, list):
+                    for domain in domains:
+                        if domain:
+                            domain_name = domain.split('(')[0].strip()
+                            domain_counts[domain_name] += 1
+            
+            for domain, count in sorted(domain_counts.items()):
+                f.write(f"{domain}: {count} fields ({count/len(form_data)*100:.1f}%)\n")
     
     # Save metadata about the analysis
     metadata = {
-        'timestamp': timestamp,
-        'total_fields': len(results_df),
-        'fields_needing_review': int(results_df['Needs_Review'].sum()),
-        'review_percentage': float(results_df['Needs_Review'].mean()*100),
-        'output_files': {
-            'csv': str(csv_file.name),
-            'json': str(json_file.name),
-            'summary': str(summary_file.name),
-            'domain_analysis': str(domain_table_file.name)
-        }
+        "timestamp": timestamp,
+        "total_fields": len(results_df),
+        "forms_analyzed": list(results_df['form_id'].unique()),
+        "field_types": list(results_df['field_type'].unique()),
+        "analysis_version": "2.0"
     }
-    
-    metadata_file = output_dir / f"analysis_metadata_{timestamp}.json"
     with open(metadata_file, 'w') as f:
         json.dump(metadata, f, indent=2)
     
-    # Return paths to all output files
     return {
+        'directory': output_dir,
         'csv': csv_file,
         'json': json_file,
-        'summary': summary_file,
-        'domain_analysis': domain_table_file,
+        'table': table_file,
+        'domain': domain_file,
         'metadata': metadata_file
     }
 
 def print_summary(results_df: pd.DataFrame, output_files: Dict[str, Path]):
     """Print a summary of the analysis results."""
-    # Read the summary file
-    with open(output_files['summary'], 'r') as f:
+    # Read and print the table file
+    with open(output_files['table'], 'r') as f:
         print(f.read())
     
-    # Print example biographical fields
-    print("\n=== Biographical Field Examples ===")
-    bio_fields = results_df[
-        results_df['Domains'].str.contains('biographical', case=False, na=False)
-    ].head()
-    
-    bio_examples = pd.DataFrame({
-        'Field_Name': bio_fields['Field_Name'],
-        'Persona': bio_fields['Personas'],
-        'Biographical_Subcategories': bio_fields['Biographical_Subcategories'],
-        'Domains': bio_fields['Domains']
+    # Print example reused fields
+    print("\n=== Reused Fields Examples ===")
+    reused_fields = results_df[results_df['is_reused']].head()
+    reused_examples = pd.DataFrame({
+        'Field_Name': reused_fields['field_name'],
+        'Reuse_Category': reused_fields['reuse_category'],
+        'Mapping_Type': reused_fields['mapping_type'],
+        'Field_Type': reused_fields['field_type']
     })
+    print(tabulate(reused_examples, headers='keys', tablefmt='grid', showindex=False))
     
-    print(tabulate(
-        bio_examples,
-        headers='keys',
-        tablefmt='grid',
-        showindex=False
-    ))
+    # Print example repeating fields
+    print("\n=== Repeating Fields Examples ===")
+    repeating_fields = results_df[results_df['is_repeating']].head()
+    repeating_examples = pd.DataFrame({
+        'Field_Name': repeating_fields['field_name'],
+        'Repeating_Category': repeating_fields['repeating_category'],
+        'Sequence_Number': repeating_fields['sequence_number'],
+        'Field_Type': repeating_fields['field_type']
+    })
+    print(tabulate(repeating_examples, headers='keys', tablefmt='grid', showindex=False))
     
     # Print output file locations
     print("\n=== Output Files ===")
-    print(f"Output Directory: {output_files['summary'].parent}")
+    print(f"Output Directory: {output_files['directory']}")
     print(f"Detailed CSV: {output_files['csv']}")
-    print(f"JSON: {output_files['json']}")
-    print(f"Summary Table: {output_files['summary']}")
-    print(f"Domain Analysis: {output_files['domain_analysis']}")
+    print(f"JSON Results: {output_files['json']}")
+    print(f"Analysis Tables: {output_files['table']}")
+    print(f"Domain Analysis: {output_files['domain']}")
     print(f"Analysis Metadata: {output_files['metadata']}")
 
+def extract_tooltip_context(tooltip: str) -> Optional[Dict]:
+    """Extract meaningful context from tooltips, especially for checkboxes."""
+    if not tooltip:
+        return None
+        
+    # Split tooltip into lines and focus on the last two
+    lines = [line.strip() for line in tooltip.split('\n') if line.strip()]
+    if not lines:
+        return None
+    
+    context = {}
+    
+    # Look for specific patterns in the last two lines
+    last_lines = lines[-2:] if len(lines) >= 2 else lines
+    
+    # Common patterns to extract meaning
+    patterns = {
+        'gender': r'(?:gender|sex)\s*(?:is)?\s*(male|female)',
+        'eye_color': r'eye\s*color\s*(?:is)?\s*(\w+)',
+        'hair_color': r'hair\s*color\s*(?:is)?\s*(\w+)',
+        'relationship': r'(?:relationship|beneficiary)\s*(?:type|is)?\s*(sibling|parent|child|stepchild|spouse|adopted)',
+        'marital_status': r'marital\s*status\s*(?:is)?\s*(single|married|divorced|widowed|separated)',
+        'document_type': r'document\s*(?:type|is)?\s*(passport|visa|i\-\d+|birth certificate|marriage certificate)',
+        'yes_no_context': r'(?:select|check|mark)\s+(?:if|when|that)\s+(.+?)(?:\.|$)',
+        'binary_choice': r'(?:select|choose)\s+(?:between)?\s*([\w\s]+)\s+(?:or|/)\s*([\w\s]+)'
+    }
+    
+    combined_text = ' '.join(last_lines).lower()
+    
+    for key, pattern in patterns.items():
+        matches = re.search(pattern, combined_text, re.I)
+        if matches:
+            if key == 'binary_choice':
+                context[key] = {'options': [matches.group(1).strip(), matches.group(2).strip()]}
+            elif key == 'yes_no_context':
+                context[key] = matches.group(1).strip()
+            else:
+                context[key] = matches.group(1).strip()
+    
+    return context if context else None
+
 def main():
-    """Main execution function."""
-    # Set up paths
+    """Main function to analyze fields."""
     base_dir = Path(__file__).parent
+    fields_file = base_dir / "extracted_fields.json"
     rules_file = base_dir / "field_rules.json"
-    mapping_file = base_dir / "field_mapping.json"
-    input_file = base_dir / "fieldswrules.csv"
+    mapping_file = base_dir / "field_mappings.json"
     
-    # Run analysis
-    results_df = analyze_fields(str(input_file), str(rules_file), str(mapping_file))
+    if not fields_file.exists():
+        print(f"Error: Fields file {fields_file} not found")
+        return
+        
+    if not rules_file.exists():
+        print(f"Error: Rules file {rules_file} not found")
+        return
+        
+    if not mapping_file.exists():
+        print(f"Error: Mapping file {mapping_file} not found")
+        return
     
-    # Save results in multiple formats
+    # First do basic analysis
+    analyze_fields(fields_file)
+    
+    # Then do comprehensive analysis with FieldAnalyzer
+    analyzer = FieldAnalyzer(str(rules_file), str(mapping_file))
+    
+    # Load fields
+    with open(fields_file, 'r') as f:
+        fields = json.load(f)
+    
+    # Analyze each field
+    results = []
+    for field in fields:
+        # Get form ID (e.g., 'i485')
+        form_id = field.get('form_id', '')
+        
+        field_analysis = analyzer.analyze_field(
+            field_name=field.get('name', ''),
+            tooltip=field.get('tooltip', ''),
+            field_type=field.get('type', ''),
+            form_id=form_id  # Pass the form ID
+        )
+        results.append(field_analysis)
+    
+    # Convert to DataFrame
+    results_df = pd.DataFrame(results)
+    
+    # Save results and print summary
     output_files = save_results(results_df, base_dir)
-    
-    # Print summary and preview
     print_summary(results_df, output_files)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main() 

@@ -1,0 +1,594 @@
+[
+  {
+    "name": "Pt2Line41_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt2Line41_Unit[0]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt2Line41_Unit[1]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt2Line41_Unit[2]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt2Line41_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor Number."
+  },
+  {
+    "name": "Pt2Line41_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt2Line41_Province[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt2Line41_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "PostalCode",
+    "screen_label": "Postal Code."
+  },
+  {
+    "name": "Pt2Line41_ZipCode[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "ZipCode",
+    "screen_label": "Zip Code."
+  },
+  {
+    "name": "Pt2Line41_State[0]",
+    "type": "/Ch",
+    "persona": "employer",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt2Line41_Country[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt2Line40_EmployerOrCompName[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "EmployerOrCompName",
+    "screen_label": "Name of Employer / Company."
+  },
+  {
+    "name": "Pt2Line45_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt2Line45_Unit[0]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt2Line45_Unit[1]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt2Line45_Unit[2]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt2Line45_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor Number."
+  },
+  {
+    "name": "Pt2Line45_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt2Line45_Province[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt2Line45_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "PostalCode",
+    "screen_label": "Postal Code."
+  },
+  {
+    "name": "Pt2Line45_ZipCode[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "ZipCode",
+    "screen_label": "Zip Code."
+  },
+  {
+    "name": "Pt2Line45_State[0]",
+    "type": "/Ch",
+    "persona": "employer",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt2Line45_Country[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt2Line46_Occupation[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "Occupation",
+    "screen_label": "Your Occupation."
+  },
+  {
+    "name": "Pt2Line47a_DateFrom[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "DateFrom",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt2Line47b_DateTo[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "DateTo",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt2Line44_EmployerOrOrgName[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "EmployerOrOrgName",
+    "screen_label": "Name of Employer / Company."
+  },
+  {
+    "name": "Pt2Line42_Occupation[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "Occupation",
+    "screen_label": "Your Occupation."
+  },
+  {
+    "name": "Pt2Line43a_DateFrom[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "DateFrom",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt2Line43b_DateTo[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "DateTo",
+    "screen_label": "No Entry."
+  },
+  {
+    "name": "Pt3Line11_EmployerName[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "EmployerName",
+    "screen_label": "Name of Employer or Company."
+  },
+  {
+    "name": "Pt3Line12_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt3Line12_Unit[0]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt3Line12_Unit[1]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt3Line12_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor Number."
+  },
+  {
+    "name": "Pt3Line12_Unit[2]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt3Line12_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt3Line12_Province[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt3Line12_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "PostalCode",
+    "screen_label": "Postal Code."
+  },
+  {
+    "name": "Pt3Line12_ZipCode[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "ZipCode",
+    "screen_label": "Zip Code."
+  },
+  {
+    "name": "Pt3Line12_State[0]",
+    "type": "/Ch",
+    "persona": "employer",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt3Line12_Country[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt3Line13_EmployerName[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "EmployerName",
+    "screen_label": "Your Occupation."
+  },
+  {
+    "name": "Pt3Line14a_DateFrom[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "DateFrom",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt3Line14b_DateTo[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "DateTo",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt3Line4a_EmployerName[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "EmployerName",
+    "screen_label": "Name of Employer or Company."
+  },
+  {
+    "name": "Pt3Line16_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt3Line16_Unit[0]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt3Line16_Unit[1]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt3Line16_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor Number."
+  },
+  {
+    "name": "Pt3Line16_Unit[2]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt3Line16_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt3Line16_Province[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt3Line16_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "PostalCode",
+    "screen_label": "Postal Code."
+  },
+  {
+    "name": "Pt3Line16_ZipCode[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "ZipCode",
+    "screen_label": "Zip Code."
+  },
+  {
+    "name": "Pt3Line16_State[0]",
+    "type": "/Ch",
+    "persona": "employer",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt3Line16_Country[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Pt3Line17_EmployerName[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "EmployerName",
+    "screen_label": "Your Occupation."
+  },
+  {
+    "name": "Pt3Line18a_DateFrom[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "DateFrom",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt3Line18a_DateTo[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "DateTo",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt3Line19_EmployerName[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "EmployerName",
+    "screen_label": "Name of Employer or Company."
+  },
+  {
+    "name": "Pt3Line20_StreetNumberName[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "StreetNumberName",
+    "screen_label": "Street Number and Name."
+  },
+  {
+    "name": "Pt3Line20_Unit[0]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Floor.",
+    "screen_label": "Floor."
+  },
+  {
+    "name": "Pt3Line20_Unit[1]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Apartment.",
+    "screen_label": "Apartment."
+  },
+  {
+    "name": "Pt3Line20_AptSteFlrNumber[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "AptSteFlrNumber",
+    "screen_label": "Apartment, Suite or Floor Number."
+  },
+  {
+    "name": "Pt3Line20_Unit[2]",
+    "type": "/Btn",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "B. Select Suite.",
+    "screen_label": "Suite."
+  },
+  {
+    "name": "Pt3Line20_CityOrTown[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "CityOrTown",
+    "screen_label": "City or Town."
+  },
+  {
+    "name": "Pt3Line20_Province[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "Province",
+    "screen_label": "Province."
+  },
+  {
+    "name": "Pt3Line20_PostalCode[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "PostalCode",
+    "screen_label": "Postal Code."
+  },
+  {
+    "name": "Pt3Line20_ZipCode[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "ZipCode",
+    "screen_label": "Zip Code."
+  },
+  {
+    "name": "Pt3Line20_State[0]",
+    "type": "/Ch",
+    "persona": "employer",
+    "domain": "personal",
+    "value": null,
+    "screen_label": "State from List of States."
+  },
+  {
+    "name": "Pt3Line20_Country[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "Country",
+    "screen_label": "Country."
+  },
+  {
+    "name": "Line27b_Everify[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "Everify",
+    "screen_label": "your Employer's Name as Listed in E Verify."
+  },
+  {
+    "name": "Line27c_EverifyIDNumber[0]",
+    "type": "/Tx",
+    "persona": "employer",
+    "domain": "personal",
+    "value": "EverifyIDNumber",
+    "screen_label": "your Employer's E Verify Company Identification Number or a valid E Verify Client Company Identification Number."
+  }
+]

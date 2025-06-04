@@ -1,0 +1,34 @@
+{
+  "form_id": "i485",
+  "fields": [
+    {
+      "field_name": "Pt1Line1a_FamilyName[0]",
+      "form_id": "i485",
+      "tooltip": "NOTE TO ALL APPLICANTS:  If you do not completely fill out this application or fail to submit required documents listed in the Instructions, U.S. Citizenship and Immigration Services (U S C I S) may deny your application. Part 1. Information About You (Person applying for lawful permanent residence). Your Current Legal Name (do not provide a nickname). 1. A. Enter Family Name (Last Name).",
+      "type": "/Tx",
+      "page": 0,
+      "persona": "applicant",
+      "domain": "personal",
+      "screen_label": "Family Name (Last Name).",
+      "value_info": {
+        "type": "text",
+        "value": "FamilyName"
+      },
+      "mapped_collection_field": "applicant_first_name",
+      "is_new_collection_field": false
+    },
+    {
+      "field_name": "PDF417BarCode1[0]",
+      "form_id": "i485",
+      "tooltip": "PDF417BarCode1",
+      "type": "/Tx",
+      "page": 19,
+      "persona": "attorney",
+      "domain": "office",
+      "screen_label": "PDF417BarCode1",
+      "value_info": null,
+      "mapped_collection_field": "barcode1",
+      "is_new_collection_field": true
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "version": "1.0",
+  "mapping_rules": {
+    "sequence_detection": {
+      "patterns": {
+        "address": {
+          "regex": "Address\\s*(\\d+)",
+          "collection": "addresses",
+          "index_group": 1
+        },
+        "employer": {
+          "regex": "Employer\\s*(\\d+)",
+          "collection": "employment",
+          "index_group": 1
+        },
+        "child": {
+          "regex": "Child\\s*(\\d+)",
+          "collection": "family_members",
+          "category": "children",
+          "index_group": 1
+        },
+        "line": {
+          "regex": "(?:Line|Pt)(\\d+)(?:[a-z])?_([A-Za-z]+)",
+          "collection": "form_structure",
+          "line_group": 1,
+          "field_group": 2
+        },
+        "part": {
+          "regex": "P(?:art)?(\\d+)_([A-Za-z]+)",
+          "collection": "form_structure",
+          "part_group": 1,
+          "field_group": 2
+        },
+        "form_id": {
+          "regex": "^([a-z]\\d+)\\t",
+          "form_id_group": 1
+        }
+      }
+    },
+    "tooltip_extraction": {
+      "patterns": {
+        "select_value": {
+          "regex": "Select\\s+([^.\\n]+)[.\\n]",
+          "label_format": "Select {}"
+        },
+        "enter_value": {
+          "regex": "Enter\\s+([^.\\n]+)[.\\n]",
+          "label_format": "Enter {}"
+        }
+      }
+    },
+    "field_type_mappings": {
+      "PageNumber": "form_structure.page_number",
+      "PartNumber": "form_structure.part_number",
+      "ItemNumber": "form_structure.item_number",
+      "LineNumber": "form_structure.line_number",
+      "AdditionalInfo": "form_structure.additional_info",
+      "SectionTitle": "form_structure.section_title",
+      "TextField": "generic_text[field_name].value",
+      "TextBox": "generic_text[field_name].value",
+      "Entry": "generic_text[field_name].value",
+      "GivenName": "personal_info.given_name",
+      "FamilyName": "personal_info.family_name",
+      "MiddleName": "personal_info.middle_name",
+      "DateOfBirth": "personal_info.date_of_birth",
+      "CityTownOfBirth": "personal_info.place_of_birth.city",
+      "ProvinceOfBirth": "personal_info.place_of_birth.state",
+      "CountryOfBirth": "personal_info.place_of_birth.country",
+      "AlienNumber": "personal_info.alien_number",
+      "SSN": "personal_info.ssn",
+      "EyeColor": "personal_info.eye_color",
+      "HairColor": "personal_info.hair_color",
+      "Race": "personal_info.race",
+      "Ethnicity": "personal_info.ethnicity",
+      "NumberofMarriages": "personal_info.marriage_history.total_marriages",
+      "DateMarriageEnded": "personal_info.marriage_history.last_marriage_end_date",
+      "Annulled": "personal_info.marriage_history.last_marriage_end_reason",
+      "Divorced": "personal_info.marriage_history.last_marriage_end_reason",
+      "Separated": "personal_info.marriage_history.last_marriage_end_reason",
+      "Widowed": "personal_info.marriage_history.last_marriage_end_reason",
+      "DateOfMarriage": "personal_info.marriage_history.current_marriage_date",
+      "TBClassification": "medical.tb_classification",
+      "SputumSmearsCultures": "medical.sputum_results[].result",
+      "DateScreeningRun": "medical.screening_results[].date",
+      "Findings": "medical.screening_results[].findings",
+      "Results": "medical.screening_results[].result",
+      "Result": "medical.screening_results[].result",
+      "Remarks": "medical.screening_results[].remarks",
+      "Disorders": "medical.disorders[].type",
+      "InitialScreening": "medical.screening_results[].type",
+      "Male": "personal_info.gender",
+      "Female": "personal_info.gender",
+      "Gender": "personal_info.gender",
+      "StreetNumberName": "contact_info.current_address.street",
+      "Unit": "contact_info.current_address.unit",
+      "CityOrTown": "contact_info.current_address.city",
+      "State": "contact_info.current_address.state",
+      "Province": "contact_info.current_address.state",
+      "ZipCode": "contact_info.current_address.zip",
+      "PostalCode": "contact_info.current_address.zip",
+      "Country": "contact_info.current_address.country",
+      "DateofBirth": "personal_info.date_of_birth",
+      "DatefromBirth": "personal_info.date_of_birth",
+      "Eyecolor": "personal_info.eye_color",
+      "Haircolor": "personal_info.hair_color",
+      "MaritalStatus": "personal_info.marital_status",
+      "EmailAddress": "contact_info.email",
+      "PhoneNumber": "contact_info.phone",
+      "InCareofName": "contact_info.in_care_of",
+      "StreetAddress": {
+        "current": "contact_info.current_address.street",
+        "historical": "addresses[i].street"
+      },
+      "AptSteFlrNumber": {
+        "current": "contact_info.current_address.unit",
+        "historical": "addresses[i].unit"
+      },
+      "City": {
+        "current": "contact_info.current_address.city",
+        "historical": "addresses[i].city"
+      },
+      "CityTown": {
+        "current": "contact_info.current_address.city",
+        "historical": "addresses[i].city"
+      },
+      "CompleteSeries": "office.complete_series",
+      "Yes": "answers[field_name].value",
+      "No": "answers[field_name].value",
+      "YesNo": "answers[field_name].value",
+      "YN": "answers[field_name].value",
+      "CB": "answers[field_name].value",
+      "Checkbox": "answers[field_name].value",
+      "Child": "family_members[i].relationship=child",
+      "Parent": "family_members[i].relationship=parent",
+      "Siblings": "family_members[i].relationship=sibling",
+      "Spouse": "family_members[i].relationship=spouse",
+      "AdoptedChild": "family_members[i].relationship=child",
+      "Stepchild": "family_members[i].relationship=stepchild",
+      "InWedlock": "answers[field_name].value",
+      "OutOfWedlock": "answers[field_name].value",
+      "I94": "documents[i].type=i-94",
+      "Passport": "documents[i].type=passport",
+      "Visa": "documents[i].type=visa",
+      "BirthCertificate": "documents[i].type=birth_certificate",
+      "MarriageCertificate": "documents[i].type=marriage_certificate",
+      "EmployerName": "employment[i].employer_name",
+      "DateFrom": {
+        "employment": "employment[i].date_from",
+        "address": "addresses[i].date_from"
+      },
+      "DateTo": {
+        "employment": "employment[i].date_to",
+        "address": "addresses[i].date_to"
+      }
+    },
+    "tooltip_context_mappings": {
+      "gender": {
+        "collection": "personal_info.gender",
+        "extract_label": true
+      },
+      "eye_color": {
+        "collection": "personal_info.eye_color",
+        "extract_label": true
+      },
+      "hair_color": {
+        "collection": "personal_info.hair_color",
+        "extract_label": true
+      },
+      "marital_status": {
+        "collection": "personal_info.marital_status",
+        "extract_label": true
+      },
+      "document_type": {
+        "collection": "documents[i].type",
+        "extract_label": true
+      },
+      "relationship": {
+        "collection": "family_members[i].relationship",
+        "extract_label": true
+      },
+      "yes_no_context": {
+        "collection": "answers[field_name].context",
+        "extract_label": true
+      },
+      "binary_choice": {
+        "collection": "answers[field_name].options",
+        "extract_label": true
+      },
+      "generic_context": {
+        "collection": "generic_text[field_name].context",
+        "extract_label": true
+      }
+    },
+    "persona_mappings": {
+      "applicant": {
+        "target": "personal_info",
+        "fields": {
+          "GivenName": "given_name",
+          "FamilyName": "family_name",
+          "MiddleName": "middle_name",
+          "CountryOfBirth": "country_of_birth"
+        }
+      },
+      "family": {
+        "target": "family_members",
+        "fields": {
+          "GivenName": "given_name",
+          "FamilyName": "family_name",
+          "MiddleName": "middle_name",
+          "DateOfBirth": "date_of_birth",
+          "CountryOfBirth": "country_of_birth"
+        }
+      }
+    }
+  },
+  "form_field_mappings": {
+    "P4Line5a_FamilyName[0]": {
+      "collection_field": "personal_info.family_name",
+      "persona": "applicant"
+    },
+    "Pt2Line20b_GivenName[0]": {
+      "collection_field": "personal_info.given_name",
+      "persona": "applicant"
+    },
+    "AttorneyStateBarNumber[0]": {
+      "collection_field": "office.attorney_bar_number",
+      "persona": "preparer"
+    }
+  }
+} 

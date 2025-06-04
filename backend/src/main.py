@@ -2,14 +2,15 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import os
-from src.routes import (
+from routes import (
     schema_version_routes,
     pdf_metadata_routes,
     canonical_field_routes,
     field_mapping_routes,
     form_schema_routes,
     client_entry_routes,
-    document_management_routes
+    document_management_routes,
+    pdf_field_routes
 )
 from db.indexes import create_indexes
 
@@ -65,6 +66,7 @@ app.include_router(field_mapping_routes.router)
 app.include_router(form_schema_routes.router)
 app.include_router(client_entry_routes.router)
 app.include_router(document_management_routes.router)
+app.include_router(pdf_field_routes.router)
 
 @app.on_event("startup")
 async def startup_event():

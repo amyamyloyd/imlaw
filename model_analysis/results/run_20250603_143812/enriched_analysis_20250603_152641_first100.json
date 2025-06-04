@@ -1,0 +1,1998 @@
+[
+  {
+    "name": "PDF417BarCode1[0]",
+    "page": 11,
+    "type": "/Tx",
+    "persona": null,
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "PDF417BarCode1",
+    "tooltip": "PDF417BarCode1",
+    "hierarchy": {
+      "parent_name": "Page1[11]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line11_SSN[0]",
+    "page": 0,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Social Security Number, if any.",
+    "tooltip": "Part 2. Information About You (Petitioner). 3. Enter U.S. Social Security Number, if any.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "CheckBox1[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": null,
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "this box if Form G - 28 is attached"
+    },
+    "screen_label": "this box if Form G - 28 is attached.",
+    "tooltip": "To be completed by an attorney or accredited representative, if any. Select this box if Form G - 28 is attached.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "VolagNumber[0]",
+    "page": 0,
+    "type": "/Tx",
+    "persona": "preparer",
+    "domain": "office",
+    "value_info": null,
+    "screen_label": "Volag Number, if any.",
+    "tooltip": "To be completed by an attorney or accredited representative, if any. Enter Volag Number, if any.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "AttorneyStateBarNumber[0]",
+    "page": 0,
+    "type": "/Tx",
+    "persona": null,
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Attorney State Bar Number, if applicable.",
+    "tooltip": "To be completed by an attorney or accredited representative, if any. Enter Attorney State Bar Number, if applicable.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "USCISOnlineAcctNumber[0]",
+    "page": 0,
+    "type": "/Tx",
+    "persona": null,
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Attorney or Accredited Representative U S C I S Online Account Number, if any.",
+    "tooltip": "To be completed by an attorney or accredited representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt1Line1_Spouse[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Spouse"
+    },
+    "screen_label": "Spouse.",
+    "tooltip": "Part 1. Relationship (You are the Petitioner. Your relative is the Beneficiary). 1. I am filing this petition for my (Select only one box). Select Spouse.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt1Line1_Siblings[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Siblings"
+    },
+    "screen_label": "Brother / Sister.",
+    "tooltip": "Part 1. Relationship (You are the Petitioner. Your relative is the Beneficiary). 1. I am filing this petition for my (Select only one box). Select Brother / Sister.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt1Line1_Parent[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Parent"
+    },
+    "screen_label": "Parent.",
+    "tooltip": "Part 1. Relationship (You are the Petitioner. Your relative is the Beneficiary). 1. I am filing this petition for my (Select only one box). Select Parent.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt1Line1_Child[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Child"
+    },
+    "screen_label": "Child.",
+    "tooltip": "Part 1. Relationship (You are the Petitioner. Your relative is the Beneficiary). 1. I am filing this petition for my (Select only one box). Select Child.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt1Line2_InWedlock[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "InWedlock"
+    },
+    "screen_label": "Child was born to parents who were married to each other at the time of the child's birth.",
+    "tooltip": "Part 1. Relationship (You are the Petitioner. Your relative is the Beneficiary). 2. If you are filing this petition for your child or parent, select the box that describes your relationship (Select only one box). Select Child was born to parents who were married to each other at the time of the child's birth. ",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt1Line2_AdoptedChild[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "AdoptedChild"
+    },
+    "screen_label": "Child was adopted (not an Orphan or Hague Convention adoptee).",
+    "tooltip": "Part 1. Relationship (You are the Petitioner. Your relative is the Beneficiary). 2. If you are filing this petition for your child or parent, select the box that describes your relationship (Select only one box). Select Child was adopted (not an Orphan or Hague Convention adoptee).",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt1Line2_Stepchild[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Stepchild"
+    },
+    "screen_label": "Stepchild / Stepparent.",
+    "tooltip": "Part 1. Relationship (You are the Petitioner. Your relative is the Beneficiary). 2. If you are filing this petition for your child or parent, select the box that describes your relationship (Select only one box). Select Stepchild / Stepparent.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt1Line2_OutOfWedlock[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "OutOfWedlock"
+    },
+    "screen_label": "Child was born to parents who were not married to each other at the time of the child's birth.",
+    "tooltip": "Part 1. Relationship (You are the Petitioner. Your relative is the Beneficiary). 2. If you are filing this petition for your child or parent, select the box that describes your relationship (Select only one box). Select Child was born to parents who were not married to each other at the time of the child's birth.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt1Line3_Yes[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value_info": {
+      "type": "boolean",
+      "value": true
+    },
+    "screen_label": "Yes.",
+    "tooltip": "Part 1. Relationship (You are the Petitioner. Your relative is the Beneficiary). 3. If the beneficiary is your brother / sister, are you related by adoption? Select Yes.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt1Line4_No[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "No"
+    },
+    "screen_label": "No.",
+    "tooltip": "Part 1. Relationship (You are the Petitioner. Your relative is the Beneficiary). 4. Did you gain lawful permanent resident status or citizenship through adoption? Select No.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt1Line4_Yes[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value_info": {
+      "type": "boolean",
+      "value": true
+    },
+    "screen_label": "Yes.",
+    "tooltip": "Part 1. Relationship (You are the Petitioner. Your relative is the Beneficiary). 4. Did you gain lawful permanent resident status or citizenship through adoption? Select Yes.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt1Line3_No[0]",
+    "page": 0,
+    "type": "/Btn",
+    "persona": "beneficiary",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "No"
+    },
+    "screen_label": "No.",
+    "tooltip": "Part 1. Relationship (You are the Petitioner. Your relative is the Beneficiary). 3. If the beneficiary is your brother / sister, are you related by adoption? Select No.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line4a_FamilyName[0]",
+    "page": 0,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Family Name (Last Name).",
+    "tooltip": "Part 2. Information About You (Petitioner). Your Full Name. 4. A. Enter Family Name (Last Name).",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line4b_GivenName[0]",
+    "page": 0,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Given Name (First Name).",
+    "tooltip": "Part 2. Information About You (Petitioner). Your Full Name. 4. B. Enter Given Name (First Name).",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line4c_MiddleName[0]",
+    "page": 0,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Middle Name.",
+    "tooltip": "Part 2. Information About You (Petitioner). Your Full Name. 4. C. Enter Middle Name.",
+    "hierarchy": {
+      "parent_name": "#subform[0]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line1_AlienNumber[0]",
+    "page": 0,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "immigration",
+    "value_info": null,
+    "screen_label": "Number), if any.",
+    "tooltip": "Part 2. Information About You (Petitioner). 1. Enter Alien Registration Number (A. Number), if any.",
+    "hierarchy": {
+      "parent_name": "#area[4]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line2_USCISOnlineActNumber[0]",
+    "page": 0,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "U S C I S Online Account Number, if any.",
+    "tooltip": "Part 2. Information About You (Petitioner). 2. Enter U S C I S Online Account Number, if any.",
+    "hierarchy": {
+      "parent_name": "#area[5]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line8_DateofBirth[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year.",
+    "tooltip": "Part 2. Information About You (Petitioner). Other Information. 8. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line9_Male[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Male"
+    },
+    "screen_label": "Male.",
+    "tooltip": "Part 2. Information About You (Petitioner). Other Information. 9. Sex. Select Male.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line9_Female[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Female"
+    },
+    "screen_label": "Female.",
+    "tooltip": "Part 2. Information About You (Petitioner). Other Information. 9. Sex. Select Female.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line7_CountryofBirth[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Country of Birth.",
+    "tooltip": "Part 2. Information About You (Petitioner). Other Information. 7. Enter Country of Birth.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line11_Yes[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "boolean",
+      "value": true
+    },
+    "screen_label": "Yes.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 11. Is your current mailing address the same as your physical address? Select Yes.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line11_No[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "boolean",
+      "value": false
+    },
+    "screen_label": "B.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 11. Is your current mailing address the same as your physical address? Select No. If you answered \"No\" to Item Number 11., provide information on your physical address in Item Numbers 12. A. through 13. B.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line10_StreetNumberName[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Street Number and Name.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 10. B. Enter Street Number and Name.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line10_Unit[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Unit"
+    },
+    "screen_label": "Apartment.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 10. C. Select Apartment.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line10_Unit[1]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Unit"
+    },
+    "screen_label": "Suite.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 10. C. Select Suite.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line10_Unit[2]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Unit"
+    },
+    "screen_label": "Floor.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 10. C. Select Floor.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line10_AptSteFlrNumber[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Apartment, Suite or Floor Number.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 10. C. Enter Apartment, Suite or Floor Number.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line10_CityOrTown[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "City or Town.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 10. D. Enter City or Town.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line10_Province[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Province.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 10. G. Enter Province.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line10_PostalCode[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Postal Code.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 10. H. Enter Postal Code.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line10_ZipCode[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Zip Code.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 10. F. Enter Zip Code.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line10_State[0]",
+    "page": 1,
+    "type": "/Ch",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "State from List of States.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 10. E. Select State from List of States.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line10_Country[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Country.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 10. I. Enter Country.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line10_InCareofName[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "In Care Of Name.",
+    "tooltip": "Part 2. Information About You (Petitioner). Mailing Address. 10. A. Enter In Care Of Name.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line14_StreetNumberName[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Street Number and Name.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 14. A. Enter Street Number and Name.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line14_Unit[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Unit"
+    },
+    "screen_label": "Apartment.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 14. B. Select Apartment.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line14_Unit[1]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Unit"
+    },
+    "screen_label": "Suite.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 14. B. Select Suite.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line14_Unit[2]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Unit"
+    },
+    "screen_label": "Floor.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 14. B. Select Floor.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line14_AptSteFlrNumber[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Apartment, Suite or Floor Number.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 14. B. Enter Apartment, Suite or Floor Number.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line14_CityOrTown[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "City or Town.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 14. C. Enter City or Town.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line14_State[0]",
+    "page": 1,
+    "type": "/Ch",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "State from List of States.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 14. D. Select State from List of States.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line14_ZipCode[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Zip Code.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 14. E. Enter Zip Code.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line14_Province[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Province.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 14. F. Enter Province.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line14_Country[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Country.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 14. H. Enter Country.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line14_PostalCode[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Postal Code.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 14. G. Enter Postal Code.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line13a_DateFrom[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 1. 13. A. Enter Date From. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line15a_DateFrom[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 15. A. Enter Date From. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line15b_DateTo[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 2. 15. B. Enter Date To. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line12_StreetNumberName[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Street Number and Name.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Provide your physical addresses for the last five years, whether inside or outside the United States. Provide your current address first if it is different from your mailing address in Item Numbers 10. A. through 10. I. Physical Address 1. 12. A. Enter Street Number and Name.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line12_Unit[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Unit"
+    },
+    "screen_label": "Apartment.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 1. 12. B. Select Apartment.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line12_Unit[1]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Unit"
+    },
+    "screen_label": "Suite.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 1. 12. B. Select Suite.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line12_Unit[2]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Unit"
+    },
+    "screen_label": "Floor.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 1. 12. B. Select Floor.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line12_AptSteFlrNumber[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Apartment, Suite or Floor Number.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 1. 12. B. Enter Apartment, Suite or Floor Number.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line12_CityOrTown[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "City or Town.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 1. 12. C. Enter City or Town.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line12_State[0]",
+    "page": 1,
+    "type": "/Ch",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "State from List of States.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 1. 12. D. Select State from List of States.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line12_ZipCode[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Zip Code.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 1. 12. E. Enter Zip Code.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line12_Province[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Province.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 1. 12. F. Enter Province.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line12_Country[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Country.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 1. 12. H. Enter Country.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line12_PostalCode[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Postal Code.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 1. 12. G. Enter Postal Code.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line6_CityTownOfBirth[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "City / Town / Village of Birth.",
+    "tooltip": "Part 2. Information About You (Petitioner). Other Information. 6. Enter City / Town / Village of Birth.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line5a_FamilyName[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Family Name (Last Name).",
+    "tooltip": "Part 2. Information About You (Petitioner). Other Names Used, if any. Provide all other names you have ever used, including aliases, maiden name, and nicknames. 5. A. Enter Family Name (Last Name).",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line5b_GivenName[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Given Name (First Name).",
+    "tooltip": "Part 2. Information About You (Petitioner). Other Names Used, if any. 5. B. Enter Given Name (First Name).",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line5c_MiddleName[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Middle Name.",
+    "tooltip": "Part 2. Information About You (Petitioner). Other Names Used, if any. 5. C. Enter Middle Name.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line16_NumberofMarriages[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Number of Times Married.",
+    "tooltip": "Part 2. Information About You (Petitioner). Your Marital Information. 16. How many times have you been married? Enter Number of Times Married. ",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line17_Widowed[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Widowed"
+    },
+    "screen_label": "Widowed.",
+    "tooltip": "Part 2. Information About You (Petitioner). Your Marital Information. 17. Current Marital Status. Select Widowed.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line17_Annulled[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Annulled"
+    },
+    "screen_label": "Annulled.",
+    "tooltip": "Part 2. Information About You (Petitioner). Your Marital Information. 17. Current Marital Status. Select Annulled.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line17_Separated[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Separated"
+    },
+    "screen_label": "Separated.",
+    "tooltip": "Part 2. Information About You (Petitioner). Your Marital Information. 17. Current Marital Status. Select Separated.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line17_Single[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Single"
+    },
+    "screen_label": "Single, Never Married.",
+    "tooltip": "Part 2. Information About You (Petitioner). Your Marital Information. 17. Current Marital Status. Select Single, Never Married.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line17_Married[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Married"
+    },
+    "screen_label": "Married.",
+    "tooltip": "Part 2. Information About You (Petitioner). Your Marital Information. 17. Current Marital Status. Select Married.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line17_Divorced[0]",
+    "page": 1,
+    "type": "/Btn",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": {
+      "type": "selection",
+      "value": "Divorced"
+    },
+    "screen_label": "Divorced.",
+    "tooltip": "Part 2. Information About You (Petitioner). Your Marital Information. 17. Current Marital Status. Select Divorced.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line13b_DateTo[0]",
+    "page": 1,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "No Entry.",
+    "tooltip": "Part 2. Information About You (Petitioner). Address History. Physical Address 1. 13. B. Date To. Present. No Entry.",
+    "hierarchy": {
+      "parent_name": "#subform[1]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "PtLine20a_FamilyName[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Family Name (Last Name).",
+    "tooltip": "Part 2. Information About You (Petitioner). Names of All Your Spouses, if any. Provide information on your current spouse (if currently married) first and then list all your prior spouses, if any. Spouse 1. 20. A. Enter Family Name (Last Name).",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line20b_GivenName[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Given Name (First Name).",
+    "tooltip": "Part 2. Information About You (Petitioner). Names of All Your Spouses, if any. Spouse 1. 20. B. Enter Given Name (First Name).",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line20c_MiddleName[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Middle Name.",
+    "tooltip": "Part 2. Information About You (Petitioner). Names of All Your Spouses, if any. Spouse 1. 20. C. Enter Middle Name.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line23_DateMarriageEnded[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year.",
+    "tooltip": "Part 2. Information About You (Petitioner). Names of All Your Spouses, if any. Spouse 2. 23. Enter Date Marriage Ended. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line22c_MiddleName[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Middle Name.",
+    "tooltip": "Part 2. Information About You (Petitioner). Names of All Your Spouses, if any. Spouse 2. 22. C. Enter Middle Name.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line22b_GivenName[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Given Name (First Name).",
+    "tooltip": "Part 2. Information About You (Petitioner). Names of All Your Spouses, if any. Spouse 2. 22. B. Enter Given Name (First Name).",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line22a_FamilyName[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Family Name (Last Name).",
+    "tooltip": "Part 2. Information About You (Petitioner). Names of All Your Spouses, if any. Spouse 2. 22. A. Enter Family Name (Last Name).",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line21_DateMarriageEnded[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "spouse",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year.",
+    "tooltip": "Part 2. Information About You (Petitioner). Names of All Your Spouses, if any. Spouse 1. 21. Enter Date Marriage Ended. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line18_DateOfMarriage[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "applicant",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year.",
+    "tooltip": "Part 2. Information About You (Petitioner). Your Marital Information. 18. Enter Date of Current Marriage (if currently married). Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line24_FamilyName[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Family Name (Last Name).",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent One's Information. Full Name of Parent One. 24. A. Enter Family Name (Last Name).",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line24_GivenName[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Given Name (First Name).",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent One's Information. Full Name of Parent One. 24. B. Enter Given Name (First Name).",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line24_MiddleName[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Middle Name.",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent One's Information. Full Name of Parent One. 24. C. Enter Middle Name.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line25_DateofBirth[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year.",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent One's Information. 25. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line28_CityTownOrVillageOfResidence[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "City / Town / Village of Residence.",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent One's Information. 28. Enter City / Town / Village of Residence.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line29_CountryOfResidence[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "immigration",
+    "value_info": null,
+    "screen_label": "Country of Residence.",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent One's Information. 29. Enter Country of Residence.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line27_CountryofBirth[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Country of Birth.",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent One's Information. 27. Enter Country of Birth.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line30b_GivenName[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Given Name (First Name).",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent Two's Information. Full Name of Parent Two. 30. B. Enter Given Name (First Name).",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line30c_MiddleName[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Middle Name.",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent Two's Information. Full Name of Parent Two. 30. C. Enter Middle Name.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line30a_FamilyName[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "Family Name (Last Name).",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent Two's Information. Full Name of Parent Two. 30. A. Enter Family Name (Last Name).",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line31_DateofBirth[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year.",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent Two's Information. 31. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line34_CityTownOrVillageOfResidence[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "City / Town / Village of Residence.",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent Two's Information. 34. Enter City / Town / Village of Residence.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  },
+  {
+    "name": "Pt2Line35_CountryOfResidence[0]",
+    "page": 2,
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "immigration",
+    "value_info": null,
+    "screen_label": "Country of Residence.",
+    "tooltip": "Part 2. Information About You (Petitioner). Information About Your Parents. Parent Two's Information. 35. Enter Country of Residence.",
+    "hierarchy": {
+      "parent_name": "#subform[2]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  }
+]

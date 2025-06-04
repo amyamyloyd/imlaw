@@ -1,0 +1,21 @@
+[
+  {
+    "name": "PDF417BarCode1[0]",
+    "page": 11,
+    "type": "/Tx",
+    "persona": null,
+    "domain": "personal",
+    "value_info": null,
+    "screen_label": "PDF417BarCode1",
+    "tooltip": "PDF417BarCode1",
+    "hierarchy": {
+      "parent_name": "Page1[11]",
+      "parent_type": "Unknown",
+      "children": []
+    },
+    "form": "i130.pdf",
+    "llm_persona": null,
+    "llm_domain": null,
+    "react_label": null
+  }
+]

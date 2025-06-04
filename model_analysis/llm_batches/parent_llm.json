@@ -1,0 +1,394 @@
+[
+  {
+    "name": "Pt2Line24_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt2Line24_GivenName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt2Line24_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt2Line25_DateofBirth[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "DateofBirth",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt2Line28_CityTownOrVillageOfResidence[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "CityTownOrVillageOfResidence",
+    "screen_label": "City / Town / Village of Residence."
+  },
+  {
+    "name": "Pt2Line29_CountryOfResidence[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "immigration",
+    "value": "CountryOfResidence",
+    "screen_label": "Country of Residence."
+  },
+  {
+    "name": "Pt2Line27_CountryofBirth[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "CountryofBirth",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt2Line30b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt2Line30c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt2Line30a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt2Line31_DateofBirth[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "DateofBirth",
+    "screen_label": "as 2 digit month, 2 digit day and 4 digit year."
+  },
+  {
+    "name": "Pt2Line34_CityTownOrVillageOfResidence[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "CityTownOrVillageOfResidence",
+    "screen_label": "City / Town / Village of Residence."
+  },
+  {
+    "name": "Pt2Line35_CountryOfResidence[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "immigration",
+    "value": "CountryOfResidence",
+    "screen_label": "Country of Residence."
+  },
+  {
+    "name": "Pt2Line33_CountryofBirth[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "CountryofBirth",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt2Line23c_checkbox[0]",
+    "type": "/Btn",
+    "persona": "parent",
+    "domain": "immigration",
+    "value": "My citizenship was acquired through (Select only one box). Select Parents.",
+    "screen_label": "Parents."
+  },
+  {
+    "name": "Pt2Line26_Male[0]",
+    "type": "/Btn",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "Sex. Select Male.",
+    "screen_label": "Male."
+  },
+  {
+    "name": "Pt2Line26_Female[0]",
+    "type": "/Btn",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "Sex. Select Female.",
+    "screen_label": "Female."
+  },
+  {
+    "name": "Pt2Line32_Male[0]",
+    "type": "/Btn",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "Sex. Select Male.",
+    "screen_label": "Male."
+  },
+  {
+    "name": "Pt2Line32_Female[0]",
+    "type": "/Btn",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "Sex. Select Female.",
+    "screen_label": "Female."
+  },
+  {
+    "name": "Pt4Line1a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line1b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line1c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line2a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line2b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line2c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line3_DateofBirth[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "DateofBirth",
+    "screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  {
+    "name": "Pt4Line4_Gender[0]",
+    "type": "/Btn",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "Sex. Select Female.",
+    "screen_label": "Female."
+  },
+  {
+    "name": "Pt4Line4_Gender[1]",
+    "type": "/Btn",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "Sex. Select Male.",
+    "screen_label": "Male."
+  },
+  {
+    "name": "Pt4Line5_CityTown[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "CityTown",
+    "screen_label": "City or Town of Birth."
+  },
+  {
+    "name": "Pt4Line6_Country[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt4Line8_Country[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Current Country of Residence (if living)."
+  },
+  {
+    "name": "Pt4Line7_CityTown[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "CityTown",
+    "screen_label": "Current City or Town of Residence (if living)."
+  },
+  {
+    "name": "Pt4Line9a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line9b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line9c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line11_DateofBirth[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "DateofBirth",
+    "screen_label": "as 2-digit Month, 2-digit Day, and 4-digit Year."
+  },
+  {
+    "name": "Pt4Line13_CityTown[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "CityTown",
+    "screen_label": "City or Town of Birth."
+  },
+  {
+    "name": "Pt4Line10a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Pt4Line10b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Pt4Line10c_MiddleName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "MiddleName",
+    "screen_label": "Middle Name."
+  },
+  {
+    "name": "Pt4Line16_Country[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Current Country of Residence (if living)."
+  },
+  {
+    "name": "Pt4Line15_CityTown[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "CityTown",
+    "screen_label": "Current City or Town of Residence (if living)."
+  },
+  {
+    "name": "Pt4Line14_Country[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "immigration",
+    "value": "Country",
+    "screen_label": "Country of Birth."
+  },
+  {
+    "name": "Pt4Line12_Gender[0]",
+    "type": "/Btn",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "Sex. Select Female.",
+    "screen_label": "Female."
+  },
+  {
+    "name": "Pt4Line12_Gender[1]",
+    "type": "/Btn",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "Sex. Select Male.",
+    "screen_label": "Male."
+  },
+  {
+    "name": "Line15a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Line15b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  },
+  {
+    "name": "Line16a_FamilyName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "FamilyName",
+    "screen_label": "Family Name (Last Name)."
+  },
+  {
+    "name": "Line16b_GivenName[0]",
+    "type": "/Tx",
+    "persona": "parent",
+    "domain": "personal",
+    "value": "GivenName",
+    "screen_label": "Given Name (First Name)."
+  }
+]

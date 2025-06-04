@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import {
   AppBar,
   Toolbar,
@@ -11,10 +11,11 @@ import {
   ThemeProvider,
   createTheme,
 } from '@mui/material';
-import { CanonicalFieldsAdmin } from './pages/admin/CanonicalFieldsAdmin';
+import { FormFieldMapper } from './components/FormFieldMapper';
 
 const theme = createTheme({
   palette: {
+    mode: 'light',
     primary: {
       main: '#1976d2',
     },
@@ -28,37 +29,30 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
-        <Box sx={{ flexGrow: 1 }}>
+      <Router
+        future={{
+          v7_startTransition: true,
+          v7_relativeSplatPath: true
+        }}
+      >
+        <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', height: '100vh' }}>
           <AppBar position="static">
             <Toolbar>
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                ImLaw Admin
+                Imlaw PDF Field Mapper
               </Typography>
-              <Button color="inherit" component={Link} to="/">
-                Home
-              </Button>
-              <Button color="inherit" component={Link} to="/admin/fields">
-                Canonical Fields
+              <Button color="inherit" component={Link} to="/mapper">
+                Field Mapper
               </Button>
             </Toolbar>
           </AppBar>
-
-          <Container>
+          
+          <Box sx={{ flex: 1, overflow: 'hidden' }}>
             <Routes>
-              <Route path="/" element={
-                <Box sx={{ mt: 4 }}>
-                  <Typography variant="h4" gutterBottom>
-                    Welcome to ImLaw Admin
-                  </Typography>
-                  <Typography variant="body1">
-                    Use the navigation above to manage canonical fields and their mappings.
-                  </Typography>
-                </Box>
-              } />
-              <Route path="/admin/fields" element={<CanonicalFieldsAdmin />} />
+              <Route path="/" element={<Navigate to="/mapper" replace />} />
+              <Route path="/mapper" element={<FormFieldMapper />} />
             </Routes>
-          </Container>
+          </Box>
         </Box>
       </Router>
     </ThemeProvider>
